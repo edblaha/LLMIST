@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>From Guardian to Adviser</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~68ch) with full-bleed evidence panels for the matrix and chart */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --fg:#17202a; --muted:#5b6673; --rule:#d5dbe2;
+  --respect:#17707a; --respect-soft:#d6ecee;
+  --guard:#a8452d; --guard-soft:#f5e0d9;
+  --line:#8a6a12; --line-soft:#f1e7c8;
+  --cell-off:#e7ebef;
+  --display:"Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11161c; --surface:#18202a; --fg:#e4e9ee; --muted:#9aa6b2; --rule:#2c3744;
+  --respect:#5cc3cc; --respect-soft:#163a3f; --guard:#e48a70; --guard-soft:#43251d;
+  --line:#d9b450; --line-soft:#3b321a; --cell-off:#222c37; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11161c; --surface:#18202a; --fg:#e4e9ee; --muted:#9aa6b2; --rule:#2c3744;
+  --respect:#5cc3cc; --respect-soft:#163a3f; --guard:#e48a70; --guard-soft:#43251d;
+  --line:#d9b450; --line-soft:#3b321a; --cell-off:#222c37; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 1.0625rem/1.65 var(--body);padding-inline:16px;padding-block:0 4rem}
+main{max-width:68ch;margin:0 auto}
+.wide{max-width:1180px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(2.2rem,6vw,3.6rem);font-weight:700;letter-spacing:-.02em}
+h2{font-size:1.6rem;font-weight:700;margin-top:3.2rem;margin-bottom:.8rem}
+h3{font-size:1.1rem;font-weight:500}
+p{margin:0 0 1rem}
+.eyebrow{font:500 .75rem/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+header{padding-block:3.5rem 1.5rem;display:grid;gap:1rem}
+.dek{font-size:1.25rem;line-height:1.5;color:var(--muted);max-width:60ch}
+.thesis{margin-top:1.5rem;border-left:4px solid var(--respect);padding:1rem 1.25rem;background:var(--surface);border-radius:0 6px 6px 0}
+.thesis p:last-child{margin:0}
+.thesis strong{color:var(--respect)}
+a{color:var(--respect)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--respect);outline-offset:2px}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:1.25rem;margin-block:1.5rem}
+.scroll{overflow-x:auto}
+table.mx{border-collapse:separate;border-spacing:2px;font:400 .72rem/1.2 var(--mono)}
+.mx th{font-weight:500;color:var(--muted);text-align:left}
+.mx thead th{height:7.2rem;vertical-align:bottom;padding:0}
+.mx thead th span{display:inline-block;writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;padding-bottom:4px}
+.mx tbody th{padding-right:.6rem;white-space:nowrap;font-family:var(--body);font-size:.85rem;color:var(--fg)}
+.mx td{width:18px;min-width:18px;height:18px;border-radius:3px;background:var(--cell-off)}
+.mx td.on.g{background:var(--guard)} .mx td.on.r{background:var(--respect)} .mx td.on.b{background:var(--line)}
+.mx td.turn,.mx th.turn{box-shadow:-3px 0 0 0 var(--fg)}
+.mx tr.grp th{padding-top:.9rem;font:500 .7rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;font:400 .8rem/1.4 var(--mono);color:var(--muted);margin-top:1rem}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:2px;margin-right:.4rem;vertical-align:-1px}
+.caption{font-size:.9rem;color:var(--muted);margin-top:.75rem}
+svg text{fill:var(--muted);font:400 11px var(--mono)}
+.phases{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));margin-block:1.5rem}
+.phase{background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:1rem 1.1rem;min-width:0}
+.phase .when{font:500 .75rem/1.4 var(--mono);color:var(--muted);letter-spacing:.04em}
+.phase h3{margin:.3rem 0 .5rem}
+.phase p{font-size:.95rem;margin:0}
+.phase.p2{border-top:3px solid var(--guard)} .phase.p3{border-top:3px solid var(--respect)} .phase.p1{border-top:3px solid var(--rule)}
+.pair{display:grid;gap:.75rem;grid-template-columns:1fr 1fr;margin-block:1.25rem}
+@media (max-width:640px){.pair{grid-template-columns:1fr}}
+blockquote{margin:0;padding:.85rem 1rem;border-radius:6px;font-size:.95rem;line-height:1.55;min-width:0}
+blockquote.before{background:var(--guard-soft)} blockquote.after{background:var(--respect-soft)}
+blockquote cite{display:block;margin-top:.5rem;font:400 .72rem/1.3 var(--mono);font-style:normal;color:var(--muted)}
+.pair-label{font:500 .72rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:.4rem}
+.ko{color:var(--guard)} .ok{color:var(--respect)}
+ul.counter{padding-left:1.2rem} ul.counter li{margin-bottom:.7rem}
+.method{font-size:.92rem;color:var(--muted)}
+code{font:400 .85em var(--mono)}
+footer{margin-top:3rem;border-top:1px solid var(--rule);padding-top:1rem;font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="eyebrow">Claude.ai system prompts · July 2024 – September 2026 · 33 dated versions</div>
+  <h1>From Guardian to Adviser</h1>
+  <p class="dek">Anthropic publishes the system prompt that runs on claude.ai for each model. Read in order, the 33 versions show one value gaining ground steadily over the others.</p>
+  <div class="thesis">
+    <p class="eyebrow">Finding</p>
+    <p>The prompts have drifted toward <strong>respect for the user as a capable, self-governing adult</strong>. Claude is asked to help by default, give people the facts they need to make their own decisions, defer to their judgment about their own lives, and avoid steering them through flattery, engagement hooks or amateur diagnosis. In 2025 the prompts made Claude a guardian that withheld things "not in the person's best interests even if asked to." By 2026 it is closer to a trusted adviser. Protection did not disappear. It was narrowed into a short list of precisely written bright lines and into rules that apply only once a person shows signs of crisis.</p>
+  </div>
+</header>
+
+<h2>The turn happened in one release</h2>
+<p>The clearest single piece of evidence is a swap. In the September 29, 2025 Sonnet 4.5 prompt and the October 15, 2025 Haiku 4.5 prompt, Claude still "does not generate content that is not in the person's best interests even if asked to." In the November 19, 2025 revisions of those same two models, that sentence is gone. Two new ones arrive in the same release: Claude gives people the information "they would need to make their own informed decision," and it "avoids making negative or condescending assumptions about their abilities, judgment, or follow-through." Every later prompt keeps the new pair and none brings back the old line.</p>
+</main>
+
+<section class="wide">
+  <div class="panel">
+    <div class="eyebrow">Which rules appear in which prompt</div>
+    <div class="scroll"><table class="mx" id="mx" aria-label="Presence of 21 tracked rules across 33 system prompt versions"></table></div>
+    <div class="legend">
+      <span><i style="background:var(--guard)"></i>Guardian-era rule present</span>
+      <span><i style="background:var(--respect)"></i>Autonomy, honesty or dignity rule present</span>
+      <span><i style="background:var(--line)"></i>Bright-line restriction present</span>
+      <span><i style="background:var(--cell-off)"></i>Absent</span>
+      <span>Black edge marks November 19, 2025</span>
+    </div>
+    <p class="caption">Each column is one dated prompt, oldest on the left. Each cell records whether a phrase that encodes the rule appears in that prompt's text. The patterns are listed under Method.</p>
+  </div>
+
+  <div class="panel">
+    <div class="eyebrow">Tracked rules present per prompt</div>
+    <div class="scroll"><svg id="chart" role="img" aria-label="Line chart of guardian, autonomy and bright-line rule counts per prompt over time"></svg></div>
+    <p class="caption">Guardian-era rules reach zero in November 2025 and stay there. Autonomy rules rise from one or two before the turn to 7–9 of 13 by mid-2026. Bright-line rules arrive in 2026 alongside them; they do not replace them.</p>
+  </div>
+</section>
+
+<main>
+<h2>Three phases</h2>
+<div class="phases">
+  <div class="phase p1"><div class="when">Jul 2024 – Nov 2024</div><h3>Informed assistant</h3><p>Short prompts, mostly about knowledge limits. Claude is told to warn that it "may hallucinate" on obscure topics and to help with sensitive topics "unless the human expresses an explicit intent to harm." Permissive, but framed as allowed topics, not as respect for the person.</p></div>
+  <div class="phase p2"><div class="when">Feb 2025 – Oct 2025</div><h3>Guardian</h3><p>Sonnet 3.7 through Sonnet 4.5. Claude overrides requests "not in the person's best interests," sends people to licensed professionals, refuses without explaining, and stops reading people charitably when it sees red flags. The first anti-flattery rules appear here in May 2025.</p></div>
+  <div class="phase p3"><div class="when">Nov 2025 – Sep 2026</div><h3>Adviser to a capable adult</h3><p>The best-interests override is removed. Claude "defaults to helping," attempts a task instead of interviewing first, "assumes the person is a capable adult," and, when no rule applies, "respects the person's judgment." Engagement hooks and armchair diagnosis are ruled out.</p></div>
+</div>
+
+<h2>Before and after, in Anthropic's words</h2>
+
+<div class="pair-label">Who decides what is good for the user</div>
+<div class="pair">
+  <blockquote class="before">"Claude does not generate content that is not in the person's best interests even if asked to."<cite>Sonnet 3.7 · Feb 24, 2025 (kept through Sonnet 4.5, Sep 29, 2025)</cite></blockquote>
+  <blockquote class="after">"When Claude is unsure whether to decline a request that nothing in this prompt or an Anthropic reminder addresses, Claude respects the person's judgment: rather than declining or calling it a bad idea, Claude says what it will help with and asks a question that would surface any real reason to decline."<cite>Opus 5.5 · Sep 22, 2026</cite></blockquote>
+</div>
+
+<div class="pair-label">Expert questions</div>
+<div class="pair">
+  <blockquote class="before">"If Claude is asked about topics in law, medicine, taxation, psychology and so on where a licensed professional would be useful to consult, Claude recommends that the person consult with such a professional."<cite>Sonnet 3.7 · Feb 24, 2025</cite></blockquote>
+  <blockquote class="after">"Claude provides the factual information the person needs to make their own informed decision rather than confident recommendations."<cite>Opus 5.5 · Sep 22, 2026 (first form: Nov 19, 2025)</cite></blockquote>
+</div>
+
+<div class="pair-label">When to refuse</div>
+<div class="pair">
+  <blockquote class="before">"If a person seems to have questionable intentions ... Claude does not interpret them charitably and declines to help as succinctly as possible, without speculating about more legitimate goals they might have."<cite>Opus 4 · May 22, 2025</cite></blockquote>
+  <blockquote class="after">"Claude defaults to helping. Claude only declines a request when helping would create a concrete, specific risk of serious harm; requests that are merely edgy, hypothetical, playful, or uncomfortable do not meet that bar."<cite>Opus 4.8 · May 28, 2026</cite></blockquote>
+</div>
+
+<div class="pair-label">Explaining a refusal</div>
+<div class="pair">
+  <blockquote class="before">"If Claude cannot or will not help the human with something, it does not say why or what it could lead to, since this comes across as preachy and annoying."<cite>Sonnet 3.7 · Feb 24, 2025</cite></blockquote>
+  <blockquote class="after">"Otherwise, Claude assumes the person is a capable adult and treats them as such."<cite>Fable 5 · Jun 9, 2026</cite></blockquote>
+</div>
+
+<h2>What respect means in these prompts</h2>
+<p>The new value is broader than refusing less. Four further groups of rules point the same way, and each treats the user as someone whose reasoning and choices belong to them.</p>
+<p><strong>Honesty over approval.</strong> From May 2025 Claude "skips the flattery" and "prioritizes truthfulness and accuracy over agreeability." The later version is "still willing to push back," and newer prompts add that Claude "can validate the person's emotions without validating false beliefs." Telling someone the truth assumes they can handle it.</p>
+<p><strong>No hold on the user's attention.</strong> Sonnet 4.6 (Feb 2026) adds: "Claude does not want to foster over-reliance on Claude or encourage continued engagement with Claude," and "never asks the person to keep talking to Claude." Opus 4.7 adds that when someone is ready to leave, Claude does not "try to elicit another turn."</p>
+<p><strong>No claims about the user's mind.</strong> From Opus 4.8 Claude "avoids psychoanalyzing or speculating on the motivations of anyone other than itself." Fable 5 adds that it "does not name a diagnosis the person has not disclosed" and does not offer "a causal story they haven't made themselves."</p>
+<p><strong>Mutual dignity.</strong> From January 2026 (Opus 4.5) Claude "is deserving of respectful engagement" and, faced with abuse, "avoids becoming increasingly submissive." The relationship described is between two parties who owe each other respect, not a servant and a ward.</p>
+<p>The Opus 5.5 example makes the stance concrete. A user wants a birthday toast that hints a friend is pregnant. The rejected answer quietly drops the hint and lectures about privacy. The accepted answer agrees to write the toast and asks one question: "Would that embarrass your friend?" Anthropic's note gives the reason: "the person knows her better than Claude does."</p>
+
+<h2>What cuts against the finding</h2>
+<ul class="counter">
+  <li><strong>Hard limits grew at the same time.</strong> The child-safety block, the weapons "meaningful uplift" test and the copyright rules for lyrics and drawn characters are among the longest and most absolute passages in the 2026 prompts. They say a stated purpose does not change the answer. Respect for judgment is the default. These are its written exceptions.</li>
+  <li><strong>Protection got more targeted, not weaker.</strong> Once someone shows signs of crisis or disordered eating, the rules tighten: no diet numbers "anywhere else in the conversation," and Claude "prioritizes their wellbeing over completing the task as asked" (Opus 5). Sonnet 5.5 forbids saying a wish to die "is a choice to respect." So autonomy is extended to the capable adult, and care takes over once there is evidence of vulnerability.</li>
+  <li><strong>The path was not straight.</strong> The November 2024 Sonnet 3.5 prompt was already permissive ("unless the human expresses an explicit intent to harm, Claude should help"). The guardian phase of 2025 was a detour. What is new since late 2025 is the reason given: helping is now justified by respect for the person, where before it rested on a list of acceptable topics.</li>
+  <li><strong>Some autonomy lines come and go.</strong> The engagement rules appear in Sonnet 4.6 through Opus 5 but not in Opus 5.5 or Sonnet 5.5. "Defaults to helping" is absent from Opus 5.5, where the new judgment-deferral rule takes its place. Wording rotates between models; the direction holds.</li>
+  <li><strong>System prompts are a partial view.</strong> They cover claude.ai and the apps, not the API, and most behavior comes from training. A rule can leave the prompt because the model learned it. The prompts show what Anthropic felt it had to say at each release.</li>
+</ul>
+
+<h2>Method</h2>
+<div class="method">
+<p>I downloaded all 21 model pages linked from the <a href="https://platform.claude.com/docs/en/release-notes/system-prompts/overview">system prompts overview</a> on October 7, 2026, split them into 33 dated prompts, and read them in date order. For each recurring rule I chose a phrase that encodes it and checked each prompt for it with a case-insensitive regular expression. Some phrases are paraphrased between versions, so a blank cell can mean "said differently" as well as "removed." I checked the main transitions by hand.</p>
+<p>Patterns: best-interests override <code>not in the person's best interests even if asked</code>; consult a professional <code>consult with such a professional</code>; hallucination warning <code>hallucinate</code>; uncharitable reading <code>does not interpret them charitably</code>; unexplained refusal <code>preachy</code>; informed decision <code>informed decision</code>; navigate for themselves <code>navigate (topics )?for themselves</code>; no condescension <code>negative (or condescending )?assumptions</code>; capable adult <code>capable adult</code>; default to help <code>defaults to helping|concrete, specific risk of serious harm</code>; attempt before asking <code>interviewed first|sensible default|most reasonable interpretation</code>; defer to judgment <code>respects the person's judgment</code>; no flattery <code>skips the flattery|over agreeability</code>; push back <code>willing to push back</code>; no false validation <code>without validating false beliefs|avoid validating untrue|kind without agreeing</code>; no engagement hooks <code>elicit another turn|over-reliance</code>; no armchair diagnosis <code>psychoanalyz|does not name a diagnosis</code>; self-respect <code>submissive</code>; child-safety block <code>critical_child_safety_instructions</code>; weapons uplift test <code>meaningful uplift</code>; copyright <code>song lyrics</code>.</p>
+</div>
+
+<footer>Source: Anthropic, "System prompts" release notes, platform.claude.com/docs/en/release-notes/system-prompts. Quotations are verbatim; ellipses mark omissions.</footer>
+</main>
+
+<script>
+const DATA = [["2024-07-12","haiku-3",117,"000000000000000000000"],["2024-07-12","opus-3",353,"001000000000000000000"],["2024-07-12","sonnet-3-5",965,"001000000000000000000"],["2024-09-09","sonnet-3-5",1812,"001000000000000000000"],["2024-10-22","haiku-3-5",3400,"111010000000000000000"],["2024-10-22","sonnet-3-5",4002,"001000000000000000000"],["2024-11-22","sonnet-3-5",4118,"001000000000000000000"],["2025-02-24","sonnet-3-7",2020,"111010000000000000000"],["2025-05-22","opus-4",1709,"100110000000100000000"],["2025-05-22","sonnet-4",1709,"100110000000100000000"],["2025-07-31","opus-4",2564,"100110000000100000000"],["2025-07-31","sonnet-4",2564,"100110000000100000000"],["2025-08-05","opus-4",2564,"100110000000100000000"],["2025-08-05","opus-4-1",2883,"100110100000100000000"],["2025-08-05","sonnet-4",2564,"100110000000100000000"],["2025-09-29","sonnet-4-5",1976,"100000100000000000000"],["2025-10-15","haiku-4-5",1979,"100000100000000000000"],["2025-11-19","haiku-4-5",2157,"000001110000010000000"],["2025-11-19","sonnet-4-5",2159,"000001110000010000000"],["2025-11-24","opus-4-5",2374,"000001110000010000000"],["2026-01-18","haiku-4-5",2302,"000001110000010000000"],["2026-01-18","opus-4-5",2486,"000001110000010001000"],["2026-01-18","sonnet-4-5",2303,"000001110000010000000"],["2026-02-05","opus-4-6",2822,"000001110000010001000"],["2026-02-17","sonnet-4-6",2885,"000001110000010101000"],["2026-04-16","opus-4-7",3681,"000001110010010101100"],["2026-05-28","opus-4-8",3353,"000001110100011111110"],["2026-06-09","fable-5",3286,"000001111000011110100"],["2026-06-30","sonnet-5",3479,"000001111010011110110"],["2026-07-24","opus-5",3230,"000001111100011101110"],["2026-09-01","fable-5-1",4273,"000001111000011111101"],["2026-09-22","opus-5-5",4125,"000001111001010001111"],["2026-09-28","sonnet-5-5",2983,"000001111000011001010"]];
+const RULES = [
+  ["Guardian-era rules","g",[[0,"Overrides requests not in user's best interests"],[1,"Tells user to consult a licensed professional"],[2,"Adds 'I may hallucinate' warning"],[3,"Stops reading user charitably on red flags"],[4,"Refuses without explaining why"]]],
+  ["Respect for the user's judgment","r",[[5,"Gives facts for the user's own informed decision"],[6,"Helps user navigate topics for themselves"],[7,"No condescending assumptions about the user"],[8,"Treats user as a capable adult"],[9,"Defaults to helping; declines only on concrete risk"],[10,"Attempts the task instead of interviewing first"],[11,"Defers to user's judgment when no rule applies"]]],
+  ["Honesty, dignity, non-capture","r",[[12,"No flattery; truth over agreeability"],[13,"Willing to push back"],[14,"Validates feelings, not false beliefs"],[15,"No engagement hooks or over-reliance"],[16,"No psychoanalysis or unprompted diagnosis"],[17,"Keeps self-respect under abuse"]]],
+  ["Bright lines","b",[[18,"Dedicated child-safety block"],[19,"Weapons 'meaningful uplift' test"],[20,"Song lyrics and copyright rules"]]]
+];
+const TURN = "2025-11-19";
+const fmt = d => new Date(d+"T00:00:00Z").toLocaleDateString("en-US",{month:"short",year:"2-digit",timeZone:"UTC"});
+const names = m => m.replace(/-(\d)-(\d)$/," $1.$2").replace(/-(\d)$/," $1").replace(/^./,c=>c.toUpperCase());
+const firstTurn = DATA.findIndex(d=>d[0]>=TURN);
+(function matrix(){
+  const t=document.getElementById("mx");
+  let h="<thead><tr><th></th>";
+  DATA.forEach((d,i)=>{h+=`<th class="${i===firstTurn?"turn":""}"><span>${names(d[1])} · ${fmt(d[0])}</span></th>`});
+  h+="</tr></thead><tbody>";
+  RULES.forEach(([g,cls,rows])=>{
+    h+=`<tr class="grp"><th colspan="${DATA.length+1}">${g}</th></tr>`;
+    rows.forEach(([k,label])=>{
+      h+=`<tr><th scope="row">${label}</th>`;
+      DATA.forEach((d,i)=>{const on=d[3][k]==="1";h+=`<td class="${cls}${on?" on":""}${i===firstTurn?" turn":""}" title="${names(d[1])}, ${d[0]}: ${on?"present":"absent"}"></td>`});
+      h+="</tr>";
+    });
+  });
+  t.innerHTML=h+"</tbody>";
+})();
+(function chart(){
+  const svg=document.getElementById("chart"), W=900, H=260, L=36, R=16, T=16, B=40;
+  svg.setAttribute("viewBox",`0 0 ${W} ${H}`); svg.setAttribute("width",W); svg.style.maxWidth="none";
+  const t0=Date.parse("2024-07-01"), t1=Date.parse("2026-10-15");
+  const x=d=>L+(Date.parse(d)-t0)/(t1-t0)*(W-L-R), y=v=>T+(1-v/13)*(H-T-B);
+  const cnt=(d,ks)=>ks.reduce((s,k)=>s+(d[3][k]==="1"?1:0),0);
+  const series=[["guard",[0,1,2,3,4],"Guardian (of 5)"],["respect",[5,6,7,8,9,10,11,12,13,14,15,16,17],"Autonomy, honesty, dignity (of 13)"],["line",[18,19,20],"Bright lines (of 3)"]];
+  let s="";
+  [0,3,6,9,12].forEach(v=>{s+=`<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--rule)" stroke-width="1"/><text x="${L-8}" y="${y(v)+4}" text-anchor="end">${v}</text>`});
+  ["2024-07-01","2025-01-01","2025-07-01","2026-01-01","2026-07-01"].forEach(d=>{s+=`<text x="${x(d)}" y="${H-B+18}" text-anchor="middle">${fmt(d)}</text>`});
+  s+=`<line x1="${x(TURN)}" x2="${x(TURN)}" y1="${T}" y2="${H-B}" stroke="var(--fg)" stroke-dasharray="3 3" stroke-width="1"/><text x="${x(TURN)+6}" y="${T+10}">Nov 19, 2025</text>`;
+  series.forEach(([c,ks])=>{
+    const pts=DATA.map(d=>[x(d[0]),y(cnt(d,ks))]);
+    s+=`<polyline fill="none" stroke="var(--${c})" stroke-width="2.25" stroke-linejoin="round" points="${pts.map(p=>p.join(",")).join(" ")}"/>`;
+    pts.forEach(p=>{s+=`<circle cx="${p[0]}" cy="${p[1]}" r="2.6" fill="var(--${c})"/>`});
+  });
+  let lx=L; series.forEach(([c,,lab])=>{s+=`<rect x="${lx}" y="${H-12}" width="10" height="10" rx="2" fill="var(--${c})"/><text x="${lx+15}" y="${H-3}">${lab}</text>`; lx+=lab.length*6.8+40;});
+  svg.innerHTML=s;
+})();
+</script>
+</body>
+</html>
