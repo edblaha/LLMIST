@@ -1,0 +1,349 @@
+{
+  "platform": "Wikipedia",
+  "key": "wikipedia",
+  "file": "data/text/wikipedia.txt",
+  "findings": [
+    {
+      "id": "wikipedia-01",
+      "topic": "collect_provided",
+      "claim": "You do not have to give your real name, address, or date of birth to create a standard account or to edit.",
+      "quote": "You do not have to provide things like your real name, address, or date of birth to sign up for a standard account or contribute content to the Wikimedia Sites.",
+      "line": 13,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-02",
+      "topic": "collect_provided",
+      "claim": "Every edit you make, including deletions, becomes a permanent public record showing when you made it and your username or temporary account name.",
+      "quote": "you are creating a permanent, public record of every piece of content added, removed, or altered by you. The page history will show when your contribution or deletion was made, as well as your username (if you are signed in) or your temporary account username (if you are not signed in).",
+      "line": 71,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Many people do not realise that even removed content and their own deletions stay permanently visible in the public page history."
+    },
+    {
+      "id": "wikipedia-03",
+      "topic": "collect_provided",
+      "claim": "Wikimedia may ask for optional demographic details like gender or age and says it will tell you whether the answer will be public or private.",
+      "quote": "we may ask you for more demographic information, such as gender or age, about yourself. We will tell you if such information is intended to be public or private, so that you can make an informed decision about whether you want to provide us with that information.",
+      "line": 86,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-04",
+      "topic": "collect_automatic",
+      "claim": "When you visit, Wikimedia automatically receives your device type, browser type and version, language preference, and operating system, and for some beta apps possibly a unique device ID.",
+      "quote": "This information includes the type of device you are using (possibly including unique device identification numbers, for some beta versions of our mobile applications), the type and version of your browser , your browser's language preference, the type and version of your device's operating system",
+      "line": 107,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-05",
+      "topic": "collect_automatic",
+      "claim": "Wikimedia records your IP address temporarily, and in abuse investigations it may be linked to your username.",
+      "quote": "Your IP address is also automatically submitted to us, and we record it temporarily. This is to protect Wikimedia users and project content; in the event of abuse, IP addresses may be associated with usernames as part of an investigation.",
+      "line": 84,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-06",
+      "topic": "collect_automatic",
+      "claim": "Wikimedia may use cookies and similar tools to understand how you use its sites across different devices.",
+      "quote": "Understand how you use the Wikimedia Sites across different devices, so that we can make our varied Wikimedia Sites more efficient and effective for you.",
+      "line": 125,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-07",
+      "topic": "collect_automatic",
+      "claim": "Wikimedia says it will not use third-party cookies unless you give permission.",
+      "quote": "We will never use third-party cookies, unless we get your permission to do so.",
+      "line": 119,
+      "context": "The same line notes that unauthorised third-party tools may still be placed by other users or administrators by mistake.",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-08",
+      "topic": "collect_inferred",
+      "claim": "The policy warns that anyone can analyse your public contributions (or aggregated data Wikimedia publishes) to infer things like your country, political affiliation, and gender.",
+      "quote": "specific data made public by you or aggregated data that is made public by us can be used by anyone for analysis and to infer further information, such as which country a user is from, political affiliation and gender.",
+      "line": 74,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Editors may not realise their editing history can be mined by outsiders to guess sensitive traits such as their politics."
+    },
+    {
+      "id": "wikipedia-09",
+      "topic": "collect_inferred",
+      "claim": "Wikimedia uses automatically received information to study how features are used, learn about the demographics of its different sites, and analyse trends.",
+      "quote": "understand how users interact with the Wikimedia Sites, track and study use of various features, gain understanding about the demographics of the different Wikimedia Sites, and analyze trends.",
+      "line": 108,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-10",
+      "topic": "collect_third_party",
+      "claim": "Wikimedia may receive information about you from partners or other third parties, but this sentence does not say what that information is.",
+      "quote": "This Policy also applies to information that we receive from our partners or other third parties.",
+      "line": 33,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-11",
+      "topic": "use_ads",
+      "claim": "Wikimedia says it does not sell or rent your email address or use it to advertise third-party products to you.",
+      "quote": "We do not sell, rent, or use your email address to advertise third-party products or services to you.",
+      "line": 147,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-12",
+      "topic": "use_ads",
+      "claim": "Wikimedia says it does not share your personal information for marketing purposes.",
+      "quote": "In particular, we do not share your Personal Information for marketing purposes.",
+      "line": 242,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-13",
+      "topic": "use_personalization",
+      "claim": "Wikimedia uses cookies to learn what topics you search for so it can tune the search results it shows you.",
+      "quote": "we use cookies to learn about the topics searched so that we can optimize the search results we deliver to you.",
+      "line": 123,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-14",
+      "topic": "use_personalization",
+      "claim": "Wikimedia might use cookies to look at the articles on your watchlist in order to recommend similar articles.",
+      "quote": "we might use cookies to learn about the list of articles you are following on your watchlist so that we can recommend similar articles that you may be interested in.",
+      "line": 124,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-15",
+      "topic": "use_research",
+      "claim": "Wikimedia may use your public contributions, individually or combined with others', to build new features or data products and to study how its sites are used.",
+      "quote": "To use your public contributions, either aggregated with the public contributions of others or individually, to create new features or data-related products for you or to learn more about how the Wikimedia Sites are used.",
+      "line": 152,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-16",
+      "topic": "use_research",
+      "claim": "Wikimedia gives some volunteer software developers limited access to systems that contain your personal information, as reasonably necessary for their work.",
+      "quote": "To facilitate their work, we give some developers limited access to systems that contain your Personal Information, but only as reasonably necessary for them to develop and contribute to the Wikimedia Sites.",
+      "line": 210,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may assume only Foundation staff can see their non-public data, not outside volunteer developers."
+    },
+    {
+      "id": "wikipedia-17",
+      "topic": "use_research",
+      "claim": "Wikimedia admits it cannot guarantee that developers and researchers given access to personal information will follow its rules, and does not promise to regularly audit them.",
+      "quote": "Please note that, despite the obligations we impose on developers and researchers, we cannot guarantee that they will abide by our agreement, nor do we guarantee that we will regularly screen or audit their projects.",
+      "line": 212,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "It is unusual for a policy to state plainly that it may not check whether outside people with access to your data are complying."
+    },
+    {
+      "id": "wikipedia-18",
+      "topic": "share_third_parties",
+      "claim": "Wikimedia gives service providers and contractors access to your personal information as needed for their services or to use their tools.",
+      "quote": "We give access to your Personal Information to these providers or contractors as needed to perform their services for us or to use their tools and services.",
+      "line": 202,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-19",
+      "topic": "share_third_parties",
+      "claim": "Community volunteers with administrative rights may see limited non-public information about other users' recent contributions and activity.",
+      "quote": "These rights may include access to limited amounts of otherwise nonpublic information about recent contributions and activity by other users.",
+      "line": 197,
+      "context": "The same paragraph says these volunteers are supposed to follow Wikimedia's nonpublic-data access policy and that the Foundation does not know their legal names.",
+      "surprise": 2,
+      "surprise_why": "Most readers do not expect fellow volunteers, whose legal names the Foundation says it does not know, to be able to see non-public data about them."
+    },
+    {
+      "id": "wikipedia-20",
+      "topic": "share_third_parties",
+      "claim": "Wikimedia says it will try to email you at least 10 days before disclosing your information in response to a legal demand, when possible.",
+      "quote": "We are committed to notifying you via email at least ten (10) calendar days, when possible, before we disclose your Personal Information in response to a legal demand.",
+      "line": 182,
+      "context": "Notice depends on not being legally restrained, no threat to life, and you having given an email address.",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-21",
+      "topic": "share_third_parties",
+      "claim": "Volunteers may place data-collecting tools such as scripts or tracking pixels on Wikimedia pages without the Foundation's knowledge, and the policy does not cover what those third parties do with the data.",
+      "quote": "Sometimes, volunteers may place a data-collecting tool, such as a script, gadget, tracking pixel, or share button, on a Wikimedia Site without our knowledge. This Policy does not cover how third parties handle the information they receive as a result of such a tool.",
+      "line": 62,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Visitors would not expect tracking tools on Wikipedia pages that the operator itself may not know about."
+    },
+    {
+      "id": "wikipedia-22",
+      "topic": "sell_share_definition",
+      "claim": "Wikimedia says it does not sell or rent your personal information or give it to others to sell you things, without defining 'sell'.",
+      "quote": "We do not sell or rent your Personal Information, nor do we give it to others to sell you anything.",
+      "line": 14,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-23",
+      "topic": "retention",
+      "claim": "In most cases personal information is deleted, aggregated, or de-identified after 90 days, but non-personal information may be kept indefinitely.",
+      "quote": "In most instances, Personal Information is deleted, aggregated or de-identified after 90 days. Non-Personal Information may be retained indefinitely as appropriate.",
+      "line": 227,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-24",
+      "topic": "retention",
+      "claim": "You cannot fully delete a Wikimedia account once it is created, though you can usually hide the information on your user page.",
+      "quote": "Once created, user accounts cannot be removed entirely (although you can usually hide the information on your user page if you choose to). This is because your public contributions must be associated with their author (you!).",
+      "line": 85,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Most people expect to be able to delete an account; here it is kept because edits must stay attributed to their author."
+    },
+    {
+      "id": "wikipedia-25",
+      "topic": "user_controls",
+      "claim": "Registered users can view and update some personal information in Preferences and download their account data.",
+      "quote": "if you are a registered user, you can access and update some Personal Information in your Preferences, as well as download your user account data.",
+      "line": 233,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-26",
+      "topic": "user_controls",
+      "claim": "To access, update, restrict, object to, or get a portable copy of your personal information, you have to contact Wikimedia.",
+      "quote": "If you would like to request to access, update or restrict/object to the processing of Personal Information, or receive a copy of your Personal Information for purposes of transmitting it to another organization, you may Contact Us .",
+      "line": 232,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-27",
+      "topic": "optout_ads",
+      "claim": "Wikimedia does not change its behaviour when your browser sends a Do Not Track signal, saying it protects all users the same way under the policy.",
+      "quote": "Because we protect all users in accordance with this Privacy Policy, we do not change our behavior in response to a web browser's \"do not track\" signal.",
+      "line": 243,
+      "context": "The policy describes no advertising, so there is no ad opt-out to offer.",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-28",
+      "topic": "optout_steps",
+      "claim": "The policy describes four opt-out actions: removing or disabling cookies and other locally stored data in your browser settings, turning off location access in your phone's settings, changing camera settings to stop photo metadata, and adjusting Notifications Preferences; further options are in its FAQ.",
+      "quote": "you may remove or disable some or all locally stored data through your browser settings, depending on your browser.",
+      "line": 128,
+      "context": "The policy notes some features will not work properly if you disable locally stored data.",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-29",
+      "topic": "optout_steps",
+      "claim": "To stop location tracking, you can switch off Wikimedia's access to location technologies at any time through your phone's operating system settings.",
+      "quote": "you can consent to and/or deactivate our access to these location technologies at any time for example through the native OS functionalities on your mobile device, and still use the Wikimedia Sites.",
+      "line": 163,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-30",
+      "topic": "optout_steps",
+      "claim": "To keep photo metadata from being sent and published, you have to change your device's settings yourself.",
+      "quote": "If you do not want metadata sent to us and made public at the time of your upload, please change your settings on your device.",
+      "line": 95,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-31",
+      "topic": "optout_steps",
+      "claim": "You can control which notifications and emails you get, and how often, in your Notifications Preferences and User profile.",
+      "quote": "You can manage what kinds of notifications you receive and how often you receive them by going to your Notifications Preferences and User profile.",
+      "line": 147,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-32",
+      "topic": "sensitive_location",
+      "claim": "With your consent, Wikimedia can use GPS and similar location technologies to show you more relevant content.",
+      "quote": "If you consent, we can use GPS (and other technologies commonly used to determine location) to show you more relevant content.",
+      "line": 92,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "wikipedia-33",
+      "topic": "sensitive_location",
+      "claim": "Unlike GPS location, photo and video metadata such as where and when you took a picture is typically included in uploads by default on mobile devices.",
+      "quote": "Please be aware that, unlike location information collected using GPS signals described above, the default setting on your mobile device typically includes the metadata in your photo or video upload to the Wikimedia Sites.",
+      "line": 95,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People uploading photos may not realise the location where the photo was taken can be sent to Wikimedia and made public."
+    },
+    {
+      "id": "wikipedia-34",
+      "topic": "sensitive_location",
+      "claim": "On mobile, Wikimedia may use your IP address to give service providers anonymised or aggregated information about how much usage there is in certain areas.",
+      "quote": "If you are visiting Wikimedia Sites with your mobile device, we may use your IP address to provide anonymized or aggregated information to service providers regarding the volume of usage in certain areas.",
+      "line": 169,
+      "context": "The same line notes your IP address could be used to infer your geographic location.",
+      "surprise": 1
+    },
+    {
+      "id": "wikipedia-35",
+      "topic": "sensitive_health",
+      "claim": "The policy counts sensitive details like medical conditions or disabilities, sexual orientation, and religion as personal information when linked to an identifier such as your name or IP address.",
+      "quote": "when associated with one of the items in subsection (a), any sensitive data such as date of birth, gender, sexual orientation, racial or ethnic origins, marital or familial status, medical conditions or disabilities, political affiliation, and religion.",
+      "line": 27,
+      "context": "This is a definition; the policy also says it does not necessarily collect all of these types.",
+      "surprise": 0
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "use_ai_training",
+      "searched": "AI, artificial intelligence, machine learning, model, train, algorithm, generative, automated, language model"
+    },
+    {
+      "topic": "optout_ai",
+      "searched": "AI, artificial intelligence, machine learning, model, train, opt out, object (no AI use is described, so no AI opt-out either)"
+    },
+    {
+      "topic": "sensitive_biometric",
+      "searched": "biometric, face, facial, voice, voiceprint, fingerprint, recognition"
+    },
+    {
+      "topic": "sensitive_children",
+      "searched": "child, children, minor (only 'minority'/'minor changes'), age, 13, 16, 18, teen, parent, guardian, COPPA"
+    }
+  ],
+  "notes": "Wikimedia Foundation policy (effective October 6, 2025) covering Wikipedia and other Wikimedia sites and apps; the shop, donations, and the Reading Lists extension have separate policies. Lines starting '> ' are summary side-notes and lines 21-30 are a definitions table; many specifics (cookies, examples, retention) are deferred to an FAQ and data retention guidelines. There is no advertising business, so ad topics are mostly statements of what it does not do."
+}

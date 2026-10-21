@@ -1,0 +1,378 @@
+{
+  "platform": "GitHub",
+  "key": "github",
+  "file": "data/text/github.txt",
+  "findings": [
+    {
+      "id": "github-01",
+      "topic": "collect_provided",
+      "claim": "GitHub collects personal data in what you provide while using its services, including code, AI inputs and outputs, text, documents, and images.",
+      "quote": "When you use our Services, we collect Personal Data included as part of the information you provide such as code, inputs, AI outputs, text, documents, images, or feedback.",
+      "line": 22,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-02",
+      "topic": "collect_provided",
+      "claim": "When you open an account GitHub collects your handle, name, email, password, and payment and transaction information.",
+      "quote": "We collect certain information when you open an account such as your GitHub handle, name, email address, password, payment information and transaction information.",
+      "line": 21,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-03",
+      "topic": "collect_automatic",
+      "claim": "GitHub automatically collects your IP address, device details, session information, request times, and information about your repository contributions.",
+      "quote": "We collect data about your interactions with the Services, such as IP address, device information, session details, date and time of requests, device type and ID, operating system and application version, information related to your contributions to repositories, and performance of specific features or Services.",
+      "line": 36,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-04",
+      "topic": "collect_automatic",
+      "claim": "When you use Codespaces or github.dev, some Visual Studio Code telemetry is collected by default.",
+      "quote": "GitHub Codespaces and github.dev offer Visual Studio Code in a web browser, where some telemetry is collected by default.",
+      "line": 70,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Developers may not expect browser-based coding sessions to send telemetry unless they find and change a VS Code setting."
+    },
+    {
+      "id": "github-05",
+      "topic": "collect_automatic",
+      "claim": "GitHub's emails may contain tracking beacons that report your device type, email client, whether you opened the email, and which links you clicked.",
+      "quote": "Our emails may have web beacons that offer information on your device type, email client, email reception, opens, and link clicks.",
+      "line": 34,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-06",
+      "topic": "collect_inferred",
+      "claim": "GitHub creates new information from the data it collects to guess your likely preferences or other characteristics, such as your general location from your IP address.",
+      "quote": "We generate new information from other data we collect to derive likely preferences or other characteristics. For instance, we infer your general geographic location based on your IP address.",
+      "line": 49,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-07",
+      "topic": "collect_third_party",
+      "claim": "Other users may give GitHub information about you in issues and comments, and GitHub may receive information if you are listed as a company account representative.",
+      "quote": "Other users may share information about you when they submit issues and comments. We may also receive information about you if you are identified as a representative or administrator on your company's account.",
+      "line": 40,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-08",
+      "topic": "collect_third_party",
+      "claim": "GitHub may get information about you from publicly available sources.",
+      "quote": "We may acquire information about you from publicly available sources.",
+      "line": 41,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-09",
+      "topic": "collect_third_party",
+      "claim": "GitHub may receive information about you from vendors, resellers, partners, or affiliates.",
+      "quote": "We may receive information about you from third parties, like vendors, resellers, partners, or affiliates for the purposes outlined in this statement.",
+      "line": 43,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-10",
+      "topic": "use_ads",
+      "claim": "GitHub may use third-party cookies to collect data for interest-based advertising, asking for consent first only in some places.",
+      "quote": "We may also employ third-party Cookies to gather data for interest-based advertising. In some jurisdictions, we only use non-essential cookies after obtaining your consent.",
+      "line": 33,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-11",
+      "topic": "use_ads",
+      "claim": "GitHub's analytics and advertising partners may collect your browsing data, identifiers, and device information on GitHub and use it, over time and across services, for targeted advertising.",
+      "quote": "our analytics and advertising partners may use these technologies in our Services to collect personal information (such as the pages you visit, the links you click on, and similar usage information, identifiers, and device information) related to your online activities over time and across Services for various purposes, including targeted advertising.",
+      "line": 153,
+      "context": "Other parts of the policy describe non-essential and ad cookies mainly on Enterprise Marketing Pages such as resources.github.com.",
+      "surprise": 2,
+      "surprise_why": "Developers may not expect a code platform to let ad partners track them across services."
+    },
+    {
+      "id": "github-12",
+      "topic": "use_ads",
+      "claim": "GitHub and third parties use social media cookies to show you ads and content based on your social media profiles and your activity on GitHub's websites.",
+      "quote": "GitHub and third parties use social media cookies to show you ads and content based on your social media profiles and activity on GitHub’s websites.",
+      "line": 159,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Linking social media profiles with GitHub activity for ads is not something most users would expect."
+    },
+    {
+      "id": "github-13",
+      "topic": "use_personalization",
+      "claim": "GitHub uses personal data to run its services and to provide ongoing personalised experiences and recommendations.",
+      "quote": "We use Personal Data to deliver and update our Services as configured and used by You, and to make ongoing personalized experiences and recommendations.",
+      "line": 52,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-14",
+      "topic": "use_research",
+      "claim": "GitHub creates aggregated statistics from personal data for internal and financial reporting, planning, and forecasting.",
+      "quote": "This includes creating aggregated statistical data for internal reporting, financial reporting, revenue planning, capacity planning, and forecast modeling (including product strategy).",
+      "line": 47,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-15",
+      "topic": "use_research",
+      "claim": "GitHub's purposes for collecting data include finding accessibility gaps, fostering diversity, improving products, and supporting research.",
+      "quote": "identifying accessibility gaps and offering targeted support, fostering diversity and representation, providing services, troubleshooting, conducting business operations such as billing and security, improving products and supporting research",
+      "line": 192,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-16",
+      "topic": "use_ai_training",
+      "claim": "GitHub uses personal data to develop and improve its products, including artificial intelligence and machine learning, which includes training models.",
+      "quote": "We use Personal Data to develop and improve our products, services, and technologies, including artificial intelligence and machine learning technologies. This includes improving features, developing new offerings, enhancing safety and security capabilities, and training models.",
+      "line": 55,
+      "context": "The same line says GitHub applies aggregation and de-identification 'where feasible'.",
+      "surprise": 2,
+      "surprise_why": "Many developers do not expect their personal data to be used to train models."
+    },
+    {
+      "id": "github-17",
+      "topic": "use_ai_training",
+      "claim": "GitHub may share personal data with affiliates including Microsoft for purposes including marketing, advertising, and training and improving AI and machine learning.",
+      "quote": "Personal Data may be shared with GitHub affiliates, including Microsoft, to facilitate customer service, marketing and advertising, order fulfillment, billing, technical support, legal and compliance obligations, product development and improvement (including training and improving artificial intelligence and machine learning technologies)",
+      "line": 64,
+      "context": "",
+      "surprise": 3,
+      "surprise_why": "Users may not expect their GitHub data to be handed to Microsoft for AI training and advertising, under Microsoft's own privacy terms."
+    },
+    {
+      "id": "github-18",
+      "topic": "use_ai_training",
+      "claim": "For EEA and UK users, GitHub relies on its 'legitimate interests', not your consent, to develop and improve its AI and machine learning technologies.",
+      "quote": "We process data for purposes that are in our legitimate interests, such as securing our Services, communicating with you, and developing and improving our Services, which include artificial intelligence and machine learning technologies.",
+      "line": 81,
+      "context": "This section applies to EEA and UK users.",
+      "surprise": 2,
+      "surprise_why": "Users may expect to be asked before their data is used for AI, but this legal basis does not require consent."
+    },
+    {
+      "id": "github-19",
+      "topic": "share_third_parties",
+      "claim": "GitHub and its partners share the information they collect or infer about you with third parties for purposes including targeted advertising.",
+      "quote": "We and/or our partners also share the information we collect or infer with third parties for these purposes.",
+      "line": 154,
+      "context": "'These purposes' refers to the cookie uses listed just before, including targeted advertising.",
+      "surprise": 2,
+      "surprise_why": "Sharing inferences about you with outside parties for ads is more than most users would expect."
+    },
+    {
+      "id": "github-20",
+      "topic": "share_third_parties",
+      "claim": "If your school or employer provides your GitHub account, it can access and use your personal data, including how you use GitHub and your content and files.",
+      "quote": "Access and utilize your Personal Data, which includes details on how you use the Services, as well as your content and files.",
+      "line": 10,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Students and employees may not realise their institution can see their usage, content, and files."
+    },
+    {
+      "id": "github-21",
+      "topic": "share_third_parties",
+      "claim": "GitHub may disclose personal data to law enforcement, regulators, courts, or other authorities in response to lawful requests or to protect its rights and safety.",
+      "quote": "We may disclose Personal Data to authorized law enforcement, regulators, courts, or other public authorities in response to lawful requests or to protect our rights and safety.",
+      "line": 66,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-22",
+      "topic": "share_third_parties",
+      "claim": "In the past 12 months GitHub disclosed categories including identifiers, demographic information such as gender and rough location, and payment information for business purposes.",
+      "quote": "We disclosed the following categories of personal information for a business purpose in the last 12 months: identifiers/contact information, demographic information (such as gender and rough geographic location), payment information, commercial information",
+      "line": 205,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-23",
+      "topic": "sell_share_definition",
+      "claim": "GitHub says that, as defined by law, it 'shared' identifiers, internet activity, and inferences about people with advertising networks, data analytics providers, and social networks in the past 12 months.",
+      "quote": "As defined by applicable law, we “shared” the following categories of personal information in the last 12 months: identifiers/contact information, Internet or other electronic network activity information, and inferences drawn from the above. We shared each category to or with advertising networks, data analytics providers, and social networks.",
+      "line": 206,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "This admission contrasts with GitHub's statement that it does not sell data, and most users would not expect inferences about them to go to ad networks."
+    },
+    {
+      "id": "github-24",
+      "topic": "sell_share_definition",
+      "claim": "GitHub says it does not sell your data and will not share it if it detects a Global Privacy Control signal from your device.",
+      "quote": "If GitHub detects the GPC signal from your device, GitHub will not share your data (we do not sell your data).",
+      "line": 172,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-25",
+      "topic": "retention",
+      "claim": "GitHub keeps your personal data as long as your account is active and as needed for contracts, legal requirements, disputes, and enforcing agreements.",
+      "quote": "We’ll retain your Personal Data as long as your account is active and as needed to fulfill contractual obligations, comply with legal requirements, resolve disputes, and enforce agreements.",
+      "line": 112,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-26",
+      "topic": "retention",
+      "claim": "Even after a deletion request, GitHub may keep data to meet legal obligations, detect fraud, investigate abuse or rule violations, or fix security issues.",
+      "quote": "Such exceptions include circumstances where we are required to retain data to comply with legal obligations, detect fraudulent activity, investigate reports of abuse or other violations of our Terms of Service, or rectify security issues.",
+      "line": 186,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-27",
+      "topic": "user_controls",
+      "claim": "To use your privacy rights such as access, correction, or deletion, you email privacy@github.com and follow the instructions.",
+      "quote": "To exercise these rights, please send an email to privacy[at]github[dot]com and follow the instructions provided.",
+      "line": 93,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-28",
+      "topic": "user_controls",
+      "claim": "You can view and edit basic account information yourself in your settings.",
+      "quote": "You can also access and edit basic account information in your settings.",
+      "line": 184,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-29",
+      "topic": "user_controls",
+      "claim": "Under US state rights, you get two free requests per 12 months and GitHub commits to respond within 45 days.",
+      "quote": "You are allowed to make two free requests in any 12-month period. We commit to responding to your request within 45 days.",
+      "line": 187,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-30",
+      "topic": "optout_ads",
+      "claim": "To opt out of the sharing of your personal information, you can click the 'Do Not Share My Personal Information' link in the website footer or use Global Privacy Control.",
+      "quote": "To opt out of the sharing of your personal information, you can click on the \"Do Not Share My Personal Information\" link on the footer of our Websites or use the Global Privacy Control (\"GPC\") if available.",
+      "line": 196,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-31",
+      "topic": "optout_ads",
+      "claim": "If your browser sends a Do Not Track signal, GitHub says it will not set non-essential cookies or load third-party resources that set them.",
+      "quote": "If your browser sends a Do Not Track (DNT) signal, GitHub will not set non-essential cookies and will not load third party resources which set non-essential cookies.",
+      "line": 168,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-32",
+      "topic": "optout_steps",
+      "claim": "The policy lists about nine separate opt-out actions (footer cookie-settings link or consent banner, Do Not Track, browser cookie controls, tracker-blocking extensions, Global Privacy Control, industry ad opt-outs via NAI/DAA and regional equivalents, the 'Do Not Share' footer link, an email to privacy@github.com, and a VS Code telemetry setting), and the cookie choices must be repeated on every browser and device.",
+      "quote": "These choices are specific to the browser you are using. If you access our Services from other devices or browsers, take these actions from those systems to ensure your choices apply to the data collected when you use those systems.",
+      "line": 177,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-33",
+      "topic": "optout_steps",
+      "claim": "On pages that use non-essential cookies, you can change your choices through a cookie-settings link in the page footer.",
+      "quote": "Any GitHub page that serves non-essential cookies will have a link in the page’s footer to cookie settings.",
+      "line": 165,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-34",
+      "topic": "optout_steps",
+      "claim": "For ad targeting, the policy points you to industry opt-out sites (NAI and DAA in the US, and Canadian and European equivalents) that its ad partners may participate in.",
+      "quote": "Our advertising partners may participate in associations that provide simple ways to opt out of ad targeting, which you can access at:",
+      "line": 173,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-35",
+      "topic": "optout_steps",
+      "claim": "To opt out of Codespaces and github.dev telemetry, you go to File > Preferences > Settings in VS Code.",
+      "quote": "To opt out, go to File > Preferences > Settings in the top left menu of VS Code.",
+      "line": 70,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "github-36",
+      "topic": "sensitive_location",
+      "claim": "Depending on the service, GitHub collects regional (not precise) geolocation data.",
+      "quote": "Depending on the Service's functionality, we collect regional geolocation data.",
+      "line": 35,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-37",
+      "topic": "sensitive_health",
+      "claim": "In some cases you give GitHub demographic details such as ethnicity or gender.",
+      "quote": "In some cases, you provide us with ethnicity, gender, or similar demographic details.",
+      "line": 23,
+      "context": "The policy does not mention health data or use the term 'sensitive personal information'.",
+      "surprise": 1
+    },
+    {
+      "id": "github-38",
+      "topic": "sensitive_children",
+      "claim": "GitHub's services are not meant for children under 13 and it says it does not intentionally collect their personal data.",
+      "quote": "Our Services are not intended for individuals under the age of 13. We do not intentionally gather Personal Data from such individuals.",
+      "line": 123,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "github-39",
+      "topic": "sensitive_children",
+      "claim": "GitHub says it does not sell or share the personal information of known minors under 16.",
+      "quote": "We do not “sell” or “share” the personal information of known minors under 16 years of age.",
+      "line": 208,
+      "context": "",
+      "surprise": 0
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "optout_ai",
+      "searched": "opt out, opt-out, object, withdraw, AI, artificial intelligence, machine learning, model, train (AI use is described but no AI-specific opt-out; only general rights to object or withdraw consent)"
+    },
+    {
+      "topic": "sensitive_biometric",
+      "searched": "biometric, face, facial, voice, voiceprint, fingerprint, recognition (only a generic 'audio, electronic, visual' category)"
+    }
+  ],
+  "notes": "GitHub General Privacy Statement (effective April 27, 2026) covering GitHub, Inc. and GitHub B.V.; when an employer or school provides the account, that organisation is the data controller. Access to private repositories is governed by Section E of the Terms of Service, not this statement. Much of the advertising and non-essential cookie language is scoped to Enterprise Marketing Pages (e.g. resources.github.com), and the policy has separate EEA/UK and US-state sections."
+}

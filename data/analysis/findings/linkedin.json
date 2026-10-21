@@ -63,7 +63,7 @@
     {
       "id": "linkedin-07",
       "topic": "collect_inferred",
-      "claim": "LinkedIn infers your pay bracket from your job title, your age from graduation dates, your gender from your first name or pronouns, and your interests from your feed activity, for ads.",
+      "claim": "LinkedIn says ad targeting can use inferences such as your pay bracket from your job title, your age from graduation dates, your gender from your first name or pronouns, and your interests from your feed activity.",
       "quote": "using job titles from a profile to infer industry, seniority, and compensation bracket; using graduation dates to infer age or using first names or pronoun usage to infer gender; using your feed activity to infer your interests",
       "line": 146,
       "context": "",
@@ -246,15 +246,6 @@
     {
       "id": "linkedin-26",
       "topic": "share_third_parties",
-      "claim": "Your profile is fully visible to all LinkedIn members and customers.",
-      "quote": "Your profile is fully visible to all Members and customers of our Services.",
-      "line": 198,
-      "context": "",
-      "surprise": 1
-    },
-    {
-      "id": "linkedin-27",
-      "topic": "share_third_parties",
       "claim": "LinkedIn may challenge government or legal demands for your data, but does not promise to challenge every one.",
       "quote": "We may dispute such demands when we believe, in our discretion, that the requests are overbroad, vague or lack proper authority, but we do not promise to challenge every demand.",
       "line": 235,
@@ -262,7 +253,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-28",
+      "id": "linkedin-27",
       "topic": "share_third_parties",
       "claim": "LinkedIn may send your queries to Microsoft's Bing, for example in a chat experience.",
       "quote": "we may refer a query to Bing in some instances, such as where you'd benefit from a more up to date response in a chat experience.",
@@ -271,7 +262,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-29",
+      "id": "linkedin-28",
       "topic": "sell_share_definition",
       "claim": "LinkedIn says it doesn't share your personal data with outside advertisers or ad networks, except hashed IDs or device identifiers, data you permit, or data already visible on LinkedIn.",
       "quote": "We do not share your personal data with any non-Affiliated third-party advertisers or ad networks except for: (i) hashed IDs or device identifiers (to the extent they are personal data in some countries); (ii) with your separate permission",
@@ -281,7 +272,7 @@
       "surprise_why": "The exception for hashed IDs and device identifiers lets advertisers match you, which undercuts the promise."
     },
     {
-      "id": "linkedin-30",
+      "id": "linkedin-29",
       "topic": "sell_share_definition",
       "claim": "LinkedIn says it does not currently share your data with others for their direct marketing without permission.",
       "quote": "We currently do not share personal data with third parties for their direct marketing purposes without your permission.",
@@ -290,7 +281,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-31",
+      "id": "linkedin-30",
       "topic": "sell_share_definition",
       "claim": "This policy does not define \"sell\" or \"share\"; California law disclosures are in a separate document.",
       "quote": "For California residents, additional disclosures required by California law may be found in our California Privacy Disclosure.",
@@ -299,7 +290,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-32",
+      "id": "linkedin-31",
       "topic": "retention",
       "claim": "LinkedIn generally keeps your data, including what others provided and what it inferred about you, for as long as your account is open.",
       "quote": "We generally retain your personal data as long as you keep your account open or as needed to provide you Services. This includes data you or others provided to us and data generated or inferred from your use of our Services.",
@@ -308,7 +299,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-33",
+      "id": "linkedin-32",
       "topic": "retention",
       "claim": "LinkedIn generally deletes closed accounts within 30 days, with exceptions.",
       "quote": "We generally delete closed account information within 30 days of account closure, except as noted below.",
@@ -317,7 +308,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-34",
+      "id": "linkedin-33",
       "topic": "retention",
       "claim": "LinkedIn may keep your data after you close your account for legal, regulatory, dispute, security, or fraud reasons.",
       "quote": "We retain your personal data even after you have closed your account if reasonably necessary to comply with our legal obligations (including law enforcement requests), meet regulatory requirements, resolve disputes, maintain security, prevent fraud and abuse",
@@ -326,7 +317,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-35",
+      "id": "linkedin-34",
       "topic": "retention",
       "claim": "Messages and posts you shared with others stay visible after you close your account or delete them from your profile.",
       "quote": "Information you have shared with others (e.g., through InMail, updates or group posts) will remain visible after you close your account or delete the information from your own profile or mailbox",
@@ -336,7 +327,7 @@
       "surprise_why": "Users expect closing an account to remove what they posted."
     },
     {
-      "id": "linkedin-36",
+      "id": "linkedin-35",
       "topic": "user_controls",
       "claim": "You can ask LinkedIn to delete all or some of your personal data.",
       "quote": "You can ask us to erase or delete all or some of your personal data (e.g., if it is no longer necessary to provide Services to you).",
@@ -345,7 +336,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-37",
+      "id": "linkedin-36",
       "topic": "user_controls",
       "claim": "You can ask for a copy of your data, and for data you provided in a machine-readable form.",
       "quote": "You can ask us for a copy of your personal data and can ask for a copy of personal data you provided in machine readable form.",
@@ -354,7 +345,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-38",
+      "id": "linkedin-37",
       "topic": "user_controls",
       "claim": "You can ask LinkedIn to stop or limit using some or all of your data, for example if it is inaccurate.",
       "quote": "You can ask us to stop using all or some of your personal data (e.g., if we have no legal right to keep using it) or to limit our use of it (e.g., if your personal data is inaccurate or unlawfully held).",
@@ -363,7 +354,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-39",
+      "id": "linkedin-38",
       "topic": "user_controls",
       "claim": "You cannot opt out of service messages such as security and legal notices.",
       "quote": "Please be aware that you cannot opt out of receiving service messages from us, including security and legal notices.",
@@ -372,7 +363,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-40",
+      "id": "linkedin-39",
       "topic": "optout_ads",
       "claim": "You can opt out of LinkedIn using cookie data from other websites for ad targeting.",
       "quote": "You can opt out from our use of data from cookies and similar technologies that track your behavior on the sites of others for ad targeting and other ad-related purposes.",
@@ -381,7 +372,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-41",
+      "id": "linkedin-40",
       "topic": "optout_ads",
       "claim": "Ad settings cover only certain categories of data, not all ad targeting.",
       "quote": "You have choices regarding our uses of certain categories of data to show you more relevant ads.",
@@ -390,7 +381,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-42",
+      "id": "linkedin-41",
       "topic": "optout_ai",
       "claim": "The policy gives no specific way to opt out of AI training; it only says how your data is used depends on your settings.",
       "quote": "How we use your personal data will depend on which Services you use, how you use those Services and the choices you make in your settings.",
@@ -400,7 +391,7 @@
       "surprise_why": "A user who wants to stop AI training gets no direct instructions in the policy."
     },
     {
-      "id": "linkedin-43",
+      "id": "linkedin-42",
       "topic": "optout_ai",
       "claim": "You can withdraw consent or object to processing based on LinkedIn's legitimate interests, but the policy doesn't say whether this covers AI training.",
       "quote": "Where we rely on your consent to process personal data, you have the right to withdraw or decline your consent at any time and where we rely on legitimate interests, you have the right to object.",
@@ -409,7 +400,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-44",
+      "id": "linkedin-43",
       "topic": "optout_steps",
       "claim": "The policy names about 5 separate opt-out places but mostly just links to them (\"here\"): (1) the cookie-based ad tracking opt-out, with separate controls for Visitors; (2) ad-choice settings for Members and Visitors; (3) opting out of profile exports by premium customers; (4) communication preferences; and (5) survey invitations.",
       "quote": "Member settings can be found here. For Visitors, the setting is here.",
@@ -418,7 +409,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-45",
+      "id": "linkedin-44",
       "topic": "optout_steps",
       "claim": "Paying customers' export of your profile is on by default, and the policy says you can opt out but not how.",
       "quote": "such as to manage sales leads or talent, unless you opt-out.",
@@ -428,7 +419,7 @@
       "surprise_why": "Users must find an unnamed setting to stop their profile being exported."
     },
     {
-      "id": "linkedin-46",
+      "id": "linkedin-45",
       "topic": "optout_steps",
       "claim": "You can change communication preferences, but the policy does not say where.",
       "quote": "You may change your communication preferences at any time.",
@@ -437,7 +428,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-47",
+      "id": "linkedin-46",
       "topic": "optout_steps",
       "claim": "Survey invitations have their own opt-out.",
       "quote": "You are not obligated to respond to polls or surveys, and you have choices about the information you provide. You may opt-out of survey invitations.",
@@ -446,7 +437,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-48",
+      "id": "linkedin-47",
       "topic": "sensitive_location",
       "claim": "Your phone sends LinkedIn location data based on your phone settings, and LinkedIn says it will ask you to opt in before using GPS for your precise location.",
       "quote": "If you use our Services from a mobile device, that device will send us data about your location based on your phone settings. We will ask you to opt-in before we use GPS or other tools to identify your precise location.",
@@ -455,7 +446,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-49",
+      "id": "linkedin-48",
       "topic": "sensitive_location",
       "claim": "If you opt in, LinkedIn can use your precise location or nearness to others, for example to tell your connections you are at an event.",
       "quote": "You can also opt-in to allow us to use your precise location or proximity to others for certain tasks (e.g. to suggest other nearby Members for you to connect with, calculate the commute to a new job, or notify your connections that you are at a professional event).",
@@ -464,7 +455,7 @@
       "surprise": 1
     },
     {
-      "id": "linkedin-50",
+      "id": "linkedin-49",
       "topic": "sensitive_health",
       "claim": "Whether to put sensitive information on your profile and make it public is up to you.",
       "quote": "It’s your choice whether to include sensitive information on your profile and to make that sensitive information public. Please do not post or add personal data to your profile that you would not want to be publicly available.",
@@ -473,7 +464,7 @@
       "surprise": 0
     },
     {
-      "id": "linkedin-51",
+      "id": "linkedin-50",
       "topic": "sensitive_health",
       "claim": "LinkedIn says it does not share your job hunting or personal messages with your employer unless you choose to.",
       "quote": "We understand that certain activities such as job hunting and personal messages are sensitive, and so we do not share those with your employer unless you choose to share it",

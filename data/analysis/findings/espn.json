@@ -1,0 +1,338 @@
+{
+  "platform": "ESPN",
+  "key": "espn",
+  "file": "data/text/espn.txt",
+  "findings": [
+    {
+      "id": "espn-01",
+      "topic": "collect_provided",
+      "claim": "When you create an account or enter a promotion, Disney collects details such as your name, country, gender, date of birth, email, username, and password.",
+      "quote": "Registration information you provide when you create an account, enter a promotion, or link your profile on a third-party site or platform with your registration account, such as your first name and surname, country of residence, gender, date of birth, email address, username, and password",
+      "line": 12,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-02",
+      "topic": "collect_provided",
+      "claim": "Disney collects messages you send one-to-one or in small groups through its chat and messaging features, where the law allows.",
+      "quote": "Information sent either one-to-one or within a limited group using our message, chat, post, or similar functionality, where we are permitted by applicable law to collect this information",
+      "line": 15,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may assume private chats are not collected by the company."
+    },
+    {
+      "id": "espn-03",
+      "topic": "collect_provided",
+      "claim": "Disney records calls you make to its reservation centers and guest services lines.",
+      "quote": "Call recordings when you call our reservation centers or other guest services phone numbers.",
+      "line": 21,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-04",
+      "topic": "collect_automatic",
+      "claim": "Disney collects information through cookies, pixels, SDKs, web beacons, and similar tools across its sites and apps, whether or not you are logged in.",
+      "quote": "We collect information through a variety of technologies, such as cookies, Flash cookies, pixels, tags, software development kits, application program interfaces, and Web beacons, including when you visit our sites and applications or use our applications on third-party sites or platforms using one or more devices, whether or not you are logged in or registered.",
+      "line": 25,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-05",
+      "topic": "collect_automatic",
+      "claim": "Disney collects usage, viewing, and device data when you use its sites and apps, open its emails, or connect to its Wi-Fi.",
+      "quote": "Usage, viewing, technical, and device data when you visit our sites, use our applications on third-party sites or platforms, or open emails we send, or connect with our wireless Internet access services",
+      "line": 19,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-06",
+      "topic": "collect_automatic",
+      "claim": "Disney collects activity information about you and about anyone you let use your account, such as profiles on Disney+ or Hulu.",
+      "quote": "Activity information about your use, and the use by any person(s) you authorize through your account (for example, through the creation of profiles under your Disney+ or Hulu account), of our sites and applications, such as the content you view or post",
+      "line": 18,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-07",
+      "topic": "collect_third_party",
+      "claim": "Disney gets information from unnamed 'trusted sources' to update or add to what you gave it or what it collected automatically.",
+      "quote": "We acquire information from other trusted sources to update or supplement the information you provided or we collected automatically, such as when we validate postal address information using third party services.",
+      "line": 27,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-08",
+      "topic": "collect_third_party",
+      "claim": "Disney gets information from third parties such as platform providers about your use of its apps on their platforms or devices.",
+      "quote": "Information we obtain from a third party, such as a site or platform provider, about use of our applications on third-party platforms or devices",
+      "line": 16,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-09",
+      "topic": "use_ads",
+      "claim": "To show you ads on other sites and apps, Disney may share limited personal information such as identifiers or your hashed email address with third parties.",
+      "quote": "When we provide you with relevant advertising on third-party sites and applications, we may share limited personal information about you, such as certain identifiers or hashed email address, with third parties.",
+      "line": 47,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their email, even hashed, to be shared with others for ad targeting."
+    },
+    {
+      "id": "espn-10",
+      "topic": "use_ads",
+      "claim": "Disney may use your information to send you offers and promotions for its own and other companies' products.",
+      "quote": "Send you offers and promotions for our products and services or third-party products and services",
+      "line": 33,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-11",
+      "topic": "use_personalization",
+      "claim": "Disney may use your information to personalise content, but explains its personalisation and tracking on a separate 'Online Tracking Technologies and Advertising' page, not in this policy.",
+      "quote": "to learn more about how we use your information for personalization and tracking, please visit Online Tracking Technologies and Advertising.",
+      "line": 35,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-12",
+      "topic": "use_research",
+      "claim": "Disney may use your information to understand, develop, and improve its sites, products, and operations, including through guest survey research and analytics tools.",
+      "quote": "Operate, understand, optimize, develop, or improve our sites, applications, products, services and operations, including by using guest survey research and analytics tools",
+      "line": 36,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-13",
+      "topic": "use_research",
+      "claim": "Disney services may include Nielsen digital measurement research, which people who are not Nielsen panelists can choose to limit.",
+      "quote": "Choosing to limit participation in Nielsen digital measurement research where applicable (for non-Panelists)",
+      "line": 77,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People who never signed up with Nielsen may not expect to be part of its measurement research unless they act."
+    },
+    {
+      "id": "espn-14",
+      "topic": "share_third_parties",
+      "claim": "Other Disney companies may access your information to provide services and, unless the law forbids it, use it for their own purposes described in the policy.",
+      "quote": "Other members of The Walt Disney Family of Companies may access your information where they perform services on behalf of the data controllers (as data processors) and, unless prohibited under applicable law, for use on their own behalf (as data controllers) for the purposes described in this policy.",
+      "line": 30,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "ESPN users may not expect their data to be available across the whole Disney group, such as parks, Disney+, and Hulu."
+    },
+    {
+      "id": "espn-15",
+      "topic": "share_third_parties",
+      "claim": "Disney says it will not share your personal information outside the Disney companies except in 'limited circumstances', which include advertising, service providers, and legal reasons.",
+      "quote": "We will not share your personal information with a third party outside The Walt Disney Family of Companies except in limited circumstances, including:",
+      "line": 41,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-16",
+      "topic": "share_third_parties",
+      "claim": "Hulu may share information with partners like content programmers and device partners, and with your consent may share your viewing information with other third parties.",
+      "quote": "Hulu may share information with its business partners that help offer the Hulu service, including for example, its content programmers, distributors and device partners, and corporate owners; with your consent, Hulu may also share your viewing information together with certain personal information with these and other third parties",
+      "line": 50,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-17",
+      "topic": "share_third_parties",
+      "claim": "Once Disney shares your information with another company, that company controls it under its own privacy practices.",
+      "quote": "once we share your personal information with another company in the above circumstances, the information received by the other company is controlled by that company and becomes subject to its privacy practices.",
+      "line": 52,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-18",
+      "topic": "sell_share_definition",
+      "claim": "Disney never says outright whether it sells or shares data; it offers US residents an opt-out from 'sale or sharing' as those terms are defined by law.",
+      "quote": "request to opt out of targeted advertising and/or the sale or sharing of your personal information (as defined under applicable laws and regulations)",
+      "line": 118,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-19",
+      "topic": "sell_share_definition",
+      "claim": "Disney says it does not share your personal information with other companies for their own direct marketing unless you choose to allow it.",
+      "quote": "We do not share guests’ personal information with third parties for their direct marketing use unless a guest elects that we do so",
+      "line": 75,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-20",
+      "topic": "retention",
+      "claim": "Disney keeps your personal information as long as needed for the policy's purposes, or longer if the law requires or permits it.",
+      "quote": "We will retain your personal information for the length of time needed to fulfill the purposes outlined in this privacy policy unless a longer retention period is required or permitted by law.",
+      "line": 100,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-21",
+      "topic": "user_controls",
+      "claim": "You can request information about how your data is used and shared, and ask for access, correction, or deletion, through Disney's Data Subject Rights Portal.",
+      "quote": "Requesting information about our use and sharing of your personal information, as well as access to, correction of, and deletion of your personal information",
+      "line": 60,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-22",
+      "topic": "user_controls",
+      "claim": "In your MyDisney account you can update contact details, reset your password, delete your account, and manage your child's account.",
+      "quote": "Updating or correcting the contact information you gave us, resetting your password, or deleting your registration account",
+      "line": 68,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-23",
+      "topic": "user_controls",
+      "claim": "Privacy settings you chose on a third-party platform do not apply to the data Disney collects directly through its apps there.",
+      "quote": "Privacy choices you have made on the third-party site or platform will not apply to our use of the information we have collected directly through our applications.",
+      "line": 5,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may assume their platform-level privacy settings also limit the apps they use on that platform."
+    },
+    {
+      "id": "espn-24",
+      "topic": "user_controls",
+      "claim": "Depending on your US state, you may be able to request a list of the specific third parties Disney has disclosed your data to.",
+      "quote": "request a list of the specific third parties to which we have disclosed personal data (as such terms are defined under applicable laws and regulations)",
+      "line": 116,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-25",
+      "topic": "optout_ads",
+      "claim": "To control targeted advertising, sale or sharing of data, and cookies, you click one of several differently named links in website footers or app settings, where available.",
+      "quote": "Click on “Do Not Sell or Share My Personal Information”, “Your Privacy Controls”, “Manage Your Cookies Settings”, “Modify Your Cookie Preferences” or “Manage (Privacy) Preferences” in our website footers or application settings, where available, to make or update your election.",
+      "line": 66,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-26",
+      "topic": "optout_steps",
+      "claim": "The policy describes about six separate places to opt out (the footer or app-settings privacy link on each site or app, the separate Online Tracking Technologies page for cookies, Nielsen's own site, Hulu's and Disney+'s 'Manage Nielsen Measurement' settings, and a US State Privacy Rights page), and Nielsen measurement needs extra steps beyond the ad opt-out.",
+      "quote": "In addition to the choices referenced above in Managing Your Preferences Regarding Targeted Advertising, Sale or Sharing of Data, and Cookies, you may also Log into Nielsen’s Digital Measurement site",
+      "line": 78,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-27",
+      "topic": "optout_steps",
+      "claim": "To limit Nielsen ad ratings on Hulu, you must log into Hulu on a computer and click 'Manage Nielsen Measurement'.",
+      "quote": "Log into Hulu on your computer and click “Manage Nielsen Measurement” on your Hulu Account Page",
+      "line": 80,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-28",
+      "topic": "optout_steps",
+      "claim": "To limit Nielsen ad ratings on Disney+, you must separately log into Disney+ on a computer and use 'Manage Nielsen Measurement'.",
+      "quote": "Log into Disney+ on your computer and clicking “Manage Nielsen Measurement” on your Disney+ Account page",
+      "line": 82,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-29",
+      "topic": "optout_steps",
+      "claim": "For cookies and Do Not Track, the policy only points to a separate 'Online Tracking Technologies and Advertising' page.",
+      "quote": "Please visit Online Tracking Technologies and Advertising for further information, including Do Not Track and how to disable cookies and otherwise make choices with respect to such data collection.",
+      "line": 25,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-30",
+      "topic": "sensitive_location",
+      "claim": "Disney may collect your precise or approximate location from your device, including through beacons at its physical properties, or from your IP address.",
+      "quote": "Location information, including precise or approximate location information provided by a mobile or other device interacting with one of our sites, applications, or physical properties (including through beacon technologies), or associated with your IP address or other online or device identifier, where we are permitted by law to process this information",
+      "line": 17,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Visitors may not expect beacons at parks or stores to track their precise location."
+    },
+    {
+      "id": "espn-31",
+      "topic": "sensitive_biometric",
+      "claim": "Disney collects still and video images captured by cameras or readers at its physical properties; the policy does not say whether these are used for facial recognition.",
+      "quote": "Still or video images captured by cameras or readers on or around our physical properties",
+      "line": 20,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-32",
+      "topic": "sensitive_biometric",
+      "claim": "You may give Disney information by voice command; the policy does not say how voice data is treated.",
+      "quote": "You may provide information in a variety of ways, including by typing or using voice commands.",
+      "line": 24,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "espn-33",
+      "topic": "sensitive_children",
+      "claim": "Some Disney features are age-gated and it says it does not knowingly collect children's information through them, but the policy gives no minimum age.",
+      "quote": "Some of the features on our sites and applications are age-gated so that they are not available for use by children, and we do not knowingly collect personal information from children in connection with those features.",
+      "line": 92,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "espn-34",
+      "topic": "sensitive_children",
+      "claim": "Disney seeks parental consent before collecting children's information or sending information about its products directly to children.",
+      "quote": "In accordance with applicable law, and our practices, obtaining consent from parents for the collection of personal information from their children, or for sending information about our products and services directly to their children",
+      "line": 94,
+      "context": "",
+      "surprise": 1
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "collect_inferred",
+      "searched": "infer, inference, derive, predict, segment, profile (only Disney+/Hulu profiles), interests (only in passing at lines 71 and 89)"
+    },
+    {
+      "topic": "use_ai_training",
+      "searched": "AI, artificial intelligence, machine learning, model, train, algorithm, generative, automated"
+    },
+    {
+      "topic": "optout_ai",
+      "searched": "AI, artificial intelligence, machine learning, model, train, opt out"
+    },
+    {
+      "topic": "sensitive_health",
+      "searched": "health, medical, fitness, sensitive, disability, reproductive, sexual, religion, ethnic, racial, biometric"
+    }
+  ],
+  "notes": "This is the Disney-wide privacy policy (The Walt Disney Family of Companies, last modified 09/30/2025) that covers ESPN along with parks, cruises, stores, Disney+, and Hulu; it is not ESPN-specific. Key details (tracking and ads, US state rights, EU and Brazil rights, children's policy) are deferred to linked pages, and the controls table at lines 56-88 was flattened to one cell per line. The 'Definitions' section at the end is empty in the saved text, so the definitions of personal, anonymous, and aggregate information are missing."
+}

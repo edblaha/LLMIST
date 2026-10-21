@@ -1,0 +1,426 @@
+{
+  "platform": "TikTok",
+  "key": "tiktok",
+  "file": "data/text/tiktok.txt",
+  "findings": [
+    {
+      "id": "tiktok-01",
+      "topic": "collect_provided",
+      "claim": "TikTok may collect videos and other content you create or import before you post them, even if you never save or publish them.",
+      "quote": "We may collect user content through pre-uploading at the time of creation, import, or upload, regardless of whether you choose to save or publish that user content",
+      "line": 13,
+      "context": "",
+      "surprise": 3,
+      "surprise_why": "Most people assume a draft they abandon never leaves their phone."
+    },
+    {
+      "id": "tiktok-02",
+      "topic": "collect_provided",
+      "claim": "TikTok collects text and images from your device's clipboard when you use certain functions, such as sharing to other services or pasting into the app.",
+      "quote": "Clipboard content, such as text and images, accessed through your device's clipboard when you choose to use certain functions such as initiating information sharing with third-party services, or copying and pasting clipboard content onto our apps and websites.",
+      "line": 16,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users rarely think of their clipboard, which may hold passwords or private text, as something an app collects."
+    },
+    {
+      "id": "tiktok-03",
+      "topic": "collect_provided",
+      "claim": "TikTok collects the prompts, questions, and files you submit to its AI features, along with the AI's responses.",
+      "quote": "AI interactions, including prompts, questions, files, and other types of information that you submit to our AI-powered interfaces, as well as the responses they generate.",
+      "line": 15,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-04",
+      "topic": "collect_provided",
+      "claim": "If you sync contacts, TikTok collects names, phone numbers, and email addresses from your phone book and social network friends list and matches them to TikTok accounts.",
+      "quote": "If you choose to sync your contacts, we will collect information, such as names, phone numbers, and email addresses from your device’s phone book, and friends list from your social network, and match that information to users who have TikTok accounts.",
+      "line": 18,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-05",
+      "topic": "collect_automatic",
+      "claim": "TikTok collects technical data including your keystroke patterns or rhythms and may use device and user IDs to link your activity across devices.",
+      "quote": "keystroke patterns or rhythms, battery state, audio settings and connected audio devices. We automatically assign device IDs and user IDs, and may use this and other information to identify your activity across devices.",
+      "line": 29,
+      "context": "",
+      "surprise": 3,
+      "surprise_why": "Recording how you type is a behavioural fingerprint most users would never expect a video app to collect."
+    },
+    {
+      "id": "tiktok-06",
+      "topic": "collect_automatic",
+      "claim": "TikTok collects some information about what you do on outside websites you open in its in-app browser.",
+      "quote": "We also collect certain information about your interactions with websites when you use our in-app browser.",
+      "line": 28,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may think a website opened from a link is separate from TikTok, but their activity there can be collected."
+    },
+    {
+      "id": "tiktok-07",
+      "topic": "collect_automatic",
+      "claim": "TikTok automatically collects metadata about your content, messages, and AI prompts, such as how, when, where, and by whom they were created or sent.",
+      "quote": "Metadata that is automatically uploaded in connection with your user content, messages, or AI interactions, such as how, when, where, and by whom the user content was created, or message or prompt was sent.",
+      "line": 32,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-08",
+      "topic": "collect_inferred",
+      "claim": "TikTok uses your information to infer additional things about you, such as your age, gender, and interests.",
+      "quote": "To infer additional information about you, such as your age, gender, and interests.",
+      "line": 53,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People may not realise TikTok guesses personal traits like gender and age rather than only using what they tell it."
+    },
+    {
+      "id": "tiktok-09",
+      "topic": "collect_inferred",
+      "claim": "TikTok may analyse what appears and is said in your videos for purposes including demographic classification and content and ad recommendations.",
+      "quote": "We may collect this information to enable special video effects, for content moderation, for demographic classification, for content and ad recommendations, and for other non-personally-identifying operations.",
+      "line": 31,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect the contents of their videos, including faces and bodies, to be analysed to classify them demographically."
+    },
+    {
+      "id": "tiktok-10",
+      "topic": "collect_inferred",
+      "claim": "TikTok says it does not use profiling that leads to legal or similarly significant effects, as legally defined.",
+      "quote": "We do not engage in profiling which results in legal or similarly significant effects, as defined under applicable law.",
+      "line": 62,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-11",
+      "topic": "collect_third_party",
+      "claim": "Advertisers and other partners tell TikTok what you do outside TikTok, including pages you visit, things you buy, and apps you download.",
+      "quote": "Advertisers, publishers, and measurement and other partners provide us with information about you and the actions you have taken outside of our websites and apps, including the pages you visit, products or services you purchase, and apps you download.",
+      "line": 38,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Many users do not know TikTok receives data about their activity on other websites and apps."
+    },
+    {
+      "id": "tiktok-12",
+      "topic": "collect_third_party",
+      "claim": "Through tools like the TikTok Pixel, some advertisers let TikTok collect information directly from their own websites and apps.",
+      "quote": "Some of our advertisers and other partners enable us to collect similar information directly from their websites or apps by integrating our TikTok Advertiser Tools (such as TikTok Pixel).",
+      "line": 38,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People visiting an unrelated shopping site would not expect TikTok to be collecting data there."
+    },
+    {
+      "id": "tiktok-13",
+      "topic": "collect_third_party",
+      "claim": "TikTok may get information about you from professional organisations, businesses, government authorities, and public sources.",
+      "quote": "We may also collect or receive information about you from professional organizations, businesses, government authorities, and others, including publicly-available sources.",
+      "line": 42,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-14",
+      "topic": "collect_third_party",
+      "claim": "Even people without a TikTok account may have information about them appear in content that users post.",
+      "quote": "Even if you are not a user, information about you may appear in user content created or published by users on our apps and websites.",
+      "line": 13,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-15",
+      "topic": "use_ads",
+      "claim": "Partners give TikTok advertising IDs, hashed email addresses and phone numbers, and cookie IDs, which TikTok uses to measure ads and better target ads to you.",
+      "quote": "These partners also provide information such as mobile identifiers for advertising, hashed email addresses and phone numbers, and cookie identifiers, which we use to help measure the effectiveness of ads we serve and to better deliver ads to you on our websites and apps",
+      "line": 38,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not realise their email or phone number, even hashed, is used to match them for ads."
+    },
+    {
+      "id": "tiktok-16",
+      "topic": "use_ads",
+      "claim": "TikTok and its partners use cookies, pixels, SDKs, and similar tools to measure your use, provide you with advertising, and promote TikTok on other websites and apps.",
+      "quote": "that we and our service providers and business partners use to provide certain features and functionalities, including to measure and analyze how you use the Services, including which pages you view most often and how you interact with content; enhance your experience using the Services; improve the Services; provide you with advertising; and promote the Services on other websites and apps.",
+      "line": 33,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-17",
+      "topic": "use_personalization",
+      "claim": "TikTok uses your information to personalise features and content, including your For You feed.",
+      "quote": "To personalize and customize certain features and content, such as providing your “For You” feed and content creation tools.",
+      "line": 48,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-18",
+      "topic": "use_personalization",
+      "claim": "TikTok uses your information, including through its Find Friends function, to suggest accounts to you and to suggest your account to other people.",
+      "quote": "To support the social functions of the Services, including to permit you and others to connect with each other (for example, through our Find Friends function), to suggest accounts to you and suggest your account to others",
+      "line": 52,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-19",
+      "topic": "use_research",
+      "claim": "To improve and develop its services and conduct research, TikTok monitors your activity across devices and scans and reviews your content, messages, and AI interactions.",
+      "quote": "monitoring your activity and usage across the devices you use to access the Services; and scanning, analyzing, and reviewing user content, messages, AI interactions, and associated metadata.",
+      "line": 47,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People generally assume their private messages are not scanned for product development and research."
+    },
+    {
+      "id": "tiktok-20",
+      "topic": "use_ai_training",
+      "claim": "TikTok uses the information it collects to train, test, and improve machine learning models and algorithms.",
+      "quote": "To review, support, improve, and develop the Services, and train, test, and improve technology, such as machine learning models and algorithms, including by analyzing how people are using the Services",
+      "line": 47,
+      "context": "The same purpose explicitly includes scanning and reviewing user content, messages, AI interactions, and metadata.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their videos, messages, and AI chats to feed into training TikTok's models."
+    },
+    {
+      "id": "tiktok-21",
+      "topic": "share_third_parties",
+      "claim": "Advertising, marketing, and analytics partners may receive information you provide, information collected automatically, and information from other sources.",
+      "quote": "Advertising, marketing, and analytics partners, who may receive certain Information You Provide , Automatically Collected Information , and Information From Other Sources for the purpose of providing their services.",
+      "line": 72,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-22",
+      "topic": "share_third_parties",
+      "claim": "TikTok's US joint venture shares information with TT Commerce & Global Services LLC and its affiliates to provide a global, interoperable experience and for other permitted business purposes.",
+      "quote": "TT Commerce & Global Services LLC and its affiliates (“TT Commerce & Global Services”), to facilitate a global and interoperable experience, and for other permitted business purposes.",
+      "line": 69,
+      "context": "The policy says only specific categories are shared, consistent with law including Executive Order 14352.",
+      "surprise": 2,
+      "surprise_why": "US users may assume the US joint venture keeps their data separate from TikTok's global companies."
+    },
+    {
+      "id": "tiktok-23",
+      "topic": "share_third_parties",
+      "claim": "TikTok may share some of your information with qualifying outside researchers.",
+      "quote": "We may share certain of your information with qualifying researchers to facilitate independent research.",
+      "line": 90,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-24",
+      "topic": "share_third_parties",
+      "claim": "With a public account, anyone, even people without TikTok, can view or share your profile and posts, and they may appear on search engines and news sites.",
+      "quote": "your account information and user content can be viewed or shared by anyone, whether or not they have a TikTok account, and may also appear on search engines, content aggregators, and news sites.",
+      "line": 87,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-25",
+      "topic": "sell_share_definition",
+      "claim": "TikTok says it does not sell your personal information or share it for cross-context behavioural advertising 'where restricted by applicable law', which limits the promise to places where the law restricts it.",
+      "quote": "while we do not sell your personal information or share your personal information with third parties for purposes of cross-context behavioral advertising where restricted by applicable law",
+      "line": 65,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "The qualifier means the promise may not hold everywhere, and the policy does not define 'sell' or 'share' further."
+    },
+    {
+      "id": "tiktok-26",
+      "topic": "retention",
+      "claim": "TikTok keeps information as long as necessary to provide its services and for the other purposes in the policy, without giving fixed time limits.",
+      "quote": "We retain information for as long as necessary to provide the Services and for the other purposes set out in this Privacy Policy.",
+      "line": 106,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-27",
+      "topic": "retention",
+      "claim": "TikTok also keeps information when it has a legitimate business interest, such as improving and developing its services, and for legal reasons.",
+      "quote": "We also retain information when necessary to comply with contractual and legal obligations, when we have a legitimate business interest to do so (such as improving and developing the Services, and enhancing its safety, security and stability), and for the exercise or defense of legal claims.",
+      "line": 106,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Keeping data for TikTok's own product development, with no time limit stated, goes beyond what users would expect."
+    },
+    {
+      "id": "tiktok-28",
+      "topic": "retention",
+      "claim": "If you break TikTok's rules, it may remove you right away but keep information about you to process the violation.",
+      "quote": "If you violate our Terms of Service , Community Guidelines , or other conditions or policies, we may remove you from the Services immediately, but may keep information about you to process the violation.",
+      "line": 107,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-29",
+      "topic": "user_controls",
+      "claim": "In the app settings you can update your account information, request a copy of your data, or deactivate or delete your account.",
+      "quote": "Through your in-app settings, you can directly update your account information, request a copy of your data, or deactivate or delete your account by following the instructions for deactivation here or deletion here .",
+      "line": 96,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-30",
+      "topic": "user_controls",
+      "claim": "You can ask TikTok to tell you, give you access to, correct, or delete the information it holds about you, online or by mail.",
+      "quote": "You may submit a request to know, access, correct or delete the information we have collected from or about you here or by sending your request to the physical address provided",
+      "line": 96,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-31",
+      "topic": "optout_ads",
+      "claim": "Account holders can use the 'Ads' section of in-app settings to manage how their activity elsewhere online is used to show them ads on TikTok.",
+      "quote": "If you have a TikTok account, you can navigate to “Ads” in your in-app settings to manage how your activity elsewhere online is used to serve you ads on our websites and apps.",
+      "line": 101,
+      "context": "The policy says 'manage', not 'opt out', and mentions no 'Do Not Sell/Share' link or Global Privacy Control.",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-32",
+      "topic": "optout_ads",
+      "claim": "TikTok currently does not respond to Do Not Track signals from browsers.",
+      "quote": "Some browsers transmit “do-not-track” signals to websites. Because of differences in how browsers incorporate and activate this feature, we currently do not take action in response to these signals.",
+      "line": 100,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-33",
+      "topic": "optout_steps",
+      "claim": "The policy describes five separate opt-out actions (browser cookie settings, the in-app 'Ads' settings, a webform or ad notice for people without accounts, device permission settings, and email unsubscribe links), and cookie choices must be repeated in each browser.",
+      "quote": "your choice to disable cookies is specific to the particular browser that you are using when you disable cookies, so you may need to separately disable cookies for each type of browser.",
+      "line": 100,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-34",
+      "topic": "optout_steps",
+      "claim": "People without a TikTok account can manage TikTok Ad Network ads shown elsewhere online through a webform or the ad notice shown with those ads.",
+      "quote": "If you do not have a TikTok account, you can manage the ads that TikTok Ad Network serves elsewhere online using the webform here , or through the ad notice that appears along with ads that are delivered by the TikTok Ad Network.",
+      "line": 101,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-35",
+      "topic": "optout_steps",
+      "claim": "Your device settings may limit what TikTok collects, for example whether it can access your phone contacts.",
+      "quote": "Your device may have controls that determine what Information We Collect . For example, you can control whether we access your phone contacts in your device settings.",
+      "line": 101,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-36",
+      "topic": "optout_steps",
+      "claim": "You can stop marketing emails with the unsubscribe link in those emails.",
+      "quote": "You can opt out of receiving marketing emails by using the “unsubscribe” link or mechanism noted in those emails.",
+      "line": 102,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-37",
+      "topic": "sensitive_location",
+      "claim": "If you turn on location services for TikTok in your device settings, TikTok collects your approximate or precise location.",
+      "quote": "if you choose to enable location services for the TikTok app within your device settings, we collect approximate or precise location information from your device.",
+      "line": 30,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-38",
+      "topic": "sensitive_location",
+      "claim": "Even without location services, TikTok collects your approximate location from your SIM card region, IP address, and device settings.",
+      "quote": "Location information about your approximate location based on your device and network information, such as SIM card region, IP address, and device system settings.",
+      "line": 30,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-39",
+      "topic": "sensitive_biometric",
+      "claim": "TikTok may collect biometric identifiers such as faceprints and voiceprints from your content, asking permission only where the law requires it.",
+      "quote": "We may collect biometric identifiers and biometric information as defined under US laws, such as faceprints and voiceprints, from your user content. Where required by law, we will seek any required permissions from you prior to any such collection.",
+      "line": 31,
+      "context": "",
+      "surprise": 3,
+      "surprise_why": "Most users would be alarmed that a video app may collect faceprints and voiceprints, with consent only where legally required."
+    },
+    {
+      "id": "tiktok-40",
+      "topic": "sensitive_biometric",
+      "claim": "TikTok analyses your videos, images, and audio to identify objects and scenery, where faces and body parts appear, and the words you speak.",
+      "quote": "Content characteristics and features, including about the videos, images and audio recordings that are part of your user content, for example, by identifying objects and scenery; the existence and location of a face and other body parts; and the text of words spoken in your user content.",
+      "line": 31,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People may not realise their videos are automatically analysed for faces, bodies, and speech."
+    },
+    {
+      "id": "tiktok-41",
+      "topic": "sensitive_health",
+      "claim": "Information you give TikTok may include sensitive personal information, such as a health diagnosis or sexual orientation, which TikTok says it processes as allowed under state privacy laws.",
+      "quote": "Information You Provide may include sensitive personal information, as defined under applicable state privacy laws. We process such information in accordance with applicable law, such as to provide the Services and other permitted purposes under state privacy laws",
+      "line": 23,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-42",
+      "topic": "sensitive_health",
+      "claim": "TikTok handles 'consumer health data' under a separate Consumer Health Data Privacy Policy rather than this policy.",
+      "quote": "For information about how we collect, use, share, and otherwise process consumer health data as defined under Washington’s My Health My Data Act and other similar state laws, please refer to the Consumer Health Data Privacy Policy",
+      "line": 4,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "tiktok-43",
+      "topic": "sensitive_children",
+      "claim": "Children under 13 in the US (and 13-year-olds in Florida) get a separate experience in which TikTok says it collects only limited information.",
+      "quote": "We provide a separate experience for users under age 13 (“Child” or “Children”) (as well as users who are 13 years old in Florida) in the United States, in which we collect and process only limited information.",
+      "line": 111,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "tiktok-44",
+      "topic": "sensitive_children",
+      "claim": "Parents can ask TikTok to delete their child's account or download the child's data, and in some states can exercise rights over a teen's account.",
+      "quote": "As a parent or guardian, you can also request to delete the account of your Child or to download their data",
+      "line": 113,
+      "context": "",
+      "surprise": 0
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "optout_ai",
+      "searched": "opt out, opt-out, object, AI, artificial intelligence, machine learning, model, train, settings (training is described but no way to opt out is given)"
+    }
+  ],
+  "notes": "US privacy policy (last updated July 15, 2026) for services run by TikTok USDS Joint Venture LLC, including TikTok Ad Network; it references Executive Order 14352 for sharing with TT Commerce & Global Services. Children under 13, teens, and consumer health data are partly covered by separate linked policies. It mentions no 'Do Not Sell/Share' link or Global Privacy Control, and ignores Do Not Track."
+}
