@@ -15,6 +15,7 @@ _Where each dataset or document came from (URL or path, date retrieved, version)
 - **2026-10-21** — Started privacy-policy collection (15 platforms). Meta: target URL https://www.facebook.com/privacy/policy/ — not yet retrieved.
 - **2026-10-21** — Meta: saved https://opensource.fb.com/legal/privacy/ (HTTP 200, 10.7 KB) → data/raw/meta.html, data/text/meta.txt. Stated "Effective April 25, 2023". Scope is Meta open-source websites only, not the main Facebook/Instagram privacy policy.
 - **2026-10-21** — Meta (main policy): saved user-uploaded browser copy of the printable policy (saved-from URL https://mbasic.facebook.com/privacy/policy/printable/version/26776488768644674/, 296 KB) → data/raw/meta.html, data/text/meta.txt. Stated "Effective July 23, 2026". The open-source policy files were renamed to data/raw/meta_opensource.html and data/text/meta_opensource.txt (not deleted).
+- **2026-10-21** — Remaining 14 pages fetched sequentially with curl (Chrome UA) into scratchpad before the split. Target URLs: X https://x.com/en/privacy; Strava https://www.strava.com/legal/privacy; Google https://policies.google.com/privacy?hl=en-US; OpenAI https://openai.com/policies/privacy-policy/; Reddit https://www.reddit.com/policies/privacy-policy; TikTok https://www.tiktok.com/legal/page/us/privacy-policy/en; Wikipedia https://foundation.wikimedia.org/wiki/Policy:Privacy_policy; Weather.com https://weather.com/en-US/twc/privacy-policy (redirected to trust.weather.com); ESPN homepage https://www.espn.com/ (to locate policy link); DuckDuckGo https://duckduckgo.com/privacy; GitHub https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement; Amazon https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ; eBay https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260; LinkedIn https://www.linkedin.com/legal/privacy-policy.
 
 ## Collection problems and workarounds
 
@@ -27,6 +28,8 @@ _What broke while gathering data and how it was handled._
 - **2026-10-21** — Meta (main policy): user uploaded a browser-saved HTML of https://www.facebook.com/privacy/policy/ (361 KB, title "Meta Privacy Policy - How Meta collects and uses user data", canonical URL confirmed). It contains no policy text: body is a single empty div plus 67 script tags, 11 words of visible text total, and no policy phrases in the scripts. The page is rendered by JavaScript and the save captured only the unrendered shell. Not saved to data/raw/; kept in scratchpad. Paused for user decision.
 - **2026-10-21** — Meta workaround that worked: user saved the printable version of the policy from their browser and uploaded it (.htm). Unlike the 1st upload, it contains the rendered text.
 - **2026-10-21** — Logging note: a shell quoting error stopped the logging command partway; the remaining entries for this step were added in a second pass. No data was affected.
+- **2026-10-21** — Initial fetch results: 12 returned HTTP 200 (content not yet validated); OpenAI HTTP 403 (5.2 KB); ESPN homepage HTTP 202 (2 KB, likely bot challenge).
+- **2026-10-21** — Claude error: the first subagent was launched with a placeholder instead of its instructions. It was stopped immediately; git status confirmed it wrote nothing. Relaunched with full instructions.
 
 ## Permissions I approved or denied
 
@@ -44,6 +47,8 @@ _Choices about scope, cleaning, methods, and interpretation, with the reason._
 - **2026-10-21** — Collection setup: originals go in data/raw/, cleaned text (BeautifulSoup: drop script/style/nav/header/footer, keep headings, paragraphs, list items) in data/text/, metadata in data/sources.csv (platform, url, retrieval_date, policy_last_updated, method, status). Platforms done one at a time; on any failure, stop and report before a workaround.
 - **2026-10-21** — User chose https://opensource.fb.com/legal/privacy/ as the Meta source. Claude flagged that it covers only Meta open-source websites; recorded the scope in sources.csv status. Not yet decided whether it should be replaced by the main Meta Products policy for comparison.
 - **2026-10-21** — Made the main Meta Products policy the "Meta" row and kept the open-source websites policy as a separate row, "Meta (open-source sites)". Claude proposed this; the user did not explicitly confirm it before uploading the main policy. Repeated lines in the cleaned Meta text (e.g. 19x "Information categories we use...") come from the policy's per-purpose tables and were left in, not de-duplicated.
+- **2026-10-21** — Collection mode changed per user: process remaining platforms automatically; on a failure, do not try workarounds, collect the failures and ask the user for a copy at the end.
+- **2026-10-21** — Per user request, checking/cleaning/date extraction split across 4 parallel subagents (X/Strava/Google; Reddit/TikTok/Wikipedia; Weather.com/ESPN/DuckDuckGo/OpenAI; GitHub/Amazon/eBay/LinkedIn). Each writes only its own data/raw and data/text files; the main session alone edits sources.csv, this log, and git, to avoid conflicting writes. Subagents told not to attempt workarounds, except ESPN may make one first attempt at its official policy URL (its homepage was fetched only to find the link).
 
 ## Prompts I used
 
@@ -58,6 +63,8 @@ _Prompts given to Claude, verbatim or closely paraphrased._
 - **2026-10-21** — User reply to the Meta failure: "https://opensource.fb.com/legal/privacy/"
 - **2026-10-21** — User uploaded file: Meta_Privacy_Policy_-_How_Meta_collects_and_uses_user_data___Privacy_Center___...___Facebook_Privacy.html (no accompanying text).
 - **2026-10-21** — User uploaded file: Meta_Privacy_Policy_-_How_Meta_collects_and_uses_user_data.htm (no accompanying text).
+- **2026-10-21** — User: "Keep going through automatically and if it fails request from me"
+- **2026-10-21** — User (mid-step): "Do parallel processing with subagents if you can"
 
 ## Verification checks
 
