@@ -1,0 +1,512 @@
+{
+  "platform": "Google",
+  "key": "google",
+  "file": "data/text/google.txt",
+  "findings": [
+    {
+      "id": "google-01",
+      "topic": "collect_provided",
+      "claim": "Google collects the content you create, upload or receive from others, such as emails you write and receive, photos and videos, documents, and YouTube comments.",
+      "quote": "We also collect the content you create, upload, or receive from others when using our services. This includes things like email you write and receive, photos and videos you save, docs and spreadsheets you create, and comments you make on YouTube videos.",
+      "line": 21,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-02",
+      "topic": "collect_provided",
+      "claim": "A Google Account requires your name and a password; you can choose to add a phone number or payment information.",
+      "quote": "When you create a Google Account, you provide us with personal information that includes your name and a password. You can also choose to add a phone number or payment information to your account.",
+      "line": 20,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-03",
+      "topic": "collect_automatic",
+      "claim": "Android devices with Google apps regularly contact Google's servers on their own, sending information like device type, carrier, crash reports and which apps you've installed.",
+      "quote": "If you’re using an Android device with Google apps , your device periodically contacts Google servers to provide information about your device and connection to our services. This information includes things like your device type and carrier name , crash reports, which apps you've installed",
+      "line": 28,
+      "context": "Depending on device settings, it can also include other information about how you use the device.",
+      "surprise": 2,
+      "surprise_why": "Many users don't realize their phone reports to Google periodically, including the list of installed apps, without any action on their part."
+    },
+    {
+      "id": "google-04",
+      "topic": "collect_automatic",
+      "claim": "If you use Google calling or messaging services, Google may collect call and message logs, including phone numbers involved, forwarding numbers, email senders and recipients, times and call durations.",
+      "quote": "we may collect call and message log information like your phone number, calling-party number, receiving-party number, forwarding numbers, sender and recipient email address, time and date of calls and messages, duration of calls",
+      "line": 40,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-05",
+      "topic": "collect_automatic",
+      "claim": "Google may measure how you move your mouse over an ad and how you interact with the page where the ad appears.",
+      "quote": "We may also measure other interactions, such as how you move your mouse over an ad or if you interact with the page on which the ad appears.",
+      "line": 474,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Few people expect their mouse movements around ads to be measured."
+    },
+    {
+      "id": "google-06",
+      "topic": "collect_inferred",
+      "claim": "Google guesses topics you might be interested in from your activity and uses them to show you personalized ads.",
+      "quote": "When showing you personalized ads, we use topics that we think might be of interest to you based on your activity.",
+      "line": 424,
+      "context": "You can see and modify these interests in My Ad Center.",
+      "surprise": 1
+    },
+    {
+      "id": "google-07",
+      "topic": "collect_inferred",
+      "claim": "Google uses the data it collects to work out things like which ads you'll find most useful, which people matter most to you online, and which videos you might like.",
+      "quote": "to more complex things like which ads you’ll find most useful , the people who matter most to you online , or which YouTube videos you might like.",
+      "line": 15,
+      "context": "The example given is Gmail suggesting the addresses you contact most often.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect Google to work out who the most important people in their lives are."
+    },
+    {
+      "id": "google-08",
+      "topic": "collect_third_party",
+      "claim": "Even in Chrome's Incognito mode, websites and apps that use Google's ads or analytics still send information to Google when you visit them.",
+      "quote": "although Incognito mode in Chrome can help keep your browsing private from other people who use your device, third party sites and apps that integrate our services still share information with Google when you visit them.",
+      "line": 333,
+      "context": "",
+      "surprise": 3,
+      "surprise_why": "Many people believe Incognito mode hides their browsing from Google, which this contradicts."
+    },
+    {
+      "id": "google-09",
+      "topic": "collect_third_party",
+      "claim": "Websites and apps that use Google ads, Analytics or YouTube embeds may share your activity with Google, and depending on your settings it may be tied to your personal information.",
+      "quote": "These services may share information about your activity with Google and, depending on your account settings and the products in use (for instance, when a partner uses Google Analytics in conjunction with our advertising services), this data may be associated with your personal information.",
+      "line": 477,
+      "context": "Google says over 2 million non-Google sites and apps partner with it to show ads.",
+      "surprise": 2,
+      "surprise_why": "Most people don't realize their visits to unrelated sites can be linked to their Google identity."
+    },
+    {
+      "id": "google-10",
+      "topic": "collect_third_party",
+      "claim": "Google may get information about you from partners, including marketing partners that supply information about potential customers for its business services.",
+      "quote": "We may also collect information about you from trusted partners, such as directory services who provide us with business information to be displayed on Google’s services, marketing partners who provide us with information about potential customers of our business services, and security partners who provide us with information to protect against abuse",
+      "line": 52,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-11",
+      "topic": "collect_third_party",
+      "claim": "Merchants may upload data from their store loyalty-card programs to Google to show loyalty information in results or measure their ad campaigns.",
+      "quote": "merchants may upload data from their loyalty-card programs so that they can include loyalty information in search or shopping results, or better understand the performance of their ad campaigns.",
+      "line": 340,
+      "context": "Google says it gives advertisers only aggregated reports that don't reveal individuals.",
+      "surprise": 2,
+      "surprise_why": "Shoppers would not expect their store loyalty-card data to be sent to Google."
+    },
+    {
+      "id": "google-12",
+      "topic": "use_ads",
+      "claim": "Depending on your settings, Google may show you personalized ads based on your interests, activity, or content from Google services.",
+      "quote": "Depending on your settings, we may also show you personalized ads based on your interests, activity, or personalized content from Google services.",
+      "line": 71,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-13",
+      "topic": "use_ads",
+      "claim": "Google may use what you do in one service, like watching YouTube videos, to show you ads on other websites that use Google's ad products.",
+      "quote": "if you watch videos of guitar players on YouTube, you might see an ad for guitar lessons on a site that uses our ad products.",
+      "line": 86,
+      "context": "Depends on your available settings.",
+      "surprise": 1
+    },
+    {
+      "id": "google-14",
+      "topic": "use_ads",
+      "claim": "Google says it doesn't use your Drive, Gmail or Google Photos content for personalized ads unless you let those services share data with other Google services that support personalized ads.",
+      "quote": "We don’t show you personalized ads based on your content from Drive, Gmail, or Google Photos, unless you choose to make data from these services available to other Google services that support personalized ads.",
+      "line": 73,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-15",
+      "topic": "use_ads",
+      "claim": "A phone number you add to your account, for example for account recovery, can also be used to make your ads more relevant.",
+      "quote": "your phone number can be used to help you access your account if you forget your password, help people find and connect with you, and make the ads you see more relevant to you.",
+      "line": 400,
+      "context": "Depends on your settings.",
+      "surprise": 2,
+      "surprise_why": "People typically add a phone number for security and would not expect it to be used for ads."
+    },
+    {
+      "id": "google-16",
+      "topic": "use_personalization",
+      "claim": "Google uses automated systems that analyze your content to tailor search results, personalized ads and other features.",
+      "quote": "We use automated systems that analyze your content to provide you with things like tailored search results, personalized ads, or other features tailored to how you use our services.",
+      "line": 85,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-17",
+      "topic": "use_personalization",
+      "claim": "You can choose to let services like Search or Gemini Apps access data from Photos, Gmail and Drive to personalize your experience.",
+      "quote": "You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use, such as Google Photos and Workspace apps like Gmail and Drive, in order to provide you with a more personalized experience, subject to the policies and settings of the accessing service.",
+      "line": 70,
+      "context": "Line 394 adds that Search may use booking details from an email to suggest things to do near your hotel.",
+      "surprise": 1
+    },
+    {
+      "id": "google-18",
+      "topic": "use_personalization",
+      "claim": "Google may customize your search results even when you are signed out, unless you turn off signed-out search customization or browse privately.",
+      "quote": "You may also get customized search results even when you’re signed out. If you don’t want this level of search customization, you can search and browse privately or turn off signed-out search customization",
+      "line": 421,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users expect signing out to stop personalization."
+    },
+    {
+      "id": "google-19",
+      "topic": "use_research",
+      "claim": "Google uses information from its existing services to help develop new ones.",
+      "quote": "We use the information we collect in existing services to help us develop new ones. For example, understanding how people organized their photos in Picasa, Google’s first photos app, helped us design and launch Google Photos.",
+      "line": 67,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-20",
+      "topic": "use_research",
+      "claim": "When you visit sites or apps that use Google's ad or analytics tools, those tools may link your activity there with your activity on other sites and apps.",
+      "quote": "When you visit sites or use apps that use Google’s ad or analytics services, those services may link information about your activity from that site or app with activity from other sites or apps that use our services.",
+      "line": 78,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Cross-site linking of activity through analytics tools is not something most users know about."
+    },
+    {
+      "id": "google-21",
+      "topic": "use_ai_training",
+      "claim": "Google may collect information that is publicly available online to help train its AI models and build products like Translate and Gemini Apps.",
+      "quote": "we may collect information that’s publicly available online or from other public sources to help train Google’s AI models and build products and features like Google Translate, Gemini Apps, and Cloud AI capabilities.",
+      "line": 410,
+      "context": "Stated in the \"publicly accessible sources\" definition; the policy does not separately say whether your private content trains AI models (Gemini Apps has its own notice).",
+      "surprise": 2,
+      "surprise_why": "This could include things you or others posted publicly about you, used for AI training without asking you."
+    },
+    {
+      "id": "google-22",
+      "topic": "use_ai_training",
+      "claim": "Google uses outside service providers who analyze and listen to samples of saved user audio to help improve its audio recognition technology.",
+      "quote": "We also use service providers to help review YouTube video content for public safety and analyze and listen to samples of saved user audio to help improve Google’s audio recognition technologies.",
+      "line": 177,
+      "context": "",
+      "surprise": 3,
+      "surprise_why": "Most people would be shocked that outside contractors may listen to their saved voice recordings."
+    },
+    {
+      "id": "google-23",
+      "topic": "share_third_parties",
+      "claim": "Google says it does not share your personal information outside Google except in listed cases: with consent, with domain administrators, for external processing, and for legal reasons.",
+      "quote": "We do not share your personal information with companies, organizations, or individuals outside of Google except in the following cases:",
+      "line": 162,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-24",
+      "topic": "share_third_parties",
+      "claim": "If your school or employer provides your Google account, its administrators (and resellers) have access to it and can read and keep data like your email.",
+      "quote": "your domain administrator and resellers who manage your account will have access to your Google Account.",
+      "line": 168,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Students and employees may not realize administrators can access and retain their email and other account data."
+    },
+    {
+      "id": "google-25",
+      "topic": "share_third_parties",
+      "claim": "Google lets specific partners collect information directly from your browser or device for advertising and measurement, using their own cookies.",
+      "quote": "We also allow specific partners to collect information from your browser or device for advertising and measurement purposes using their own cookies or similar technologies.",
+      "line": 185,
+      "context": "Examples include measurement companies working with YouTube creators and advertisers.",
+      "surprise": 2,
+      "surprise_why": "This lets other companies track you on Google's own properties, which users would not expect."
+    },
+    {
+      "id": "google-26",
+      "topic": "share_third_parties",
+      "claim": "Your name and photo appear next to your reviews and comments, and Google may also display them in ads depending on your Shared endorsements setting.",
+      "quote": "When you’re signed in and interact with some Google services, like leaving comments on a YouTube video or reviewing an app in Play, your name and photo appear next to your activity. We may also display this information in ads depending on your Shared endorsements setting",
+      "line": 159,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People would be surprised their review or comment could appear in an ad with their name and photo."
+    },
+    {
+      "id": "google-27",
+      "topic": "sell_share_definition",
+      "claim": "The policy never says whether Google \"sells\" personal data; its main limit is that it won't share information that personally identifies you, like your name or email, with advertisers unless you ask.",
+      "quote": "We don’t share information that personally identifies you with advertisers, such as your name or email, unless you ask us to.",
+      "line": 74,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "The promise covers only directly identifying data like name or email, while partners may still collect browser data via their own cookies."
+    },
+    {
+      "id": "google-28",
+      "topic": "sell_share_definition",
+      "claim": "Google may share \"non-personally identifiable\" information publicly and with partners like publishers, advertisers and developers.",
+      "quote": "We may share non-personally identifiable information publicly and with our partners — like publishers, advertisers, developers, or rights holders.",
+      "line": 185,
+      "context": "The policy defines this as information that no longer reflects or references an individually-identifiable user (line 292).",
+      "surprise": 1
+    },
+    {
+      "id": "google-29",
+      "topic": "retention",
+      "claim": "Content and activity saved in your account is kept until you delete it or set it to auto-delete.",
+      "quote": "We’ll keep this data in your Google Account until you remove it or choose to have it removed.",
+      "line": 211,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-30",
+      "topic": "retention",
+      "claim": "Some data, like how often you use Google services, is kept until you delete your whole Google Account.",
+      "quote": "We keep some data until you delete your Google Account, such as information about how often you use our services.",
+      "line": 213,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-31",
+      "topic": "retention",
+      "claim": "Google keeps some data longer when needed for business or legal purposes such as security, fraud prevention or financial records, with no time limit stated.",
+      "quote": "some data we retain for longer periods of time when necessary for legitimate business or legal purposes, such as security, fraud and abuse prevention, or financial record-keeping.",
+      "line": 214,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-32",
+      "topic": "retention",
+      "claim": "When you delete data, Google either removes it or keeps it in anonymized form, and copies in backups may take time to be deleted.",
+      "quote": "When you delete data, we follow a deletion process to make sure that your data is safely and completely removed from our servers or retained only in anonymized form.",
+      "line": 215,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-33",
+      "topic": "user_controls",
+      "claim": "With My Activity you can review and delete some or all of the activity saved to your Google Account.",
+      "quote": "My Activity allows you to review and control data that’s saved to your Google Account when you’re signed in and using Google services, like searches you’ve done or your visits to Google Play. You can browse by date and by topic, and delete part or all of your activity.",
+      "line": 125,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-34",
+      "topic": "user_controls",
+      "claim": "You can export a copy of the content in your Google Account.",
+      "quote": "You can export a copy of content in your Google Account if you want to back it up or use it with a service outside of Google.",
+      "line": 141,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-35",
+      "topic": "user_controls",
+      "claim": "On school or work accounts, administrators can restrict your ability to delete or edit your information or change your privacy settings.",
+      "quote": "Restrict your ability to delete or edit your information or your privacy settings",
+      "line": 174,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users of managed accounts may lose the deletion and privacy controls the policy otherwise promises."
+    },
+    {
+      "id": "google-36",
+      "topic": "user_controls",
+      "claim": "You can ask Google to remove content from specific services based on applicable law and its policies.",
+      "quote": "you can also request to remove content from specific Google services based on applicable law and our policies.",
+      "line": 150,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-37",
+      "topic": "optout_ads",
+      "claim": "In My Ad Center you can edit your interests, choose whether your personal information is used to make ads more relevant, and turn certain advertising services on or off.",
+      "quote": "You can modify your interests, choose whether your personal information is used to make ads more relevant to you, and turn on or off certain advertising services.",
+      "line": 107,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-38",
+      "topic": "optout_ads",
+      "claim": "When signed out, ad preferences are managed per browser or device through Ad Settings.",
+      "quote": "Ad Settings: Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads.",
+      "line": 138,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-39",
+      "topic": "optout_steps",
+      "claim": "The policy points to at least 6 separate places to limit ad use: My Ad Center (signed in), signed-out Ad Settings per browser/device, the Web & App Activity subsetting, browser cookie settings, your device's Advertising ID setting, and Shared endorsements; it links to them rather than giving step-by-step instructions.",
+      "quote": "You can control what information we use to show you ads by visiting your ad settings in My Ad Center",
+      "line": 71,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Fully limiting ad tracking needs several separate controls, some repeated on every browser and device."
+    },
+    {
+      "id": "google-40",
+      "topic": "optout_steps",
+      "claim": "Step: a Web & App Activity subsetting controls whether your activity on other sites, apps and devices using Google services is saved to your account.",
+      "quote": "Web & App Activity also has a subsetting that lets you control whether some information about your activity on other sites, apps, and devices that use Google services is saved with Web & App Activity in your Google Account and used to improve Google services.",
+      "line": 103,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-41",
+      "topic": "optout_steps",
+      "claim": "Step: you can set your browser to block cookies from a specific domain or all domains, though Google warns its services rely on cookies.",
+      "quote": "You can also configure your browser to block all cookies from a specific domain or all domains. But remember that our services rely on cookies to function properly , for things like remembering your language preferences.",
+      "line": 152,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-42",
+      "topic": "optout_steps",
+      "claim": "Step: the Advertising ID used for ads on Android is managed separately in your device's settings.",
+      "quote": "a unique identifier such as the Advertising ID is used to provide relevant advertising on Android devices, and can be managed in your device’s settings.",
+      "line": 322,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-43",
+      "topic": "optout_steps",
+      "claim": "Step: a separate Shared endorsements setting controls whether your name and photo appear next to your activity in ads.",
+      "quote": "Choose whether your name and photo appear next to your activity, like reviews and recommendations, that appear in ads.",
+      "line": 115,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-44",
+      "topic": "sensitive_location",
+      "claim": "If you use Google Location services, your device sends Google its location, sensor data like the accelerometer, and nearby cell towers and Wi-Fi access points.",
+      "quote": "your device sends information to Google about its location, sensors (like accelerometer), and nearby cell towers and Wi-Fi access points (like MAC address and signal strength).",
+      "line": 366,
+      "context": "You enable Google Location services in your device settings.",
+      "surprise": 2,
+      "surprise_why": "Users may not realize nearby Wi-Fi networks and phone sensors are sent to Google to pinpoint them."
+    },
+    {
+      "id": "google-45",
+      "topic": "sensitive_location",
+      "claim": "Google may use your device's sensors, like the accelerometer and gyroscope, to understand your location and movement, including your speed and direction.",
+      "quote": "Your device may have sensors that can be used to better understand your location and movement. For example, an accelerometer can be used to determine your speed and a gyroscope to figure out your direction of travel.",
+      "line": 427,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Speed and direction tracking from motion sensors goes beyond what most people think of as location data."
+    },
+    {
+      "id": "google-46",
+      "topic": "sensitive_location",
+      "claim": "Home and work addresses you save can be used for directions and nearby results, and also for ads.",
+      "quote": "If you set your home or work addresses, they can be used to help you do things more easily, such as getting directions or finding results closer to your home or work, and for ads.",
+      "line": 403,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People save home and work addresses for convenience, not expecting them to be used for advertising."
+    },
+    {
+      "id": "google-47",
+      "topic": "sensitive_location",
+      "claim": "Depending on your settings, the areas you've searched from before may be used to estimate your location for future searches.",
+      "quote": "areas that you have searched from in the past may be used to estimate a relevant location for your search.",
+      "line": 328,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "google-48",
+      "topic": "sensitive_biometric",
+      "claim": "When your device hears a wake phrase like \"Hey Google\", Google records your voice and audio, including a few seconds from before the phrase; the policy does not mention face or fingerprint data or voiceprints.",
+      "quote": "When your device detects an audio activation command, like “Hey Google,” Google records your voice and audio plus a few seconds before the activation.",
+      "line": 378,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Recording audio from before you said the wake word would surprise many users."
+    },
+    {
+      "id": "google-49",
+      "topic": "sensitive_health",
+      "claim": "If you use Google fitness products like Fitbit, Pixel Watch or Google Fit, Google collects data such as sleep patterns, heart rate, skin temperature, calories and steps.",
+      "quote": "We also collect information from these apps and devices, such as your sleep patterns, heart rate, skin temperature, calories burned, and steps taken.",
+      "line": 445,
+      "context": "Comes from the definition of \"similar information related to your physical or mental health\".",
+      "surprise": 1
+    },
+    {
+      "id": "google-50",
+      "topic": "sensitive_health",
+      "claim": "Google says it doesn't use sensitive categories such as race, religion, sexual orientation or health for personalized ads, and requires the same of advertisers.",
+      "quote": "We don’t use topics or show personalized ads based on sensitive categories like race, religion, sexual orientation, or health.",
+      "line": 424,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-51",
+      "topic": "sensitive_health",
+      "claim": "Google says it will ask for your explicit consent before sharing any sensitive personal information, which it defines to include medical facts, ethnic origin, political or religious beliefs, and sexuality.",
+      "quote": "We’ll ask for your explicit consent to share any sensitive personal information",
+      "line": 165,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-52",
+      "topic": "sensitive_children",
+      "claim": "Accounts for children under 13 (or the local age) are handled through Family Link under a separate notice; the main policy states no minimum age and nothing about ads to minors.",
+      "quote": "Google Accounts Managed with Family Link, for Children under 13 (or applicable age in your country)",
+      "line": 247,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "google-53",
+      "topic": "sensitive_children",
+      "claim": "Google may use your payment information to check you meet age requirements, for example if you entered a birthday showing you're too young.",
+      "quote": "We may also use payment information to verify that you meet age requirements, if, for example, you enter an incorrect birthday indicating you’re not old enough to have a Google Account.",
+      "line": 388,
+      "context": "",
+      "surprise": 1
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "optout_ai",
+      "searched": "opt out, opt-out, train, AI, artificial intelligence, machine learning, model, Gemini, generative; no way to opt out of AI training is described"
+    }
+  ],
+  "notes": "Single policy (effective October 16, 2026) covering Search, YouTube, Android, Chrome and Google's ad/analytics services on third-party sites; much of the detail sits in the \"Key terms\" and \"Additional Context\" definitions at the end of the file (lines 265-478), which explain linked phrases in the body. Gemini Apps, Family Link/children's accounts, Fitbit-style services and Google Cloud have separate notices not included here, and the text has no US state-law (CCPA \"sale\"/\"sharing\") section. No retention periods are given; the policy links to a separate data-retention page."
+}

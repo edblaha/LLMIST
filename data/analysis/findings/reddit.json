@@ -1,0 +1,437 @@
+{
+  "platform": "Reddit",
+  "key": "reddit",
+  "file": "data/text/reddit.txt",
+  "findings": [
+    {
+      "id": "reddit-01",
+      "topic": "collect_provided",
+      "claim": "Reddit asks you to pick interests when you sign up and uses them for recommendations and to choose more relevant ads.",
+      "quote": "We also ask you to select an interest, or multiple interests, during account creation (for example, history, nature, sports) to help generate content and community recommendations or select more relevant advertising for you.",
+      "line": 27,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-02",
+      "topic": "collect_provided",
+      "claim": "Reddit collects your non-public content, including saved drafts and private messages and chats.",
+      "quote": "Non-public content you submit includes your saved drafts of posts or comments, your non-public messages with other users (such as private messages, private chats, and modmail)",
+      "line": 33,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-03",
+      "topic": "collect_provided",
+      "claim": "If you join a Reddit Program, Reddit collects your name, date of birth, address, tax details, government ID, and payment information.",
+      "quote": "we collect, directly or indirectly through our providers, some additional information from you (such as your name, date of birth, address, email, tax, government ID, and payment information)",
+      "line": 64,
+      "context": "Only for Reddit Program participants such as the Contributor Program.",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-04",
+      "topic": "collect_automatic",
+      "claim": "Reddit automatically collects your IP address, browser, operating system, device IDs and settings, and mobile carrier.",
+      "quote": "This may include your IP address, user-agent string, browser type, operating system, referral URLs, device information (such as device IDs), device settings, and mobile carrier name.",
+      "line": 42,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-05",
+      "topic": "collect_automatic",
+      "claim": "Reddit records how you use it, including pages visited, votes, links clicked, and search terms.",
+      "quote": "We collect information about how you use our Services, like pages visited, how you interact with content, ads, and communities, upvotes/downvotes, links clicked, the requested URL, and search terms.",
+      "line": 44,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-06",
+      "topic": "collect_automatic",
+      "claim": "When you use the Reddit Ads platform, Reddit may record a replay of your session.",
+      "quote": "When using Reddit Ads, we may record a session replay of your visit for customer service, troubleshooting, and usability research purposes.",
+      "line": 60,
+      "context": "Applies only to businesses using ads.reddit.com.",
+      "surprise": 2,
+      "surprise_why": "Session replay records a user's on-screen actions, which few people expect."
+    },
+    {
+      "id": "reddit-07",
+      "topic": "collect_inferred",
+      "claim": "Reddit guesses your age range, gender, and language from the information it has about you.",
+      "quote": "We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.",
+      "line": 52,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Reddit stresses that it collects minimal information, so users may not expect it to infer their gender and age."
+    },
+    {
+      "id": "reddit-08",
+      "topic": "collect_inferred",
+      "claim": "Reddit makes inferences from your data for recommendations, advertising, and analytics.",
+      "quote": "Inferences we make based on other collected data, for purposes such as recommending content, advertising, and analytics.",
+      "line": 387,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-09",
+      "topic": "collect_third_party",
+      "claim": "Reddit may receive demographic or interest information about you from advertisers and others and match it to your account using a hashed email or device ID.",
+      "quote": "we may receive demographic or interest information about you from third parties, including advertisers (such as the fact that an advertiser is interested in showing you an ad), and combine it with data you have provided to Reddit, using a common account identifier such as a hash of an email address or a mobile-device ID.",
+      "line": 53,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users who never gave Reddit their demographics may not expect advertisers to supply them."
+    },
+    {
+      "id": "reddit-10",
+      "topic": "collect_third_party",
+      "claim": "Through ad technology on advertisers' sites and apps, Reddit may learn about your activity there, such as whether you bought something.",
+      "quote": "if an advertiser incorporates Reddit’s ad technology, Reddit may receive limited information about your activity on the advertiser’s site or app, such as whether you bought something from the advertiser.",
+      "line": 57,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users do not expect Reddit to learn about purchases made on other websites."
+    },
+    {
+      "id": "reddit-11",
+      "topic": "collect_third_party",
+      "claim": "Audience measurement companies working with Reddit collect cookie information to recognize your device and learn demographics of Reddit users.",
+      "quote": "We partner with service providers that perform audience measurement to learn demographic information about the population that uses Reddit. To provide this demographic information, these companies collect cookie information to recognize your device.",
+      "line": 69,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-12",
+      "topic": "use_ads",
+      "claim": "Reddit uses your information for personalized advertising both on Reddit and elsewhere.",
+      "quote": "Provide you with relevant advertising, including personalized advertising on and off Reddit;",
+      "line": 75,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-13",
+      "topic": "use_ads",
+      "claim": "Reddit uses your information to advertise Reddit to you on other sites and apps and to measure those ads.",
+      "quote": "Advertise Reddit Services to you on other sites and apps, including measuring the performance of those ads;",
+      "line": 77,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-14",
+      "topic": "use_personalization",
+      "claim": "Reddit uses cookie information to personalize content and ads.",
+      "quote": "We use this information to deliver and maintain our Services, improve your experience, understand user activity, personalize content and advertisements",
+      "line": 46,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-15",
+      "topic": "use_personalization",
+      "claim": "Reddit may use information from other websites with Reddit embeds or ad technology to personalize Reddit and ads, and says you can control this.",
+      "quote": "You can control how we use this information to personalize the Services and ads on and off Reddit for you as described",
+      "line": 57,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-16",
+      "topic": "use_research",
+      "claim": "Reddit uses your data to research and develop new services, to understand user needs and behaviour.",
+      "quote": "Research and develop new services Legitimate Interest relied on: to innovate and improve our service offerings by understanding user needs and behaviours",
+      "line": 275,
+      "context": "From the EEA table, which lists non-public content you submit among the data used for this purpose.",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-17",
+      "topic": "use_research",
+      "claim": "Reddit analyzes trends, usage, and activity on its services.",
+      "quote": "Monitor and analyze trends, usage, and activities in connection with our Services.",
+      "line": 83,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-18",
+      "topic": "share_third_parties",
+      "claim": "Reddit charges third parties licensing fees for access to large amounts of Reddit content and information.",
+      "quote": "We also require third parties to pay licensing fees for access to larger quantities of content and information.",
+      "line": 22,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not realise their posts are licensed to outside companies for money."
+    },
+    {
+      "id": "reddit-19",
+      "topic": "share_third_parties",
+      "claim": "Your public posts may show up in search engines and in AI chatbot answers such as ChatGPT, and be reshared without your permission.",
+      "quote": "That content and information may also be available in search results on internet search engines like Google or in responses provided by an AI chatbot like OpenAI’s ChatGPT as well as reshared by others without permission or where Reddit has no control.",
+      "line": 19,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their posts to appear in AI chatbot responses."
+    },
+    {
+      "id": "reddit-20",
+      "topic": "share_third_parties",
+      "claim": "Ad serving and measurement providers that receive cookie IDs, your IP address, or a hashed email may combine them with other data they already hold about you.",
+      "quote": "these third parties may combine that information with other information they already have about you to provide services to Reddit",
+      "line": 89,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their identifiers to be merged with outside companies' profiles of them."
+    },
+    {
+      "id": "reddit-21",
+      "topic": "share_third_parties",
+      "claim": "Reddit may share public content with AI language-model providers to summarize it for search results on Reddit.",
+      "quote": "(vi) LLM providers who help us compile and summarize public content for relevant search results on Reddit.",
+      "line": 89,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-22",
+      "topic": "sell_share_definition",
+      "claim": "Reddit's summary says it does not sell your personal data, including to data brokers.",
+      "quote": "We don’t sell your personal data to third parties, including data brokers.",
+      "line": 11,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-23",
+      "topic": "sell_share_definition",
+      "claim": "Reddit denies \"selling\" as state laws define it, but for \"sharing\" it only says it doesn't know of doing so for users under 16.",
+      "quote": "Reddit does not “sell” personal information as those terms are defined under applicable state privacy laws. Reddit does not have knowledge that it “sells” or “shares” the personal information of users under 16 years of age.",
+      "line": 389,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "The narrow denial means data may be \"shared\" for cross-context ads despite the \"we don't sell\" message."
+    },
+    {
+      "id": "reddit-24",
+      "topic": "sell_share_definition",
+      "claim": "Users in some US states can turn off \"Ads off Reddit\" to stop sharing data with partners that measure Reddit's ads on other platforms.",
+      "quote": "You can opt out of the sharing of your personal information with third-party partners, used to measure the effectiveness of Reddit's advertisements on other platforms by toggling the “Ads off Reddit” setting to off in your privacy preferences.",
+      "line": 389,
+      "context": "Offered in the section for California and other US state users.",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-25",
+      "topic": "retention",
+      "claim": "Reddit keeps data as long as needed for its original purpose and may keep some for business or legal reasons, with no set time limit.",
+      "quote": "We store the information we collect for as long as it is necessary for the purpose(s) for which we originally collected it. We may retain certain information for legitimate business purposes and/or if we believe doing so is in accordance with, or as required by, any applicable law.",
+      "line": 99,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-26",
+      "topic": "retention",
+      "claim": "Reddit deletes IP addresses after 100 days, except the one used to create your account.",
+      "quote": "Except for the IP address used to create your account, Reddit will delete any IP addresses collected after 100 days.",
+      "line": 42,
+      "context": "The policy doesn't say how long the sign-up IP address is kept.",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-27",
+      "topic": "retention",
+      "claim": "Deleting your account does not delete your posts, comments, and messages; you must delete each piece of content first.",
+      "quote": "Please note, however, that the posts, comments, and messages you submitted prior to deleting your account will still be visible to others unless you first delete the specific content.",
+      "line": 106,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Most people expect deleting an account to remove what they posted."
+    },
+    {
+      "id": "reddit-28",
+      "topic": "retention",
+      "claim": "If you are banned, Reddit may keep identifiers like your phone number to stop you creating new accounts.",
+      "quote": "if you violate our policies and your account is suspended or banned, we may store the identifiers used to create the account (such as phone number) to prevent you from creating new accounts.",
+      "line": 99,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-29",
+      "topic": "user_controls",
+      "claim": "Anyone, wherever they live, can request a copy of their data or account deletion.",
+      "quote": "At Reddit, anyone can request a copy of their personal data, account deletion, or information about our policies.",
+      "line": 13,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-30",
+      "topic": "user_controls",
+      "claim": "You can delete your account in settings at any time.",
+      "quote": "You may delete your account at any time from the settings page in your account.",
+      "line": 106,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-31",
+      "topic": "user_controls",
+      "claim": "You can see and revoke third-party apps that can access your account.",
+      "quote": "You can review the services you have permitted to access your account and revoke access to individual services by visiting your account’s Apps page",
+      "line": 108,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-32",
+      "topic": "user_controls",
+      "claim": "Reddit verifies requests through your account or a verified email before acting.",
+      "quote": "Before we process a request from you about your personal information, we need to verify the request via your access to your Reddit account or to a verified email address associated with your Reddit account.",
+      "line": 125,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-33",
+      "topic": "optout_ads",
+      "claim": "You can stop Reddit from using third-party data to personalize your ads.",
+      "quote": "You may opt out of us using information we collect from third parties, including advertising partners, to personalize the ads you see on and off Reddit.",
+      "line": 110,
+      "context": "This opt-out covers data from third parties, not all ad personalization.",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-34",
+      "topic": "optout_ads",
+      "claim": "Reddit honors Global Privacy Control as an opt-out only in some places and only if you have an account.",
+      "quote": "In some jurisdictions, if you have an account with us and you visit our site with an opt-out preference signal (such as Global Privacy Control) enabled, we will treat that as an opt-out request.",
+      "line": 114,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-35",
+      "topic": "optout_ads",
+      "claim": "Reddit ignores browsers' Do Not Track signals.",
+      "quote": "there is no accepted standard for how a site should respond to this signal, and we do not take any action in response to this signal.",
+      "line": 117,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-36",
+      "topic": "optout_steps",
+      "claim": "The policy describes about 8 separate opt-out actions: (1) the Privacy section of User Settings on desktop, or Account Settings in the app; (2) the \"Ads off Reddit\" toggle for US states; (3) browser cookie settings or Cookie Preferences; (4) a Google Analytics browser add-on; (5) separate Nielsen and Quantcast opt-outs; (6) Global Privacy Control; (7) the DAA, NAI, or Your Online Choices sites; and (8) the Location Customization setting.",
+      "quote": "To do so, visit the Privacy section of the User Settings in your account here , if using desktop, and in your Account Settings if using the Reddit mobile app.",
+      "line": 110,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Opting out fully means visiting many different places, several outside Reddit."
+    },
+    {
+      "id": "reddit-37",
+      "topic": "optout_steps",
+      "claim": "For cookies you change your browser settings, Account Settings in some regions, or Cookie Preferences on reddit.com if you have no account.",
+      "quote": "If you prefer, you can usually choose to set your browser to remove or reject first- and third-party cookies. In some jurisdictions, you may update your cookie preferences at any time by visiting your Account Settings. Users without an account may update by visiting “Cookie Preferences” at the top right corner of reddit.com",
+      "line": 112,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-38",
+      "topic": "optout_steps",
+      "claim": "Analytics and audience measurement need separate opt-outs: a Google Analytics browser add-on, plus Nielsen and Quantcast.",
+      "quote": "you may manage the use and collection of certain information by Google Analytics via the Google Analytics Opt-out Browser Add-on . You can opt out of the Audience Measurement services provided by Nielsen and Quantcast",
+      "line": 114,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-39",
+      "topic": "optout_steps",
+      "claim": "To opt out of other advertisers' personalized ads, the policy sends you to industry sites (DAA, NAI, or Your Online Choices in the EEA).",
+      "quote": "To learn more about these advertisements or to opt out, please visit the sites of the Digital Advertising Alliance and the Network Advertising Initiative , or if you are a user in the European Economic Area, Your Online Choices",
+      "line": 115,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-40",
+      "topic": "sensitive_location",
+      "claim": "Reddit says it does not track your precise location.",
+      "quote": "We don’t track your precise location. You can even browse anonymously",
+      "line": 9,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "reddit-41",
+      "topic": "sensitive_location",
+      "claim": "Reddit automatically collects your approximate location from your IP and other log data, and more if you choose to share it.",
+      "quote": "We automatically collect information about your approximate location based on our Logs Data. We may also receive location information from you when you choose to share such information on our Services, including via the Location Customization setting",
+      "line": 48,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-42",
+      "topic": "sensitive_health",
+      "claim": "Reddit says it uses sensitive personal information only to provide its services or as regulations allow.",
+      "quote": "We do not use or disclose sensitive personal information except to provide you the Services or as otherwise permitted by applicable regulations.",
+      "line": 389,
+      "context": "Stated in the US state section; the policy does not mention health data or list what sensitive information it holds.",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-43",
+      "topic": "sensitive_children",
+      "claim": "Reddit may share information with age verification providers to confirm your age.",
+      "quote": "(iv) age verification providers who help us confirm your age",
+      "line": 89,
+      "context": "The policy does not state a minimum age or describe the verification method.",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-44",
+      "topic": "sensitive_children",
+      "claim": "Reddit may get your age range from Apple or Google app stores if you chose to share it.",
+      "quote": "If you use the iOS or Android Reddit app, we may also receive information about you from app store APIs, such as where you have elected to share your age range information associated with your Apple or Google accounts.",
+      "line": 57,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "reddit-45",
+      "topic": "sensitive_children",
+      "claim": "Reddit tailors age-appropriate services, citing content enforcement and regulatory risk.",
+      "quote": "to provide age-appropriate services, this measure supports Reddit’s legitimate interest in enforcing content policies, mitigating regulatory risk",
+      "line": 229,
+      "context": "From the EEA legal-basis table.",
+      "surprise": 0
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "use_ai_training",
+      "searched": "AI, artificial intelligence, machine learning, model, train, LLM, generative, ChatGPT, licensing"
+    },
+    {
+      "topic": "optout_ai",
+      "searched": "AI, artificial intelligence, machine learning, model, train, LLM, generative, opt out"
+    },
+    {
+      "topic": "sensitive_biometric",
+      "searched": "biometric, face, facial, fingerprint, voiceprint, voice, selfie, age verification, audiovisual"
+    }
+  ],
+  "notes": "Global Reddit policy (Reddit, Inc.; Reddit Netherlands B.V. for EEA/Swiss users), with long sections for EEA/UK (legal-basis table, lines 136-375), US states, and Brazil. It does not say whether Reddit trains AI on user content, though it mentions licensing fees for third-party access to content, LLM providers, and posts appearing in AI chatbots. No minimum age is stated."
+}

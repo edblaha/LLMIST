@@ -1,0 +1,450 @@
+{
+  "platform": "X",
+  "key": "x",
+  "file": "data/text/x.txt",
+  "findings": [
+    {
+      "id": "x-01",
+      "topic": "collect_provided",
+      "claim": "To create an account you must give X a display name, username, password, email or phone number, and your date of birth.",
+      "quote": "This includes a display name (for example, “Creators”); a username (for example, @XCreators); a password; an email address or phone number; a date of birth",
+      "line": 25,
+      "context": "Your display name and username are always public.",
+      "surprise": 0
+    },
+    {
+      "id": "x-02",
+      "topic": "collect_provided",
+      "claim": "To buy ads or paid features you must give X your card number, expiry date, CVV code and billing address.",
+      "quote": "you will need to provide us payment information, including your credit or debit card number, card expiration date, CVV code, and billing address.",
+      "line": 27,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-03",
+      "topic": "collect_automatic",
+      "claim": "X collects who you follow and who follows you, metadata about Encrypted Messages, and for Direct Messages the actual message contents, recipients, and times.",
+      "quote": "How you interact with others on the platform, such as people you follow and people who follow you, metadata related to Encrypted Messages , and when you use Direct Messages , including the contents of the messages, the recipients, and date and time of messages.",
+      "line": 36,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Many users assume their private DMs are not collected and readable by the company."
+    },
+    {
+      "id": "x-04",
+      "topic": "collect_automatic",
+      "claim": "X collects details about your device including its advertising ID, carrier, memory, the apps you have installed, and battery level.",
+      "quote": "Information about your device and its settings, such as device and advertising ID, operating system, carrier, language, memory, apps installed, and battery level.",
+      "line": 42,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Few people expect a social app to record which other apps are on their phone and their battery level."
+    },
+    {
+      "id": "x-05",
+      "topic": "collect_automatic",
+      "claim": "X's logs can include search terms you typed but never submitted, the ads shown to you, and cookie identifiers.",
+      "quote": "search terms and IDs (including those not submitted as queries); ads shown to you on X; X-generated identiﬁers; and identiﬁers associated with cookies.",
+      "line": 50,
+      "context": "This log collection applies even if you have no account or are signed out.",
+      "surprise": 3,
+      "surprise_why": "Most people would be shocked that searches they typed and then abandoned may still be recorded."
+    },
+    {
+      "id": "x-06",
+      "topic": "collect_automatic",
+      "claim": "X may collect log information when you view content even if you have no account or are signed out.",
+      "quote": "We may receive information when you view content on or otherwise interact with our products and services, even if you have not created an account or are signed out",
+      "line": 49,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-07",
+      "topic": "collect_inferred",
+      "claim": "Depending on your settings, X may link your account to browsers and devices you have never used to sign in to X.",
+      "quote": "Subject to your settings, we may also associate your account with browsers or devices other than those you use to sign into X",
+      "line": 46,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People would not expect X to tie their account to devices they never logged in on."
+    },
+    {
+      "id": "x-08",
+      "topic": "collect_inferred",
+      "claim": "X may try to infer other information about you or your identity, for example by linking your account to scrambled (hashed) email addresses that resemble the one you gave X.",
+      "quote": "for example by associating your account with hashes of email addresses that share common components with the email address you have provided to X.",
+      "line": 47,
+      "context": "Described as \"subject to your settings\".",
+      "surprise": 2,
+      "surprise_why": "Matching your account to other, similar-looking email addresses is an unexpected way of guessing who you are."
+    },
+    {
+      "id": "x-09",
+      "topic": "collect_inferred",
+      "claim": "Even when you are not signed in, X may infer who you are from the information it collects.",
+      "quote": "When you access X and are not signed in, we may infer your identity based on the information we collect.",
+      "line": 48,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users who browse X signed out likely believe they are anonymous."
+    },
+    {
+      "id": "x-10",
+      "topic": "collect_third_party",
+      "claim": "X's ad and business partners send it information about you, such as cookie and device IDs, hashed email addresses, demographic or interest data, and what you viewed or did on their websites or apps.",
+      "quote": "Our ad and business partners share information with us such as browser cookie IDs, X-generated identifiers, mobile device IDs, hashed user information like email addresses, demographic or interest data, and content viewed or actions taken on a website or app.",
+      "line": 55,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Most users don't realize advertisers send X data about their activity on other sites and apps."
+    },
+    {
+      "id": "x-11",
+      "topic": "collect_third_party",
+      "claim": "Data from ad partners and affiliates, or collected by X on their sites and apps, may be combined with everything else X has, generates, or infers about you.",
+      "quote": "Information shared by ad partners and affiliates or collected by X from the websites and apps of ad partners and affiliates may be combined with the other information you share with X and that X receives, generates, or infers about you described elsewhere in this Privacy Policy.",
+      "line": 55,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-12",
+      "topic": "collect_third_party",
+      "claim": "When you view embedded X content (like an embedded timeline or post button) on another website, X may learn which web page you visited.",
+      "quote": "When you view our content on third-party websites that integrate X content, such as embedded timelines or post buttons, we may receive log information that includes the web page you visited.",
+      "line": 53,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People reading a news site with an embedded post would not expect X to learn what page they were on."
+    },
+    {
+      "id": "x-13",
+      "topic": "collect_third_party",
+      "claim": "X may also receive information about you from other X users, developers, content-safety partners, its corporate affiliates, and services you link to your account.",
+      "quote": "We may receive information about you from third parties who are not our ad partners, such as other X users, developers, and partners who help us evaluate the safety and quality of content on our platform",
+      "line": 56,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-14",
+      "topic": "use_ads",
+      "claim": "X uses your information to measure ad effectiveness and to recognize your devices so it can show you ads both on and off X.",
+      "quote": "We also use this information to measure the effectiveness of ads and to help recognize your devices to serve you ads on and off of X.",
+      "line": 63,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-15",
+      "topic": "use_ads",
+      "claim": "Job-application information such as your employment history, education, skills and job-search activity may be used not only for job matching but also to show you more relevant ads.",
+      "quote": "to recommend potential jobs to you, to share with potential employers when you apply for a job, to enable connections for professional opportunities, and to show you more relevant advertising.",
+      "line": 30,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People sharing career details to find a job would not expect them to be used for ad targeting."
+    },
+    {
+      "id": "x-16",
+      "topic": "use_personalization",
+      "claim": "X uses the information it collects to personalize your experience, including showing more relevant content and ads and suggesting people and topics to follow.",
+      "quote": "We also use the information we collect to improve and personalize our products and services so that you have a better experience on X, including by showing you more relevant content and ads, suggesting people and topics to follow",
+      "line": 61,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-17",
+      "topic": "use_personalization",
+      "claim": "If your settings allow, X uses your email or phone number to help other people find your account, including through third-party apps.",
+      "quote": "We use your contact information to help others find your account if your settings permit, including through third-party services and client applications.",
+      "line": 62,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not realize the phone number or email they gave for login can be used by others to look them up."
+    },
+    {
+      "id": "x-18",
+      "topic": "use_research",
+      "claim": "X uses the information you share and that it collects for research, surveys, product testing and troubleshooting.",
+      "quote": "We use information you share with us, or that we collect to conduct research, surveys, product testing, and troubleshooting to help us operate and improve our products and services.",
+      "line": 71,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-19",
+      "topic": "use_research",
+      "claim": "X analyzes the information it collects to understand how you use its products and to improve them.",
+      "quote": "We use the information we collect to measure and analyze the effectiveness of our products and services and to better understand how you use them in order to make them better.",
+      "line": 67,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-20",
+      "topic": "use_ai_training",
+      "claim": "X may use the information it collects about you, plus publicly available information, to train its machine-learning and AI models.",
+      "quote": "We may use the information we collect and publicly available information to help train our machine learning or artificial intelligence models for the purposes outlined in this policy.",
+      "line": 61,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "The wording is not limited to public posts, so it could cover any data X collects, and users get no opt-out for this in the policy."
+    },
+    {
+      "id": "x-21",
+      "topic": "use_ai_training",
+      "claim": "Unless you opt out, some third parties X shares your data with may use it for their own purposes, including training their own AI models.",
+      "quote": "in some instances the recipients of the information may use it for their own independent purposes in addition to those stated in X’s Privacy Policy, including, for example, to train their artificial intelligence models, whether generative or otherwise.",
+      "line": 84,
+      "context": "Applies to \"third-party collaborators\" depending on your settings or if you decide to share your data.",
+      "surprise": 3,
+      "surprise_why": "Most users would be shocked that outside companies could train their own AI on their X data by default."
+    },
+    {
+      "id": "x-22",
+      "topic": "share_third_parties",
+      "claim": "X makes public X content available to other websites and companies through its APIs, free in small amounts and for licensing fees at large scale.",
+      "quote": "We generally make this content available in limited quantities for free and charge licensing fees for large-scale access.",
+      "line": 85,
+      "context": "Those companies are not affiliated with X and may not reflect later edits or deletions you make.",
+      "surprise": 2,
+      "surprise_why": "Many users don't realize X charges outside companies for bulk access to their public posts."
+    },
+    {
+      "id": "x-23",
+      "topic": "share_third_parties",
+      "claim": "If you click an ad or link on X, the advertiser or website may learn you came from X, along with details like the audience the ad was aimed at.",
+      "quote": "if you click on an external link or ad on our services, that advertiser or website operator might figure out that you came from X, along with other information associated with the ad you clicked, such as characteristics of the audience it was intended to reach",
+      "line": 82,
+      "context": "Advertisers may also collect cookie identifiers or your IP address.",
+      "surprise": 1
+    },
+    {
+      "id": "x-24",
+      "topic": "share_third_parties",
+      "claim": "Your public X content can show up off X, for example in search-engine results or as downloaded and reshared videos.",
+      "quote": "They may also find X content off of X: for example, from search query results on Internet search engines or videos downloaded and reshared elsewhere",
+      "line": 76,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-25",
+      "topic": "share_third_parties",
+      "claim": "Depending on your settings, X gives certain partners information to help offer or operate its services; details are only in the Help Center.",
+      "quote": "Depending on your settings , we also provide certain third parties with information to help us offer or operate our products and services.",
+      "line": 79,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-26",
+      "topic": "sell_share_definition",
+      "claim": "X says it does not sell your personal information, but this policy never defines \"sell\" or discusses CCPA \"sharing\" for targeted ads.",
+      "quote": "we’d encourage you to check out this additional information about data processing . And no, we don’t sell your personal information.",
+      "line": 131,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "The flat denial sits alongside paid API licensing of public posts and third parties possibly training AI on shared data, and the word \"sell\" is never defined."
+    },
+    {
+      "id": "x-27",
+      "topic": "sell_share_definition",
+      "claim": "X may share, sell, or transfer information about you if it is involved in a merger, acquisition, asset sale, or bankruptcy.",
+      "quote": "We may share, sell, or transfer information about you in connection with a merger, acquisition, reorganization, sale of assets, or bankruptcy.",
+      "line": 97,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-28",
+      "topic": "sell_share_definition",
+      "claim": "How X handles California (CCPA) privacy requests, including any legal \"sale\" or \"sharing\" definitions, is on a separate linked page, not in this policy.",
+      "quote": "Information about our handling of California Consumer Privacy Act (CCPA) requests is available here",
+      "line": 148,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-29",
+      "topic": "retention",
+      "claim": "X keeps your posts and interactions for as long as you have your account or until the content is removed.",
+      "quote": "We keep your usage information, such as the content you post, your interactions with other users’ content and how you interact with others on the platform for the duration of your account or until such content is removed.",
+      "line": 102,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-30",
+      "topic": "retention",
+      "claim": "X says it collects device, location, inferred-identity and log information mostly through cookies, and keeps cookie data for up to 13 months.",
+      "quote": "We generally collect device information, location information, inferred identity information and log information using cookies. We keep cookies and information collected using cookies for up to 13 months.",
+      "line": 105,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-31",
+      "topic": "retention",
+      "claim": "If your account is suspended for breaking the rules, X may keep the email or phone number you used indefinitely.",
+      "quote": "Where you violate our Rules and your account is suspended, we may keep the identifiers you used to create the account (such as your email address or phone number) indefinitely to prevent repeat policy offenders from creating new accounts.",
+      "line": 108,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-32",
+      "topic": "retention",
+      "claim": "X may keep information longer than its stated periods for legal requirements or safety and security reasons.",
+      "quote": "We may need to keep certain information longer than our policies specify in order to comply with legal requirements and for safety and security reasons.",
+      "line": 109,
+      "context": "Examples include law-enforcement preservation requests and litigation.",
+      "surprise": 1
+    },
+    {
+      "id": "x-33",
+      "topic": "user_controls",
+      "claim": "You can see what X has collected or inferred about you in \"Your X Data\" and request access to more.",
+      "quote": "You can learn more about the information we have collected or inferred about you in Your X Data and request access to additional information here",
+      "line": 118,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-34",
+      "topic": "user_controls",
+      "claim": "Deleting your account first deactivates it and queues your data for deletion; the account can be restored for up to 30 days.",
+      "quote": "your account will be deactivated and your data will be queued for deletion. When deactivated, your X account, including your display name, username, and public profile, will no longer be viewable on X.com, X for iOS, and X for Android. For up to 30 days after deactivation it is still possible to restore your X account if it was accidentally or wrongfully deactivated.",
+      "line": 122,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-35",
+      "topic": "user_controls",
+      "claim": "X may reject your request to access, correct, or export your data, for example if it cannot verify your identity.",
+      "quote": "We may, in certain situations, reject your request for access, correction, or portability, for example, we may reject access where you are unable to verify your identity.",
+      "line": 120,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-36",
+      "topic": "user_controls",
+      "claim": "Privacy setting changes may take some time to take effect throughout X's systems.",
+      "quote": "If you change your settings it may take some time for your choices to be fully reflected throughout our systems.",
+      "line": 124,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-37",
+      "topic": "optout_ads",
+      "claim": "Ad targeting on X is \"subject to your settings\", but the policy does not name the setting or say how to turn it off.",
+      "quote": "We use your information to provide our advertising and sponsored content services subject to your settings , which helps make ads on X more relevant to you.",
+      "line": 63,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-38",
+      "topic": "optout_ads",
+      "claim": "The \"Data sharing with business partners\" toggle only covers some partner sharing; it does not stop other sharing described in the policy, such as with service providers.",
+      "quote": "This setting does not control sharing described elsewhere in this Privacy Policy, such as when we share information with our service providers",
+      "line": 79,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users who switch off data sharing would reasonably assume it stops all sharing."
+    },
+    {
+      "id": "x-39",
+      "topic": "optout_ai",
+      "claim": "X implies you can opt out of third parties using your shared data for their own purposes such as AI training, but does not say how, and offers no opt-out for X's own AI training.",
+      "quote": "Depending on your settings , or if you decide to share your data, we may share or disclose your information with third parties. If you do not opt out",
+      "line": 84,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Third-party AI use is on by default (opt-out) and the policy gives no instructions for opting out."
+    },
+    {
+      "id": "x-40",
+      "topic": "optout_steps",
+      "claim": "The policy names just one specific opt-out control, the \"Data sharing with business partners\" option in Privacy and Safety settings; for ads, AI use, cookies and privacy requests it only says \"your settings\" or links elsewhere.",
+      "quote": "You can control whether X shares your personal information with these partners by using the “Data sharing with business partners” option in your Privacy and Safety settings",
+      "line": 79,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-41",
+      "topic": "optout_steps",
+      "claim": "For other privacy choices the policy just links to a general settings page without listing steps.",
+      "quote": "You can manage your privacy settings and other account features here . If you change your settings it may take some time for your choices to be fully reflected throughout our systems. You may also notice changes in your X experience or limitations in your ability to access certain features depending on the settings you’ve adjusted. You may also manage additional settings when interacting with certain content and features on different parts of the platform, such as whether a Space is recorded, or whether videos you upload are downloadable by others.",
+      "line": 124,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-42",
+      "topic": "optout_steps",
+      "claim": "For cookies, the policy only links to a separate page and gives no browser or opt-out steps.",
+      "quote": "You can learn more about how we use cookies and similar technologies here .",
+      "line": 52,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "x-43",
+      "topic": "sensitive_location",
+      "claim": "X always collects your approximate location, including to show you relevant ads; sharing precise location or places you've used X is something you have to turn on.",
+      "quote": "we collect some information about your approximate location to provide the service you expect, including showing you relevant ads. You can also choose to share your current precise location or places where you’ve previously used X by enabling these settings in your account.",
+      "line": 44,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-44",
+      "topic": "sensitive_biometric",
+      "claim": "With your consent, X may collect and use your biometric information for safety, security, and identification, without saying what kind of biometrics or how long it keeps them.",
+      "quote": "Based on your consent, we may collect and use your biometric information for safety, security, and identification purposes.",
+      "line": 29,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users would not expect a social network to collect biometric data, and the policy gives no detail on type or retention."
+    },
+    {
+      "id": "x-45",
+      "topic": "sensitive_health",
+      "claim": "X handles \"Consumer Health Data\" under Washington's My Health My Data Act on a separate page; this policy does not say what health data it collects.",
+      "quote": "Information about our handling of “Consumer Health Data” and associated requests as defined under Washington State’s My Health My Data Act and other similar state laws is available here",
+      "line": 148,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "x-46",
+      "topic": "sensitive_children",
+      "claim": "You may not use X if you are under 13, and X says it does not knowingly collect information from children under 13.",
+      "quote": "Our services are not directed to children, and you may not use our services if you are under the age of 13.",
+      "line": 138,
+      "context": "You must also be old enough to consent to data processing in your country; the policy has no teen-specific protections or rules on ads to minors.",
+      "surprise": 0
+    },
+    {
+      "id": "x-47",
+      "topic": "sensitive_children",
+      "claim": "X may use signals and your data to guess your age and identity, and may share that with partners and service providers for legal compliance, safety and verification.",
+      "quote": "We may also use different signals and your data to infer, preserve, use, share, or disclose your age and identity information in order to comply with regulatory requirements",
+      "line": 93,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People would not expect X to estimate their age from activity signals and pass that on to others."
+    }
+  ],
+  "not_stated": [],
+  "notes": "Global policy effective January 15, 2026; US users are governed by X Corp. and EU/EFTA/UK users by X Internet Unlimited Company (Ireland). Many key details (CCPA requests, Washington consumer-health data, cookies, data-sharing partners, settings) live on linked pages that are not part of this text. No Grok- or xAI-specific language appears; AI training is covered only by two general sentences."
+}

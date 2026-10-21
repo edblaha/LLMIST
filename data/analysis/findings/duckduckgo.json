@@ -1,0 +1,265 @@
+{
+  "platform": "DuckDuckGo",
+  "key": "duckduckgo",
+  "file": "data/text/duckduckgo.txt",
+  "findings": [
+    {
+      "id": "duckduckgo-01",
+      "topic": "collect_provided",
+      "claim": "DuckDuckGo asks for personal information like your email address only when you turn on an optional feature such as Email Protection, and points to that feature's own privacy policy.",
+      "quote": "For example, Email Protection is an optional feature that requires your email address to function, and we explain how that information is handled in our Email Protection Privacy Policy",
+      "line": 28,
+      "context": "Same approach is said to apply to Duck.ai, Sync & Backup and the paid Subscription, each with its own policy.",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-02",
+      "topic": "collect_provided",
+      "claim": "If you contact DuckDuckGo for support or send feedback (including a crash report), it says it will use your contact information only to reply to you.",
+      "quote": "if you reach out to us directly for support, to provide feedback (such as in a crash report or on our search engine), or for other reasons, we will only use your contact information to respond to you.",
+      "line": 39,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-03",
+      "topic": "collect_automatic",
+      "claim": "Your device automatically sends DuckDuckGo details like your IP address, browser type and language, and DuckDuckGo says it uses these only temporarily to deliver content (and for security/bot checks).",
+      "quote": "your device sends some information about itself automatically, like its IP address, browser type, and language, and may send additional information upon request like its screen size, operating system, and preferences. However, we only use this information temporarily to deliver content to you",
+      "line": 17,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-04",
+      "topic": "collect_automatic",
+      "claim": "DuckDuckGo says it does not store your IP address together with your searches, Duck.ai chats or website visits, and never writes IP addresses to disk in a way that could identify you.",
+      "quote": "We don’t save your IP address alongside your searches, Duck.ai chats, or visits to our websites, and we never log IP addresses to disk that could be tied back to you.",
+      "line": 17,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-05",
+      "topic": "collect_automatic",
+      "claim": "DuckDuckGo may anonymously use some behavioral signals from its products, such as click timing in Email Protection, for security and fraud prevention.",
+      "quote": "Similarly, we may also anonymously use information we receive from you when using our products and features, such as click timing in Email Protection, for security, and to protect against fraud and abuse.",
+      "line": 17,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "duckduckgo-06",
+      "topic": "collect_inferred",
+      "claim": "DuckDuckGo says it has no way to build a history of your searches, chats or browsing, so it describes no profile or inferences about you (the policy does not separately discuss inferences).",
+      "quote": "This means that when you use our services, we have no way to create a history of your search queries, your chats, or the sites you browse.",
+      "line": 18,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-07",
+      "topic": "collect_third_party",
+      "claim": "DuckDuckGo may search for and review public social-media posts about its product and share them internally.",
+      "quote": "We also observe what people are saying about our product across social channels and may search for, review, and share this publicly available information internally for consideration.",
+      "line": 31,
+      "context": "This is the only outside source of information about people the policy mentions.",
+      "surprise": 1
+    },
+    {
+      "id": "duckduckgo-08",
+      "topic": "use_ads",
+      "claim": "DuckDuckGo says it makes most of its money from \"private\" search ads and does not need to track you to do so.",
+      "quote": "It is a myth that search engines need to track you to make money. We make most of our money from private search ads on our search engine.",
+      "line": 24,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-09",
+      "topic": "use_ads",
+      "claim": "When you click an ad, the click is handled by Microsoft's ad network; the protection here rests on Microsoft's commitment not to link the click to a profile or keep it except for accounting.",
+      "quote": "Ad clicks are managed by Microsoft's ad network and Microsoft has committed to not associate your ad-click behavior with a user profile and to not store or share that information other than for accounting purposes.",
+      "line": 25,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Many users would not expect their ad clicks on a privacy search engine to pass through Microsoft, with privacy depending on Microsoft's promise rather than DuckDuckGo's own controls."
+    },
+    {
+      "id": "duckduckgo-10",
+      "topic": "use_research",
+      "claim": "DuckDuckGo does keep the text of search queries, but says they are stripped of identifiers like IP addresses and used only to analyze search trends and improve its search index.",
+      "quote": "And we only save these anonymous search queries — completely disconnected from any unique identifiers like IP addresses — to improve our search indexes by analyzing anonymous search trends, so that we can better serve you.",
+      "line": 18,
+      "context": "The policy gives no time limit for keeping these anonymous queries.",
+      "surprise": 1
+    },
+    {
+      "id": "duckduckgo-11",
+      "topic": "use_research",
+      "claim": "DuckDuckGo says it improves its product only with anonymous methods, such as anonymous design experiments.",
+      "quote": "To improve and promote our product, we develop and use only anonymous methods to learn key insights. For example, we design anonymous experiments to test different designs.",
+      "line": 31,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-12",
+      "topic": "share_third_parties",
+      "claim": "DuckDuckGo shares anonymous technical details (like browser and device type) with its hosting and content providers, but says it never shares anything that could tie your searches, chats or visits to you.",
+      "quote": "we share anonymous information (for example, browser and device types) with our hosting and content providers, but we never share any information with them that could tie your searches, chats, or website visits to you personally",
+      "line": 19,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-13",
+      "topic": "share_third_parties",
+      "claim": "If you email or contact DuckDuckGo, your message may be visible to the outside software providers it uses, such as its email, project-management and customer-support vendors.",
+      "quote": "your communication may be accessible to the software-as-a-service providers we use in our corporate systems (such as our company email, project management software, and customer support vendors).",
+      "line": 39,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "duckduckgo-14",
+      "topic": "share_third_parties",
+      "claim": "DuckDuckGo says it will disclose the little personal data it might hold (like a newsletter email address) only if legally forced, and will use legal means to fight such requests.",
+      "quote": "we will only disclose the very limited personal information that we might have, for example, your email address if you subscribe to our newsletter, if we are legally forced to do so, and we will use legal means to fight against such disclosure.",
+      "line": 42,
+      "context": "It also says it will notify you by email unless legally forbidden.",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-15",
+      "topic": "share_third_parties",
+      "claim": "DuckDuckGo cannot stop your internet provider, its hosting provider, or other networks in between from seeing your IP address.",
+      "quote": "we cannot prevent your device's IP address from being seen by your internet service provider, our hosting provider, or other internet providers in between",
+      "line": 20,
+      "context": "It says the encrypted connection still keeps your queries hidden from those providers.",
+      "surprise": 1
+    },
+    {
+      "id": "duckduckgo-16",
+      "topic": "sell_share_definition",
+      "claim": "DuckDuckGo says it has never sold any personal information; the policy does not define \"sell\" or \"share\" in any legal sense.",
+      "quote": "We have never sold any personal information. Period.",
+      "line": 50,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-17",
+      "topic": "sell_share_definition",
+      "claim": "DuckDuckGo says it does not save or share your search, chat or browsing history across its search engine, Duck.ai and apps.",
+      "quote": "We don’t save or share your search, chat, or browsing history when you search on DuckDuckGo, chat on Duck.ai, or use our apps and extensions.",
+      "line": 16,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-18",
+      "topic": "retention",
+      "claim": "Personal information you give DuckDuckGo directly is kept only as long as needed for its stated purpose and then deleted, unless a law requires keeping it longer; no specific time periods are given.",
+      "quote": "We will limit its use by only keeping it for as long as necessary for the stated purpose, and we will protect it by keeping it secure and deleting it when it is no longer required, unless a longer period is required by law.",
+      "line": 38,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-19",
+      "topic": "retention",
+      "claim": "DuckDuckGo says it does not save unique identifiers alongside your searches, chats or site visits, and never writes them to disk in a way that could be tied back to you.",
+      "quote": "We also don’t save any other unique identifiers alongside your searches, chats, or visits to our website, and never log unique identifiers to disk that could be tied back to you",
+      "line": 17,
+      "context": "Optional features like Sync & Backup may use random IDs, with chats encrypted so DuckDuckGo says it cannot read them.",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-20",
+      "topic": "user_controls",
+      "claim": "For legal privacy rights like deleting or getting a copy of your data, the policy sends you to a separate Privacy Rights page rather than describing the process.",
+      "quote": "For information about these rights, such as requesting deletion or a copy of your personal information, please review our Privacy Rights page",
+      "line": 44,
+      "context": "These rights cover only the limited data from optional features or from contacting DuckDuckGo.",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-21",
+      "topic": "user_controls",
+      "claim": "DuckDuckGo stores your search settings in anonymous cookies, or lets you set them through anonymous URL parameters instead.",
+      "quote": "We offer a variety of settings that use anonymous cookies for storage, and also offer the option to configure search settings via anonymous URL parameters if you prefer.",
+      "line": 34,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-22",
+      "topic": "optout_ads",
+      "claim": "There is no ad opt-out because DuckDuckGo says its search ads are based on the page you are viewing, not on you as a person.",
+      "quote": "Since we don’t have that information, search ads on DuckDuckGo are based on the search results page you’re viewing, and not based on you as a person.",
+      "line": 24,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-23",
+      "topic": "optout_steps",
+      "claim": "The policy itself lists only one concrete opt-out step (unsubscribing from the newsletter); for each optional feature it says you'll be told how to opt out when you turn it on, and it describes no ad or tracking opt-out because it says none is needed.",
+      "quote": "Before you choose to use an optional feature, we always let you know what personal information we’ll need (if any), how we’ll use it, and how you can subsequently opt out.",
+      "line": 28,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-24",
+      "topic": "optout_steps",
+      "claim": "You can unsubscribe from the DuckDuckGo newsletter at any time, and it says it will then delete your email address.",
+      "quote": "You can also unsubscribe at any time, at which point we will delete it.",
+      "line": 38,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-25",
+      "topic": "sensitive_location",
+      "claim": "For local results, DuckDuckGo says it receives only a random location near you instead of your precise location, and never logs it to disk.",
+      "quote": "For local search results in particular, we've further engineered a solution to shield your precise location from us and our content providers that sends us a random location nearish to you, which we also never log to disk.",
+      "line": 18,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "duckduckgo-26",
+      "topic": "sensitive_children",
+      "claim": "DuckDuckGo says its services are for a general audience and it does not knowingly market to or collect information from children under 13; it states no minimum age to use the service.",
+      "quote": "Our apps and website are intended for a general audience, and we do not knowingly market to or solicit information from children under 13.",
+      "line": 47,
+      "context": "",
+      "surprise": 0
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "use_personalization",
+      "searched": "personaliz, recommend, tailor, custom, feed, profile, interest; only display/search settings stored in anonymous cookies are mentioned, no content personalization"
+    },
+    {
+      "topic": "use_ai_training",
+      "searched": "train, model, machine learning, artificial, AI, Duck.ai, chatbot; Duck.ai is mentioned but AI-model training is not addressed (deferred to the separate Duck.ai privacy policy)"
+    },
+    {
+      "topic": "optout_ai",
+      "searched": "opt out, train, model, AI, Duck.ai, artificial, machine learning"
+    },
+    {
+      "topic": "sensitive_biometric",
+      "searched": "biometric, face (only matches \"Facebook\"), facial, fingerprint, voice, voiceprint"
+    },
+    {
+      "topic": "sensitive_health",
+      "searched": "health, medical, fitness, sensitive, reproductive"
+    }
+  ],
+  "notes": "Short policy built around the claim \"We don’t track you\"; most topics are answered with negative statements rather than detailed disclosures. Optional features (Email Protection, Duck.ai, Sync & Backup, DuckDuckGo Subscription) and recruiting have their own separate privacy policies, which are not part of this text, so AI-chat handling in particular is not covered here. No region-specific (e.g. CCPA/GDPR) sections; legal rights are deferred to a separate Privacy Rights page."
+}
