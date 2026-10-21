@@ -36,9 +36,11 @@
       "claim": "When you use Codespaces or github.dev, some Visual Studio Code telemetry is collected by default.",
       "quote": "GitHub Codespaces and github.dev offer Visual Studio Code in a web browser, where some telemetry is collected by default.",
       "line": 70,
-      "context": "",
+      "context": "You can opt out in VS Code under File > Preferences > Settings, and the choice syncs to future web sessions.",
       "surprise": 2,
-      "surprise_why": "Developers may not expect browser-based coding sessions to send telemetry unless they find and change a VS Code setting."
+      "surprise_why": "Developers may not expect browser-based coding sessions to send telemetry unless they find and change a VS Code setting.",
+      "review_verdict": "supported",
+      "review_reason": "Line 70 states this directly."
     },
     {
       "id": "github-05",
@@ -102,7 +104,9 @@
       "line": 153,
       "context": "Other parts of the policy describe non-essential and ad cookies mainly on Enterprise Marketing Pages such as resources.github.com.",
       "surprise": 2,
-      "surprise_why": "Developers may not expect a code platform to let ad partners track them across services."
+      "surprise_why": "Developers may not expect a code platform to let ad partners track them across services.",
+      "review_verdict": "supported",
+      "review_reason": "Line 153 says partners \"may use these technologies in our Services\" to collect this data over time and across Services, including for targeted advertising; the context covers the Enterprise Marketing Pages focus (lines 141, 146, 153)."
     },
     {
       "id": "github-12",
@@ -110,9 +114,11 @@
       "claim": "GitHub and third parties use social media cookies to show you ads and content based on your social media profiles and your activity on GitHub's websites.",
       "quote": "GitHub and third parties use social media cookies to show you ads and content based on your social media profiles and activity on GitHub’s websites.",
       "line": 159,
-      "context": "",
+      "context": "Elsewhere the policy says non-essential cookies are placed on pages that market to enterprise customers, such as resources.github.com (line 153).",
       "surprise": 2,
-      "surprise_why": "Linking social media profiles with GitHub activity for ads is not something most users would expect."
+      "surprise_why": "Linking social media profiles with GitHub activity for ads is not something most users would expect.",
+      "review_verdict": "supported",
+      "review_reason": "Line 159 (cookie table, \"Social Media\" row) states this directly."
     },
     {
       "id": "github-13",
@@ -149,7 +155,9 @@
       "line": 55,
       "context": "The same line says GitHub applies aggregation and de-identification 'where feasible'.",
       "surprise": 2,
-      "surprise_why": "Many developers do not expect their personal data to be used to train models."
+      "surprise_why": "Many developers do not expect their personal data to be used to train models.",
+      "review_verdict": "supported",
+      "review_reason": "Line 55 explicitly includes \"training models\" in product development; the context accurately adds the \"where feasible\" safeguard."
     },
     {
       "id": "github-17",
@@ -157,19 +165,24 @@
       "claim": "GitHub may share personal data with affiliates including Microsoft for purposes including marketing, advertising, and training and improving AI and machine learning.",
       "quote": "Personal Data may be shared with GitHub affiliates, including Microsoft, to facilitate customer service, marketing and advertising, order fulfillment, billing, technical support, legal and compliance obligations, product development and improvement (including training and improving artificial intelligence and machine learning technologies)",
       "line": 64,
-      "context": "",
+      "context": "Affiliates may also use it for other purposes described in their own privacy statements.",
       "surprise": 3,
-      "surprise_why": "Users may not expect their GitHub data to be handed to Microsoft for AI training and advertising, under Microsoft's own privacy terms."
+      "surprise_why": "Users may not expect their GitHub data to be handed to Microsoft for AI training and advertising, under Microsoft's own privacy terms.",
+      "review_verdict": "supported",
+      "review_reason": "Line 64 says personal data \"may be shared\" with affiliates including Microsoft for these purposes, including AI and machine learning training."
     },
     {
       "id": "github-18",
       "topic": "use_ai_training",
-      "claim": "For EEA and UK users, GitHub relies on its 'legitimate interests', not your consent, to develop and improve its AI and machine learning technologies.",
+      "claim": "For EEA and UK users, GitHub lists developing and improving its services, including AI and machine learning, as an example of processing based on its legitimate interests, a legal basis that does not require your consent.",
       "quote": "We process data for purposes that are in our legitimate interests, such as securing our Services, communicating with you, and developing and improving our Services, which include artificial intelligence and machine learning technologies.",
       "line": 81,
-      "context": "This section applies to EEA and UK users.",
+      "context": "This section applies to EEA and UK users. Applies to EEA and UK users, and only where GitHub's interests are not overridden by your rights.",
       "surprise": 2,
-      "surprise_why": "Users may expect to be asked before their data is used for AI, but this legal basis does not require consent."
+      "surprise_why": "Users may expect to be asked before their data is used for AI, but this legal basis does not require consent.",
+      "review_verdict": "overstated",
+      "review_reason": "Line 81 gives AI and ML development only as an example of legitimate-interest processing, line 78 says the basis \"varies depending on the data type and the context\", and line 82 lists consent as another basis, so the policy does not say consent is never used for AI. Legitimate interests also apply only \"when these interests are not overridden by your data protection rights\".",
+      "claim_original": "For EEA and UK users, GitHub relies on its 'legitimate interests', not your consent, to develop and improve its AI and machine learning technologies."
     },
     {
       "id": "github-19",
@@ -179,7 +192,19 @@
       "line": 154,
       "context": "'These purposes' refers to the cookie uses listed just before, including targeted advertising.",
       "surprise": 2,
-      "surprise_why": "Sharing inferences about you with outside parties for ads is more than most users would expect."
+      "surprise_why": "Sharing inferences about you with outside parties for ads is more than most users would expect.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote (line 154) says only \"for these purposes\"; targeted advertising and the full purpose list appear only in the preceding paragraph on line 153.",
+      "extra_quotes": [
+        {
+          "quote": "The GitHub Services use cookies and similar technologies for a variety of purposes, including to store your preferences and settings, enable you to sign-in, analyze how our Services perform, track your interaction with the Services, develop inferences, combat fraud, and fulfill other legitimate purposes.",
+          "line": 153
+        },
+        {
+          "quote": "related to your online activities over time and across Services for various purposes, including targeted advertising.",
+          "line": 153
+        }
+      ]
     },
     {
       "id": "github-20",
@@ -187,9 +212,17 @@
       "claim": "If your school or employer provides your GitHub account, it can access and use your personal data, including how you use GitHub and your content and files.",
       "quote": "Access and utilize your Personal Data, which includes details on how you use the Services, as well as your content and files.",
       "line": 10,
-      "context": "",
+      "context": "The organization becomes the Data Controller, and its own privacy statement applies (line 11).",
       "surprise": 2,
-      "surprise_why": "Students and employees may not realise their institution can see their usage, content, and files."
+      "surprise_why": "Students and employees may not realise their institution can see their usage, content, and files.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is a list item (line 10); that the school or employer is the one who can do this comes from the lead-in on line 8.",
+      "extra_quotes": [
+        {
+          "quote": "When a school or employer supplies your GitHub account, they assume the role of Data Controller for most Personal Data used in our Services. This enables them to:",
+          "line": 8
+        }
+      ]
     },
     {
       "id": "github-21",
@@ -215,9 +248,11 @@
       "claim": "GitHub says that, as defined by law, it 'shared' identifiers, internet activity, and inferences about people with advertising networks, data analytics providers, and social networks in the past 12 months.",
       "quote": "As defined by applicable law, we “shared” the following categories of personal information in the last 12 months: identifiers/contact information, Internet or other electronic network activity information, and inferences drawn from the above. We shared each category to or with advertising networks, data analytics providers, and social networks.",
       "line": 206,
-      "context": "",
+      "context": "This appears in GitHub's California privacy-law disclosures, and GitHub says elsewhere that it does not sell your data (line 172).",
       "surprise": 2,
-      "surprise_why": "This admission contrasts with GitHub's statement that it does not sell data, and most users would not expect inferences about them to go to ad networks."
+      "surprise_why": "This admission contrasts with GitHub's statement that it does not sell data, and most users would not expect inferences about them to go to ad networks.",
+      "review_verdict": "supported",
+      "review_reason": "Line 206 states this directly."
     },
     {
       "id": "github-24",

@@ -20,7 +20,9 @@
       "line": 71,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Many people do not realise that even removed content and their own deletions stay permanently visible in the public page history."
+      "surprise_why": "Many people do not realise that even removed content and their own deletions stay permanently visible in the public page history.",
+      "review_verdict": "supported",
+      "review_reason": "Line 71 says each contribution creates a permanent public record of content added, removed or altered, and the page history shows when and your username or temporary account username."
     },
     {
       "id": "wikipedia-03",
@@ -75,7 +77,9 @@
       "line": 74,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Editors may not realise their editing history can be mined by outsiders to guess sensitive traits such as their politics."
+      "surprise_why": "Editors may not realise their editing history can be mined by outsiders to guess sensitive traits such as their politics.",
+      "review_verdict": "supported",
+      "review_reason": "Line 74 says data you make public or aggregated data Wikimedia publishes 'can be used by anyone' to infer country, political affiliation and gender."
     },
     {
       "id": "wikipedia-09",
@@ -148,7 +152,9 @@
       "line": 210,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may assume only Foundation staff can see their non-public data, not outside volunteer developers."
+      "surprise_why": "Users may assume only Foundation staff can see their non-public data, not outside volunteer developers.",
+      "review_verdict": "supported",
+      "review_reason": "Line 210 says Wikimedia gives some volunteer developers limited access to systems containing Personal Information, only as reasonably necessary."
     },
     {
       "id": "wikipedia-17",
@@ -158,7 +164,9 @@
       "line": 212,
       "context": "",
       "surprise": 2,
-      "surprise_why": "It is unusual for a policy to state plainly that it may not check whether outside people with access to your data are complying."
+      "surprise_why": "It is unusual for a policy to state plainly that it may not check whether outside people with access to your data are complying.",
+      "review_verdict": "supported",
+      "review_reason": "Line 212 says Wikimedia cannot guarantee developers and researchers will abide by its agreement nor that it will regularly screen or audit their projects."
     },
     {
       "id": "wikipedia-18",
@@ -177,7 +185,9 @@
       "line": 197,
       "context": "The same paragraph says these volunteers are supposed to follow Wikimedia's nonpublic-data access policy and that the Foundation does not know their legal names.",
       "surprise": 2,
-      "surprise_why": "Most readers do not expect fellow volunteers, whose legal names the Foundation says it does not know, to be able to see non-public data about them."
+      "surprise_why": "Most readers do not expect fellow volunteers, whose legal names the Foundation says it does not know, to be able to see non-public data about them.",
+      "review_verdict": "supported",
+      "review_reason": "Line 197 says user-selected administrative rights 'may include access to limited amounts of otherwise nonpublic information about recent contributions and activity by other users'."
     },
     {
       "id": "wikipedia-20",
@@ -194,9 +204,11 @@
       "claim": "Volunteers may place data-collecting tools such as scripts or tracking pixels on Wikimedia pages without the Foundation's knowledge, and the policy does not cover what those third parties do with the data.",
       "quote": "Sometimes, volunteers may place a data-collecting tool, such as a script, gadget, tracking pixel, or share button, on a Wikimedia Site without our knowledge. This Policy does not cover how third parties handle the information they receive as a result of such a tool.",
       "line": 62,
-      "context": "",
+      "context": "The policy says you can remove such a tool yourself or report it to the Foundation for investigation (line 62).",
       "surprise": 2,
-      "surprise_why": "Visitors would not expect tracking tools on Wikipedia pages that the operator itself may not know about."
+      "surprise_why": "Visitors would not expect tracking tools on Wikipedia pages that the operator itself may not know about.",
+      "review_verdict": "supported",
+      "review_reason": "Line 62 says volunteers may place such tools without the Foundation's knowledge and the Policy does not cover how third parties handle the resulting information."
     },
     {
       "id": "wikipedia-22",
@@ -222,9 +234,11 @@
       "claim": "You cannot fully delete a Wikimedia account once it is created, though you can usually hide the information on your user page.",
       "quote": "Once created, user accounts cannot be removed entirely (although you can usually hide the information on your user page if you choose to). This is because your public contributions must be associated with their author (you!).",
       "line": 85,
-      "context": "",
+      "context": "Line 85 adds that in some circumstances the communities can help remove additional information related to your account.",
       "surprise": 2,
-      "surprise_why": "Most people expect to be able to delete an account; here it is kept because edits must stay attributed to their author."
+      "surprise_why": "Most people expect to be able to delete an account; here it is kept because edits must stay attributed to their author.",
+      "review_verdict": "supported",
+      "review_reason": "Line 85 says accounts cannot be removed entirely, though you can usually hide user-page information."
     },
     {
       "id": "wikipedia-25",
@@ -306,7 +320,9 @@
       "line": 95,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People uploading photos may not realise the location where the photo was taken can be sent to Wikimedia and made public."
+      "surprise_why": "People uploading photos may not realise the location where the photo was taken can be sent to Wikimedia and made public.",
+      "review_verdict": "supported",
+      "review_reason": "Line 95 contrasts consent-based GPS with photo/video metadata (place and time taken) that mobile defaults typically include in uploads; the policy notes it is then made public unless you change device settings."
     },
     {
       "id": "wikipedia-34",

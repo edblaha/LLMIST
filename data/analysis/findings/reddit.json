@@ -56,7 +56,9 @@
       "line": 60,
       "context": "Applies only to businesses using ads.reddit.com.",
       "surprise": 2,
-      "surprise_why": "Session replay records a user's on-screen actions, which few people expect."
+      "surprise_why": "Session replay records a user's on-screen actions, which few people expect.",
+      "review_verdict": "supported",
+      "review_reason": "Line 60 says this directly; the claim and context limit it to Reddit Ads (ads.reddit.com) users."
     },
     {
       "id": "reddit-07",
@@ -66,7 +68,9 @@
       "line": 52,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Reddit stresses that it collects minimal information, so users may not expect it to infer their gender and age."
+      "surprise_why": "Reddit stresses that it collects minimal information, so users may not expect it to infer their gender and age.",
+      "review_verdict": "supported",
+      "review_reason": "Line 52 says this directly."
     },
     {
       "id": "reddit-08",
@@ -83,9 +87,11 @@
       "claim": "Reddit may receive demographic or interest information about you from advertisers and others and match it to your account using a hashed email or device ID.",
       "quote": "we may receive demographic or interest information about you from third parties, including advertisers (such as the fact that an advertiser is interested in showing you an ad), and combine it with data you have provided to Reddit, using a common account identifier such as a hash of an email address or a mobile-device ID.",
       "line": 53,
-      "context": "",
+      "context": "You can control how this information is used to personalize ads in User Settings (line 53).",
       "surprise": 2,
-      "surprise_why": "Users who never gave Reddit their demographics may not expect advertisers to supply them."
+      "surprise_why": "Users who never gave Reddit their demographics may not expect advertisers to supply them.",
+      "review_verdict": "supported",
+      "review_reason": "Line 53 says this directly."
     },
     {
       "id": "reddit-10",
@@ -95,7 +101,9 @@
       "line": 57,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users do not expect Reddit to learn about purchases made on other websites."
+      "surprise_why": "Users do not expect Reddit to learn about purchases made on other websites.",
+      "review_verdict": "supported",
+      "review_reason": "Line 57 says this directly ('limited information', with buying something as the example)."
     },
     {
       "id": "reddit-11",
@@ -168,7 +176,9 @@
       "line": 22,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not realise their posts are licensed to outside companies for money."
+      "surprise_why": "Users may not realise their posts are licensed to outside companies for money.",
+      "review_verdict": "supported",
+      "review_reason": "Line 22 says this directly, in the context of third-party access to Reddit's public content."
     },
     {
       "id": "reddit-19",
@@ -178,7 +188,9 @@
       "line": 19,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not expect their posts to appear in AI chatbot responses."
+      "surprise_why": "Users may not expect their posts to appear in AI chatbot responses.",
+      "review_verdict": "supported",
+      "review_reason": "Line 19 says this directly about content submitted to public parts of Reddit."
     },
     {
       "id": "reddit-20",
@@ -188,7 +200,9 @@
       "line": 89,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not expect their identifiers to be merged with outside companies' profiles of them."
+      "surprise_why": "Users may not expect their identifiers to be merged with outside companies' profiles of them.",
+      "review_verdict": "supported",
+      "review_reason": "Line 89 says this directly, as an example of service providers."
     },
     {
       "id": "reddit-21",
@@ -214,9 +228,11 @@
       "claim": "Reddit denies \"selling\" as state laws define it, but for \"sharing\" it only says it doesn't know of doing so for users under 16.",
       "quote": "Reddit does not “sell” personal information as those terms are defined under applicable state privacy laws. Reddit does not have knowledge that it “sells” or “shares” the personal information of users under 16 years of age.",
       "line": 389,
-      "context": "",
+      "context": "The same paragraph lets users opt out of sharing with third-party ad-measurement partners using the 'Ads off Reddit' toggle (line 389).",
       "surprise": 2,
-      "surprise_why": "The narrow denial means data may be \"shared\" for cross-context ads despite the \"we don't sell\" message."
+      "surprise_why": "The narrow denial means data may be \"shared\" for cross-context ads despite the \"we don't sell\" message.",
+      "review_verdict": "supported",
+      "review_reason": "Line 389 reads exactly this way: a flat denial of 'selling' and an under-16 knowledge disclaimer for 'sells' or 'shares'."
     },
     {
       "id": "reddit-24",
@@ -251,9 +267,11 @@
       "claim": "Deleting your account does not delete your posts, comments, and messages; you must delete each piece of content first.",
       "quote": "Please note, however, that the posts, comments, and messages you submitted prior to deleting your account will still be visible to others unless you first delete the specific content.",
       "line": 106,
-      "context": "",
+      "context": "Your profile is hidden and is disassociated from that content when you delete your account (line 106).",
       "surprise": 2,
-      "surprise_why": "Most people expect deleting an account to remove what they posted."
+      "surprise_why": "Most people expect deleting an account to remove what they posted.",
+      "review_verdict": "supported",
+      "review_reason": "Line 106 says posts, comments and messages stay visible to others unless you delete them first."
     },
     {
       "id": "reddit-28",
@@ -335,7 +353,23 @@
       "line": 110,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Opting out fully means visiting many different places, several outside Reddit."
+      "surprise_why": "Opting out fully means visiting many different places, several outside Reddit.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote covers only the first action (account privacy settings); the other actions in the count are on lines 112-123 and 389.",
+      "extra_quotes": [
+        {
+          "quote": "you may manage the use and collection of certain information by Google Analytics via the Google Analytics Opt-out Browser Add-on . You can opt out of the Audience Measurement services provided by Nielsen and Quantcast .",
+          "line": 114
+        },
+        {
+          "quote": "by toggling the “Ads off Reddit” setting to off in your privacy preferences.",
+          "line": 389
+        },
+        {
+          "quote": "please visit the sites of the Digital Advertising Alliance and the Network Advertising Initiative , or if you are a user in the European Economic Area, Your Online Choices .",
+          "line": 115
+        }
+      ]
     },
     {
       "id": "reddit-37",

@@ -29,7 +29,9 @@
       "line": 290,
       "context": "All messages are automatically filtered, and suspicious ones may be checked manually by customer service (same line).",
       "surprise": 2,
-      "surprise_why": "Many users assume member-to-member messages go straight to the other person rather than being received and screened by eBay."
+      "surprise_why": "Many users assume member-to-member messages go straight to the other person rather than being received and screened by eBay.",
+      "review_verdict": "supported",
+      "review_reason": "Line 290 says exactly this for all messages via messaging tools; the following sentences on filtering and manual checks match the context."
     },
     {
       "id": "ebay_previous-04",
@@ -48,7 +50,9 @@
       "line": 140,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Few shoppers would expect a marketplace website to probe their device's network ports."
+      "surprise_why": "Few shoppers would expect a marketplace website to probe their device's network ports.",
+      "review_verdict": "supported",
+      "review_reason": "Line 140 gives port enumeration as an example ('e.g.') of risk-assessment tools under legitimate-interest fraud prevention; the claim's 'may' matches."
     },
     {
       "id": "ebay_previous-06",
@@ -80,12 +84,15 @@
     {
       "id": "ebay_previous-09",
       "topic": "collect_inferred",
-      "claim": "eBay places you into user segments such as gender, age bracket and interests (its example: 'female, 20-49 years old, interested in sneakers').",
+      "claim": "Among the data eBay collects through cookies and similar technologies is the user segment you fall into, for example 'female, 20-49 years old, interested in sneakers'.",
       "quote": "The user segment or category into which you as a user fall, for example: female, 20-49 years old, interested in sneakers.",
       "line": 68,
-      "context": "",
+      "context": "Listed under data collected through cookies and similar technologies; the notice does not say who assigns the segment.",
       "surprise": 2,
-      "surprise_why": "Users may not realize eBay sorts them into demographic and interest categories for its own use."
+      "surprise_why": "Users may not realize eBay sorts them into demographic and interest categories for its own use.",
+      "review_verdict": "overstated",
+      "review_reason": "Line 68 lists the segment among data 'collected' via cookies and similar technologies (section heading above), and the surrounding items concern advertising partners; the notice does not say eBay itself assigns the segment, and nothing says it is 'for its own use'.",
+      "claim_original": "eBay places you into user segments such as gender, age bracket and interests (its example: 'female, 20-49 years old, interested in sneakers')."
     },
     {
       "id": "ebay_previous-10",
@@ -113,7 +120,9 @@
       "line": 78,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Most shoppers do not expect eBay to obtain demographic and interest profiles about them from outside data companies."
+      "surprise_why": "Most shoppers do not expect eBay to obtain demographic and interest profiles about them from outside data companies.",
+      "review_verdict": "supported",
+      "review_reason": "Line 78, under section 4.4 'Personal data from other sources', lists exactly these data-provider categories."
     },
     {
       "id": "ebay_previous-13",
@@ -123,7 +132,9 @@
       "line": 79,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Sellers are unlikely to expect a marketplace to gather information about their criminal record."
+      "surprise_why": "Sellers are unlikely to expect a marketplace to gather information about their criminal record.",
+      "review_verdict": "supported",
+      "review_reason": "Line 79 limits this to payment services for sellers, as the claim does."
     },
     {
       "id": "ebay_previous-14",
@@ -142,7 +153,9 @@
       "line": 84,
       "context": "You can limit this through each social network's privacy settings.",
       "surprise": 2,
-      "surprise_why": "Users linking an account for convenience may not expect their social-network ad history to flow to eBay."
+      "surprise_why": "Users linking an account for convenience may not expect their social-network ad history to flow to eBay.",
+      "review_verdict": "supported",
+      "review_reason": "Line 84 matches, including 'may'; the context reflects the next sentence about social-network privacy settings."
     },
     {
       "id": "ebay_previous-16",
@@ -150,9 +163,11 @@
       "claim": "If you live outside the EEA, Switzerland and the UK, eBay may use your data for personalized ads and content, measurement and analytics both on and off eBay's sites, without asking for consent first.",
       "quote": "For users outside the European Economic Area (EEA), Switzerland and the United Kingdom: Advertising and content personalization, measurement and analytics, on and off our sites, as explained in our AdChoice page.",
       "line": 150,
-      "context": "Listed under eBay's 'legitimate interests' (section 5.4); for EEA, Swiss and UK users the same use needs consent (line 176).",
+      "context": "Listed under eBay's 'legitimate interests' (section 5.4); for EEA, Swiss and UK users the same use needs consent (line 176). Users can still object to legitimate-interest processing (line 173) and manage ad preferences via AdChoice (line 261).",
       "surprise": 2,
-      "surprise_why": "Users outside Europe may not realize ad tracking on and off eBay is switched on by default rather than by their choice."
+      "surprise_why": "Users outside Europe may not realize ad tracking on and off eBay is switched on by default rather than by their choice.",
+      "review_verdict": "supported",
+      "review_reason": "Line 150 is listed under section 5.4 legitimate interests (line 137), while the EEA/CH/UK equivalent is consent-based (line 176)."
     },
     {
       "id": "ebay_previous-17",
@@ -225,7 +240,9 @@
       "line": 335,
       "context": "Based on eBay's 'legitimate interest' (same line).",
       "surprise": 2,
-      "surprise_why": "Users would not expect their data to train AI models belonging to other companies."
+      "surprise_why": "Users would not expect their data to train AI models belonging to other companies.",
+      "review_verdict": "supported",
+      "review_reason": "Line 335 states this directly, including 'Where permitted under applicable law' and third-party models 'that we use'."
     },
     {
       "id": "ebay_previous-25",
@@ -235,7 +252,9 @@
       "line": 335,
       "context": "",
       "surprise": 2,
-      "surprise_why": "This places essentially everything eBay collects, from messages to ID data, within scope of AI training."
+      "surprise_why": "This places essentially everything eBay collects, from messages to ID data, within scope of AI training.",
+      "review_verdict": "supported",
+      "review_reason": "Line 335's next sentence says training 'may include the personal data set out in Section 4', which includes message content (line 48) and seller ID data (line 46)."
     },
     {
       "id": "ebay_previous-26",
@@ -263,7 +282,9 @@
       "line": 189,
       "context": "Listed as recipients for consent-based processing (section 5.5).",
       "surprise": 2,
-      "surprise_why": "Users may not realize their eBay data can flow to Meta, Google and TikTok for advertising."
+      "surprise_why": "Users may not realize their eBay data can flow to Meta, Google and TikTok for advertising.",
+      "review_verdict": "supported",
+      "review_reason": "Line 189 is a recipient of section 5.5 consent-based processing (heading line 175)."
     },
     {
       "id": "ebay_previous-29",
@@ -273,7 +294,9 @@
       "line": 138,
       "context": "Data may include name, city, zip code, phone, email, past usernames, IP address, fraud complaints and bidding and listing history.",
       "surprise": 2,
-      "surprise_why": "Users may assume eBay hands data to authorities only when legally compelled."
+      "surprise_why": "Users may assume eBay hands data to authorities only when legally compelled.",
+      "review_verdict": "supported",
+      "review_reason": "Line 138 (section 5.4 legitimate interests) covers disclosure to courts, law enforcement and authorities where there is no statutory obligation and eBay assumes it is necessary to avert imminent disadvantages or report suspected illegal acts; 'harm' is a fair paraphrase."
     },
     {
       "id": "ebay_previous-30",
@@ -281,9 +304,17 @@
       "claim": "In civil disputes such as intellectual-property complaints, eBay may give a seller's name, address, phone number and email to third parties like rights owners, even without a legal obligation.",
       "quote": "such as the seller's name, address, city, zip code, country, telephone number, email address and company name to the third party",
       "line": 139,
-      "context": "The third party is bound by a non-disclosure agreement.",
+      "context": "The third party is bound by a non-disclosure agreement. Only where eBay assumes disclosure is necessary to avert imminent disadvantages, and only what it believes necessary (same line).",
       "surprise": 2,
-      "surprise_why": "Sellers may not expect their address and phone number to be handed to brand owners in a private dispute."
+      "surprise_why": "Sellers may not expect their address and phone number to be handed to brand owners in a private dispute.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is only the list of data items; the civil-dispute/VeRO context and 'unless there is a statutory obligation' appear earlier on line 139. Claim also omits the condition that eBay must assume disclosure is necessary to avert imminent disadvantages.",
+      "extra_quotes": [
+        {
+          "quote": "Protection of the legitimate interests of third parties (including participants of the VeRO program and the PROACT program) in connection with civil law disputes, including the investigation of such disputes, unless there is a statutory obligation to this effect",
+          "line": 139
+        }
+      ]
     },
     {
       "id": "ebay_previous-31",
@@ -347,7 +378,9 @@
       "line": 314,
       "context": "Applies only to features that use a public blockchain, with your separate agreement.",
       "surprise": 2,
-      "surprise_why": "Users may not realize some eBay features place data on a public ledger that can never be erased."
+      "surprise_why": "Users may not realize some eBay features place data on a public ledger that can never be erased.",
+      "review_verdict": "supported",
+      "review_reason": "Line 314 states this; the context correctly limits it to public-blockchain features requiring separate agreement; line 232 adds blockchain data cannot be erased."
     },
     {
       "id": "ebay_previous-38",
@@ -501,7 +534,9 @@
       "line": 181,
       "context": "Listed under consent-based processing (section 5.5); the notice does not say what kind of biometric data.",
       "surprise": 2,
-      "surprise_why": "Sellers may not expect identity checks on a marketplace to involve their biometric data."
+      "surprise_why": "Sellers may not expect identity checks on a marketplace to involve their biometric data.",
+      "review_verdict": "supported",
+      "review_reason": "Line 181 is under section 5.5 consent (line 175) and limited to sellers, as the claim says."
     },
     {
       "id": "ebay_previous-55",

@@ -1,0 +1,110 @@
+{
+  "key": "reddit",
+  "file": "data/text/reddit.txt",
+  "reviewed": 10,
+  "reviews": [
+    {
+      "id": "reddit-06",
+      "verdict": "supported",
+      "reason": "Line 60 says this directly; the claim and context limit it to Reddit Ads (ads.reddit.com) users.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-07",
+      "verdict": "supported",
+      "reason": "Line 52 says this directly.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-09",
+      "verdict": "supported",
+      "reason": "Line 53 says this directly.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "You can control how this information is used to personalize ads in User Settings (line 53).",
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-10",
+      "verdict": "supported",
+      "reason": "Line 57 says this directly ('limited information', with buying something as the example).",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-18",
+      "verdict": "supported",
+      "reason": "Line 22 says this directly, in the context of third-party access to Reddit's public content.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-19",
+      "verdict": "supported",
+      "reason": "Line 19 says this directly about content submitted to public parts of Reddit.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-20",
+      "verdict": "supported",
+      "reason": "Line 89 says this directly, as an example of service providers.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-23",
+      "verdict": "supported",
+      "reason": "Line 389 reads exactly this way: a flat denial of 'selling' and an under-16 knowledge disclaimer for 'sells' or 'shares'.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "The same paragraph lets users opt out of sharing with third-party ad-measurement partners using the 'Ads off Reddit' toggle (line 389).",
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-27",
+      "verdict": "supported",
+      "reason": "Line 106 says posts, comments and messages stay visible to others unless you delete them first.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Your profile is hidden and is disassociated from that content when you delete your account (line 106).",
+      "extra_quotes": []
+    },
+    {
+      "id": "reddit-36",
+      "verdict": "quote_insufficient",
+      "reason": "The quote covers only the first action (account privacy settings); the other actions in the count are on lines 112-123 and 389.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": [
+        {
+          "quote": "you may manage the use and collection of certain information by Google Analytics via the Google Analytics Opt-out Browser Add-on . You can opt out of the Audience Measurement services provided by Nielsen and Quantcast .",
+          "line": 114
+        },
+        {
+          "quote": "by toggling the “Ads off Reddit” setting to off in your privacy preferences.",
+          "line": 389
+        },
+        {
+          "quote": "please visit the sites of the Digital Advertising Alliance and the Network Advertising Initiative , or if you are a user in the European Economic Area, Your Online Choices .",
+          "line": 115
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+ "key": "duckduckgo",
+ "file": "data/text/duckduckgo.txt",
+ "reviewed": 3,
+ "reviews": [
+  {
+   "id": "duckduckgo-09",
+   "verdict": "supported",
+   "reason": "Line 25 says ad clicks are managed by Microsoft's ad network and the protection is Microsoft's commitment not to associate clicks with a profile or store/share them other than for accounting.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "duckduckgo-10",
+   "verdict": "supported",
+   "reason": "Line 18 says DuckDuckGo saves anonymous search queries disconnected from identifiers like IP addresses to improve search indexes by analyzing anonymous trends; no retention period for these appears anywhere in the file.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The policy gives no time limit for keeping these anonymous queries.",
+   "extra_quotes": []
+  },
+  {
+   "id": "duckduckgo-13",
+   "verdict": "supported",
+   "reason": "Line 39 says when you reach out for support, feedback or other reasons, your communication 'may be accessible' to its SaaS providers such as email, project management and customer support vendors.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  }
+ ]
+}

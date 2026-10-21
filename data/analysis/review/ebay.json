@@ -1,0 +1,165 @@
+{
+  "key": "ebay",
+  "file": "data/text/ebay.txt",
+  "reviewed": 17,
+  "reviews": [
+    {
+      "id": "ebay-03",
+      "verdict": "supported",
+      "reason": "Line 28 says livestreams 'may be recorded and made available for replay', including comments; the claim keeps 'may'.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-04",
+      "verdict": "supported",
+      "reason": "Line 279 says this for all messages via messaging tools; the context matches the next sentence.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-05",
+      "verdict": "supported",
+      "reason": "Line 119 lists port enumeration as an example of fraud/risk-assessment tools under legitimate interests; 'may' matches.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-09",
+      "verdict": "overstated",
+      "reason": "Line 45 lists the segment among data 'collected' via cookies and similar technologies (section heading above), and the surrounding items concern advertising partners; the notice does not say eBay itself assigns the segment, and nothing says it is 'for its own use'.",
+      "corrected_claim": "Among the data eBay collects through cookies and similar technologies is the user segment you fall into, for example 'female, 20-49 years old, interested in sneakers'.",
+      "remove": false,
+      "context": "Listed under data collected through cookies and similar technologies; the notice does not say who assigns the segment.",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-12",
+      "verdict": "supported",
+      "reason": "Line 55, under section 2.4 'Personal data from other sources', lists these categories.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-13",
+      "verdict": "supported",
+      "reason": "Line 56 is limited to payment services for sellers, as claimed.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-15",
+      "verdict": "supported",
+      "reason": "Line 61 matches, including 'may'; context reflects the following sentence.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-16",
+      "verdict": "supported",
+      "reason": "Line 129 is under section 3.4 legitimate interests (line 116); the EEA/CH/UK equivalent requires consent (line 155).",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Users can still object to legitimate-interest processing (line 152) and manage ad preferences via AdChoice (line 240).",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-22",
+      "verdict": "supported",
+      "reason": "Line 254 says 'in some cases we may also use certain user personal data ... where we determine it is necessary and proportionate'; the claim keeps the 'may' and the 'some' qualifier.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "eBay says it relies primarily on publicly available data for generative AI training and takes privacy-mitigation steps such as de-identification before training (same line).",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-24",
+      "verdict": "supported",
+      "reason": "Line 254 states this; the rest of the sentence says that where training involves personal data under applicable law (incl. EEA, Switzerland, UK) eBay relies on legitimate interest.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Same sentence: where training data is personal data under applicable law, including in the EEA, Switzerland and UK, eBay relies on legitimate interest.",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-26",
+      "verdict": "supported",
+      "reason": "Line 168 is a recipient listed for section 3.5 consent-based processing (line 154).",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-27",
+      "verdict": "supported",
+      "reason": "Line 117 (section 3.4 legitimate interests) covers disclosure to courts, law enforcement and authorities absent a statutory obligation where eBay assumes it is necessary to avert imminent disadvantages or report suspected illegal acts.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-28",
+      "verdict": "quote_insufficient",
+      "reason": "The quote is only the list of data items; the civil-dispute/VeRO context and 'unless there is a statutory obligation' appear earlier on line 118. Claim also omits the condition that eBay must assume disclosure is necessary to avert imminent disadvantages.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Only where eBay assumes disclosure is necessary to avert imminent disadvantages, and only what it believes necessary (same line).",
+      "extra_quotes": [
+        {
+          "quote": "Protection of the legitimate interests of third parties (including participants of the VeRO program and the PROACT program) in connection with civil law disputes, including the investigation of such disputes, unless there is a statutory obligation to this effect",
+          "line": 118
+        }
+      ]
+    },
+    {
+      "id": "ebay-35",
+      "verdict": "supported",
+      "reason": "Line 304 states this; context correctly limits it to public-blockchain features; line 211 adds blockchain data cannot be erased.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-42",
+      "verdict": "overstated",
+      "reason": "Line 255 limits the AI-training-specific objection right to 'certain users', but the same line points to section 6, which gives everyone a right to object to legitimate-interest processing (lines 204, 219), and AI training rests on legitimate interest (lines 135, 254). Saying the notice grants the right 'only' to certain users is too strong.",
+      "corrected_claim": "For generative AI training, the notice mentions a right to object only 'for certain users' and points to a separate 'Artificial Intelligence at eBay' page, though its general right to object to legitimate-interest processing (section 6) still applies; no in-notice setting is described.",
+      "remove": false,
+      "context": "AI training is based on legitimate interest, and section 6 gives a general right to object to such processing (line 219).",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-48",
+      "verdict": "overstated",
+      "reason": "Line 37 says 'this data' (location data generally) is used for purposes including advertising or measurement where permitted by law, but it defers to 'the purposes described in Section 3', and Section 3 ties precise location only to consent-based location-based services (line 157). The notice does not clearly say precise location is used for advertising.",
+      "corrected_claim": "eBay says it uses location data, which includes your general location such as your IP address, for purposes such as location-based services, radius search, fraud prevention and, where the law permits, advertising or measurement.",
+      "remove": false,
+      "context": "Section 3 mentions precise location only for location-based services with your consent (line 157).",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay-52",
+      "verdict": "supported",
+      "reason": "Line 160 is under section 3.5 consent (line 154) and covers identification, age verification and fraud prevention via identity verification options.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    }
+  ]
+}

@@ -17,9 +17,17 @@
       "claim": "Meta says it collects the messages you send and receive, including their content, subject to applicable law.",
       "quote": "Messages you send and receive, including their content, subject to applicable law.",
       "line": 72,
-      "context": "The same line notes that some products offer end-to-end encrypted messages.",
+      "context": "The same line notes that some products offer end-to-end encrypted messages. Collection is \"subject to applicable law\", and the same line notes some products offer end-to-end encrypted messages.",
       "surprise": 2,
-      "surprise_why": "Many people assume their private messages are not collected by the platform itself."
+      "surprise_why": "Many people assume their private messages are not collected by the platform itself.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 72 is a bare list item; the statement that Meta collects these items is in the lead-in on line 69.",
+      "extra_quotes": [
+        {
+          "quote": "We collect your activity across our Products and information you provide [5] , such as:",
+          "line": 69
+        }
+      ]
     },
     {
       "id": "meta-03",
@@ -44,7 +52,15 @@
       "quote": "What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)",
       "line": 107,
       "surprise": 2,
-      "surprise_why": "Few users expect mouse movement and app foreground state to be logged."
+      "surprise_why": "Few users expect mouse movement and app foreground state to be logged.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 107 is a list item under the device-information heading; the collection verb is on line 104.",
+      "extra_quotes": [
+        {
+          "quote": "We collect and receive information from and about the different devices [11] you use and how you use them.",
+          "line": 104
+        }
+      ]
     },
     {
       "id": "meta-06",
@@ -53,7 +69,15 @@
       "quote": "Information about other devices that are nearby or on your network",
       "line": 279,
       "surprise": 2,
-      "surprise_why": "Users would not expect a social app to collect data about other people's devices around them."
+      "surprise_why": "Users would not expect a social app to collect data about other people's devices around them.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 279 is a bare list item in the network-information expansion (line 271 lead-in has no verb); line 281 states Meta collects this information.",
+      "extra_quotes": [
+        {
+          "quote": "One reason we collect this information is to make your experience better. For example, if we know that your phone and TV are connected to the same network, we can help you use your phone to control a video stream on your TV.",
+          "line": 281
+        }
+      ]
     },
     {
       "id": "meta-07",
@@ -62,7 +86,15 @@
       "quote": "Information about websites that you visit or interact with, and your activity on them, when you use our in-app browser.",
       "line": 77,
       "surprise": 2,
-      "surprise_why": "Most people do not realise the browser inside the app records their activity on outside websites."
+      "surprise_why": "Most people do not realise the browser inside the app records their activity on outside websites.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 77 is a list item; the collection statement is the lead-in on line 69.",
+      "extra_quotes": [
+        {
+          "quote": "We collect your activity across our Products and information you provide [5] , such as:",
+          "line": 69
+        }
+      ]
     },
     {
       "id": "meta-08",
@@ -79,7 +111,15 @@
       "quote": "We might suggest a friend to you through Facebook's People You May Know or Instagram’s Discover People if you both appear on a list of contacts or connections that someone uploads.",
       "line": 100,
       "surprise": 2,
-      "surprise_why": "You can be linked to people because of an address book you never saw or agreed to share."
+      "surprise_why": "You can be linked to people because of an address book you never saw or agreed to share.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote (line 100) is only the example; the general statement that Meta infers things about you from others' activity is line 99. Claim reverses direction (suggests you to someone vs. suggests a friend to you) but the mutual-contact-list point is the same.",
+      "extra_quotes": [
+        {
+          "quote": "We also infer things about you based on others' activity. For example:",
+          "line": 99
+        }
+      ]
     },
     {
       "id": "meta-10",
@@ -104,7 +144,16 @@
       "quote": "We receive this information whether or not you’re logged in or have an account on our Products.",
       "line": 130,
       "surprise": 3,
-      "surprise_why": "People who are logged out or have no account generally assume Meta has no data on them."
+      "surprise_why": "People who are logged out or have no account generally assume Meta has no data on them.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 130 says \"this information\", whose antecedent is the partner/vendor information listed on lines 119-129; the quote alone does not say what is received.",
+      "context": "The same statement is repeated for ad personalization on line 1346.",
+      "extra_quotes": [
+        {
+          "quote": "We collect and receive information from partners [21] , measurement vendors , marketing vendors and other third parties [22] about a variety of your information and activities on and off our Products [3] .",
+          "line": 119
+        }
+      ]
     },
     {
       "id": "meta-13",
@@ -114,7 +163,15 @@
       "line": 128,
       "context": "Listed among examples that also include off-Meta purchases, apps you use and games you play.",
       "surprise": 2,
-      "surprise_why": "Users rarely expect offline, in-store activity to reach a social media company."
+      "surprise_why": "Users rarely expect offline, in-store activity to reach a social media company.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 128 is a list item; the lead-in on line 120 shows these are examples of information Meta receives about you.",
+      "extra_quotes": [
+        {
+          "quote": "Here are some examples of information we receive about you:",
+          "line": 120
+        }
+      ]
     },
     {
       "id": "meta-14",
@@ -123,7 +180,15 @@
       "quote": "Marketing and advertising vendors and data providers, who have the rights to provide us with your information",
       "line": 315,
       "surprise": 2,
-      "surprise_why": "Receiving data from data providers (data brokers) is not widely known."
+      "surprise_why": "Receiving data from data providers (data brokers) is not widely known.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 315 is a list item; the statement that Meta collects and receives information from these third parties is on line 312.",
+      "extra_quotes": [
+        {
+          "quote": "We collect and receive information from these other third parties [25] , including:",
+          "line": 312
+        }
+      ]
     },
     {
       "id": "meta-15",
@@ -132,7 +197,9 @@
       "quote": "If you don’t use Meta Products, or use them without an account, your information might still be collected.",
       "line": 94,
       "surprise": 2,
-      "surprise_why": "Non-users do not expect to have data held by a service they never joined."
+      "surprise_why": "Non-users do not expect to have data held by a service they never joined.",
+      "review_verdict": "supported",
+      "review_reason": "Line 94 says non-users' information \"might still be collected\" and the next sentence on the same line ties this to contact information uploaded by account holders (see line 93)."
     },
     {
       "id": "meta-16",
@@ -149,7 +216,15 @@
       "quote": "Information about your friends, followers or other connections, including their activity or interests",
       "line": 371,
       "surprise": 2,
-      "surprise_why": "People do not expect their friends' behaviour to shape the ads shown to them."
+      "surprise_why": "People do not expect their friends' behaviour to shape the ads shown to them.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 371 is a list item; line 365 shows the list is information Meta uses to decide which ads to show you.",
+      "extra_quotes": [
+        {
+          "quote": "To decide what to show you and others, we use information we have about you, including:",
+          "line": 365
+        }
+      ]
     },
     {
       "id": "meta-18",
@@ -158,7 +233,9 @@
       "quote": "We collect and store this information to facilitate your purchase, receipt of payments and other financial transactions, to personalize your experience on our Products, for advertising",
       "line": 226,
       "surprise": 2,
-      "surprise_why": "People expect payment data to be used only to complete the purchase."
+      "surprise_why": "People expect payment data to be used only to complete the purchase.",
+      "review_verdict": "supported",
+      "review_reason": "Line 226 (purchases/transactions expansion, lead-in line 219) explicitly lists personalization and advertising as reasons for collecting and storing payment and transaction information."
     },
     {
       "id": "meta-19",
@@ -175,7 +252,15 @@
       "quote": "To make the restaurant suggestion even more relevant, Meta AI also uses additional information including that Anna recently told Meta AI she loves Italian food, and that she has lately been liking Instagram posts featuring modern fine dining.",
       "line": 393,
       "surprise": 2,
-      "surprise_why": "Users may not expect an AI chat to draw on their past chats and Instagram likes."
+      "surprise_why": "Users may not expect an AI chat to draw on their past chats and Instagram likes.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote (line 393) is a single illustrative example about \"Anna\"; the general statement that Meta AI uses your activity, interests and preferences to personalize responses is line 387.",
+      "extra_quotes": [
+        {
+          "quote": "We use information we have, including about your interests and preferences, to help make responses and actions from our features that are part of AI at Meta more relevant, such as:",
+          "line": 387
+        }
+      ]
     },
     {
       "id": "meta-21",
@@ -200,7 +285,10 @@
       "quote": "We analyze information about where groups of people go during crises. This helps relief organizations get aid to the right places.",
       "line": 463,
       "surprise": 2,
-      "surprise_why": "Users may not know their movement data can feed population-level research."
+      "surprise_why": "Users may not know their movement data can feed population-level research.",
+      "review_verdict": "supported",
+      "review_reason": "Line 463 states this directly, listed as an example of Meta's social-good research (line 462).",
+      "context": "Presented as research on groups of people, not individuals."
     },
     {
       "id": "meta-24",
@@ -226,7 +314,9 @@
       "line": 1247,
       "context": "From the \"Why and how we process your information\" table; the categories listed are public content, AI interactions and partner/third-party data.",
       "surprise": 3,
-      "surprise_why": "Most users would not expect their data to help build AI that serves other companies."
+      "surprise_why": "Most users would not expect their data to help build AI that serves other companies.",
+      "review_verdict": "supported",
+      "review_reason": "Line 1247 is the purpose statement of the \"Developing and improving AI at Meta\" processing entry (line 1245); the categories on lines 1249-1252 match the context."
     },
     {
       "id": "meta-27",
@@ -235,7 +325,19 @@
       "quote": "Public content you or others create or share, like posts, comments or audio on Meta Products",
       "line": 1250,
       "surprise": 2,
-      "surprise_why": "Many people do not expect their public posts to become AI training material."
+      "surprise_why": "Many people do not expect their public posts to become AI training material.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 1250 is a category list item; the AI-development purpose is on line 1247 and the \"could include\" framing (supporting \"may\") on line 1248.",
+      "extra_quotes": [
+        {
+          "quote": "Develop and improve AI at Meta for Meta Products and for third parties.",
+          "line": 1247
+        },
+        {
+          "quote": "The actual information we use depends on your factual circumstances, but could include any of the following:",
+          "line": 1248
+        }
+      ]
     },
     {
       "id": "meta-28",
@@ -244,7 +346,19 @@
       "quote": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features.",
       "line": 1251,
       "surprise": 2,
-      "surprise_why": "People may treat AI chats as private conversations rather than training input."
+      "surprise_why": "People may treat AI chats as private conversations rather than training input.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 1251 is a category list item whose wording repeats in many processing entries; only the purpose on line 1247 ties it to developing AI, and line 1248 gives the \"could include\" framing.",
+      "extra_quotes": [
+        {
+          "quote": "Develop and improve AI at Meta for Meta Products and for third parties.",
+          "line": 1247
+        },
+        {
+          "quote": "The actual information we use depends on your factual circumstances, but could include any of the following:",
+          "line": 1248
+        }
+      ]
     },
     {
       "id": "meta-29",
@@ -253,7 +367,10 @@
       "quote": "For example, your videos can help train our products to recognize objects, like trees, or activities, like when a dog chases a ball. They can also help train tools that let people and businesses create content, like images and videos.",
       "line": 929,
       "surprise": 2,
-      "surprise_why": "Users rarely expect their personal videos to train image and video generation tools."
+      "surprise_why": "Users rarely expect their personal videos to train image and video generation tools.",
+      "review_verdict": "supported",
+      "review_reason": "Line 929 states this directly.",
+      "context": "Described as information shared among Meta Companies (which include WhatsApp) \"to support innovation\" and to offer future products."
     },
     {
       "id": "meta-30",
@@ -270,9 +387,11 @@
       "claim": "Meta shares your device identifier or other identifiers with marketing vendors to serve you its ads.",
       "quote": "For example, we share your device identifier or other identifiers with marketing vendors to help us serve you ads most relevant to your interests.",
       "line": 791,
-      "context": "The policy says these vendors may be tracking and categorizing your online and mobile app activity.",
+      "context": "The policy says these vendors may be tracking and categorizing your online and mobile app activity. Marketing vendors advertise Meta's own products (line 873).",
       "surprise": 2,
-      "surprise_why": "This sits alongside \"we never sell\" claims and many users would not expect identifiers to go to outside ad vendors."
+      "surprise_why": "This sits alongside \"we never sell\" claims and many users would not expect identifiers to go to outside ad vendors.",
+      "review_verdict": "supported",
+      "review_reason": "Line 791 states this directly; line 794 lists tracking and categorizing your online and mobile app activity among what marketing vendors do."
     },
     {
       "id": "meta-32",
@@ -281,7 +400,9 @@
       "quote": "When you use these features, information related to your request will be shared with the browser. The browser may further share your information with other third parties.",
       "line": 828,
       "surprise": 2,
-      "surprise_why": "Users would not expect an AI request to flow on to unnamed parties beyond Meta."
+      "surprise_why": "Users would not expect an AI request to flow on to unnamed parties beyond Meta.",
+      "review_verdict": "supported",
+      "review_reason": "Line 828 states this; the sentence before it scopes it to \"some features\" that \"may\" use an external browser."
     },
     {
       "id": "meta-33",
@@ -291,7 +412,9 @@
       "line": 1095,
       "context": "Voluntary responses are limited to cases that may affect users in that jurisdiction and are consistent with international standards.",
       "surprise": 2,
-      "surprise_why": "People assume data is only handed over when the law compels it."
+      "surprise_why": "People assume data is only handed over when the law compels it.",
+      "review_verdict": "supported",
+      "review_reason": "Line 1095 says so, with the conditions on lines 1096-1097 already captured in the context."
     },
     {
       "id": "meta-34",
@@ -299,9 +422,11 @@
       "claim": "Meta states that it does not sell any of your information to anyone and never will.",
       "quote": "We don't sell any of your information to anyone, and we never will.",
       "line": 740,
-      "context": "This policy does not define \"sell\" or discuss \"sharing\" for targeted ads; it points US residents to a separate United States Regional Privacy Notice.",
+      "context": "This policy does not define \"sell\" or discuss \"sharing\" for targeted ads; it points US residents to a separate United States Regional Privacy Notice. The policy does not define \"sell\"; it does describe sharing identifiers with marketing vendors for ads (line 791) and refers US residents to a separate United States Regional Privacy Notice (lines 41, 1150).",
       "surprise": 2,
-      "surprise_why": "The word \"sell\" is not defined in this policy, even though it describes sharing identifiers and ad data with vendors and advertisers."
+      "surprise_why": "The word \"sell\" is not defined in this policy, even though it describes sharing identifiers and ad data with vendors and advertisers.",
+      "review_verdict": "supported",
+      "review_reason": "Line 740 says this verbatim (also line 739)."
     },
     {
       "id": "meta-35",
@@ -334,7 +459,9 @@
       "quote": "If you request that we delete your account or content, it may take up to 90 days to delete your information after we begin the account deletion process or receive a content deletion request. After the information is deleted, it may take us up to another 90 days to remove it from backups and disaster recovery.",
       "line": 970,
       "surprise": 2,
-      "surprise_why": "Users expect deletion to be quick, not up to about six months."
+      "surprise_why": "Users expect deletion to be quick, not up to about six months.",
+      "review_verdict": "supported",
+      "review_reason": "Line 970 states both 90-day periods with \"may\", matching the claim."
     },
     {
       "id": "meta-39",
@@ -343,7 +470,9 @@
       "quote": "In some cases, we may preserve your information based on the above reasons even after you request deletion of your account or some of your content.",
       "line": 1011,
       "surprise": 2,
-      "surprise_why": "People expect a deletion request to remove their data."
+      "surprise_why": "People expect a deletion request to remove their data.",
+      "review_verdict": "supported",
+      "review_reason": "Line 1011 says so; \"the above reasons\" (lines 1002-1009) are legal requests, investigations, harm prevention, safety/integrity and self-protection."
     },
     {
       "id": "meta-40",
@@ -409,7 +538,10 @@
       "quote": "Certain ad blockers and tools to restrict cookies can interfere with your ability to opt out.",
       "line": 883,
       "surprise": 2,
-      "surprise_why": "Privacy tools that users install can stop their opt-out from working."
+      "surprise_why": "Privacy tools that users install can stop their opt-out from working.",
+      "review_verdict": "supported",
+      "review_reason": "Line 883 says this.",
+      "context": "This opt-out only covers Meta's own ads shown off Meta Products (line 879), not ads on Facebook or Instagram."
     },
     {
       "id": "meta-48",
@@ -419,16 +551,21 @@
       "line": 351,
       "context": "The described ad controls cover off-Meta activity, advertisers, interests and Meta's own off-platform ads.",
       "surprise": 2,
-      "surprise_why": "Users may assume they can switch off ad personalization entirely."
+      "surprise_why": "Users may assume they can switch off ad personalization entirely.",
+      "review_verdict": "supported",
+      "review_reason": "Line 351 frames personalized ads as part of the service; grepping the policy finds ad controls only for advertisers, off-Meta activity, interests and Meta's own off-platform ads (lines 505, 510, 844, 879-884), plus a generic \"Visit your Ad preferences\" link (lines 876, 951) that does not describe stopping on-Meta activity-based ads."
     },
     {
       "id": "meta-49",
       "topic": "optout_ai",
-      "claim": "The only AI choice the policy mentions is that using voice interactions to improve the Assistant depends on your settings; it describes no way to opt out of public posts or Meta AI chats being used to develop AI.",
+      "claim": "Apart from saying that improving the voice Assistant from your voice interactions depends on your settings, the policy describes no specific way to stop your public posts or Meta AI chats from being used to develop AI.",
       "quote": "Collecting Ren’s voice interactions lets us provide and, depending on Ren’s settings, improve the Assistant feature.",
       "line": 187,
       "surprise": 2,
-      "surprise_why": "Users would expect a clear opt-out from AI training, and the policy gives none."
+      "surprise_why": "Users would expect a clear opt-out from AI training, and the policy gives none.",
+      "review_verdict": "overstated",
+      "review_reason": "\"The only AI choice\" is too broad: the policy also lets you choose whether to connect third-party apps to AI features (line 829) and points generally to settings and Help Centers to exercise rights (lines 940-941); the core point that no AI-training opt-out is described holds.",
+      "claim_original": "The only AI choice the policy mentions is that using voice interactions to improve the Assistant depends on your settings; it describes no way to opt out of public posts or Meta AI chats being used to develop AI."
     },
     {
       "id": "meta-50",
@@ -437,7 +574,24 @@
       "quote": "If she doesn't want to see ads from this shoe store again, she can hide them in her Advertisers setting . Or if she doesn’t want us to show her any ads based on her activity on other websites and apps, she can make sure that this setting is turned off in her Ad preferences .",
       "line": 505,
       "surprise": 2,
-      "surprise_why": "Opting out is spread across several settings pages and per-browser tools rather than one switch."
+      "surprise_why": "Opting out is spread across several settings pages and per-browser tools rather than one switch.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote (line 505) shows only two of the six listed controls; the interests removal, the opt-out from Meta's own off-Meta ads and the DAA opt-out appear on lines 844, 879 and 883 (device settings on line 884).",
+      "context": "Options 4-6 apply only to Meta's own ads shown off Meta Products.",
+      "extra_quotes": [
+        {
+          "quote": "You can see the “interests” assigned to you in your Ad preferences and remove them if you want.",
+          "line": 844
+        },
+        {
+          "quote": "We advertise our own products and services on non-Meta ad platforms. We use marketing vendors to deliver these ads. If we use your activity on our Products to tailor these ads, you can opt out of this type of use.",
+          "line": 879
+        },
+        {
+          "quote": "You can use the Digital Advertising Alliance industry opt-out platform on your web browser. If you live in Canada, you can use the Digital Advertising Alliance of Canada industry opt-out platform. Certain ad blockers and tools to restrict cookies can interfere with your ability to opt out.",
+          "line": 883
+        }
+      ]
     },
     {
       "id": "meta-51",
@@ -471,7 +625,9 @@
       "quote": "Some location-related information , even if Location Services is turned off in your device settings. This includes using IP addresses to estimate your general location.",
       "line": 112,
       "surprise": 2,
-      "surprise_why": "Turning off location is widely believed to stop location tracking."
+      "surprise_why": "Turning off location is widely believed to stop location tracking.",
+      "review_verdict": "supported",
+      "review_reason": "Line 112 states this directly."
     },
     {
       "id": "meta-55",
@@ -480,7 +636,9 @@
       "quote": "We can use IP addresses to estimate your specific location if it’s necessary to protect the safety and security of you or others.",
       "line": 398,
       "surprise": 2,
-      "surprise_why": "People do not expect IP addresses to be used for specific location when location is off."
+      "surprise_why": "People do not expect IP addresses to be used for specific location when location is off.",
+      "review_verdict": "supported",
+      "review_reason": "Line 398 states this directly."
     },
     {
       "id": "meta-56",
@@ -489,7 +647,9 @@
       "quote": "We use location-related information, such as your current location, where you live, the places you like to go and the businesses and people you're near",
       "line": 401,
       "surprise": 2,
-      "surprise_why": "Knowing which people you are physically near goes beyond what most users expect."
+      "surprise_why": "Knowing which people you are physically near goes beyond what most users expect.",
+      "review_verdict": "supported",
+      "review_reason": "Line 401 states this; the uses listed include providing/personalizing products and ads and security (lines 402-403)."
     },
     {
       "id": "meta-57",
@@ -523,7 +683,9 @@
       "line": 423,
       "context": "Listed under investigating suspicious activity; details are in a linked page, not this policy.",
       "surprise": 2,
-      "surprise_why": "Users may not know Meta applies face analysis as part of investigating suspicious activity."
+      "surprise_why": "Users may not know Meta applies face analysis as part of investigating suspicious activity.",
+      "review_verdict": "supported",
+      "review_reason": "Line 423 says so; the context already notes details are on a linked page."
     },
     {
       "id": "meta-61",
@@ -532,7 +694,10 @@
       "quote": "We collect this voice interaction, which includes any background sound that occurs when Ren says the command.",
       "line": 187,
       "surprise": 2,
-      "surprise_why": "Background sound can capture other people and private surroundings."
+      "surprise_why": "Background sound can capture other people and private surroundings.",
+      "review_verdict": "supported",
+      "review_reason": "Line 187 states this, but only through one example (Ren using the voice-enabled Assistant on smart glasses); line 71 confirms voice-enabled feature content is collected generally.",
+      "context": "The background-sound detail comes from a single example of the voice-enabled Assistant."
     },
     {
       "id": "meta-62",
@@ -557,7 +722,10 @@
       "quote": "Processing information subject to special protections under applicable laws that you provide so we can share it with those you choose, to provide, personalize and improve our Products and to undertake analytics. We’ll collect, store, publish and apply automated, or sometimes manual (human), processing for these purposes.",
       "line": 1340,
       "surprise": 2,
-      "surprise_why": "People expect sensitive data such as health or sexual orientation to be handled more narrowly than general analytics."
+      "surprise_why": "People expect sensitive data such as health or sexual orientation to be handled more narrowly than general analytics.",
+      "review_verdict": "supported",
+      "review_reason": "Line 1340 states analytics as a purpose and automated or sometimes manual (human) processing.",
+      "context": "This covers special-protection information \"that you provide\"/choose to provide (line 1343); line 360 says it is not used to show ads."
     },
     {
       "id": "meta-65",
@@ -566,7 +734,9 @@
       "quote": "When our algorithms detect that someone might need help , a reviewer can review their post and offer support if needed.",
       "line": 489,
       "surprise": 2,
-      "surprise_why": "Automated scanning of posts for signs of distress, followed by human review, is not widely known."
+      "surprise_why": "Automated scanning of posts for signs of distress, followed by human review, is not widely known.",
+      "review_verdict": "supported",
+      "review_reason": "Line 489 states this, listed as an example of manual review."
     },
     {
       "id": "meta-66",
@@ -575,7 +745,9 @@
       "quote": "When you interact with a supervised user, their parent or guardian can see some of your activity and information. This can include information like your username, profile picture and if the supervised user blocked you.",
       "line": 593,
       "surprise": 2,
-      "surprise_why": "People chatting with a teen account would not expect a parent to see their username, photo or whether they were blocked."
+      "surprise_why": "People chatting with a teen account would not expect a parent to see their username, photo or whether they were blocked.",
+      "review_verdict": "supported",
+      "review_reason": "Line 593 states this directly and gives examples."
     },
     {
       "id": "meta-67",

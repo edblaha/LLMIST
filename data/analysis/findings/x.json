@@ -29,7 +29,9 @@
       "line": 36,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Many users assume their private DMs are not collected and readable by the company."
+      "surprise_why": "Many users assume their private DMs are not collected and readable by the company.",
+      "review_verdict": "supported",
+      "review_reason": "Line 36 lists follows/followers, Encrypted Message metadata, and DM contents, recipients and times; note only metadata is listed for Encrypted Messages, which the claim reflects."
     },
     {
       "id": "x-04",
@@ -39,7 +41,9 @@
       "line": 42,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Few people expect a social app to record which other apps are on their phone and their battery level."
+      "surprise_why": "Few people expect a social app to record which other apps are on their phone and their battery level.",
+      "review_verdict": "supported",
+      "review_reason": "Line 42 lists device and advertising ID, carrier, memory, apps installed and battery level exactly."
     },
     {
       "id": "x-05",
@@ -47,9 +51,11 @@
       "claim": "X's logs can include search terms you typed but never submitted, the ads shown to you, and cookie identifiers.",
       "quote": "search terms and IDs (including those not submitted as queries); ads shown to you on X; X-generated identiﬁers; and identiﬁers associated with cookies.",
       "line": 50,
-      "context": "This log collection applies even if you have no account or are signed out.",
+      "context": "This log collection applies even if you have no account or are signed out. Line 49 says this log collection applies even if you have no account or are signed out.",
       "surprise": 3,
-      "surprise_why": "Most people would be shocked that searches they typed and then abandoned may still be recorded."
+      "surprise_why": "Most people would be shocked that searches they typed and then abandoned may still be recorded.",
+      "review_verdict": "supported",
+      "review_reason": "Line 50 lists search terms 'including those not submitted as queries', ads shown, and cookie identifiers; line 49 frames this as information X 'may receive', matching 'can include'."
     },
     {
       "id": "x-06",
@@ -68,7 +74,9 @@
       "line": 46,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People would not expect X to tie their account to devices they never logged in on."
+      "surprise_why": "People would not expect X to tie their account to devices they never logged in on.",
+      "review_verdict": "supported",
+      "review_reason": "Line 46 says 'Subject to your settings, we may also associate your account with browsers or devices other than those you use to sign into X'; claim keeps both the settings qualifier and 'may'."
     },
     {
       "id": "x-08",
@@ -78,7 +86,9 @@
       "line": 47,
       "context": "Described as \"subject to your settings\".",
       "surprise": 2,
-      "surprise_why": "Matching your account to other, similar-looking email addresses is an unexpected way of guessing who you are."
+      "surprise_why": "Matching your account to other, similar-looking email addresses is an unexpected way of guessing who you are.",
+      "review_verdict": "supported",
+      "review_reason": "Line 47 gives exactly this example and is prefaced by 'Subject to your settings, we may'; 'resemble' is a fair paraphrase of 'share common components'."
     },
     {
       "id": "x-09",
@@ -88,7 +98,9 @@
       "line": 48,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users who browse X signed out likely believe they are anonymous."
+      "surprise_why": "Users who browse X signed out likely believe they are anonymous.",
+      "review_verdict": "supported",
+      "review_reason": "Line 48 states this directly with 'may'."
     },
     {
       "id": "x-10",
@@ -98,7 +110,9 @@
       "line": 55,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Most users don't realize advertisers send X data about their activity on other sites and apps."
+      "surprise_why": "Most users don't realize advertisers send X data about their activity on other sites and apps.",
+      "review_verdict": "supported",
+      "review_reason": "Line 55 lists cookie IDs, device IDs, hashed emails, demographic/interest data and content viewed or actions taken on a website or app."
     },
     {
       "id": "x-11",
@@ -117,7 +131,9 @@
       "line": 53,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People reading a news site with an embedded post would not expect X to learn what page they were on."
+      "surprise_why": "People reading a news site with an embedded post would not expect X to learn what page they were on.",
+      "review_verdict": "supported",
+      "review_reason": "Line 53 says X 'may receive log information that includes the web page you visited' when you view embedded content on third-party sites."
     },
     {
       "id": "x-13",
@@ -145,7 +161,15 @@
       "line": 30,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People sharing career details to find a job would not expect them to be used for ad targeting."
+      "surprise_why": "People sharing career details to find a job would not expect them to be used for ad targeting.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The claim's list of data types (employment history, education, skills, job-search activity) is in the first half of line 30, not in the quoted purpose list; the full sentence supports the claim.",
+      "extra_quotes": [
+        {
+          "quote": "We may collect and use your personal information (such as your biographical information, employment history, educational history, employment preferences, skills and abilities, and job search activity and engagement",
+          "line": 30
+        }
+      ]
     },
     {
       "id": "x-16",
@@ -164,7 +188,9 @@
       "line": 62,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not realize the phone number or email they gave for login can be used by others to look them up."
+      "surprise_why": "Users may not realize the phone number or email they gave for login can be used by others to look them up.",
+      "review_verdict": "supported",
+      "review_reason": "Line 62 says contact information is used to help others find your account 'if your settings permit, including through third-party services and client applications'."
     },
     {
       "id": "x-18",
@@ -192,7 +218,9 @@
       "line": 61,
       "context": "",
       "surprise": 2,
-      "surprise_why": "The wording is not limited to public posts, so it could cover any data X collects, and users get no opt-out for this in the policy."
+      "surprise_why": "The wording is not limited to public posts, so it could cover any data X collects, and users get no opt-out for this in the policy.",
+      "review_verdict": "supported",
+      "review_reason": "Line 61 says X 'may use the information we collect and publicly available information to help train our machine learning or artificial intelligence models'."
     },
     {
       "id": "x-21",
@@ -200,9 +228,11 @@
       "claim": "Unless you opt out, some third parties X shares your data with may use it for their own purposes, including training their own AI models.",
       "quote": "in some instances the recipients of the information may use it for their own independent purposes in addition to those stated in X’s Privacy Policy, including, for example, to train their artificial intelligence models, whether generative or otherwise.",
       "line": 84,
-      "context": "Applies to \"third-party collaborators\" depending on your settings or if you decide to share your data.",
+      "context": "Applies to \"third-party collaborators\" depending on your settings or if you decide to share your data. This applies to 'third-party collaborators' that X shares with depending on your settings or if you decide to share your data (line 84).",
       "surprise": 3,
-      "surprise_why": "Most users would be shocked that outside companies could train their own AI on their X data by default."
+      "surprise_why": "Most users would be shocked that outside companies could train their own AI on their X data by default.",
+      "review_verdict": "supported",
+      "review_reason": "Line 84 says 'If you do not opt out, in some instances the recipients ... may use it for their own independent purposes', including AI training; the claim's 'some' and 'may' preserve the hedges."
     },
     {
       "id": "x-22",
@@ -210,9 +240,17 @@
       "claim": "X makes public X content available to other websites and companies through its APIs, free in small amounts and for licensing fees at large scale.",
       "quote": "We generally make this content available in limited quantities for free and charge licensing fees for large-scale access.",
       "line": 85,
-      "context": "Those companies are not affiliated with X and may not reflect later edits or deletions you make.",
+      "context": "Those companies are not affiliated with X and may not reflect later edits or deletions you make. The policy says X 'generally' does this, and API recipients are not affiliated with X and may not reflect your later edits (line 85).",
       "surprise": 2,
-      "surprise_why": "Many users don't realize X charges outside companies for bulk access to their public posts."
+      "surprise_why": "Many users don't realize X charges outside companies for bulk access to their public posts.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quoted sentence only says 'this content' is free in limited quantities and licensed at scale; that it is public X content offered to websites and companies via APIs is in the preceding sentence of line 85. The policy also says 'generally'.",
+      "extra_quotes": [
+        {
+          "quote": "We use technology like APIs and embeds to make public X information available to websites, apps, and others for their use, for example, displaying posts on a news website or analyzing what people say on X.",
+          "line": 85
+        }
+      ]
     },
     {
       "id": "x-23",
@@ -247,9 +285,11 @@
       "claim": "X says it does not sell your personal information, but this policy never defines \"sell\" or discusses CCPA \"sharing\" for targeted ads.",
       "quote": "we’d encourage you to check out this additional information about data processing . And no, we don’t sell your personal information.",
       "line": 131,
-      "context": "",
+      "context": "Elsewhere X says it may 'share, sell, or transfer' your information in a merger, acquisition, sale of assets or bankruptcy (line 97).",
       "surprise": 2,
-      "surprise_why": "The flat denial sits alongside paid API licensing of public posts and third parties possibly training AI on shared data, and the word \"sell\" is never defined."
+      "surprise_why": "The flat denial sits alongside paid API licensing of public posts and third parties possibly training AI on shared data, and the word \"sell\" is never defined.",
+      "review_verdict": "supported",
+      "review_reason": "Line 131 says X doesn't sell personal information and the policy text never defines 'sell' or discusses CCPA 'sharing'; CCPA handling is only linked out (line 148)."
     },
     {
       "id": "x-27",
@@ -358,17 +398,22 @@
       "line": 79,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users who switch off data sharing would reasonably assume it stops all sharing."
+      "surprise_why": "Users who switch off data sharing would reasonably assume it stops all sharing.",
+      "review_verdict": "supported",
+      "review_reason": "Line 79's parenthetical says the setting does not control sharing described elsewhere, such as with service providers, or through other partnerships."
     },
     {
       "id": "x-39",
       "topic": "optout_ai",
-      "claim": "X implies you can opt out of third parties using your shared data for their own purposes such as AI training, but does not say how, and offers no opt-out for X's own AI training.",
+      "claim": "X says third-party collaborators may use your shared data for their own purposes such as AI training 'if you do not opt out', pointing only generally to your settings, and the policy describes no opt-out for X's own AI training.",
       "quote": "Depending on your settings , or if you decide to share your data, we may share or disclose your information with third parties. If you do not opt out",
       "line": 84,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Third-party AI use is on by default (opt-out) and the policy gives no instructions for opting out."
+      "surprise_why": "Third-party AI use is on by default (opt-out) and the policy gives no instructions for opting out.",
+      "review_verdict": "overstated",
+      "review_reason": "Line 84 explicitly ties the sharing to 'your settings' (linked) and says 'If you do not opt out', so 'implies' and 'does not say how' overstate it; the text points to settings but names no specific control. Nothing in the policy (only line 61 mentions training) offers an opt-out from X's own AI training, but the quote does not show that absence.",
+      "claim_original": "X implies you can opt out of third parties using your shared data for their own purposes such as AI training, but does not say how, and offers no opt-out for X's own AI training."
     },
     {
       "id": "x-40",
@@ -414,7 +459,9 @@
       "line": 29,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users would not expect a social network to collect biometric data, and the policy gives no detail on type or retention."
+      "surprise_why": "Users would not expect a social network to collect biometric data, and the policy gives no detail on type or retention.",
+      "review_verdict": "supported",
+      "review_reason": "Line 29 says 'Based on your consent, we may collect and use your biometric information for safety, security, and identification purposes', and neither line 29 nor the retention section (lines 99-113) specifies biometric types or retention."
     },
     {
       "id": "x-45",
@@ -442,7 +489,19 @@
       "line": 93,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People would not expect X to estimate their age from activity signals and pass that on to others."
+      "surprise_why": "People would not expect X to estimate their age from activity signals and pass that on to others.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote shows inferring age/identity for regulatory compliance, but sharing with 'partners and service providers' and the safety/verification purposes come later on line 93, outside the quote.",
+      "extra_quotes": [
+        {
+          "quote": "We may also share or disclose your age and identity information with our partners, service providers, and others for these purposes.",
+          "line": 93
+        },
+        {
+          "quote": "as well as for safety, security, fraud, know-your-customer, know-your-business, and identity verification, as the case may be",
+          "line": 93
+        }
+      ]
     }
   ],
   "not_stated": [],

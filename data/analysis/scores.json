@@ -1,0 +1,2338 @@
+{
+  "weights": {
+    "collects": 30,
+    "uses": 25,
+    "shares": 20,
+    "optout": 15,
+    "keeps": 10
+  },
+  "criteria": [
+    {
+      "key": "collects",
+      "name": "Collects data you never gave it",
+      "weight": 30,
+      "rubric": {
+        "0": "Essentially only what you provide; says it builds no profile",
+        "1": "Automatic device/usage data; any partner or location data is limited or opt-in; no inferred profile",
+        "2": "Builds inferences about you OR receives data about you from other companies",
+        "3": "Inferences AND data from other companies AND precise location or biometrics"
+      }
+    },
+    {
+      "key": "uses",
+      "name": "Uses it for ads or AI training",
+      "weight": 25,
+      "rubric": {
+        "0": "Neither personalized ads nor AI training",
+        "1": "Only contextual (non-personal) ads",
+        "2": "Personalized ads OR AI training on user data",
+        "3": "Personalized ads AND AI training on user data"
+      }
+    },
+    {
+      "key": "shares",
+      "name": "Shares or sells it",
+      "weight": 20,
+      "rubric": {
+        "0": "Only with service providers / for legal demands",
+        "1": "Also limited partners under privacy restrictions",
+        "2": "Identifiers or personal data go to advertising partners or affiliates",
+        "3": "Admits a 'sale'/'sharing' under state law, licenses user content, or lets third parties use it for their own purposes"
+      }
+    },
+    {
+      "key": "optout",
+      "name": "Hard to opt out",
+      "weight": 15,
+      "rubric": {
+        "0": "Nothing to opt out of, or one clear setting",
+        "1": "A few clear steps",
+        "2": "4+ separate places, or opt-outs only linked, not explained",
+        "3": "As 2, AND a major use (on-platform ads or AI training) with no opt-out described"
+      }
+    },
+    {
+      "key": "keeps",
+      "name": "Keeps it a long time",
+      "weight": 10,
+      "rubric": {
+        "0": "Specific short limits",
+        "1": "Specific limits for the main data",
+        "2": "'As long as needed' / for the life of the account, no fixed limit",
+        "3": "Your content stays after you delete your account, or the account can't be deleted"
+      }
+    }
+  ],
+  "not_stated_rule": "A criterion the policy says nothing about scores 1 and is flagged 'not stated'. A clear statement that the company does NOT do something scores 0. Where a policy addresses part of a criterion but is silent on another part (e.g. ads stated, AI training not stated), the score is based on what is stated and the silent part is listed in 'not_stated_parts'.",
+  "platforms": [
+    {
+      "key": "linkedin",
+      "platform": "LinkedIn",
+      "file": "data/text/linkedin.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Infers pay bracket, age and gender for ads; gets your details from other people's contact uploads; precise GPS location with opt-in.",
+          "evidence": [
+            {
+              "id": "linkedin-07",
+              "claim": "LinkedIn says ad targeting can use inferences such as your pay bracket from your job title, your age from graduation dates, your gender from your first name or pronouns, and your interests from your feed activity.",
+              "quote": "using job titles from a profile to infer industry, seniority, and compensation bracket; using graduation dates to infer age or using first names or pronoun usage to infer gender; using your feed activity to infer your interests",
+              "line": 146,
+              "extra_quotes": [
+                {
+                  "quote": "We target (and measure the performance of) ads to Members, Visitors and others both on and off our Services directly or through a variety of partners, using the following data, whether separately or combined:",
+                  "line": 141
+                }
+              ],
+              "context": ""
+            },
+            {
+              "id": "linkedin-09",
+              "claim": "LinkedIn receives your contact details and other data when other people sync their calendars, upload their contacts, or scan your business card.",
+              "quote": "We receive personal data (including contact information) about you when others import or sync their calendar with our Services, associate their contacts with Member profiles, scan and upload business cards",
+              "line": 65,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "linkedin-47",
+              "claim": "Your phone sends LinkedIn location data based on your phone settings, and LinkedIn says it will ask you to opt in before using GPS for your precise location.",
+              "quote": "If you use our Services from a mobile device, that device will send us data about your location based on your phone settings. We will ask you to opt-in before we use GPS or other tools to identify your precise location.",
+              "line": 84,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Targets ads on and off LinkedIn; may use your data to train AI models.",
+          "evidence": [
+            {
+              "id": "linkedin-13",
+              "claim": "LinkedIn targets ads to members, visitors, and others both on and off LinkedIn, directly or through partners.",
+              "quote": "We target (and measure the performance of) ads to Members, Visitors and others both on and off our Services directly or through a variety of partners",
+              "line": 141,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "linkedin-23",
+              "claim": "LinkedIn may use your personal data to develop and train AI models.",
+              "quote": "We may use your personal data to improve, develop, and provide products and Services, develop and train artificial intelligence (AI) models",
+              "line": 109,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 3,
+          "why": "Paying customers can export your profile details unless you opt out; may share data with Microsoft to develop its advertising.",
+          "evidence": [
+            {
+              "id": "linkedin-25",
+              "claim": "Paying customers can export your name, headline, company, title, and general location from your profile for sales leads or recruiting unless you opt out.",
+              "quote": "Customers can export limited information from your profile, such as name, headline, current company, current title, and general location (e.g., Dublin), such as to manage sales leads or talent, unless you opt-out.",
+              "line": 132,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "linkedin-24",
+              "claim": "LinkedIn may share your public posts with Microsoft and other affiliates to develop their services, and your personal data to develop their advertising.",
+              "quote": "we may also share with our Affiliates, including Microsoft, your (1) publicly-shared content (such as your public LinkedIn posts) to provide or develop their services and (2) personal data to improve, provide or develop their advertising services.",
+              "line": 227,
+              "extra_quotes": [],
+              "context": "Subject to the European Regional Privacy Notice for EU/EEA/UK users; the policy does not say what Microsoft services are meant. Subject to the European Regional Privacy Notice for EU/EEA/UK users."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "About 5 places, mostly bare links; no specific AI-training opt-out.",
+          "evidence": [
+            {
+              "id": "linkedin-43",
+              "claim": "The policy names about 5 separate opt-out places but mostly just links to them (\"here\"): (1) the cookie-based ad tracking opt-out, with separate controls for Visitors; (2) ad-choice settings for Members and Visitors; (3) opting out of profile exports by premium customers; (4) communication preferences; and (5) survey invitations.",
+              "quote": "Member settings can be found here. For Visitors, the setting is here.",
+              "line": 151,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "linkedin-41",
+              "claim": "The policy gives no specific way to opt out of AI training; it only says how your data is used depends on your settings.",
+              "quote": "How we use your personal data will depend on which Services you use, how you use those Services and the choices you make in your settings.",
+              "line": 109,
+              "extra_quotes": [],
+              "context": "The next sentence says LinkedIn may use personal data to develop and train AI models. The policy does give general rights to object to or restrict use of your data (line 253) and to object where LinkedIn relies on legitimate interests (line 277), though not specifically for AI training."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "Kept while the account is open; shared messages and posts stay visible after you close it.",
+          "evidence": [
+            {
+              "id": "linkedin-31",
+              "claim": "LinkedIn generally keeps your data, including what others provided and what it inferred about you, for as long as your account is open.",
+              "quote": "We generally retain your personal data as long as you keep your account open or as needed to provide you Services. This includes data you or others provided to us and data generated or inferred from your use of our Services.",
+              "line": 245,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "linkedin-34",
+              "claim": "Messages and posts you shared with others stay visible after you close your account or delete them from your profile.",
+              "quote": "Information you have shared with others (e.g., through InMail, updates or group posts) will remain visible after you close your account or delete the information from your own profile or mailbox",
+              "line": 262,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 96.7,
+      "rank": 1,
+      "tied": true
+    },
+    {
+      "key": "weather",
+      "platform": "Weather.com",
+      "file": "data/text/weather.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Draws conclusions about you, buys extra details from Data Providers, and may use precise GPS location to build audience segments.",
+          "evidence": [
+            {
+              "id": "weather-08",
+              "claim": "The company may draw conclusions about you, such as demographic details, from how you use its services or from data bought from Data Providers.",
+              "quote": "Conclusions made based on data collected directly from your interactions with the Services or from one of our Data Providers, such as demographic information.",
+              "line": 271,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "weather-11",
+              "claim": "The company works with Data Providers to add more details to the data it holds about you.",
+              "quote": "We partner with Data Providers to enrich our data with details, including but not limited to:",
+              "line": 184,
+              "extra_quotes": [
+                {
+                  "quote": "Consumer finance behavior, interests, and purchases",
+                  "line": 185
+                },
+                {
+                  "quote": "Home address",
+                  "line": 188
+                },
+                {
+                  "quote": "We use this data to better understand you, personalize our Services, and provide targeted advertising.",
+                  "line": 189
+                }
+              ],
+              "context": "The listed details (lines 185-188) include consumer finance behavior, interests and purchases, household demographics, hashed email address and home address, used per line 189 for personalization and targeted ads."
+            },
+            {
+              "id": "weather-50",
+              "claim": "The company may use your precise GPS location, or give it to specific data vendors, to build audience segments based on your preferences and characteristics.",
+              "quote": "we may also use or disclose to specific data vendors your precise geolocation data, which is considered sensitive Personal Information under the CCPA, to create audience segments based on your preferences and characteristics.",
+              "line": 472,
+              "extra_quotes": [],
+              "context": "CCPA section; applies to products other than those excluded on line 528. California (CCPA) section; Weather Underground, Storm Radar, SnowCast and the in-vehicle app do not do this (line 528), and precise location is collected only with consent (line 199)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Targets ads on and off its services; uses data to improve and train its AI.",
+          "evidence": [
+            {
+              "id": "weather-16",
+              "claim": "The company uses your data to target ads to you both on its own services and on other apps and websites.",
+              "quote": "To deliver targeted marketing messaging and ads on the Services and on third-party apps and websites.",
+              "line": 261,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "weather-24",
+              "claim": "For EU/UK users, it relies on its own 'legitimate interest', not your consent, to improve its AI features, including training its AI models.",
+              "quote": "Legitimate Interest - to improve the AI features, including training our AI models",
+              "line": 580,
+              "extra_quotes": [],
+              "context": "GDPR legal-basis table; the data used for AI features includes device information, identifiers, usage and location (line 262). Under GDPR/UK GDPR you have the right to object to processing (line 565)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 3,
+          "why": "Lets ad vendors use your data for their own purposes, and says it sold or shared data in the past year.",
+          "evidence": [
+            {
+              "id": "weather-29",
+              "claim": "The company lets advertising vendors use your information for their own purposes too, including targeted ads, which counts as a 'sale' or 'sharing' under California law.",
+              "quote": "We allow Advertising Vendors to use your Personal Information for certain purposes in addition to providing and improving advertising services for our Services, including cross-context behavioral or targeted advertising (described in section “Data Collection Technologies and Consumer Choice”), which is considered a “sale” or “sharing” under the CCPA.",
+              "line": 463,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "weather-30",
+              "claim": "It says it sold or shared categories of your personal information to advertising vendors in the past twelve months.",
+              "quote": "In the past twelve months, to deliver personalized advertising and measure the effectiveness of advertisements, we have sold or shared the following categories of Personal Information, as defined by the CCPA, to our Advertising Vendors:",
+              "line": 464,
+              "extra_quotes": [
+                {
+                  "quote": "Identifiers such as an online identifier or IP address;",
+                  "line": 465
+                },
+                {
+                  "quote": "Precise geolocation data; and",
+                  "line": 469
+                },
+                {
+                  "quote": "Inferences.",
+                  "line": 470
+                }
+              ],
+              "context": "The list (lines 465-470) includes online identifiers/IP, usage and commercial information, geolocation, precise geolocation and inferences. California (CCPA) notice."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "Opted in to sale/sharing by default; at least 10 separate opt-out actions.",
+          "evidence": [
+            {
+              "id": "weather-40",
+              "claim": "You are opted in to the sale or sharing of your personal information by default.",
+              "quote": "You will be opted in by default to the sale or sharing of Personal Information.",
+              "line": 506,
+              "extra_quotes": [],
+              "context": "California (CCPA) section. California (CCPA) section; ad-free subscribers are opted out automatically (line 516)."
+            },
+            {
+              "id": "weather-45",
+              "claim": "The policy lists at least 10 separate opt-out actions: browser settings, device ad-ID settings, industry tools (DAA/DAAC/EDAA), in-service opt-outs, GPC, each vendor's own opt-out, footer links, separate weather.com and wunderground.com Privacy Settings pages, each app's privacy menu, and contacting support.",
+              "quote": "You have choices over how your Personal Data is used for advertising:",
+              "line": 154,
+              "extra_quotes": [
+                {
+                  "quote": "You can visit our Data Vendors page to review the vendors we share data with and view their privacy policy and opt-out mechanisms where applicable.",
+                  "line": 160
+                },
+                {
+                  "quote": "You can access the \"Do Not Sell or Share My Personal Information\" link in the footer of the site if you are located in California when you access the Services.",
+                  "line": 508
+                },
+                {
+                  "quote": "in the app menu to manage your opt-out for each mobile app and your current location.",
+                  "line": 514
+                }
+              ],
+              "context": "The first six are listed on lines 155-160; the rest are in the U.S. and California sections (lines 367-371, 508-515). Some items overlap: the 'opt-outs through the Services' on line 158 are presumably the Privacy Settings pages and app menus listed later (lines 510-514)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "As long as it considers necessary; de-identified data kept forever.",
+          "evidence": [
+            {
+              "id": "weather-32",
+              "claim": "It keeps your data as long as it considers necessary to provide and improve its services, with no fixed limit.",
+              "quote": "We'll hold onto your Personal Data for as long as necessary to provide you with our Services and to improve them.",
+              "line": 203,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "weather-33",
+              "claim": "Old data may be de-identified and kept forever to help improve its services.",
+              "quote": "Outdated data that no longer requires personal identification may be de-identified and kept indefinitely in a way that no longer identifies you, but helps us as we continue to improve our Services.",
+              "line": 203,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 96.7,
+      "rank": 1,
+      "tied": true
+    },
+    {
+      "key": "x",
+      "platform": "X",
+      "file": "data/text/x.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "May infer who you are even when signed out; ad partners send IDs and interest data; may collect biometrics with consent.",
+          "evidence": [
+            {
+              "id": "x-09",
+              "claim": "Even when you are not signed in, X may infer who you are from the information it collects.",
+              "quote": "When you access X and are not signed in, we may infer your identity based on the information we collect.",
+              "line": 48,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "x-10",
+              "claim": "X's ad and business partners send it information about you, such as cookie and device IDs, hashed email addresses, demographic or interest data, and what you viewed or did on their websites or apps.",
+              "quote": "Our ad and business partners share information with us such as browser cookie IDs, X-generated identifiers, mobile device IDs, hashed user information like email addresses, demographic or interest data, and content viewed or actions taken on a website or app.",
+              "line": 55,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "x-44",
+              "claim": "With your consent, X may collect and use your biometric information for safety, security, and identification, without saying what kind of biometrics or how long it keeps them.",
+              "quote": "Based on your consent, we may collect and use your biometric information for safety, security, and identification purposes.",
+              "line": 29,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Shows ads on and off X; may train its AI models on your information.",
+          "evidence": [
+            {
+              "id": "x-14",
+              "claim": "X uses your information to measure ad effectiveness and to recognize your devices so it can show you ads both on and off X.",
+              "quote": "We also use this information to measure the effectiveness of ads and to help recognize your devices to serve you ads on and off of X.",
+              "line": 63,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "x-20",
+              "claim": "X may use the information it collects about you, plus publicly available information, to train its machine-learning and AI models.",
+              "quote": "We may use the information we collect and publicly available information to help train our machine learning or artificial intelligence models for the purposes outlined in this policy.",
+              "line": 61,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 3,
+          "why": "Some third parties may use shared data for their own purposes, including AI training, unless you opt out; licenses public content at scale.",
+          "evidence": [
+            {
+              "id": "x-21",
+              "claim": "Unless you opt out, some third parties X shares your data with may use it for their own purposes, including training their own AI models.",
+              "quote": "in some instances the recipients of the information may use it for their own independent purposes in addition to those stated in X’s Privacy Policy, including, for example, to train their artificial intelligence models, whether generative or otherwise.",
+              "line": 84,
+              "extra_quotes": [],
+              "context": "Applies to \"third-party collaborators\" depending on your settings or if you decide to share your data. This applies to 'third-party collaborators' that X shares with depending on your settings or if you decide to share your data (line 84)."
+            },
+            {
+              "id": "x-22",
+              "claim": "X makes public X content available to other websites and companies through its APIs, free in small amounts and for licensing fees at large scale.",
+              "quote": "We generally make this content available in limited quantities for free and charge licensing fees for large-scale access.",
+              "line": 85,
+              "extra_quotes": [
+                {
+                  "quote": "We use technology like APIs and embeds to make public X information available to websites, apps, and others for their use, for example, displaying posts on a news website or analyzing what people say on X.",
+                  "line": 85
+                }
+              ],
+              "context": "Those companies are not affiliated with X and may not reflect later edits or deletions you make. The policy says X 'generally' does this, and API recipients are not affiliated with X and may not reflect your later edits (line 85)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "Only one specific control named; no opt-out from X's own AI training.",
+          "evidence": [
+            {
+              "id": "x-40",
+              "claim": "The policy names just one specific opt-out control, the \"Data sharing with business partners\" option in Privacy and Safety settings; for ads, AI use, cookies and privacy requests it only says \"your settings\" or links elsewhere.",
+              "quote": "You can control whether X shares your personal information with these partners by using the “Data sharing with business partners” option in your Privacy and Safety settings",
+              "line": 79,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "x-39",
+              "claim": "X says third-party collaborators may use your shared data for their own purposes such as AI training 'if you do not opt out', pointing only generally to your settings, and the policy describes no opt-out for X's own AI training.",
+              "quote": "Depending on your settings , or if you decide to share your data, we may share or disclose your information with third parties. If you do not opt out",
+              "line": 84,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "Posts kept as long as you have the account.",
+          "evidence": [
+            {
+              "id": "x-29",
+              "claim": "X keeps your posts and interactions for as long as you have your account or until the content is removed.",
+              "quote": "We keep your usage information, such as the content you post, your interactions with other users’ content and how you interact with others on the platform for the duration of your account or until such content is removed.",
+              "line": 102,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 96.7,
+      "rank": 1,
+      "tied": true
+    },
+    {
+      "key": "strava",
+      "platform": "Strava",
+      "file": "data/text/strava.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Calculates fitness scores and predictions; receives heart rate, sleep and similar data from connected devices; core features need precise location.",
+          "evidence": [
+            {
+              "id": "strava-06",
+              "claim": "Strava calculates new information about you from your data, such as a Fitness Score, Relative Effort and predictions of your performance.",
+              "quote": "We generate metrics from your information to help you analyze your performance, such as Relative Effort, Fitness Score, Fitness & Freshness, and Performance Predictions.",
+              "line": 22,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "strava-08",
+              "claim": "If you connect devices or apps like Garmin, Peloton or Apple Health, Strava may receive data such as steps, sleep, heart rate, HRV or VO2max.",
+              "quote": "We collect information (including Activity Data) from devices and apps you choose to connect to Strava, such as your Garmin device, Peloton account, or Apple Health app. This could include, for example, step count, sleep information, heart rate, HRV, or VO2max.",
+              "line": 28,
+              "extra_quotes": [],
+              "context": "Only for devices and apps you choose to connect."
+            },
+            {
+              "id": "strava-41",
+              "claim": "Strava collects or infers your location when you sign up and use the app, and its core features need your precise location.",
+              "quote": "We collect or infer location information when you sign up for and use the Services.",
+              "line": 20,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Uses cookies and trackers to target its own ads; trains AI and machine-learning models on your information.",
+          "evidence": [
+            {
+              "id": "strava-12",
+              "claim": "Strava advertises itself through other companies and may use cookies and trackers to target ads to you.",
+              "quote": "We advertise our Services through third parties, and may use cookies and other tracking technologies to support targeted advertising and serve relevant ads",
+              "line": 59,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "strava-18",
+              "claim": "Strava uses your information to create, train and test AI and machine-learning models, including models run by its service providers.",
+              "quote": "We use information to enhance the quality, reliability, and/or accuracy of our AI Features by creating, developing, training, testing, improving, and maintaining AI and ML models run by Strava or our service providers.",
+              "line": 54,
+              "extra_quotes": [],
+              "context": "Strava says it uses aggregated, de-identified information where possible and offers choices about contributing to AI development (line 54)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 3,
+          "why": "Admits it may have 'shared' identifiers and online activity for cross-context ads; adult profiles are public by default.",
+          "evidence": [
+            {
+              "id": "strava-26",
+              "claim": "Strava admits that it may have shared identifiers, commercial information and online activity for advertising in the past year in ways some state laws call 'selling' or 'sharing'.",
+              "quote": "To the extent that certain US State Privacy Laws consider some sharing of personal information for advertising purposes to be “selling” or “sharing” of personal information, Strava may have shared the following categories of personal information with third parties in the preceding 12 months:",
+              "line": 373,
+              "extra_quotes": [
+                {
+                  "quote": "Identifiers;",
+                  "line": 374
+                },
+                {
+                  "quote": "Commercial information; and",
+                  "line": 375
+                },
+                {
+                  "quote": "Internet or similar network activity.",
+                  "line": 376
+                }
+              ],
+              "context": "The categories are listed on lines 374-376."
+            },
+            {
+              "id": "strava-21",
+              "claim": "If you are an adult, your profile and activities are public to everyone by default, including in search engine results.",
+              "quote": "If you are 18 years or older, certain information, including your profile and your activities, is set by default to be viewable by “Everyone.” “Everyone” includes Strava users and the public, including search engine results.",
+              "line": 75,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 2,
+          "why": "3 ways to stop ad sharing, but AI and cookie choices are only linked, not explained.",
+          "evidence": [
+            {
+              "id": "strava-37",
+              "claim": "The policy describes 3 ways to stop ad sharing (a website link, a separate in-app setting, or a GPC browser signal), and only points elsewhere for cookie and AI choices.",
+              "quote": "You can opt out of us sharing your personal information for third-party targeted advertising through the “Do Not Share My Personal Information” link on our website or the “Personal Information Sharing” setting in the app.",
+              "line": 86,
+              "extra_quotes": [],
+              "context": "Web and app are separate places; the policy does not say whether an opt-out in one applies to the other."
+            },
+            {
+              "id": "strava-36",
+              "claim": "The policy mentions choices about whether your data contributes to Strava's AI development but only links to them without explaining them.",
+              "quote": "Learn more about your choices to contribute to Strava’s development of AI Features.",
+              "line": 54,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "Kept until you delete it; public segments and routes stay after you delete your account.",
+          "evidence": [
+            {
+              "id": "strava-28",
+              "claim": "Strava generally keeps your account information until you delete it or it no longer needs it; no fixed time limit is given.",
+              "quote": "We generally keep information associated with your account until you delete it or we no longer need the information to provide the Services.",
+              "line": 121,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "strava-30",
+              "claim": "Even after you delete your account, public segments and routes stay available and search engines may keep showing your profile for a while.",
+              "quote": "Public segments and routes will also remain available. Search engine results may also display your public profile until the search engine refreshes its cache.",
+              "line": 107,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 91.7,
+      "rank": 4,
+      "tied": false
+    },
+    {
+      "key": "amazon",
+      "platform": "Amazon",
+      "file": "data/text/amazon.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Works out your preferences, gets credit history from credit bureaus, and may record images or video of you in stores.",
+          "evidence": [
+            {
+              "id": "amazon-08",
+              "claim": "Amazon uses your personal information to work out your preferences and what might interest you.",
+              "quote": "We use your personal information to recommend features, products, and services that might be of interest to you, identify your preferences",
+              "line": 31,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "amazon-09",
+              "claim": "Amazon may receive credit history information about you from credit bureaus, used for fraud prevention and to offer credit or financial services.",
+              "quote": "credit history information from credit bureaus, which we use to help prevent and detect fraud and to offer certain credit or financial services to some customers",
+              "line": 156,
+              "extra_quotes": [
+                {
+                  "quote": "Examples of information we receive from other sources include:",
+                  "line": 149
+                }
+              ],
+              "context": "Credit or financial services are offered only \"to some customers\"."
+            },
+            {
+              "id": "amazon-36",
+              "claim": "Amazon may collect images or videos of you when you shop in its stores or in other stores that use Amazon services.",
+              "quote": "images or videos when you shop in our stores, or stores using Amazon Services.",
+              "line": 146,
+              "extra_quotes": [
+                {
+                  "quote": "Examples of the information we collect and analyze include:",
+                  "line": 135
+                },
+                {
+                  "quote": "Our physical stores may use cameras, computer vision, sensors, and other technology to gather information about your activity in the store",
+                  "line": 23
+                }
+              ],
+              "context": "The notice does not use the word biometric or say whether faces are analysed."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Interest-based ads, and data used to develop generative AI.",
+          "evidence": [
+            {
+              "id": "amazon-12",
+              "claim": "Amazon uses your personal information to show you interest-based ads, while saying it does not use information that personally identifies you to do so.",
+              "quote": "We use your personal information to display interest-based ads for features, products, and services that might be of interest to you. We do not use information that personally identifies you to display interest-based ads.",
+              "line": 35,
+              "extra_quotes": [],
+              "context": "The notice does not explain how both statements fit together; details are in a separate Interest-Based Ads notice."
+            },
+            {
+              "id": "amazon-17",
+              "claim": "Amazon says it uses data to develop or deploy its generative AI models and services.",
+              "quote": "In so doing, we use machine learning and artificial intelligence to support and enhance the customer experience across our products and services. This includes using data to develop or deploy our generative AI models and services.",
+              "line": 30,
+              "extra_quotes": [],
+              "context": "The notice does not say which data is used and points to a separate Generative AI Development Disclosure."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 2,
+          "why": "Gives ad companies an advertising ID; acknowledges cross-context behavioral advertising, while saying it is not in the business of selling data.",
+          "evidence": [
+            {
+              "id": "amazon-13",
+              "claim": "Amazon may give ad companies an advertising ID and an estimate of the value of ads shown to you, and some of those companies also use this to show you other advertisers' ads.",
+              "quote": "we may share an advertising identifier and an estimate of the value of the ads they show you on our behalf so they can serve you with more effective Amazon ads. Some ad companies also use this information to serve you relevant ads from other advertisers.",
+              "line": 60,
+              "extra_quotes": [],
+              "context": "Amazon says it does not share your name or directly identifying information, or specific shopping actions like purchases or searches, with these ad companies (line 60)."
+            },
+            {
+              "id": "amazon-23",
+              "claim": "The notice acknowledges cross-context behavioral advertising and points to a separate page for opting out of it.",
+              "quote": "You can learn more about how to opt-out of personalized advertising (such as cross-context behavioral advertising) by visiting Your Ads Privacy Choices.",
+              "line": 60,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "About 4 separate opt-outs, none explained step by step; no AI-training opt-out described.",
+          "evidence": [
+            {
+              "id": "amazon-30",
+              "claim": "The notice names about 4 separate opt-out actions, none described step by step: (1) the Your Ads Privacy Choices page, (2) each browser's or device's cookie settings via its Help feature, (3) signing out and blocking cookies to stop linking browsing to your account, and (4) settings on individual Amazon websites, devices, and apps.",
+              "quote": "You may adjust your personalized advertising preferences by visiting Your Ads Privacy Choices.",
+              "line": 70,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": [
+            "AI-training opt-out"
+          ]
+        },
+        "keeps": {
+          "score": 2,
+          "why": "No retention periods given; keeps copies of old versions when you update your information.",
+          "evidence": [
+            {
+              "id": "amazon-24",
+              "claim": "When you update your information, Amazon usually keeps a copy of the old version.",
+              "quote": "When you update information, we usually keep a copy of the prior version for our records.",
+              "line": 68,
+              "extra_quotes": [],
+              "context": "The notice gives no retention periods anywhere."
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 90.0,
+      "rank": 5,
+      "tied": true
+    },
+    {
+      "key": "google",
+      "platform": "Google",
+      "file": "data/text/google.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Infers your interests; sites using Google ads/analytics send data even in Incognito; location services send sensor, Wi-Fi and cell-tower data.",
+          "evidence": [
+            {
+              "id": "google-06",
+              "claim": "Google guesses topics you might be interested in from your activity and uses them to show you personalized ads.",
+              "quote": "When showing you personalized ads, we use topics that we think might be of interest to you based on your activity.",
+              "line": 424,
+              "extra_quotes": [],
+              "context": "You can see and modify these interests in My Ad Center."
+            },
+            {
+              "id": "google-08",
+              "claim": "Even in Chrome's Incognito mode, websites and apps that use Google's ads or analytics still send information to Google when you visit them.",
+              "quote": "although Incognito mode in Chrome can help keep your browsing private from other people who use your device, third party sites and apps that integrate our services still share information with Google when you visit them.",
+              "line": 333,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "google-44",
+              "claim": "If you use Google Location services, your device sends Google its location, sensor data like the accelerometer, and nearby cell towers and Wi-Fi access points.",
+              "quote": "your device sends information to Google about its location, sensors (like accelerometer), and nearby cell towers and Wi-Fi access points (like MAC address and signal strength).",
+              "line": 366,
+              "extra_quotes": [],
+              "context": "You enable Google Location services in your device settings. Applies only if you enable Google Location services in device settings."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Ads across services and other sites; saved user audio samples reviewed to improve audio recognition.",
+          "evidence": [
+            {
+              "id": "google-13",
+              "claim": "Google may use what you do in one service, like watching YouTube videos, to show you ads on other websites that use Google's ad products.",
+              "quote": "if you watch videos of guitar players on YouTube, you might see an ad for guitar lessons on a site that uses our ad products.",
+              "line": 86,
+              "extra_quotes": [],
+              "context": "Depends on your available settings."
+            },
+            {
+              "id": "google-22",
+              "claim": "Google uses outside service providers who analyze and listen to samples of saved user audio to help improve its audio recognition technology.",
+              "quote": "We also use service providers to help review YouTube video content for public safety and analyze and listen to samples of saved user audio to help improve Google’s audio recognition technologies.",
+              "line": 177,
+              "extra_quotes": [],
+              "context": "Covers samples of saved audio, not all audio."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 2,
+          "why": "Lets partners collect data directly from your browser for ads; shares non-personally-identifiable data with advertisers. Never says whether it 'sells'.",
+          "evidence": [
+            {
+              "id": "google-25",
+              "claim": "Google lets specific partners collect information directly from your browser or device for advertising and measurement, using their own cookies.",
+              "quote": "We also allow specific partners to collect information from your browser or device for advertising and measurement purposes using their own cookies or similar technologies.",
+              "line": 185,
+              "extra_quotes": [],
+              "context": "Examples include measurement companies working with YouTube creators and advertisers."
+            },
+            {
+              "id": "google-28",
+              "claim": "Google may share \"non-personally identifiable\" information publicly and with partners like publishers, advertisers and developers.",
+              "quote": "We may share non-personally identifiable information publicly and with our partners — like publishers, advertisers, developers, or rights holders.",
+              "line": 185,
+              "extra_quotes": [],
+              "context": "The policy defines this as information that no longer reflects or references an individually-identifiable user (line 292)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "About 5 separate ad controls (My Ad Center, signed-out Ad Settings, browser cookies, device Advertising ID, Shared endorsements); no AI-training opt-out described.",
+          "evidence": [
+            {
+              "id": "google-39",
+              "claim": "Besides My Ad Center, the policy points to several other separate controls that affect ads, including signed-out Ad Settings, browser cookie settings, your device's Advertising ID setting, and Shared endorsements, and it links to them rather than giving step-by-step instructions.",
+              "quote": "You can control what information we use to show you ads by visiting your ad settings in My Ad Center",
+              "line": 71,
+              "extra_quotes": [
+                {
+                  "quote": "Ad Settings: Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads.",
+                  "line": 138
+                },
+                {
+                  "quote": "you can configure your browser to indicate when Google has set a cookie in your browser. You can also configure your browser to block all cookies from a specific domain or all domains.",
+                  "line": 152
+                },
+                {
+                  "quote": "a unique identifier such as the Advertising ID is used to provide relevant advertising on Android devices, and can be managed in your device’s settings",
+                  "line": 322
+                }
+              ],
+              "context": "Signed-out Ad Settings apply to each browser or device separately (line 135)."
+            }
+          ],
+          "not_stated_parts": [
+            "AI-training opt-out"
+          ]
+        },
+        "keeps": {
+          "score": 2,
+          "why": "Kept until you delete it; some kept longer for business or legal purposes with no stated limit.",
+          "evidence": [
+            {
+              "id": "google-29",
+              "claim": "Content and activity saved in your account is kept until you delete it or set it to auto-delete.",
+              "quote": "We’ll keep this data in your Google Account until you remove it or choose to have it removed.",
+              "line": 211,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "google-31",
+              "claim": "Google keeps some data longer when needed for business or legal purposes such as security, fraud prevention or financial records, with no time limit stated.",
+              "quote": "some data we retain for longer periods of time when necessary for legitimate business or legal purposes, such as security, fraud and abuse prevention, or financial record-keeping.",
+              "line": 214,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 90.0,
+      "rank": 5,
+      "tied": true
+    },
+    {
+      "key": "meta",
+      "platform": "Meta",
+      "file": "data/text/meta.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Infers your interests; partners report your activity elsewhere even without an account; device signals include GPS, Bluetooth and Wi-Fi.",
+          "evidence": [
+            {
+              "id": "meta-10",
+              "claim": "Meta uses things it infers about you, like topics it thinks you may be interested in, to decide which ads to show.",
+              "quote": "Things we infer about you, like topics we think you may be interested in",
+              "line": 370,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "meta-12",
+              "claim": "Meta receives information from partners about your activity on other sites and apps whether or not you are logged in or even have an account.",
+              "quote": "We receive this information whether or not you’re logged in or have an account on our Products.",
+              "line": 130,
+              "extra_quotes": [
+                {
+                  "quote": "We collect and receive information from partners [21] , measurement vendors , marketing vendors and other third parties [22] about a variety of your information and activities on and off our Products [3] .",
+                  "line": 119
+                }
+              ],
+              "context": "The same statement is repeated for ad personalization on line 1346."
+            },
+            {
+              "id": "meta-57",
+              "claim": "Device signals Meta collects include GPS, Bluetooth, nearby Wi-Fi access points, beacons and cell towers.",
+              "quote": "Device signals include GPS, Bluetooth signals, nearby Wi-Fi access points, beacons and cell towers.",
+              "line": 261,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Ads based on activity on and off Meta; AI development 'for Meta Products and for third parties'.",
+          "evidence": [
+            {
+              "id": "meta-16",
+              "claim": "To choose ads, Meta uses your activity both on and off its products, including information from cookies, according to your settings.",
+              "quote": "Your activity on and off our Products, including information we receive through cookies and similar technologies, according to your settings",
+              "line": 367,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "meta-26",
+              "claim": "Meta lists developing and improving its AI \"for Meta Products and for third parties\" as a purpose for processing your information.",
+              "quote": "Develop and improve AI at Meta for Meta Products and for third parties.",
+              "line": 1247,
+              "extra_quotes": [],
+              "context": "From the \"Why and how we process your information\" table; the categories listed are public content, AI interactions and partner/third-party data."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 2,
+          "why": "Shares device and other identifiers with marketing vendors; says it never sells your information.",
+          "evidence": [
+            {
+              "id": "meta-31",
+              "claim": "Meta shares your device identifier or other identifiers with marketing vendors to serve you its ads.",
+              "quote": "For example, we share your device identifier or other identifiers with marketing vendors to help us serve you ads most relevant to your interests.",
+              "line": 791,
+              "extra_quotes": [],
+              "context": "The policy says these vendors may be tracking and categorizing your online and mobile app activity. Marketing vendors advertise Meta's own products (line 873)."
+            },
+            {
+              "id": "meta-34",
+              "claim": "Meta states that it does not sell any of your information to anyone and never will.",
+              "quote": "We don't sell any of your information to anyone, and we never will.",
+              "line": 740,
+              "extra_quotes": [],
+              "context": "This policy does not define \"sell\" or discuss \"sharing\" for targeted ads; it points US residents to a separate United States Regional Privacy Notice. The policy does not define \"sell\"; it does describe sharing identifiers with marketing vendors for ads (line 791) and refers US residents to a separate United States Regional Privacy Notice (lines 41, 1150)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "About six separate ad opt-outs; no setting to stop ads based on activity on Meta itself; no AI-training opt-out described.",
+          "evidence": [
+            {
+              "id": "meta-48",
+              "claim": "Personalized ads are presented as part of the service; the policy describes no setting to stop ads based on your activity on Meta itself.",
+              "quote": "We use information we collect to provide a personalized experience to you, including ads",
+              "line": 351,
+              "extra_quotes": [],
+              "context": "The described ad controls cover off-Meta activity, advertisers, interests and Meta's own off-platform ads."
+            },
+            {
+              "id": "meta-50",
+              "claim": "The policy describes about six separate ad opt-out actions: (1) hide a specific advertiser in the Advertisers setting, (2) turn off ads based on other websites and apps in Ad preferences, (3) remove assigned interests in Ad preferences/ad topics, (4) opt out in Ad preferences of Meta's own ads off its products, (5) for non-account holders, the DAA (or DAAC in Canada) opt-out in each web browser, and (6) mobile device settings; no AI-training opt-out steps are given.",
+              "quote": "If she doesn't want to see ads from this shoe store again, she can hide them in her Advertisers setting . Or if she doesn’t want us to show her any ads based on her activity on other websites and apps, she can make sure that this setting is turned off in her Ad preferences .",
+              "line": 505,
+              "extra_quotes": [
+                {
+                  "quote": "You can see the “interests” assigned to you in your Ad preferences and remove them if you want.",
+                  "line": 844
+                },
+                {
+                  "quote": "We advertise our own products and services on non-Meta ad platforms. We use marketing vendors to deliver these ads. If we use your activity on our Products to tailor these ads, you can opt out of this type of use.",
+                  "line": 879
+                },
+                {
+                  "quote": "You can use the Digital Advertising Alliance industry opt-out platform on your web browser. If you live in Canada, you can use the Digital Advertising Alliance of Canada industry opt-out platform. Certain ad blockers and tools to restrict cookies can interfere with your ability to opt out.",
+                  "line": 883
+                }
+              ],
+              "context": "Options 4-6 apply only to Meta's own ads shown off Meta Products."
+            },
+            {
+              "id": "meta-49",
+              "claim": "Apart from saying that improving the voice Assistant from your voice interactions depends on your settings, the policy describes no specific way to stop your public posts or Meta AI chats from being used to develop AI.",
+              "quote": "Collecting Ren’s voice interactions lets us provide and, depending on Ren’s settings, improve the Assistant feature.",
+              "line": 187,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "As long as it needs, decided case by case, with no fixed limit.",
+          "evidence": [
+            {
+              "id": "meta-37",
+              "claim": "Meta keeps information as long as it needs it and decides case by case, with no fixed time limit.",
+              "quote": "We keep information as long as we need it to provide our Products, comply with legal obligations or protect our or other’s interests. We decide how long we need information on a case-by-case basis.",
+              "line": 979,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 90.0,
+      "rank": 5,
+      "tied": true
+    },
+    {
+      "key": "tiktok",
+      "platform": "TikTok",
+      "file": "data/text/tiktok.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Infers age, gender and interests; partners report what you do outside TikTok; may collect faceprints and voiceprints.",
+          "evidence": [
+            {
+              "id": "tiktok-08",
+              "claim": "TikTok uses your information to infer additional things about you, such as your age, gender, and interests.",
+              "quote": "To infer additional information about you, such as your age, gender, and interests.",
+              "line": 53,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "tiktok-11",
+              "claim": "Advertisers and other partners tell TikTok what you do outside TikTok, including pages you visit, things you buy, and apps you download.",
+              "quote": "Advertisers, publishers, and measurement and other partners provide us with information about you and the actions you have taken outside of our websites and apps, including the pages you visit, products or services you purchase, and apps you download.",
+              "line": 38,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "tiktok-39",
+              "claim": "TikTok may collect biometric identifiers such as faceprints and voiceprints from your content, asking permission only where the law requires it.",
+              "quote": "We may collect biometric identifiers and biometric information as defined under US laws, such as faceprints and voiceprints, from your user content. Where required by law, we will seek any required permissions from you prior to any such collection.",
+              "line": 31,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Uses partner IDs to target ads; trains machine-learning models on what it collects.",
+          "evidence": [
+            {
+              "id": "tiktok-15",
+              "claim": "Partners give TikTok advertising IDs, hashed email addresses and phone numbers, and cookie IDs, which TikTok uses to measure ads and, depending on your ads settings, to deliver ads to you on TikTok and elsewhere online through TikTok Ad Network.",
+              "quote": "These partners also provide information such as mobile identifiers for advertising, hashed email addresses and phone numbers, and cookie identifiers, which we use to help measure the effectiveness of ads we serve and to better deliver ads to you on our websites and apps",
+              "line": 38,
+              "extra_quotes": [],
+              "context": "Use for ad delivery depends on your ads settings."
+            },
+            {
+              "id": "tiktok-20",
+              "claim": "TikTok uses the information it collects to train, test, and improve machine learning models and algorithms.",
+              "quote": "To review, support, improve, and develop the Services, and train, test, and improve technology, such as machine learning models and algorithms, including by analyzing how people are using the Services",
+              "line": 47,
+              "extra_quotes": [],
+              "context": "The same purpose explicitly includes scanning and reviewing user content, messages, AI interactions, and metadata."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 2,
+          "why": "Ad, marketing and analytics partners receive several kinds of your data; the no-sale promise applies only 'where restricted by applicable law'.",
+          "evidence": [
+            {
+              "id": "tiktok-21",
+              "claim": "Advertising, marketing, and analytics partners may receive information you provide, information collected automatically, and information from other sources.",
+              "quote": "Advertising, marketing, and analytics partners, who may receive certain Information You Provide , Automatically Collected Information , and Information From Other Sources for the purpose of providing their services.",
+              "line": 72,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "tiktok-25",
+              "claim": "TikTok says it does not sell your personal information or share it for cross-context behavioural advertising 'where restricted by applicable law', which limits the promise to places where the law restricts it.",
+              "quote": "while we do not sell your personal information or share your personal information with third parties for purposes of cross-context behavioral advertising where restricted by applicable law",
+              "line": 65,
+              "extra_quotes": [],
+              "context": "Grammatically the qualifier may apply only to the cross-context advertising part, but either way the commitment is tied to applicable law."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "Five separate actions; no opt-out from machine-learning training described.",
+          "evidence": [
+            {
+              "id": "tiktok-33",
+              "claim": "The policy describes five separate opt-out actions (browser cookie settings, the in-app 'Ads' settings, a webform or ad notice for people without accounts, device permission settings, and email unsubscribe links), and cookie choices must be repeated in each browser.",
+              "quote": "your choice to disable cookies is specific to the particular browser that you are using when you disable cookies, so you may need to separately disable cookies for each type of browser.",
+              "line": 100,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": [
+            "AI-training opt-out"
+          ]
+        },
+        "keeps": {
+          "score": 2,
+          "why": "As long as necessary, with no fixed limits.",
+          "evidence": [
+            {
+              "id": "tiktok-26",
+              "claim": "TikTok keeps information as long as necessary to provide its services and for the other purposes in the policy, without giving fixed time limits.",
+              "quote": "We retain information for as long as necessary to provide the Services and for the other purposes set out in this Privacy Policy.",
+              "line": 106,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 90.0,
+      "rank": 5,
+      "tied": true
+    },
+    {
+      "key": "github",
+      "platform": "GitHub",
+      "file": "data/text/github.txt",
+      "scores": {
+        "collects": {
+          "score": 2,
+          "why": "Infers your preferences and characteristics; receives data from vendors, resellers and partners. Location is regional only.",
+          "evidence": [
+            {
+              "id": "github-06",
+              "claim": "GitHub creates new information from the data it collects to guess your likely preferences or other characteristics, such as your general location from your IP address.",
+              "quote": "We generate new information from other data we collect to derive likely preferences or other characteristics. For instance, we infer your general geographic location based on your IP address.",
+              "line": 49,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "github-09",
+              "claim": "GitHub may receive information about you from vendors, resellers, partners, or affiliates.",
+              "quote": "We may receive information about you from third parties, like vendors, resellers, partners, or affiliates for the purposes outlined in this statement.",
+              "line": 43,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Interest-based advertising via third-party cookies, and personal data used to train AI models.",
+          "evidence": [
+            {
+              "id": "github-10",
+              "claim": "GitHub may use third-party cookies to collect data for interest-based advertising, asking for consent first only in some places.",
+              "quote": "We may also employ third-party Cookies to gather data for interest-based advertising. In some jurisdictions, we only use non-essential cookies after obtaining your consent.",
+              "line": 33,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "github-16",
+              "claim": "GitHub uses personal data to develop and improve its products, including artificial intelligence and machine learning, which includes training models.",
+              "quote": "We use Personal Data to develop and improve our products, services, and technologies, including artificial intelligence and machine learning technologies. This includes improving features, developing new offerings, enhancing safety and security capabilities, and training models.",
+              "line": 55,
+              "extra_quotes": [],
+              "context": "The same line says GitHub applies aggregation and de-identification 'where feasible'."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 3,
+          "why": "Says it 'shared' identifiers, internet activity and inferences with ad networks as defined by law; may share with Microsoft for advertising and AI training.",
+          "evidence": [
+            {
+              "id": "github-23",
+              "claim": "GitHub says that, as defined by law, it 'shared' identifiers, internet activity, and inferences about people with advertising networks, data analytics providers, and social networks in the past 12 months.",
+              "quote": "As defined by applicable law, we “shared” the following categories of personal information in the last 12 months: identifiers/contact information, Internet or other electronic network activity information, and inferences drawn from the above. We shared each category to or with advertising networks, data analytics providers, and social networks.",
+              "line": 206,
+              "extra_quotes": [],
+              "context": "This appears in GitHub's California privacy-law disclosures, and GitHub says elsewhere that it does not sell your data (line 172)."
+            },
+            {
+              "id": "github-17",
+              "claim": "GitHub may share personal data with affiliates including Microsoft for purposes including marketing, advertising, and training and improving AI and machine learning.",
+              "quote": "Personal Data may be shared with GitHub affiliates, including Microsoft, to facilitate customer service, marketing and advertising, order fulfillment, billing, technical support, legal and compliance obligations, product development and improvement (including training and improving artificial intelligence and machine learning technologies)",
+              "line": 64,
+              "extra_quotes": [],
+              "context": "Affiliates may also use it for other purposes described in their own privacy statements."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 3,
+          "why": "About nine separate actions; no AI-training opt-out described.",
+          "evidence": [
+            {
+              "id": "github-32",
+              "claim": "The policy lists about nine separate opt-out actions (footer cookie-settings link or consent banner, Do Not Track, browser cookie controls, tracker-blocking extensions, Global Privacy Control, industry ad opt-outs via NAI/DAA and regional equivalents, the 'Do Not Share' footer link, an email to privacy@github.com, and a VS Code telemetry setting), and the cookie choices must be repeated on every browser and device.",
+              "quote": "These choices are specific to the browser you are using. If you access our Services from other devices or browsers, take these actions from those systems to ensure your choices apply to the data collected when you use those systems.",
+              "line": 177,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": [
+            "AI-training opt-out"
+          ]
+        },
+        "keeps": {
+          "score": 2,
+          "why": "As long as the account is active and as needed.",
+          "evidence": [
+            {
+              "id": "github-25",
+              "claim": "GitHub keeps your personal data as long as your account is active and as needed for contracts, legal requirements, disputes, and enforcing agreements.",
+              "quote": "We’ll retain your Personal Data as long as your account is active and as needed to fulfill contractual obligations, comply with legal requirements, resolve disputes, and enforce agreements.",
+              "line": 112,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 86.7,
+      "rank": 9,
+      "tied": false
+    },
+    {
+      "key": "ebay_previous",
+      "platform": "eBay",
+      "file": "data/text/ebay_previous.txt",
+      "scores": {
+        "collects": {
+          "score": 3,
+          "why": "Collects the ad segment you fall into (e.g. gender, age bracket, interests), receives data from outside data providers, and collects precise phone location with permission (plus seller biometrics).",
+          "evidence": [
+            {
+              "id": "ebay_previous-09",
+              "claim": "Among the data eBay collects through cookies and similar technologies is the user segment you fall into, for example 'female, 20-49 years old, interested in sneakers'.",
+              "quote": "The user segment or category into which you as a user fall, for example: female, 20-49 years old, interested in sneakers.",
+              "line": 68,
+              "extra_quotes": [],
+              "context": "Listed under data collected through cookies and similar technologies; the notice does not say who assigns the segment."
+            },
+            {
+              "id": "ebay_previous-12",
+              "claim": "eBay receives data about you from outside data providers, including identity-verification, demographic, interest-based and online-advertising data.",
+              "quote": "Data from data providers (e.g. \"Know Your Customer\"/identity verification, demographic, interest-based and online advertising related data).",
+              "line": 78,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "ebay_previous-50",
+              "claim": "eBay collects your general location (e.g. from your IP address) and, if you give permission, your phone's precise location.",
+              "quote": "Location data, including your general location data (e.g. IP address) and, with your permission, the precise location data of your mobile device.",
+              "line": 60,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 3,
+          "why": "Personalized ads on and off eBay, and personal data used to train its own and third-party AI models.",
+          "evidence": [
+            {
+              "id": "ebay_previous-16",
+              "claim": "If you live outside the EEA, Switzerland and the UK, eBay may use your data for personalized ads and content, measurement and analytics both on and off eBay's sites, without asking for consent first.",
+              "quote": "For users outside the European Economic Area (EEA), Switzerland and the United Kingdom: Advertising and content personalization, measurement and analytics, on and off our sites, as explained in our AdChoice page.",
+              "line": 150,
+              "extra_quotes": [],
+              "context": "Listed under eBay's 'legitimate interests' (section 5.4); for EEA, Swiss and UK users the same use needs consent (line 176). Users can still object to legitimate-interest processing (line 173) and manage ad preferences via AdChoice (line 261)."
+            },
+            {
+              "id": "ebay_previous-24",
+              "claim": "Where the law allows, eBay uses its users' personal data to train, test and tune both its own AI models and third-party AI models and systems it uses.",
+              "quote": "Where permitted under applicable law, we use personal data collected from our users to train, test, validate, and align our own AI models as well as third-party AI models and systems that we use for the purposes outlined in this User Privacy Notice.",
+              "line": 335,
+              "extra_quotes": [],
+              "context": "Based on eBay's 'legitimate interest' (same line)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "shares": {
+          "score": 2,
+          "why": "With consent, passes data to ad partners such as Google, Meta, Microsoft, Pinterest and TikTok; US 'sale' disclosures are on a separate page.",
+          "evidence": [
+            {
+              "id": "ebay_previous-28",
+              "claim": "With your consent, eBay may pass your data to advertising partners such as Google, Meta, Microsoft, Pinterest and TikTok.",
+              "quote": "Third-party advertising partners such as Google, Meta, Microsoft, Pinterest, and TikTok, as listed on our Advertising and related preferences page",
+              "line": 189,
+              "extra_quotes": [],
+              "context": "Listed as recipients for consent-based processing (section 5.5)."
+            }
+          ],
+          "not_stated_parts": [
+            "US 'sale'/'sharing' definitions (separate page)"
+          ]
+        },
+        "optout": {
+          "score": 2,
+          "why": "About 7 separate places; a right to object to AI training exists but no setting is described.",
+          "evidence": [
+            {
+              "id": "ebay_previous-46",
+              "claim": "The notice describes about 7 separate places to limit data use: (1) the AdChoice / Advertising and related preferences page, (2) each browser or device's cookie settings, (3) My eBay > Communication Preferences, (4) the unsubscribe link in each marketing email, (5) the Privacy Contact page for rights requests and objections (including to AI training), (6) your phone's location settings, and (7) each linked social network's privacy settings.",
+              "quote": "you can do so at any time through your account in My eBay under \"Communication Preferences\".",
+              "line": 247,
+              "extra_quotes": [],
+              "context": "Steps 1, 5 and 6 are quoted under optout_ads (line 261), user_controls (line 243) and sensitive_location (line 60)."
+            },
+            {
+              "id": "ebay_previous-44",
+              "claim": "You have a right to object to eBay using your personal data for AI development and training, but the notice gives no dedicated setting; it points to the general rights section.",
+              "quote": "Your rights also include the right to object to our processing of your personal data for AI development and training purposes.",
+              "line": 339,
+              "extra_quotes": [],
+              "context": "Rights are exercised via the Privacy Contact page (line 243)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "Keeps data longer when legally permitted; 6 to 10 years in Europe for some records.",
+          "evidence": [
+            {
+              "id": "ebay_previous-34",
+              "claim": "eBay may keep your data longer than needed for its purposes when it is legally obliged or permitted to, for example for tax, auditing or fraud prevention.",
+              "quote": "unless we are legally obliged or permitted to keep your personal data longer (e.g. for legal compliance, tax, accounting or auditing purposes, or to detect and prevent fraudulent or illegal activity on eBay)",
+              "line": 216,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "ebay_previous-35",
+              "claim": "In Europe, eBay generally keeps data for 6 to 10 years (e.g. contracts and business letters).",
+              "quote": "In Europe, the retention periods are generally between 6 and 10 years (e.g. for contracts, notifications and business letters).",
+              "line": 216,
+              "extra_quotes": [],
+              "context": "No figures are given for other regions; specific periods are in internal regional retention guidelines (line 219)."
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 85.0,
+      "rank": 10,
+      "tied": false
+    },
+    {
+      "key": "reddit",
+      "platform": "Reddit",
+      "file": "data/text/reddit.txt",
+      "scores": {
+        "collects": {
+          "score": 2,
+          "why": "Guesses your age range and gender; receives demographic and interest data from advertisers. Says it does not track precise location.",
+          "evidence": [
+            {
+              "id": "reddit-07",
+              "claim": "Reddit guesses your age range, gender, and language from the information it has about you.",
+              "quote": "We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you.",
+              "line": 52,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "reddit-09",
+              "claim": "Reddit may receive demographic or interest information about you from advertisers and others and match it to your account using a hashed email or device ID.",
+              "quote": "we may receive demographic or interest information about you from third parties, including advertisers (such as the fact that an advertiser is interested in showing you an ad), and combine it with data you have provided to Reddit, using a common account identifier such as a hash of an email address or a mobile-device ID.",
+              "line": 53,
+              "extra_quotes": [],
+              "context": "You can control how this information is used to personalize ads in User Settings (line 53)."
+            },
+            {
+              "id": "reddit-40",
+              "claim": "Reddit says it does not track your precise location.",
+              "quote": "We don’t track your precise location. You can even browse anonymously",
+              "line": 9,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 2,
+          "why": "Personalized ads on and off Reddit.",
+          "evidence": [
+            {
+              "id": "reddit-12",
+              "claim": "Reddit uses your information for personalized advertising both on Reddit and elsewhere.",
+              "quote": "Provide you with relevant advertising, including personalized advertising on and off Reddit;",
+              "line": 75,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": [
+            "AI training"
+          ]
+        },
+        "shares": {
+          "score": 3,
+          "why": "Charges third parties licensing fees for access to large amounts of Reddit content; does not deny 'sharing' except for users under 16.",
+          "evidence": [
+            {
+              "id": "reddit-18",
+              "claim": "Reddit charges third parties licensing fees for access to large amounts of Reddit content and information.",
+              "quote": "We also require third parties to pay licensing fees for access to larger quantities of content and information.",
+              "line": 22,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "reddit-23",
+              "claim": "Reddit denies \"selling\" as state laws define it, but for \"sharing\" it only says it doesn't know of doing so for users under 16.",
+              "quote": "Reddit does not “sell” personal information as those terms are defined under applicable state privacy laws. Reddit does not have knowledge that it “sells” or “shares” the personal information of users under 16 years of age.",
+              "line": 389,
+              "extra_quotes": [],
+              "context": "The same paragraph lets users opt out of sharing with third-party ad-measurement partners using the 'Ads off Reddit' toggle (line 389)."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 2,
+          "why": "About 8 separate opt-out actions.",
+          "evidence": [
+            {
+              "id": "reddit-36",
+              "claim": "The policy describes about 8 separate opt-out actions: (1) the Privacy section of User Settings on desktop, or Account Settings in the app; (2) the \"Ads off Reddit\" toggle for US states; (3) browser cookie settings or Cookie Preferences; (4) a Google Analytics browser add-on; (5) separate Nielsen and Quantcast opt-outs; (6) Global Privacy Control; (7) the DAA, NAI, or Your Online Choices sites; and (8) the Location Customization setting.",
+              "quote": "To do so, visit the Privacy section of the User Settings in your account here , if using desktop, and in your Account Settings if using the Reddit mobile app.",
+              "line": 110,
+              "extra_quotes": [
+                {
+                  "quote": "you may manage the use and collection of certain information by Google Analytics via the Google Analytics Opt-out Browser Add-on . You can opt out of the Audience Measurement services provided by Nielsen and Quantcast .",
+                  "line": 114
+                },
+                {
+                  "quote": "by toggling the “Ads off Reddit” setting to off in your privacy preferences.",
+                  "line": 389
+                },
+                {
+                  "quote": "please visit the sites of the Digital Advertising Alliance and the Network Advertising Initiative , or if you are a user in the European Economic Area, Your Online Choices .",
+                  "line": 115
+                }
+              ],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 3,
+          "why": "Deleting your account does not delete your posts, comments and messages; no set limit for other data.",
+          "evidence": [
+            {
+              "id": "reddit-27",
+              "claim": "Deleting your account does not delete your posts, comments, and messages; you must delete each piece of content first.",
+              "quote": "Please note, however, that the posts, comments, and messages you submitted prior to deleting your account will still be visible to others unless you first delete the specific content.",
+              "line": 106,
+              "extra_quotes": [],
+              "context": "Your profile is hidden and is disassociated from that content when you delete your account (line 106)."
+            },
+            {
+              "id": "reddit-25",
+              "claim": "Reddit keeps data as long as needed for its original purpose and may keep some for business or legal reasons, with no set time limit.",
+              "quote": "We store the information we collect for as long as it is necessary for the purpose(s) for which we originally collected it. We may retain certain information for legitimate business purposes and/or if we believe doing so is in accordance with, or as required by, any applicable law.",
+              "line": 99,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 76.7,
+      "rank": 11,
+      "tied": false
+    },
+    {
+      "key": "espn",
+      "platform": "ESPN",
+      "file": "data/text/espn.txt",
+      "scores": {
+        "collects": {
+          "score": 2,
+          "why": "Adds data from unnamed 'trusted sources'; may collect precise location, including via beacons at its properties.",
+          "evidence": [
+            {
+              "id": "espn-07",
+              "claim": "Disney gets information from unnamed 'trusted sources' to update or add to what you gave it or what it collected automatically.",
+              "quote": "We acquire information from other trusted sources to update or supplement the information you provided or we collected automatically, such as when we validate postal address information using third party services.",
+              "line": 27,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "espn-30",
+              "claim": "Disney may collect your precise or approximate location from your device, including through beacons at its physical properties, or from your IP address.",
+              "quote": "Location information, including precise or approximate location information provided by a mobile or other device interacting with one of our sites, applications, or physical properties (including through beacon technologies), or associated with your IP address or other online or device identifier, where we are permitted by law to process this information",
+              "line": 17,
+              "extra_quotes": [],
+              "context": "Only where Disney is permitted by law to process it (line 17)."
+            }
+          ],
+          "not_stated_parts": [
+            "inferences"
+          ]
+        },
+        "uses": {
+          "score": 2,
+          "why": "Shares identifiers or hashed email with third parties to show you ads elsewhere.",
+          "evidence": [
+            {
+              "id": "espn-09",
+              "claim": "To show you ads on other sites and apps, Disney may share limited personal information such as identifiers or your hashed email address with third parties.",
+              "quote": "When we provide you with relevant advertising on third-party sites and applications, we may share limited personal information about you, such as certain identifiers or hashed email address, with third parties.",
+              "line": 47,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": [
+            "AI training"
+          ]
+        },
+        "shares": {
+          "score": 2,
+          "why": "Other Disney companies may use your data for their own purposes; offers a 'sale or sharing' opt-out without saying outright whether it does either.",
+          "evidence": [
+            {
+              "id": "espn-14",
+              "claim": "Other Disney companies may access your information to provide services and, unless the law forbids it, use it for their own purposes described in the policy.",
+              "quote": "Other members of The Walt Disney Family of Companies may access your information where they perform services on behalf of the data controllers (as data processors) and, unless prohibited under applicable law, for use on their own behalf (as data controllers) for the purposes described in this policy.",
+              "line": 30,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "espn-18",
+              "claim": "Disney never says outright whether it sells or shares data; it offers US residents an opt-out from 'sale or sharing' as those terms are defined by law.",
+              "quote": "request to opt out of targeted advertising and/or the sale or sharing of your personal information (as defined under applicable laws and regulations)",
+              "line": 118,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 2,
+          "why": "About six separate places, including a separate Nielsen opt-out per streaming service.",
+          "evidence": [
+            {
+              "id": "espn-26",
+              "claim": "The policy describes about six separate places to opt out (the footer or app-settings privacy link on each site or app, the separate Online Tracking Technologies page for cookies, Nielsen's own site, Hulu's and Disney+'s 'Manage Nielsen Measurement' settings, and a US State Privacy Rights page), and Nielsen measurement needs extra steps beyond the ad opt-out.",
+              "quote": "In addition to the choices referenced above in Managing Your Preferences Regarding Targeted Advertising, Sale or Sharing of Data, and Cookies, you may also Log into Nielsen’s Digital Measurement site",
+              "line": 78,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "As long as needed, or longer if the law permits.",
+          "evidence": [
+            {
+              "id": "espn-20",
+              "claim": "Disney keeps your personal information as long as needed for the policy's purposes, or longer if the law requires or permits it.",
+              "quote": "We will retain your personal information for the length of time needed to fulfill the purposes outlined in this privacy policy unless a longer retention period is required or permitted by law.",
+              "line": 100,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 66.7,
+      "rank": 12,
+      "tied": false
+    },
+    {
+      "key": "wikipedia",
+      "platform": "Wikipedia",
+      "file": "data/text/wikipedia.txt",
+      "scores": {
+        "collects": {
+          "score": 1,
+          "why": "May receive unspecified information from partners; uses GPS only with consent. No profile of you described.",
+          "evidence": [
+            {
+              "id": "wikipedia-10",
+              "claim": "Wikimedia may receive information about you from partners or other third parties, but this sentence does not say what that information is.",
+              "quote": "This Policy also applies to information that we receive from our partners or other third parties.",
+              "line": 33,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "wikipedia-32",
+              "claim": "With your consent, Wikimedia can use GPS and similar location technologies to show you more relevant content.",
+              "quote": "If you consent, we can use GPS (and other technologies commonly used to determine location) to show you more relevant content.",
+              "line": 92,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 0,
+          "why": "Says it does not share personal information for marketing or use your email to advertise.",
+          "evidence": [
+            {
+              "id": "wikipedia-12",
+              "claim": "Wikimedia says it does not share your personal information for marketing purposes.",
+              "quote": "In particular, we do not share your Personal Information for marketing purposes.",
+              "line": 242,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "wikipedia-11",
+              "claim": "Wikimedia says it does not sell or rent your email address or use it to advertise third-party products to you.",
+              "quote": "We do not sell, rent, or use your email address to advertise third-party products or services to you.",
+              "line": 147,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": [
+            "AI training"
+          ]
+        },
+        "shares": {
+          "score": 1,
+          "why": "Does not sell or rent data; volunteer admins can see limited non-public data.",
+          "evidence": [
+            {
+              "id": "wikipedia-22",
+              "claim": "Wikimedia says it does not sell or rent your personal information or give it to others to sell you things, without defining 'sell'.",
+              "quote": "We do not sell or rent your Personal Information, nor do we give it to others to sell you anything.",
+              "line": 14,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "wikipedia-19",
+              "claim": "Community volunteers with administrative rights may see limited non-public information about other users' recent contributions and activity.",
+              "quote": "These rights may include access to limited amounts of otherwise nonpublic information about recent contributions and activity by other users.",
+              "line": 197,
+              "extra_quotes": [],
+              "context": "The same paragraph says these volunteers are supposed to follow Wikimedia's nonpublic-data access policy and that the Foundation does not know their legal names."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 1,
+          "why": "Four simple device/browser actions; no ads to opt out of.",
+          "evidence": [
+            {
+              "id": "wikipedia-28",
+              "claim": "The policy describes four opt-out actions: removing or disabling cookies and other locally stored data in your browser settings, turning off location access in your phone's settings, changing camera settings to stop photo metadata, and adjusting Notifications Preferences; further options are in its FAQ.",
+              "quote": "you may remove or disable some or all locally stored data through your browser settings, depending on your browser.",
+              "line": 128,
+              "extra_quotes": [],
+              "context": "The policy notes some features will not work properly if you disable locally stored data."
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 2,
+          "why": "Most personal data deleted or de-identified after 90 days, but you cannot fully delete your account.",
+          "evidence": [
+            {
+              "id": "wikipedia-23",
+              "claim": "In most cases personal information is deleted, aggregated, or de-identified after 90 days, but non-personal information may be kept indefinitely.",
+              "quote": "In most instances, Personal Information is deleted, aggregated or de-identified after 90 days. Non-Personal Information may be retained indefinitely as appropriate.",
+              "line": 227,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "wikipedia-24",
+              "claim": "You cannot fully delete a Wikimedia account once it is created, though you can usually hide the information on your user page.",
+              "quote": "Once created, user accounts cannot be removed entirely (although you can usually hide the information on your user page if you choose to). This is because your public contributions must be associated with their author (you!).",
+              "line": 85,
+              "extra_quotes": [],
+              "context": "Line 85 adds that in some circumstances the communities can help remove additional information related to your account."
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 28.3,
+      "rank": 13,
+      "tied": false
+    },
+    {
+      "key": "duckduckgo",
+      "platform": "DuckDuckGo",
+      "file": "data/text/duckduckgo.txt",
+      "scores": {
+        "collects": {
+          "score": 0,
+          "why": "Says it cannot build a history of your searches; uses only a random nearby location, never your precise one.",
+          "evidence": [
+            {
+              "id": "duckduckgo-06",
+              "claim": "DuckDuckGo says it has no way to build a history of your searches, chats or browsing, so it describes no profile or inferences about you (the policy does not separately discuss inferences).",
+              "quote": "This means that when you use our services, we have no way to create a history of your search queries, your chats, or the sites you browse.",
+              "line": 18,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "duckduckgo-25",
+              "claim": "For local results, DuckDuckGo says it receives only a random location near you instead of your precise location, and never logs it to disk.",
+              "quote": "For local search results in particular, we've further engineered a solution to shield your precise location from us and our content providers that sends us a random location nearish to you, which we also never log to disk.",
+              "line": 18,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "uses": {
+          "score": 1,
+          "why": "Ads based on the search, not on you.",
+          "evidence": [
+            {
+              "id": "duckduckgo-08",
+              "claim": "DuckDuckGo says it makes most of its money from \"private\" search ads and does not need to track you to do so.",
+              "quote": "It is a myth that search engines need to track you to make money. We make most of our money from private search ads on our search engine.",
+              "line": 24,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": [
+            "AI training"
+          ]
+        },
+        "shares": {
+          "score": 1,
+          "why": "Only anonymous technical details to providers; ad clicks pass through Microsoft's ad network under Microsoft's commitments.",
+          "evidence": [
+            {
+              "id": "duckduckgo-12",
+              "claim": "DuckDuckGo shares anonymous technical details (like browser and device type) with its hosting and content providers, but says it never shares anything that could tie your searches, chats or visits to you.",
+              "quote": "we share anonymous information (for example, browser and device types) with our hosting and content providers, but we never share any information with them that could tie your searches, chats, or website visits to you personally",
+              "line": 19,
+              "extra_quotes": [],
+              "context": ""
+            },
+            {
+              "id": "duckduckgo-09",
+              "claim": "When you click an ad, the click is handled by Microsoft's ad network; the protection here rests on Microsoft's commitment not to link the click to a profile or keep it except for accounting.",
+              "quote": "Ad clicks are managed by Microsoft's ad network and Microsoft has committed to not associate your ad-click behavior with a user profile and to not store or share that information other than for accounting purposes.",
+              "line": 25,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "optout": {
+          "score": 0,
+          "why": "No ad opt-out needed because ads are not based on you.",
+          "evidence": [
+            {
+              "id": "duckduckgo-22",
+              "claim": "There is no ad opt-out because DuckDuckGo says its search ads are based on the page you are viewing, not on you as a person.",
+              "quote": "Since we don’t have that information, search ads on DuckDuckGo are based on the search results page you’re viewing, and not based on you as a person.",
+              "line": 24,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        },
+        "keeps": {
+          "score": 1,
+          "why": "No identifiers saved with searches; personal info you send is deleted when no longer needed.",
+          "evidence": [
+            {
+              "id": "duckduckgo-19",
+              "claim": "DuckDuckGo says it does not save unique identifiers alongside your searches, chats or site visits, and never writes them to disk in a way that could be tied back to you.",
+              "quote": "We also don’t save any other unique identifiers alongside your searches, chats, or visits to our website, and never log unique identifiers to disk that could be tied back to you",
+              "line": 17,
+              "extra_quotes": [],
+              "context": "Optional features like Sync & Backup may use random IDs, with chats encrypted so DuckDuckGo says it cannot read them."
+            },
+            {
+              "id": "duckduckgo-18",
+              "claim": "Personal information you give DuckDuckGo directly is kept only as long as needed for its stated purpose and then deleted, unless a law requires keeping it longer; no specific time periods are given.",
+              "quote": "We will limit its use by only keeping it for as long as necessary for the stated purpose, and we will protect it by keeping it secure and deleting it when it is no longer required, unless a longer period is required by law.",
+              "line": 38,
+              "extra_quotes": [],
+              "context": ""
+            }
+          ],
+          "not_stated_parts": []
+        }
+      },
+      "total": 18.3,
+      "rank": 14,
+      "tied": false
+    }
+  ],
+  "stability": {
+    "dominance": [
+      {
+        "higher": "amazon",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "amazon",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "amazon",
+        "lower": "espn"
+      },
+      {
+        "higher": "amazon",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "ebay_previous",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "ebay_previous",
+        "lower": "espn"
+      },
+      {
+        "higher": "ebay_previous",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "espn",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "espn",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "github",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "github",
+        "lower": "espn"
+      },
+      {
+        "higher": "github",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "google",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "google",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "google",
+        "lower": "espn"
+      },
+      {
+        "higher": "google",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "amazon"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "espn"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "github"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "google"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "meta"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "strava"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "tiktok"
+      },
+      {
+        "higher": "linkedin",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "meta",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "meta",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "meta",
+        "lower": "espn"
+      },
+      {
+        "higher": "meta",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "reddit",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "reddit",
+        "lower": "espn"
+      },
+      {
+        "higher": "reddit",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "strava",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "strava",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "strava",
+        "lower": "espn"
+      },
+      {
+        "higher": "strava",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "tiktok",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "tiktok",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "tiktok",
+        "lower": "espn"
+      },
+      {
+        "higher": "tiktok",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "weather",
+        "lower": "amazon"
+      },
+      {
+        "higher": "weather",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "weather",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "weather",
+        "lower": "espn"
+      },
+      {
+        "higher": "weather",
+        "lower": "github"
+      },
+      {
+        "higher": "weather",
+        "lower": "google"
+      },
+      {
+        "higher": "weather",
+        "lower": "meta"
+      },
+      {
+        "higher": "weather",
+        "lower": "strava"
+      },
+      {
+        "higher": "weather",
+        "lower": "tiktok"
+      },
+      {
+        "higher": "weather",
+        "lower": "wikipedia"
+      },
+      {
+        "higher": "x",
+        "lower": "amazon"
+      },
+      {
+        "higher": "x",
+        "lower": "duckduckgo"
+      },
+      {
+        "higher": "x",
+        "lower": "ebay_previous"
+      },
+      {
+        "higher": "x",
+        "lower": "espn"
+      },
+      {
+        "higher": "x",
+        "lower": "github"
+      },
+      {
+        "higher": "x",
+        "lower": "google"
+      },
+      {
+        "higher": "x",
+        "lower": "meta"
+      },
+      {
+        "higher": "x",
+        "lower": "strava"
+      },
+      {
+        "higher": "x",
+        "lower": "tiktok"
+      },
+      {
+        "higher": "x",
+        "lower": "wikipedia"
+      }
+    ],
+    "identical_scores": [
+      [
+        "amazon",
+        "google"
+      ],
+      [
+        "amazon",
+        "meta"
+      ],
+      [
+        "amazon",
+        "tiktok"
+      ],
+      [
+        "google",
+        "meta"
+      ],
+      [
+        "google",
+        "tiktok"
+      ],
+      [
+        "linkedin",
+        "weather"
+      ],
+      [
+        "linkedin",
+        "x"
+      ],
+      [
+        "meta",
+        "tiktok"
+      ],
+      [
+        "weather",
+        "x"
+      ]
+    ],
+    "random_weights": {
+      "n": 1000,
+      "seed": 20261021,
+      "thirds": {
+        "amazon": {
+          "top": 222.0,
+          "middle": 718.2,
+          "bottom": 59.8
+        },
+        "duckduckgo": {
+          "top": 0.0,
+          "middle": 0.0,
+          "bottom": 1000.0
+        },
+        "ebay_previous": {
+          "top": 0.0,
+          "middle": 205.0,
+          "bottom": 795.0
+        },
+        "espn": {
+          "top": 0.0,
+          "middle": 0.0,
+          "bottom": 1000.0
+        },
+        "github": {
+          "top": 430.0,
+          "middle": 290.0,
+          "bottom": 280.0
+        },
+        "google": {
+          "top": 222.0,
+          "middle": 718.2,
+          "bottom": 59.8
+        },
+        "linkedin": {
+          "top": 1000.0,
+          "middle": 0.0,
+          "bottom": 0.0
+        },
+        "meta": {
+          "top": 222.0,
+          "middle": 718.2,
+          "bottom": 59.8
+        },
+        "reddit": {
+          "top": 241.0,
+          "middle": 173.0,
+          "bottom": 586.0
+        },
+        "strava": {
+          "top": 441.0,
+          "middle": 459.0,
+          "bottom": 100.0
+        },
+        "tiktok": {
+          "top": 222.0,
+          "middle": 718.2,
+          "bottom": 59.8
+        },
+        "weather": {
+          "top": 1000.0,
+          "middle": 0.0,
+          "bottom": 0.0
+        },
+        "wikipedia": {
+          "top": 0.0,
+          "middle": 0.0,
+          "bottom": 1000.0
+        },
+        "x": {
+          "top": 1000.0,
+          "middle": 0.0,
+          "bottom": 0.0
+        }
+      },
+      "mean_rank": {
+        "amazon": 6.85,
+        "duckduckgo": 13.89,
+        "ebay_previous": 10.29,
+        "espn": 12.0,
+        "github": 7.06,
+        "google": 6.85,
+        "linkedin": 2.13,
+        "meta": 6.85,
+        "reddit": 8.16,
+        "strava": 6.7,
+        "tiktok": 6.85,
+        "weather": 2.13,
+        "wikipedia": 13.11,
+        "x": 2.13
+      }
+    },
+    "tiers": {
+      "amazon": "Middle",
+      "duckduckgo": "Lowest",
+      "ebay_previous": "Lowest",
+      "espn": "Lowest",
+      "github": "Middle",
+      "google": "Middle",
+      "linkedin": "Highest",
+      "meta": "Middle",
+      "reddit": "Middle",
+      "strava": "Middle",
+      "tiktok": "Middle",
+      "weather": "Highest",
+      "wikipedia": "Lowest",
+      "x": "Highest"
+    },
+    "silent_ai_worst_case": {
+      "platforms": [
+        "duckduckgo",
+        "espn",
+        "reddit",
+        "wikipedia"
+      ],
+      "order": [
+        "linkedin",
+        "weather",
+        "x",
+        "strava",
+        "amazon",
+        "google",
+        "meta",
+        "tiktok",
+        "github",
+        "ebay_previous",
+        "reddit",
+        "espn",
+        "wikipedia",
+        "duckduckgo"
+      ],
+      "totals": {
+        "amazon": 90.0,
+        "duckduckgo": 26.7,
+        "ebay_previous": 85.0,
+        "espn": 75.0,
+        "github": 86.7,
+        "google": 90.0,
+        "linkedin": 96.7,
+        "meta": 90.0,
+        "reddit": 85.0,
+        "strava": 91.7,
+        "tiktok": 90.0,
+        "weather": 96.7,
+        "wikipedia": 45.0,
+        "x": 96.7
+      }
+    },
+    "fully_unstated_cells": []
+  }
+}

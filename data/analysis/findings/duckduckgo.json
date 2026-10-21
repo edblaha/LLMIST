@@ -83,7 +83,9 @@
       "line": 25,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Many users would not expect their ad clicks on a privacy search engine to pass through Microsoft, with privacy depending on Microsoft's promise rather than DuckDuckGo's own controls."
+      "surprise_why": "Many users would not expect their ad clicks on a privacy search engine to pass through Microsoft, with privacy depending on Microsoft's promise rather than DuckDuckGo's own controls.",
+      "review_verdict": "supported",
+      "review_reason": "Line 25 says ad clicks are managed by Microsoft's ad network and the protection is Microsoft's commitment not to associate clicks with a profile or store/share them other than for accounting."
     },
     {
       "id": "duckduckgo-10",
@@ -92,7 +94,9 @@
       "quote": "And we only save these anonymous search queries — completely disconnected from any unique identifiers like IP addresses — to improve our search indexes by analyzing anonymous search trends, so that we can better serve you.",
       "line": 18,
       "context": "The policy gives no time limit for keeping these anonymous queries.",
-      "surprise": 1
+      "surprise": 1,
+      "review_verdict": "supported",
+      "review_reason": "Line 18 says DuckDuckGo saves anonymous search queries disconnected from identifiers like IP addresses to improve search indexes by analyzing anonymous trends; no retention period for these appears anywhere in the file."
     },
     {
       "id": "duckduckgo-11",
@@ -119,7 +123,9 @@
       "quote": "your communication may be accessible to the software-as-a-service providers we use in our corporate systems (such as our company email, project management software, and customer support vendors).",
       "line": 39,
       "context": "",
-      "surprise": 1
+      "surprise": 1,
+      "review_verdict": "supported",
+      "review_reason": "Line 39 says when you reach out for support, feedback or other reasons, your communication 'may be accessible' to its SaaS providers such as email, project management and customer support vendors."
     },
     {
       "id": "duckduckgo-14",

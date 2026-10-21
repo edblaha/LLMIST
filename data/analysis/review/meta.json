@@ -1,0 +1,403 @@
+{
+ "key": "meta",
+ "file": "data/text/meta.txt",
+ "reviewed": 35,
+ "reviews": [
+  {
+   "id": "meta-02",
+   "verdict": "quote_insufficient",
+   "reason": "Line 72 is a bare list item; the statement that Meta collects these items is in the lead-in on line 69.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Collection is \"subject to applicable law\", and the same line notes some products offer end-to-end encrypted messages.",
+   "extra_quotes": [
+    {
+     "quote": "We collect your activity across our Products and information you provide [5] , such as:",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "id": "meta-05",
+   "verdict": "quote_insufficient",
+   "reason": "Line 107 is a list item under the device-information heading; the collection verb is on line 104.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "We collect and receive information from and about the different devices [11] you use and how you use them.",
+     "line": 104
+    }
+   ]
+  },
+  {
+   "id": "meta-06",
+   "verdict": "quote_insufficient",
+   "reason": "Line 279 is a bare list item in the network-information expansion (line 271 lead-in has no verb); line 281 states Meta collects this information.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "One reason we collect this information is to make your experience better. For example, if we know that your phone and TV are connected to the same network, we can help you use your phone to control a video stream on your TV.",
+     "line": 281
+    }
+   ]
+  },
+  {
+   "id": "meta-07",
+   "verdict": "quote_insufficient",
+   "reason": "Line 77 is a list item; the collection statement is the lead-in on line 69.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "We collect your activity across our Products and information you provide [5] , such as:",
+     "line": 69
+    }
+   ]
+  },
+  {
+   "id": "meta-09",
+   "verdict": "quote_insufficient",
+   "reason": "The quote (line 100) is only the example; the general statement that Meta infers things about you from others' activity is line 99. Claim reverses direction (suggests you to someone vs. suggests a friend to you) but the mutual-contact-list point is the same.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "We also infer things about you based on others' activity. For example:",
+     "line": 99
+    }
+   ]
+  },
+  {
+   "id": "meta-12",
+   "verdict": "quote_insufficient",
+   "reason": "Line 130 says \"this information\", whose antecedent is the partner/vendor information listed on lines 119-129; the quote alone does not say what is received.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The same statement is repeated for ad personalization on line 1346.",
+   "extra_quotes": [
+    {
+     "quote": "We collect and receive information from partners [21] , measurement vendors , marketing vendors and other third parties [22] about a variety of your information and activities on and off our Products [3] .",
+     "line": 119
+    }
+   ]
+  },
+  {
+   "id": "meta-13",
+   "verdict": "quote_insufficient",
+   "reason": "Line 128 is a list item; the lead-in on line 120 shows these are examples of information Meta receives about you.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "Here are some examples of information we receive about you:",
+     "line": 120
+    }
+   ]
+  },
+  {
+   "id": "meta-14",
+   "verdict": "quote_insufficient",
+   "reason": "Line 315 is a list item; the statement that Meta collects and receives information from these third parties is on line 312.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "We collect and receive information from these other third parties [25] , including:",
+     "line": 312
+    }
+   ]
+  },
+  {
+   "id": "meta-15",
+   "verdict": "supported",
+   "reason": "Line 94 says non-users' information \"might still be collected\" and the next sentence on the same line ties this to contact information uploaded by account holders (see line 93).",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-17",
+   "verdict": "quote_insufficient",
+   "reason": "Line 371 is a list item; line 365 shows the list is information Meta uses to decide which ads to show you.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "To decide what to show you and others, we use information we have about you, including:",
+     "line": 365
+    }
+   ]
+  },
+  {
+   "id": "meta-18",
+   "verdict": "supported",
+   "reason": "Line 226 (purchases/transactions expansion, lead-in line 219) explicitly lists personalization and advertising as reasons for collecting and storing payment and transaction information.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-20",
+   "verdict": "quote_insufficient",
+   "reason": "The quote (line 393) is a single illustrative example about \"Anna\"; the general statement that Meta AI uses your activity, interests and preferences to personalize responses is line 387.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "We use information we have, including about your interests and preferences, to help make responses and actions from our features that are part of AI at Meta more relevant, such as:",
+     "line": 387
+    }
+   ]
+  },
+  {
+   "id": "meta-23",
+   "verdict": "supported",
+   "reason": "Line 463 states this directly, listed as an example of Meta's social-good research (line 462).",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Presented as research on groups of people, not individuals.",
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-26",
+   "verdict": "supported",
+   "reason": "Line 1247 is the purpose statement of the \"Developing and improving AI at Meta\" processing entry (line 1245); the categories on lines 1249-1252 match the context.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-27",
+   "verdict": "quote_insufficient",
+   "reason": "Line 1250 is a category list item; the AI-development purpose is on line 1247 and the \"could include\" framing (supporting \"may\") on line 1248.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "Develop and improve AI at Meta for Meta Products and for third parties.",
+     "line": 1247
+    },
+    {
+     "quote": "The actual information we use depends on your factual circumstances, but could include any of the following:",
+     "line": 1248
+    }
+   ]
+  },
+  {
+   "id": "meta-28",
+   "verdict": "quote_insufficient",
+   "reason": "Line 1251 is a category list item whose wording repeats in many processing entries; only the purpose on line 1247 ties it to developing AI, and line 1248 gives the \"could include\" framing.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "Develop and improve AI at Meta for Meta Products and for third parties.",
+     "line": 1247
+    },
+    {
+     "quote": "The actual information we use depends on your factual circumstances, but could include any of the following:",
+     "line": 1248
+    }
+   ]
+  },
+  {
+   "id": "meta-29",
+   "verdict": "supported",
+   "reason": "Line 929 states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Described as information shared among Meta Companies (which include WhatsApp) \"to support innovation\" and to offer future products.",
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-31",
+   "verdict": "supported",
+   "reason": "Line 791 states this directly; line 794 lists tracking and categorizing your online and mobile app activity among what marketing vendors do.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Marketing vendors advertise Meta's own products (line 873).",
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-32",
+   "verdict": "supported",
+   "reason": "Line 828 states this; the sentence before it scopes it to \"some features\" that \"may\" use an external browser.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-33",
+   "verdict": "supported",
+   "reason": "Line 1095 says so, with the conditions on lines 1096-1097 already captured in the context.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-34",
+   "verdict": "supported",
+   "reason": "Line 740 says this verbatim (also line 739).",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The policy does not define \"sell\"; it does describe sharing identifiers with marketing vendors for ads (line 791) and refers US residents to a separate United States Regional Privacy Notice (lines 41, 1150).",
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-38",
+   "verdict": "supported",
+   "reason": "Line 970 states both 90-day periods with \"may\", matching the claim.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-39",
+   "verdict": "supported",
+   "reason": "Line 1011 says so; \"the above reasons\" (lines 1002-1009) are legal requests, investigations, harm prevention, safety/integrity and self-protection.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-47",
+   "verdict": "supported",
+   "reason": "Line 883 says this.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "This opt-out only covers Meta's own ads shown off Meta Products (line 879), not ads on Facebook or Instagram.",
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-48",
+   "verdict": "supported",
+   "reason": "Line 351 frames personalized ads as part of the service; grepping the policy finds ad controls only for advertisers, off-Meta activity, interests and Meta's own off-platform ads (lines 505, 510, 844, 879-884), plus a generic \"Visit your Ad preferences\" link (lines 876, 951) that does not describe stopping on-Meta activity-based ads.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-49",
+   "verdict": "overstated",
+   "reason": "\"The only AI choice\" is too broad: the policy also lets you choose whether to connect third-party apps to AI features (line 829) and points generally to settings and Help Centers to exercise rights (lines 940-941); the core point that no AI-training opt-out is described holds.",
+   "corrected_claim": "Apart from saying that improving the voice Assistant from your voice interactions depends on your settings, the policy describes no specific way to stop your public posts or Meta AI chats from being used to develop AI.",
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-50",
+   "verdict": "quote_insufficient",
+   "reason": "The quote (line 505) shows only two of the six listed controls; the interests removal, the opt-out from Meta's own off-Meta ads and the DAA opt-out appear on lines 844, 879 and 883 (device settings on line 884).",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Options 4-6 apply only to Meta's own ads shown off Meta Products.",
+   "extra_quotes": [
+    {
+     "quote": "You can see the “interests” assigned to you in your Ad preferences and remove them if you want.",
+     "line": 844
+    },
+    {
+     "quote": "We advertise our own products and services on non-Meta ad platforms. We use marketing vendors to deliver these ads. If we use your activity on our Products to tailor these ads, you can opt out of this type of use.",
+     "line": 879
+    },
+    {
+     "quote": "You can use the Digital Advertising Alliance industry opt-out platform on your web browser. If you live in Canada, you can use the Digital Advertising Alliance of Canada industry opt-out platform. Certain ad blockers and tools to restrict cookies can interfere with your ability to opt out.",
+     "line": 883
+    }
+   ]
+  },
+  {
+   "id": "meta-54",
+   "verdict": "supported",
+   "reason": "Line 112 states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-55",
+   "verdict": "supported",
+   "reason": "Line 398 states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-56",
+   "verdict": "supported",
+   "reason": "Line 401 states this; the uses listed include providing/personalizing products and ads and security (lines 402-403).",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-60",
+   "verdict": "supported",
+   "reason": "Line 423 says so; the context already notes details are on a linked page.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-61",
+   "verdict": "supported",
+   "reason": "Line 187 states this, but only through one example (Ren using the voice-enabled Assistant on smart glasses); line 71 confirms voice-enabled feature content is collected generally.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The background-sound detail comes from a single example of the voice-enabled Assistant.",
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-64",
+   "verdict": "supported",
+   "reason": "Line 1340 states analytics as a purpose and automated or sometimes manual (human) processing.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "This covers special-protection information \"that you provide\"/choose to provide (line 1343); line 360 says it is not used to show ads.",
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-65",
+   "verdict": "supported",
+   "reason": "Line 489 states this, listed as an example of manual review.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "meta-66",
+   "verdict": "supported",
+   "reason": "Line 593 states this directly and gives examples.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  }
+ ]
+}

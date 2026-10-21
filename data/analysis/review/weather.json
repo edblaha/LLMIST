@@ -1,0 +1,223 @@
+{
+  "key": "weather",
+  "file": "data/text/weather.txt",
+  "reviewed": 18,
+  "reviews": [
+    {
+      "id": "weather-04",
+      "verdict": "supported",
+      "reason": "Line 269 defines the 'Device information' category the company collects and names IP address, MAC address, cookies and 'features managed on those devices, such as your calendar'; the claim reads it closely.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-05",
+      "verdict": "quote_insufficient",
+      "reason": "Line 130 only defines ETags; the statement that the company and its partners actually use these technologies is in the list's lead-in on line 128.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": [
+        {
+          "quote": "we and our partners use various technologies to track usage and personalize your experience. These include:",
+          "line": 128
+        }
+      ]
+    },
+    {
+      "id": "weather-11",
+      "verdict": "quote_insufficient",
+      "reason": "The quote is only the list label; the details that drive the claim and its surprise (finance behavior, household demographics, home address, used for targeted ads) are on lines 185-189.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": [
+        {
+          "quote": "Consumer finance behavior, interests, and purchases",
+          "line": 185
+        },
+        {
+          "quote": "Home address",
+          "line": 188
+        },
+        {
+          "quote": "We use this data to better understand you, personalize our Services, and provide targeted advertising.",
+          "line": 189
+        }
+      ]
+    },
+    {
+      "id": "weather-12",
+      "verdict": "quote_insufficient",
+      "reason": "Line 149 is a list item with no subject; that the company and its Advertising Vendors are the ones using these techniques comes from the list label on line 147.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": [
+        {
+          "quote": "We and our Advertising Vendors may use the following techniques:",
+          "line": 147
+        }
+      ]
+    },
+    {
+      "id": "weather-14",
+      "verdict": "supported",
+      "reason": "Line 142 says plainly that 'we learn about your interests' from activity on its own and other websites, under the Targeted Advertising cookies/trackers category.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-24",
+      "verdict": "supported",
+      "reason": "Line 580 sits in the GDPR Notice's Processing Basis table (heading line 544/569) and lists Legitimate Interest as the basis for improving AI features, including training models.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Under GDPR/UK GDPR you have the right to object to processing (line 565).",
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-26",
+      "verdict": "quote_insufficient",
+      "reason": "Line 442 is only a list item; the statement that these categories were disclosed to advertising, analytics and technology vendors in the past twelve months is the lead-in on line 440.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "This is a disclosure for business purposes under the California (CCPA) notice; protected classifications do not appear in the separate 'sold or shared' list (lines 464-470).",
+      "extra_quotes": [
+        {
+          "quote": "In the past twelve months, we have disclosed the following categories of Personal Information as defined by the CCPA for our business purposes, to our Advertising Vendors, Analytics Vendors, and Technology Vendors:",
+          "line": 440
+        }
+      ]
+    },
+    {
+      "id": "weather-29",
+      "verdict": "supported",
+      "reason": "Line 463 states this directly, in the California (CCPA) notice, and adds that users may opt out.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-30",
+      "verdict": "quote_insufficient",
+      "reason": "The quote is the list label; the categories that make the finding notable (identifiers/IP, precise geolocation, inferences) are the list items on lines 465-470.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "California (CCPA) notice.",
+      "extra_quotes": [
+        {
+          "quote": "Identifiers such as an online identifier or IP address;",
+          "line": 465
+        },
+        {
+          "quote": "Precise geolocation data; and",
+          "line": 469
+        },
+        {
+          "quote": "Inferences.",
+          "line": 470
+        }
+      ]
+    },
+    {
+      "id": "weather-36",
+      "verdict": "supported",
+      "reason": "Line 213 says this directly, and line 496 repeats it in the CCPA section, adding that the data will also be used to personalize ads.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-37",
+      "verdict": "supported",
+      "reason": "Line 493 says this directly; it is in the California (CCPA) 'Delete Your Personal Information' subsection.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Stated in the California (CCPA) section.",
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-38",
+      "verdict": "supported",
+      "reason": "Line 219 says this directly (and line 495 repeats it); it covers only subscriptions bought directly from the company.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-40",
+      "verdict": "supported",
+      "reason": "Line 506 says this directly, in the CCPA 'Opt Out of Sale or Sharing' subsection.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "California (CCPA) section; ad-free subscribers are opted out automatically (line 516).",
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-45",
+      "verdict": "quote_insufficient",
+      "reason": "The quote is only the heading of the six-item list (lines 155-160); the remaining actions in the count are on lines 508-515, so the quote shows none of them.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Some items overlap: the 'opt-outs through the Services' on line 158 are presumably the Privacy Settings pages and app menus listed later (lines 510-514).",
+      "extra_quotes": [
+        {
+          "quote": "You can visit our Data Vendors page to review the vendors we share data with and view their privacy policy and opt-out mechanisms where applicable.",
+          "line": 160
+        },
+        {
+          "quote": "You can access the \"Do Not Sell or Share My Personal Information\" link in the footer of the site if you are located in California when you access the Services.",
+          "line": 508
+        },
+        {
+          "quote": "in the app menu to manage your opt-out for each mobile app and your current location.",
+          "line": 514
+        }
+      ]
+    },
+    {
+      "id": "weather-50",
+      "verdict": "supported",
+      "reason": "Line 472 says this directly ('may also use or disclose to specific data vendors your precise geolocation data ... to create audience segments').",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "California (CCPA) section; Weather Underground, Storm Radar, SnowCast and the in-vehicle app do not do this (line 528), and precise location is collected only with consent (line 199).",
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-51",
+      "verdict": "supported",
+      "reason": "Line 200 says this directly.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Precise GPS location is used only if you first give consent (line 199).",
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-52",
+      "verdict": "supported",
+      "reason": "Line 519 says users are opted in by default to the use of sensitive personal information; the precise-location example matches line 472.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "California (CCPA) section; limiting it on the web requires being signed in (lines 521-522).",
+      "extra_quotes": []
+    },
+    {
+      "id": "weather-54",
+      "verdict": "supported",
+      "reason": "Line 405 says this directly, including the allergies example and the disclaimer of actual knowledge of health conditions.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    }
+  ]
+}

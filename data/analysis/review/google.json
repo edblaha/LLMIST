@@ -1,0 +1,219 @@
+{
+ "key": "google",
+ "file": "data/text/google.txt",
+ "reviewed": 21,
+ "reviews": [
+  {
+   "id": "google-03",
+   "verdict": "supported",
+   "reason": "Line 28 says an Android device with Google apps \"periodically contacts Google servers\" and lists device type, carrier, crash reports and installed apps.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Applies to Android devices with Google apps; other usage information is included depending on device settings.",
+   "extra_quotes": []
+  },
+  {
+   "id": "google-05",
+   "verdict": "supported",
+   "reason": "Line 474 (definition of \"Views and interactions with content and ads\") says Google \"may also measure\" mouse movement over an ad and interaction with the page; modality kept as \"may\".",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-07",
+   "verdict": "supported",
+   "reason": "Line 15 lists these as examples of what Google figures out from collected information; line 457 defines \"people who matter most\" via Gmail address suggestions, matching the context.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-08",
+   "verdict": "supported",
+   "reason": "Line 333 (definition of \"activity on third-party sites and apps\") states sharing happens \"regardless of which browser or browser mode you use\", with Incognito as the example.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-09",
+   "verdict": "supported",
+   "reason": "Line 477 keeps both \"may\" qualifiers and the settings dependency; line 384 supports the 2 million partner figure in the context.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-11",
+   "verdict": "supported",
+   "reason": "Line 340 (\"advertising and research services on their behalf\") says merchants \"may upload data from their loyalty-card programs\" for these two purposes; the aggregated-report limit is given in the context.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-15",
+   "verdict": "supported",
+   "reason": "Line 400 says an added phone number \"can be used\" to make ads more relevant, \"depending on your settings\", which the context reflects.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-18",
+   "verdict": "supported",
+   "reason": "Line 421 says you \"may also get customized search results even when you're signed out\" and gives the two opt-outs named in the claim.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-20",
+   "verdict": "supported",
+   "reason": "Line 78 says these services \"may link\" activity from one site or app with others that use Google services; the modality is kept.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-21",
+   "verdict": "supported",
+   "reason": "Line 410 (definition of \"publicly accessible sources\") says Google \"may collect\" public information to train AI models and build Translate, Gemini Apps and Cloud AI; the context accurately notes where it is stated.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-22",
+   "verdict": "supported",
+   "reason": "Line 177, under \"For external processing\", says Google uses service providers to \"analyze and listen to samples of saved user audio\" to improve audio recognition.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Covers samples of saved audio, not all audio.",
+   "extra_quotes": []
+  },
+  {
+   "id": "google-24",
+   "verdict": "quote_insufficient",
+   "reason": "The quote (line 168) only says administrators \"will have access\"; the ability to read and keep email comes from the list item on line 169, which is framed as \"may be able to\".",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The policy says administrators \"may be able to\" do these things.",
+   "extra_quotes": [
+    {
+     "quote": "Access and retain information stored in your account, like your email",
+     "line": 169
+    }
+   ]
+  },
+  {
+   "id": "google-25",
+   "verdict": "supported",
+   "reason": "Line 185 says Google allows specific partners to collect information from your browser or device using their own cookies; line 451 gives the YouTube measurement example used in the context.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-26",
+   "verdict": "supported",
+   "reason": "Line 159 says name and photo appear next to activity like YouTube comments and Play reviews, and \"may\" be shown in ads depending on Shared endorsements.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-27",
+   "verdict": "supported",
+   "reason": "A search of the file finds no \"sell\"/\"sold\" statement about personal data, and line 74 states the advertiser limit as quoted, with a \"tap to call\" exception.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-35",
+   "verdict": "quote_insufficient",
+   "reason": "The quote is only a list item (line 174); that it is administrators of school or work accounts who may do this comes from the lead-in on line 168 under \"With domain administrators\".",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The policy says administrators \"may be able to\" do this.",
+   "extra_quotes": [
+    {
+     "quote": "If you’re a student or work for an organization that uses Google services, your domain administrator and resellers who manage your account will have access to your Google Account. They may be able to:",
+     "line": 168
+    }
+   ]
+  },
+  {
+   "id": "google-39",
+   "verdict": "overstated",
+   "reason": "The quote (line 71) shows only My Ad Center. The \"Web & App Activity subsetting\" (line 103) is described as controlling whether off-Google activity is saved and \"used to improve Google services\", not ad use, so it should not be counted as an ad control.",
+   "corrected_claim": "Besides My Ad Center, the policy points to several other separate controls that affect ads, including signed-out Ad Settings, browser cookie settings, your device's Advertising ID setting, and Shared endorsements, and it links to them rather than giving step-by-step instructions.",
+   "remove": false,
+   "context": "Signed-out Ad Settings apply to each browser or device separately (line 135).",
+   "extra_quotes": [
+    {
+     "quote": "Ad Settings: Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads.",
+     "line": 138
+    },
+    {
+     "quote": "you can configure your browser to indicate when Google has set a cookie in your browser. You can also configure your browser to block all cookies from a specific domain or all domains.",
+     "line": 152
+    },
+    {
+     "quote": "a unique identifier such as the Advertising ID is used to provide relevant advertising on Android devices, and can be managed in your device’s settings",
+     "line": 322
+    }
+   ]
+  },
+  {
+   "id": "google-44",
+   "verdict": "supported",
+   "reason": "Line 366 (\"Information about things near your device\") says that if you use Google Location services your device sends location, sensor and nearby cell tower and Wi-Fi data.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Applies only if you enable Google Location services in device settings.",
+   "extra_quotes": []
+  },
+  {
+   "id": "google-45",
+   "verdict": "supported",
+   "reason": "Line 427 (definition of \"Sensor data from your device\") says sensors \"can be used\" to understand location and movement, with speed and direction as examples; \"may use\" keeps the hedged modality.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-46",
+   "verdict": "supported",
+   "reason": "Line 403 says saved home or work addresses \"can be used\" for directions, nearby results \"and for ads\"; line 404 adds that you can edit or delete them.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "google-48",
+   "verdict": "supported",
+   "reason": "Line 378 says Google records voice and audio plus a few seconds before an activation command; a search of the file finds no mention of biometric, face, fingerprint or voiceprint data.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  }
+ ]
+}

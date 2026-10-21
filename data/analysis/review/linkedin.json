@@ -1,0 +1,198 @@
+{
+ "key": "linkedin",
+ "file": "data/text/linkedin.txt",
+ "reviewed": 19,
+ "reviews": [
+  {
+   "id": "linkedin-03",
+   "verdict": "supported",
+   "reason": "Line 54 says calendar sync leads LinkedIn to collect meeting information to suggest connections 'for you and others'.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Only if you choose to sync your calendar.",
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-04",
+   "verdict": "supported",
+   "reason": "Line 84 says LinkedIn receives the URL of the site you came from and go to and the time of your visit, including via 'some plugins' and cookies on others' sites.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-05",
+   "verdict": "supported",
+   "reason": "Line 80 says outside the Designated Countries LinkedIn collects (or relies on others including Microsoft who collect) device info 'where you have not engaged with our Services'; Designated Countries are EU/EEA/Switzerland per line 23. The claim's 'may' is weaker than the text's 'we also collect'.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Does not apply in the EU, EEA or Switzerland; the stated purpose is relevant ads for Members.",
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-07",
+   "verdict": "quote_insufficient",
+   "reason": "Line 146 is a list item giving these inference examples; that the list is the data used for ad targeting comes from the list's lead-in on line 141, which the quote omits.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "We target (and measure the performance of) ads to Members, Visitors and others both on and off our Services directly or through a variety of partners, using the following data, whether separately or combined:",
+     "line": 141
+    }
+   ]
+  },
+  {
+   "id": "linkedin-08",
+   "verdict": "quote_insufficient",
+   "reason": "The quote shows Sales Navigator users are asked to share their social selling index, but not that the sharing is with their employer or that it is a permission request; that is in the preceding sentence of line 213.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "This applies to enterprise Sales Navigator users, and LinkedIn asks permission before sharing.",
+   "extra_quotes": [
+    {
+     "quote": "Depending on the enterprise Service, before you use such Service, we will ask for permission to share with your employer relevant data from your profile or use of our non-enterprise Services.",
+     "line": 213
+    }
+   ]
+  },
+  {
+   "id": "linkedin-09",
+   "verdict": "supported",
+   "reason": "Line 65 says LinkedIn receives personal data including contact information when others sync calendars, associate contacts, or scan and upload business cards.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-10",
+   "verdict": "supported",
+   "reason": "Line 65 says if you or others opt in to sync email accounts LinkedIn collects email header information it can associate with Member profiles.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-11",
+   "verdict": "supported",
+   "reason": "Line 69 says LinkedIn receives data from customers and partners such as employers, prospective employers and applicant tracking systems providing job application data.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-12",
+   "verdict": "supported",
+   "reason": "Line 72 says LinkedIn 'may receive information from Microsoft about your engagement with their sites and services'.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-14",
+   "verdict": "supported",
+   "reason": "Line 148 gives this as an example of social actions mentioned with related ads, prefaced by 'Subject to your settings'.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Subject to your settings.",
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-15",
+   "verdict": "supported",
+   "reason": "Line 154 says the ad provider gets a signal and 'may, through the use of mechanisms such as cookies, determine it is you'.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-17",
+   "verdict": "supported",
+   "reason": "Line 128 says 'If your settings allow, we scan messages' to provide tools for scheduling, drafting responses and summarizing messages.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-23",
+   "verdict": "supported",
+   "reason": "Line 109 says LinkedIn 'may use your personal data to ... develop and train artificial intelligence (AI) models'; the preceding sentence says use depends on your settings.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-24",
+   "verdict": "supported",
+   "reason": "Line 227 says, subject to the European Regional Privacy Notice, LinkedIn may share public content with Affiliates including Microsoft to develop their services and personal data for their advertising services.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Subject to the European Regional Privacy Notice for EU/EEA/UK users.",
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-25",
+   "verdict": "supported",
+   "reason": "Line 132 says premium Services customers can export name, headline, current company, title and general location to manage sales leads or talent 'unless you opt-out'.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-28",
+   "verdict": "quote_insufficient",
+   "reason": "The quote is cut off after item (ii), so the claim's third exception ('data already visible on LinkedIn') is not in it; it appears later on line 154.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The same paragraph says advertisers may still use cookies to determine it is you when you view or click an ad (line 154).",
+   "extra_quotes": [
+    {
+     "quote": "or (iii) data already visible to any users of the Services (e.g., profile). However, if you view or click on an ad on or off our Services",
+     "line": 154
+    }
+   ]
+  },
+  {
+   "id": "linkedin-34",
+   "verdict": "supported",
+   "reason": "Line 262 says information shared with others (InMail, updates, group posts) remains visible after you close your account or delete it from your profile or mailbox.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-41",
+   "verdict": "supported",
+   "reason": "Line 109 ties data use to 'the choices you make in your settings' and names no AI-training-specific opt-out; no other line offers one.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The policy does give general rights to object to or restrict use of your data (line 253) and to object where LinkedIn relies on legitimate interests (line 277), though not specifically for AI training.",
+   "extra_quotes": []
+  },
+  {
+   "id": "linkedin-44",
+   "verdict": "quote_insufficient",
+   "reason": "The quoted fragment ('such as to manage sales leads or talent, unless you opt-out') does not show what is being opted out of; the subject (customers exporting profile data) is earlier in the same sentence on line 132. The policy indeed gives no steps for this opt-out.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "Customers can export limited information from your profile, such as name, headline, current company, current title, and general location (e.g., Dublin)",
+     "line": 132
+    }
+   ]
+  }
+ ]
+}

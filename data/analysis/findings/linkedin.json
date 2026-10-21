@@ -29,7 +29,9 @@
       "line": 54,
       "context": "Only if you choose to sync your calendar.",
       "surprise": 2,
-      "surprise_why": "People may not expect their meeting details to be used to suggest connections to other people."
+      "surprise_why": "People may not expect their meeting details to be used to suggest connections to other people.",
+      "review_verdict": "supported",
+      "review_reason": "Line 54 says calendar sync leads LinkedIn to collect meeting information to suggest connections 'for you and others'."
     },
     {
       "id": "linkedin-04",
@@ -39,7 +41,9 @@
       "line": 84,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users rarely realise LinkedIn learns which site they go to after leaving it."
+      "surprise_why": "Users rarely realise LinkedIn learns which site they go to after leaving it.",
+      "review_verdict": "supported",
+      "review_reason": "Line 84 says LinkedIn receives the URL of the site you came from and go to and the time of your visit, including via 'some plugins' and cookies on others' sites."
     },
     {
       "id": "linkedin-05",
@@ -47,9 +51,11 @@
       "claim": "Outside the EU, EEA, and Switzerland, LinkedIn (or others such as Microsoft) may collect information about your device even where you have not used LinkedIn.",
       "quote": "If you are outside the Designated Countries, we also collect (or rely on others, including Microsoft, who collect) information about your device where you have not engaged with our Services (e.g., ad ID, IP address, operating system and browser information)",
       "line": 80,
-      "context": "Does not apply in the EU, EEA, or Switzerland; the stated purpose is ads for Members.",
+      "context": "Does not apply in the EU, EEA, or Switzerland; the stated purpose is ads for Members. Does not apply in the EU, EEA or Switzerland; the stated purpose is relevant ads for Members.",
       "surprise": 3,
-      "surprise_why": "Most people would be shocked that LinkedIn collects device data from places where they never interacted with LinkedIn."
+      "surprise_why": "Most people would be shocked that LinkedIn collects device data from places where they never interacted with LinkedIn.",
+      "review_verdict": "supported",
+      "review_reason": "Line 80 says outside the Designated Countries LinkedIn collects (or relies on others including Microsoft who collect) device info 'where you have not engaged with our Services'; Designated Countries are EU/EEA/Switzerland per line 23. The claim's 'may' is weaker than the text's 'we also collect'."
     },
     {
       "id": "linkedin-06",
@@ -68,7 +74,15 @@
       "line": 146,
       "context": "",
       "surprise": 3,
-      "surprise_why": "Most users would not expect LinkedIn to guess their salary range, age, and gender to target ads."
+      "surprise_why": "Most users would not expect LinkedIn to guess their salary range, age, and gender to target ads.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 146 is a list item giving these inference examples; that the list is the data used for ad targeting comes from the list's lead-in on line 141, which the quote omits.",
+      "extra_quotes": [
+        {
+          "quote": "We target (and measure the performance of) ads to Members, Visitors and others both on and off our Services directly or through a variety of partners, using the following data, whether separately or combined:",
+          "line": 141
+        }
+      ]
     },
     {
       "id": "linkedin-08",
@@ -76,9 +90,17 @@
       "claim": "LinkedIn calculates a \"social selling index\" score partly from your personal account activity, and Sales Navigator users are asked to share it with their employer.",
       "quote": "users of Sales Navigator will be asked to share their “social selling index”, a score calculated in part based on their personal account activity.",
       "line": 213,
-      "context": "Only for enterprise Sales Navigator users, who are asked for permission.",
+      "context": "Only for enterprise Sales Navigator users, who are asked for permission. This applies to enterprise Sales Navigator users, and LinkedIn asks permission before sharing.",
       "surprise": 2,
-      "surprise_why": "Users may not know LinkedIn scores their personal activity in a way an employer can see."
+      "surprise_why": "Users may not know LinkedIn scores their personal activity in a way an employer can see.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote shows Sales Navigator users are asked to share their social selling index, but not that the sharing is with their employer or that it is a permission request; that is in the preceding sentence of line 213.",
+      "extra_quotes": [
+        {
+          "quote": "Depending on the enterprise Service, before you use such Service, we will ask for permission to share with your employer relevant data from your profile or use of our non-enterprise Services.",
+          "line": 213
+        }
+      ]
     },
     {
       "id": "linkedin-09",
@@ -88,7 +110,9 @@
       "line": 65,
       "context": "",
       "surprise": 2,
-      "surprise_why": "You never agreed to this; other people's uploads give LinkedIn your data."
+      "surprise_why": "You never agreed to this; other people's uploads give LinkedIn your data.",
+      "review_verdict": "supported",
+      "review_reason": "Line 65 says LinkedIn receives personal data including contact information when others sync calendars, associate contacts, or scan and upload business cards."
     },
     {
       "id": "linkedin-10",
@@ -98,7 +122,9 @@
       "line": 65,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Someone else's choice to sync their email can reveal your email activity with them to LinkedIn."
+      "surprise_why": "Someone else's choice to sync their email can reveal your email activity with them to LinkedIn.",
+      "review_verdict": "supported",
+      "review_reason": "Line 65 says if you or others opt in to sync email accounts LinkedIn collects email header information it can associate with Member profiles."
     },
     {
       "id": "linkedin-11",
@@ -108,7 +134,9 @@
       "line": 69,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Applying for a job outside LinkedIn may still send your application data to LinkedIn."
+      "surprise_why": "Applying for a job outside LinkedIn may still send your application data to LinkedIn.",
+      "review_verdict": "supported",
+      "review_reason": "Line 69 says LinkedIn receives data from customers and partners such as employers, prospective employers and applicant tracking systems providing job application data."
     },
     {
       "id": "linkedin-12",
@@ -118,7 +146,9 @@
       "line": 72,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not expect their use of Microsoft products to feed into their LinkedIn data."
+      "surprise_why": "Users may not expect their use of Microsoft products to feed into their LinkedIn data.",
+      "review_verdict": "supported",
+      "review_reason": "Line 72 says LinkedIn 'may receive information from Microsoft about your engagement with their sites and services'."
     },
     {
       "id": "linkedin-13",
@@ -137,7 +167,9 @@
       "line": 148,
       "context": "Subject to your settings.",
       "surprise": 2,
-      "surprise_why": "Many users would not expect to appear in ads shown to others."
+      "surprise_why": "Many users would not expect to appear in ads shown to others.",
+      "review_verdict": "supported",
+      "review_reason": "Line 148 gives this as an example of social actions mentioned with related ads, prefaced by 'Subject to your settings'."
     },
     {
       "id": "linkedin-15",
@@ -147,7 +179,9 @@
       "line": 154,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users assume ad views are anonymous to advertisers."
+      "surprise_why": "Users assume ad views are anonymous to advertisers.",
+      "review_verdict": "supported",
+      "review_reason": "Line 154 says the ad provider gets a signal and 'may, through the use of mechanisms such as cookies, determine it is you'."
     },
     {
       "id": "linkedin-16",
@@ -166,7 +200,9 @@
       "line": 128,
       "context": "Depends on your settings.",
       "surprise": 2,
-      "surprise_why": "Many users assume their private messages are not scanned."
+      "surprise_why": "Many users assume their private messages are not scanned.",
+      "review_verdict": "supported",
+      "review_reason": "Line 128 says 'If your settings allow, we scan messages' to provide tools for scheduling, drafting responses and summarizing messages."
     },
     {
       "id": "linkedin-18",
@@ -221,7 +257,9 @@
       "line": 109,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Many members do not expect their profile and activity to be used to train AI."
+      "surprise_why": "Many members do not expect their profile and activity to be used to train AI.",
+      "review_verdict": "supported",
+      "review_reason": "Line 109 says LinkedIn 'may use your personal data to ... develop and train artificial intelligence (AI) models'; the preceding sentence says use depends on your settings."
     },
     {
       "id": "linkedin-24",
@@ -229,9 +267,11 @@
       "claim": "LinkedIn may share your public posts with Microsoft and other affiliates to develop their services, and your personal data to develop their advertising.",
       "quote": "we may also share with our Affiliates, including Microsoft, your (1) publicly-shared content (such as your public LinkedIn posts) to provide or develop their services and (2) personal data to improve, provide or develop their advertising services.",
       "line": 227,
-      "context": "Subject to the European Regional Privacy Notice for EU/EEA/UK users; the policy does not say what Microsoft services are meant.",
+      "context": "Subject to the European Regional Privacy Notice for EU/EEA/UK users; the policy does not say what Microsoft services are meant. Subject to the European Regional Privacy Notice for EU/EEA/UK users.",
       "surprise": 2,
-      "surprise_why": "Users may not expect their LinkedIn posts to be used to build Microsoft's products."
+      "surprise_why": "Users may not expect their LinkedIn posts to be used to build Microsoft's products.",
+      "review_verdict": "supported",
+      "review_reason": "Line 227 says, subject to the European Regional Privacy Notice, LinkedIn may share public content with Affiliates including Microsoft to develop their services and personal data for their advertising services."
     },
     {
       "id": "linkedin-25",
@@ -241,7 +281,9 @@
       "line": 132,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not realise their profile is exported into sales and recruiting tools by default."
+      "surprise_why": "Users may not realise their profile is exported into sales and recruiting tools by default.",
+      "review_verdict": "supported",
+      "review_reason": "Line 132 says premium Services customers can export name, headline, current company, title and general location to manage sales leads or talent 'unless you opt-out'."
     },
     {
       "id": "linkedin-26",
@@ -267,9 +309,17 @@
       "claim": "LinkedIn says it doesn't share your personal data with outside advertisers or ad networks, except hashed IDs or device identifiers, data you permit, or data already visible on LinkedIn.",
       "quote": "We do not share your personal data with any non-Affiliated third-party advertisers or ad networks except for: (i) hashed IDs or device identifiers (to the extent they are personal data in some countries); (ii) with your separate permission",
       "line": 154,
-      "context": "",
+      "context": "The same paragraph says advertisers may still use cookies to determine it is you when you view or click an ad (line 154).",
       "surprise": 2,
-      "surprise_why": "The exception for hashed IDs and device identifiers lets advertisers match you, which undercuts the promise."
+      "surprise_why": "The exception for hashed IDs and device identifiers lets advertisers match you, which undercuts the promise.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is cut off after item (ii), so the claim's third exception ('data already visible on LinkedIn') is not in it; it appears later on line 154.",
+      "extra_quotes": [
+        {
+          "quote": "or (iii) data already visible to any users of the Services (e.g., profile). However, if you view or click on an ad on or off our Services",
+          "line": 154
+        }
+      ]
     },
     {
       "id": "linkedin-29",
@@ -324,7 +374,9 @@
       "line": 262,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users expect closing an account to remove what they posted."
+      "surprise_why": "Users expect closing an account to remove what they posted.",
+      "review_verdict": "supported",
+      "review_reason": "Line 262 says information shared with others (InMail, updates, group posts) remains visible after you close your account or delete it from your profile or mailbox."
     },
     {
       "id": "linkedin-35",
@@ -386,9 +438,11 @@
       "claim": "The policy gives no specific way to opt out of AI training; it only says how your data is used depends on your settings.",
       "quote": "How we use your personal data will depend on which Services you use, how you use those Services and the choices you make in your settings.",
       "line": 109,
-      "context": "The next sentence says LinkedIn may use personal data to develop and train AI models.",
+      "context": "The next sentence says LinkedIn may use personal data to develop and train AI models. The policy does give general rights to object to or restrict use of your data (line 253) and to object where LinkedIn relies on legitimate interests (line 277), though not specifically for AI training.",
       "surprise": 2,
-      "surprise_why": "A user who wants to stop AI training gets no direct instructions in the policy."
+      "surprise_why": "A user who wants to stop AI training gets no direct instructions in the policy.",
+      "review_verdict": "supported",
+      "review_reason": "Line 109 ties data use to 'the choices you make in your settings' and names no AI-training-specific opt-out; no other line offers one."
     },
     {
       "id": "linkedin-42",
@@ -416,7 +470,15 @@
       "line": 132,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users must find an unnamed setting to stop their profile being exported."
+      "surprise_why": "Users must find an unnamed setting to stop their profile being exported.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quoted fragment ('such as to manage sales leads or talent, unless you opt-out') does not show what is being opted out of; the subject (customers exporting profile data) is earlier in the same sentence on line 132. The policy indeed gives no steps for this opt-out.",
+      "extra_quotes": [
+        {
+          "quote": "Customers can export limited information from your profile, such as name, headline, current company, current title, and general location (e.g., Dublin)",
+          "line": 132
+        }
+      ]
     },
     {
       "id": "linkedin-45",

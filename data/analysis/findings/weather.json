@@ -38,7 +38,9 @@
       "line": 269,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Few people expect a weather service to list their calendar among collected device data."
+      "surprise_why": "Few people expect a weather service to list their calendar among collected device data.",
+      "review_verdict": "supported",
+      "review_reason": "Line 269 defines the 'Device information' category the company collects and names IP address, MAC address, cookies and 'features managed on those devices, such as your calendar'; the claim reads it closely."
     },
     {
       "id": "weather-05",
@@ -48,7 +50,15 @@
       "line": 130,
       "context": "",
       "surprise": 2,
-      "surprise_why": "ETags are a little-known tracking method that clearing cookies may not remove."
+      "surprise_why": "ETags are a little-known tracking method that clearing cookies may not remove.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 130 only defines ETags; the statement that the company and its partners actually use these technologies is in the list's lead-in on line 128.",
+      "extra_quotes": [
+        {
+          "quote": "we and our partners use various technologies to track usage and personalize your experience. These include:",
+          "line": 128
+        }
+      ]
     },
     {
       "id": "weather-06",
@@ -103,7 +113,23 @@
       "line": 184,
       "context": "The listed details (lines 185-188) include consumer finance behavior, interests and purchases, household demographics, hashed email address and home address, used per line 189 for personalization and targeted ads.",
       "surprise": 3,
-      "surprise_why": "Few people expect a weather app to add their financial behavior, purchases and home address from outside data companies."
+      "surprise_why": "Few people expect a weather app to add their financial behavior, purchases and home address from outside data companies.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is only the list label; the details that drive the claim and its surprise (finance behavior, household demographics, home address, used for targeted ads) are on lines 185-189.",
+      "extra_quotes": [
+        {
+          "quote": "Consumer finance behavior, interests, and purchases",
+          "line": 185
+        },
+        {
+          "quote": "Home address",
+          "line": 188
+        },
+        {
+          "quote": "We use this data to better understand you, personalize our Services, and provide targeted advertising.",
+          "line": 189
+        }
+      ]
     },
     {
       "id": "weather-12",
@@ -113,7 +139,15 @@
       "line": 149,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Linking identifiers across sources builds a profile that goes far beyond weather use."
+      "surprise_why": "Linking identifiers across sources builds a profile that goes far beyond weather use.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 149 is a list item with no subject; that the company and its Advertising Vendors are the ones using these techniques comes from the list label on line 147.",
+      "extra_quotes": [
+        {
+          "quote": "We and our Advertising Vendors may use the following techniques:",
+          "line": 147
+        }
+      ]
     },
     {
       "id": "weather-13",
@@ -132,7 +166,9 @@
       "line": 142,
       "context": "Through Targeted Advertising cookies and trackers.",
       "surprise": 2,
-      "surprise_why": "Users may not expect a weather site to track their activity on other websites."
+      "surprise_why": "Users may not expect a weather site to track their activity on other websites.",
+      "review_verdict": "supported",
+      "review_reason": "Line 142 says plainly that 'we learn about your interests' from activity on its own and other websites, under the Targeted Advertising cookies/trackers category."
     },
     {
       "id": "weather-15",
@@ -221,9 +257,11 @@
       "claim": "For EU/UK users, it relies on its own 'legitimate interest', not your consent, to improve its AI features, including training its AI models.",
       "quote": "Legitimate Interest - to improve the AI features, including training our AI models",
       "line": 580,
-      "context": "GDPR legal-basis table; the data used for AI features includes device information, identifiers, usage and location (line 262).",
+      "context": "GDPR legal-basis table; the data used for AI features includes device information, identifiers, usage and location (line 262). Under GDPR/UK GDPR you have the right to object to processing (line 565).",
       "surprise": 2,
-      "surprise_why": "Users may not expect their data to train AI models without being asked for consent."
+      "surprise_why": "Users may not expect their data to train AI models without being asked for consent.",
+      "review_verdict": "supported",
+      "review_reason": "Line 580 sits in the GDPR Notice's Processing Basis table (heading line 544/569) and lists Legitimate Interest as the basis for improving AI features, including training models."
     },
     {
       "id": "weather-25",
@@ -240,9 +278,17 @@
       "claim": "In the past year it disclosed protected characteristics such as gender, gender identity and age to its advertising, analytics and technology vendors.",
       "quote": "Protected classifications under California law, including gender, gender identity, and age;",
       "line": 442,
-      "context": "Listed under the CCPA disclosure on line 440.",
+      "context": "Listed under the CCPA disclosure on line 440. This is a disclosure for business purposes under the California (CCPA) notice; protected classifications do not appear in the separate 'sold or shared' list (lines 464-470).",
       "surprise": 2,
-      "surprise_why": "Users may not expect gender identity and age to go to ad vendors from a weather service."
+      "surprise_why": "Users may not expect gender identity and age to go to ad vendors from a weather service.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 442 is only a list item; the statement that these categories were disclosed to advertising, analytics and technology vendors in the past twelve months is the lead-in on line 440.",
+      "extra_quotes": [
+        {
+          "quote": "In the past twelve months, we have disclosed the following categories of Personal Information as defined by the CCPA for our business purposes, to our Advertising Vendors, Analytics Vendors, and Technology Vendors:",
+          "line": 440
+        }
+      ]
     },
     {
       "id": "weather-27",
@@ -270,7 +316,9 @@
       "line": 463,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Most users don't think of using a weather app as having their data 'sold'."
+      "surprise_why": "Most users don't think of using a weather app as having their data 'sold'.",
+      "review_verdict": "supported",
+      "review_reason": "Line 463 states this directly, in the California (CCPA) notice, and adds that users may opt out."
     },
     {
       "id": "weather-30",
@@ -278,9 +326,25 @@
       "claim": "It says it sold or shared categories of your personal information to advertising vendors in the past twelve months.",
       "quote": "In the past twelve months, to deliver personalized advertising and measure the effectiveness of advertisements, we have sold or shared the following categories of Personal Information, as defined by the CCPA, to our Advertising Vendors:",
       "line": 464,
-      "context": "The list (lines 465-470) includes online identifiers/IP, usage and commercial information, geolocation, precise geolocation and inferences.",
+      "context": "The list (lines 465-470) includes online identifiers/IP, usage and commercial information, geolocation, precise geolocation and inferences. California (CCPA) notice.",
       "surprise": 2,
-      "surprise_why": "It confirms actual sales/sharing, including precise location, not just a possibility."
+      "surprise_why": "It confirms actual sales/sharing, including precise location, not just a possibility.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is the list label; the categories that make the finding notable (identifiers/IP, precise geolocation, inferences) are the list items on lines 465-470.",
+      "extra_quotes": [
+        {
+          "quote": "Identifiers such as an online identifier or IP address;",
+          "line": 465
+        },
+        {
+          "quote": "Precise geolocation data; and",
+          "line": 469
+        },
+        {
+          "quote": "Inferences.",
+          "line": 470
+        }
+      ]
     },
     {
       "id": "weather-31",
@@ -335,7 +399,9 @@
       "line": 213,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may think a deletion request stops future collection."
+      "surprise_why": "Users may think a deletion request stops future collection.",
+      "review_verdict": "supported",
+      "review_reason": "Line 213 says this directly, and line 496 repeats it in the CCPA section, adding that the data will also be used to personalize ads."
     },
     {
       "id": "weather-37",
@@ -343,9 +409,11 @@
       "claim": "Unless you are logged in, you must ask for deletion separately on every browser or device you use.",
       "quote": "Please note that you must make the request from each browser or device where you access the Services, unless you are logged in to your account at the time of the request.",
       "line": 493,
-      "context": "",
+      "context": "Stated in the California (CCPA) section.",
       "surprise": 2,
-      "surprise_why": "One deletion request is not enough for users without an account."
+      "surprise_why": "One deletion request is not enough for users without an account.",
+      "review_verdict": "supported",
+      "review_reason": "Line 493 says this directly; it is in the California (CCPA) 'Delete Your Personal Information' subsection."
     },
     {
       "id": "weather-38",
@@ -355,7 +423,9 @@
       "line": 219,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not expect a privacy request to cancel a paid subscription."
+      "surprise_why": "Users may not expect a privacy request to cancel a paid subscription.",
+      "review_verdict": "supported",
+      "review_reason": "Line 219 says this directly (and line 495 repeats it); it covers only subscriptions bought directly from the company."
     },
     {
       "id": "weather-39",
@@ -372,9 +442,11 @@
       "claim": "You are opted in to the sale or sharing of your personal information by default.",
       "quote": "You will be opted in by default to the sale or sharing of Personal Information.",
       "line": 506,
-      "context": "California (CCPA) section.",
+      "context": "California (CCPA) section. California (CCPA) section; ad-free subscribers are opted out automatically (line 516).",
       "surprise": 2,
-      "surprise_why": "Users must act to stop the sale or sharing of their data."
+      "surprise_why": "Users must act to stop the sale or sharing of their data.",
+      "review_verdict": "supported",
+      "review_reason": "Line 506 says this directly, in the CCPA 'Opt Out of Sale or Sharing' subsection."
     },
     {
       "id": "weather-41",
@@ -418,9 +490,25 @@
       "claim": "The policy lists at least 10 separate opt-out actions: browser settings, device ad-ID settings, industry tools (DAA/DAAC/EDAA), in-service opt-outs, GPC, each vendor's own opt-out, footer links, separate weather.com and wunderground.com Privacy Settings pages, each app's privacy menu, and contacting support.",
       "quote": "You have choices over how your Personal Data is used for advertising:",
       "line": 154,
-      "context": "The first six are listed on lines 155-160; the rest are in the U.S. and California sections (lines 367-371, 508-515).",
+      "context": "The first six are listed on lines 155-160; the rest are in the U.S. and California sections (lines 367-371, 508-515). Some items overlap: the 'opt-outs through the Services' on line 158 are presumably the Privacy Settings pages and app menus listed later (lines 510-514).",
       "surprise": 2,
-      "surprise_why": "Opting out fully takes many separate steps across sites, apps, browsers and devices."
+      "surprise_why": "Opting out fully takes many separate steps across sites, apps, browsers and devices.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is only the heading of the six-item list (lines 155-160); the remaining actions in the count are on lines 508-515, so the quote shows none of them.",
+      "extra_quotes": [
+        {
+          "quote": "You can visit our Data Vendors page to review the vendors we share data with and view their privacy policy and opt-out mechanisms where applicable.",
+          "line": 160
+        },
+        {
+          "quote": "You can access the \"Do Not Sell or Share My Personal Information\" link in the footer of the site if you are located in California when you access the Services.",
+          "line": 508
+        },
+        {
+          "quote": "in the app menu to manage your opt-out for each mobile app and your current location.",
+          "line": 514
+        }
+      ]
     },
     {
       "id": "weather-46",
@@ -464,9 +552,11 @@
       "claim": "The company may use your precise GPS location, or give it to specific data vendors, to build audience segments based on your preferences and characteristics.",
       "quote": "we may also use or disclose to specific data vendors your precise geolocation data, which is considered sensitive Personal Information under the CCPA, to create audience segments based on your preferences and characteristics.",
       "line": 472,
-      "context": "CCPA section; applies to products other than those excluded on line 528.",
+      "context": "CCPA section; applies to products other than those excluded on line 528. California (CCPA) section; Weather Underground, Storm Radar, SnowCast and the in-vehicle app do not do this (line 528), and precise location is collected only with consent (line 199).",
       "surprise": 3,
-      "surprise_why": "Turning exact GPS location into marketing audience segments would shock most weather-app users."
+      "surprise_why": "Turning exact GPS location into marketing audience segments would shock most weather-app users.",
+      "review_verdict": "supported",
+      "review_reason": "Line 472 says this directly ('may also use or disclose to specific data vendors your precise geolocation data ... to create audience segments')."
     },
     {
       "id": "weather-51",
@@ -474,9 +564,11 @@
       "claim": "The company and its vendors may use your approximate or precise location to show you relevant ads.",
       "quote": "We and our vendors may use your location data (approximate or precise) to deliver relevant advertisements and for various other purposes as we outline in the Data Categories table. You can adjust your location settings anytime through your device.",
       "line": 200,
-      "context": "",
+      "context": "Precise GPS location is used only if you first give consent (line 199).",
       "surprise": 2,
-      "surprise_why": "Users expect location to be used for forecasts, not for ads by vendors."
+      "surprise_why": "Users expect location to be used for forecasts, not for ads by vendors.",
+      "review_verdict": "supported",
+      "review_reason": "Line 200 says this directly."
     },
     {
       "id": "weather-52",
@@ -484,9 +576,11 @@
       "claim": "You are opted in by default to use of your sensitive personal information, such as precise location.",
       "quote": "To the extent that sensitive Personal Information is processed, you will be opted in by default to the use of your sensitive Personal Information. You can choose to opt out and limit the use of your sensitive Personal Information at any time in the following ways.",
       "line": 519,
-      "context": "California (CCPA) section.",
+      "context": "California (CCPA) section. California (CCPA) section; limiting it on the web requires being signed in (lines 521-522).",
       "surprise": 2,
-      "surprise_why": "Sensitive data use is on unless you take action."
+      "surprise_why": "Sensitive data use is on unless you take action.",
+      "review_verdict": "supported",
+      "review_reason": "Line 519 says users are opted in by default to the use of sensitive personal information; the precise-location example matches line 472."
     },
     {
       "id": "weather-53",
@@ -505,7 +599,9 @@
       "line": 405,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not expect reading a health article to tag them with a health interest."
+      "surprise_why": "Users may not expect reading a health article to tag them with a health interest.",
+      "review_verdict": "supported",
+      "review_reason": "Line 405 says this directly, including the allergies example and the disclaimer of actual knowledge of health conditions."
     },
     {
       "id": "weather-55",

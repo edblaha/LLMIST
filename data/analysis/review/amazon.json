@@ -1,0 +1,148 @@
+{
+ "key": "amazon",
+ "file": "data/text/amazon.txt",
+ "reviewed": 12,
+ "reviews": [
+  {
+   "id": "amazon-02",
+   "verdict": "quote_insufficient",
+   "reason": "Line 130 is a list item; the lead-in on line 118 shows these are things \"you might supply\" to Amazon.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "As a result of those actions, you might supply us with such information as:",
+     "line": 118
+    }
+   ]
+  },
+  {
+   "id": "amazon-04",
+   "verdict": "quote_insufficient",
+   "reason": "Line 144 is a list item; line 135 shows the list is information Amazon collects and analyzes automatically.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "Examples of the information we collect and analyze include:",
+     "line": 135
+    }
+   ]
+  },
+  {
+   "id": "amazon-05",
+   "verdict": "supported",
+   "reason": "Line 23 states this with \"may\", which the claim keeps.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "amazon-06",
+   "verdict": "supported",
+   "reason": "Line 23 states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "amazon-07",
+   "verdict": "supported",
+   "reason": "Line 36 states this with \"may\", matching the claim.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "amazon-09",
+   "verdict": "quote_insufficient",
+   "reason": "Line 156 is a list item; line 149 shows these are examples of information Amazon receives from other sources.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Credit or financial services are offered only \"to some customers\".",
+   "extra_quotes": [
+    {
+     "quote": "Examples of information we receive from other sources include:",
+     "line": 149
+    }
+   ]
+  },
+  {
+   "id": "amazon-13",
+   "verdict": "supported",
+   "reason": "Line 60 states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Amazon says it does not share your name or directly identifying information, or specific shopping actions like purchases or searches, with these ad companies (line 60).",
+   "extra_quotes": []
+  },
+  {
+   "id": "amazon-17",
+   "verdict": "supported",
+   "reason": "Line 30 states this, under the \"Provide, troubleshoot, and improve Amazon Services\" purpose.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "amazon-24",
+   "verdict": "supported",
+   "reason": "Line 68 states this; a grep confirms the notice has no retention periods (no \"retain\"/\"retention\").",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "amazon-32",
+   "verdict": "supported",
+   "reason": "Line 72 is the only browsing-history-unlinking method given; line 73 only lets you edit browsing history and manage recommendations.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Line 71 says blocking cookies prevents using the Shopping Cart, Checkout and sign-in.",
+   "extra_quotes": []
+  },
+  {
+   "id": "amazon-34",
+   "verdict": "quote_insufficient",
+   "reason": "Line 141 is a list item; the collection verb is in the lead-in on line 135, and line 138 lists device location in general, not only when using an app. Grep finds no \"precise\", \"GPS\" or \"approximate\".",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "Examples of the information we collect and analyze include:",
+     "line": 135
+    },
+    {
+     "quote": "the location of your device or computer",
+     "line": 138
+    }
+   ]
+  },
+  {
+   "id": "amazon-36",
+   "verdict": "quote_insufficient",
+   "reason": "Line 146 is a list item; line 135 shows it is automatically collected information, and line 23 adds that physical stores may use cameras and computer vision.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "Examples of the information we collect and analyze include:",
+     "line": 135
+    },
+    {
+     "quote": "Our physical stores may use cameras, computer vision, sensors, and other technology to gather information about your activity in the store",
+     "line": 23
+    }
+   ]
+  }
+ ]
+}

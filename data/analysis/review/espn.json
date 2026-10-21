@@ -1,0 +1,61 @@
+{
+  "key": "espn",
+  "file": "data/text/espn.txt",
+  "reviewed": 6,
+  "reviews": [
+    {
+      "id": "espn-02",
+      "verdict": "supported",
+      "reason": "Line 15 says this directly in the list of collected information, with the 'where permitted by applicable law' condition kept in the claim.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "This is the Disney-wide privacy policy, not an ESPN-specific one.",
+      "extra_quotes": []
+    },
+    {
+      "id": "espn-09",
+      "verdict": "supported",
+      "reason": "Line 47 says this directly.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "espn-13",
+      "verdict": "supported",
+      "reason": "Line 77 lists limiting Nielsen digital measurement research 'where applicable (for non-Panelists)' as a choice, and line 78 points to Nielsen's Digital Measurement site.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "espn-14",
+      "verdict": "supported",
+      "reason": "Line 30 says this directly, including use 'on their own behalf (as data controllers)' unless the law forbids it.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "espn-23",
+      "verdict": "supported",
+      "reason": "Line 5 says this directly.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "espn-30",
+      "verdict": "supported",
+      "reason": "Line 17 says this directly, including beacons at physical properties and IP-based location.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Only where Disney is permitted by law to process it (line 17).",
+      "extra_quotes": []
+    }
+  ]
+}

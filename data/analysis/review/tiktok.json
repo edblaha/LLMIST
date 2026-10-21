@@ -1,0 +1,175 @@
+{
+ "key": "tiktok",
+ "file": "data/text/tiktok.txt",
+ "reviewed": 16,
+ "reviews": [
+  {
+   "id": "tiktok-01",
+   "verdict": "supported",
+   "reason": "Line 13 says TikTok \"may collect user content through pre-uploading ... regardless of whether you choose to save or publish\"; modality kept.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Examples given are recommending audio, effects, captions and other personalized recommendations.",
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-02",
+   "verdict": "supported",
+   "reason": "Line 16 limits clipboard collection to when \"you choose to use certain functions\", which the claim keeps.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-05",
+   "verdict": "quote_insufficient",
+   "reason": "The quote begins mid-list (line 29) with \"keystroke patterns or rhythms\" and has no verb; that TikTok collects these comes from the lead-in on line 27.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "We automatically collect certain information from you when you use the Services, including:",
+     "line": 27
+    }
+   ]
+  },
+  {
+   "id": "tiktok-06",
+   "verdict": "supported",
+   "reason": "Line 28 states this directly as part of automatically collected usage information.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-08",
+   "verdict": "supported",
+   "reason": "Line 53 is a self-contained purpose in the \"How We Use Your Information\" list introduced on line 45.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-09",
+   "verdict": "quote_insufficient",
+   "reason": "The quote (line 31) refers to \"this information\" without saying what it is; the earlier sentence on the same line defines it as features of your videos, images and audio (objects, faces and body parts, spoken words).",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The list of purposes ends with \"other non-personally-identifying operations\".",
+   "extra_quotes": [
+    {
+     "quote": "Content characteristics and features, including about the videos, images and audio recordings that are part of your user content, for example, by identifying objects and scenery; the existence and location of a face and other body parts; and the text of words spoken in your user content.",
+     "line": 31
+    }
+   ]
+  },
+  {
+   "id": "tiktok-11",
+   "verdict": "supported",
+   "reason": "Line 38 states this directly under \"Information From Other Sources\".",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-12",
+   "verdict": "supported",
+   "reason": "Line 38 says some advertisers and partners \"enable us to collect similar information directly from their websites or apps\" via TikTok Advertiser Tools such as the Pixel.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-15",
+   "verdict": "overstated",
+   "reason": "The sentence on line 38 continues past the quote: ads are delivered \"on our websites and apps, or through TikTok Ad Network elsewhere online, depending on your ads settings\". The claim drops that settings qualifier and states the targeting unconditionally.",
+   "corrected_claim": "Partners give TikTok advertising IDs, hashed email addresses and phone numbers, and cookie IDs, which TikTok uses to measure ads and, depending on your ads settings, to deliver ads to you on TikTok and elsewhere online through TikTok Ad Network.",
+   "remove": false,
+   "context": "Use for ad delivery depends on your ads settings.",
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-19",
+   "verdict": "quote_insufficient",
+   "reason": "The quote is the tail of the list on line 47 and does not show the purpose; the purpose (\"review, support, improve, and develop the Services, and train ... machine learning models\") is at the start of the same line.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The same purpose covers training machine learning models and algorithms.",
+   "extra_quotes": [
+    {
+     "quote": "To review, support, improve, and develop the Services, and train, test, and improve technology, such as machine learning models and algorithms, including by analyzing how people are using the Services",
+     "line": 47
+    }
+   ]
+  },
+  {
+   "id": "tiktok-20",
+   "verdict": "supported",
+   "reason": "Line 47 states this purpose directly; the context correctly adds the scanning of content, messages and AI interactions from the same line.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-22",
+   "verdict": "quote_insufficient",
+   "reason": "The quote is a list item (line 69) with no verb; that TikTok shares information with these entities comes from line 68 (\"We share Information We Collect with service providers and business partners\"), and \"US joint venture\" comes from line 3.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The policy says only specific categories of information are shared, consistent with law including Executive Order 14352.",
+   "extra_quotes": [
+    {
+     "quote": "We share Information We Collect with service providers and business partners as necessary to help us perform business operations and for business purposes",
+     "line": 68
+    },
+    {
+     "quote": "The Services are operated by TikTok USDS Joint Venture LLC (“TikTok USDS Joint Venture”, “we” or “us”).",
+     "line": 3
+    }
+   ]
+  },
+  {
+   "id": "tiktok-25",
+   "verdict": "supported",
+   "reason": "Line 65 attaches \"where restricted by applicable law\" to the no-sell and no-cross-context-sharing commitment, and the file has no further definition of \"sell\".",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Grammatically the qualifier may apply only to the cross-context advertising part, but either way the commitment is tied to applicable law.",
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-27",
+   "verdict": "supported",
+   "reason": "Line 106 lists legitimate business interest (improving and developing the Services) and legal obligations and claims as retention grounds; line 107 gives criteria but no fixed periods.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-39",
+   "verdict": "supported",
+   "reason": "Line 31 says TikTok \"may collect\" biometric identifiers such as faceprints and voiceprints from user content and will seek permissions \"where required by law\".",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "tiktok-40",
+   "verdict": "supported",
+   "reason": "Line 31 lists these content characteristics as automatically collected information (lead-in on line 27), with objects, scenery, face and body-part locations and spoken words as examples.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  }
+ ]
+}

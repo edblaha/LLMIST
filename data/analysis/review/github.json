@@ -1,0 +1,102 @@
+{
+ "key": "github",
+ "file": "data/text/github.txt",
+ "reviewed": 9,
+ "reviews": [
+  {
+   "id": "github-04",
+   "verdict": "supported",
+   "reason": "Line 70 states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "You can opt out in VS Code under File > Preferences > Settings, and the choice syncs to future web sessions.",
+   "extra_quotes": []
+  },
+  {
+   "id": "github-11",
+   "verdict": "supported",
+   "reason": "Line 153 says partners \"may use these technologies in our Services\" to collect this data over time and across Services, including for targeted advertising; the context covers the Enterprise Marketing Pages focus (lines 141, 146, 153).",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "github-12",
+   "verdict": "supported",
+   "reason": "Line 159 (cookie table, \"Social Media\" row) states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Elsewhere the policy says non-essential cookies are placed on pages that market to enterprise customers, such as resources.github.com (line 153).",
+   "extra_quotes": []
+  },
+  {
+   "id": "github-16",
+   "verdict": "supported",
+   "reason": "Line 55 explicitly includes \"training models\" in product development; the context accurately adds the \"where feasible\" safeguard.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "github-17",
+   "verdict": "supported",
+   "reason": "Line 64 says personal data \"may be shared\" with affiliates including Microsoft for these purposes, including AI and machine learning training.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Affiliates may also use it for other purposes described in their own privacy statements.",
+   "extra_quotes": []
+  },
+  {
+   "id": "github-18",
+   "verdict": "overstated",
+   "reason": "Line 81 gives AI and ML development only as an example of legitimate-interest processing, line 78 says the basis \"varies depending on the data type and the context\", and line 82 lists consent as another basis, so the policy does not say consent is never used for AI. Legitimate interests also apply only \"when these interests are not overridden by your data protection rights\".",
+   "corrected_claim": "For EEA and UK users, GitHub lists developing and improving its services, including AI and machine learning, as an example of processing based on its legitimate interests, a legal basis that does not require your consent.",
+   "remove": false,
+   "context": "Applies to EEA and UK users, and only where GitHub's interests are not overridden by your rights.",
+   "extra_quotes": []
+  },
+  {
+   "id": "github-19",
+   "verdict": "quote_insufficient",
+   "reason": "The quote (line 154) says only \"for these purposes\"; targeted advertising and the full purpose list appear only in the preceding paragraph on line 153.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": [
+    {
+     "quote": "The GitHub Services use cookies and similar technologies for a variety of purposes, including to store your preferences and settings, enable you to sign-in, analyze how our Services perform, track your interaction with the Services, develop inferences, combat fraud, and fulfill other legitimate purposes.",
+     "line": 153
+    },
+    {
+     "quote": "related to your online activities over time and across Services for various purposes, including targeted advertising.",
+     "line": 153
+    }
+   ]
+  },
+  {
+   "id": "github-20",
+   "verdict": "quote_insufficient",
+   "reason": "The quote is a list item (line 10); that the school or employer is the one who can do this comes from the lead-in on line 8.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The organization becomes the Data Controller, and its own privacy statement applies (line 11).",
+   "extra_quotes": [
+    {
+     "quote": "When a school or employer supplies your GitHub account, they assume the role of Data Controller for most Personal Data used in our Services. This enables them to:",
+     "line": 8
+    }
+   ]
+  },
+  {
+   "id": "github-23",
+   "verdict": "supported",
+   "reason": "Line 206 states this directly.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "This appears in GitHub's California privacy-law disclosures, and GitHub says elsewhere that it does not sell your data (line 172).",
+   "extra_quotes": []
+  }
+ ]
+}

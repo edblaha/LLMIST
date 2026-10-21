@@ -1,0 +1,138 @@
+{
+  "key": "ebay_previous",
+  "file": "data/text/ebay_previous.txt",
+  "reviewed": 14,
+  "reviews": [
+    {
+      "id": "ebay_previous-03",
+      "verdict": "supported",
+      "reason": "Line 290 says exactly this for all messages via messaging tools; the following sentences on filtering and manual checks match the context.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-05",
+      "verdict": "supported",
+      "reason": "Line 140 gives port enumeration as an example ('e.g.') of risk-assessment tools under legitimate-interest fraud prevention; the claim's 'may' matches.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-09",
+      "verdict": "overstated",
+      "reason": "Line 68 lists the segment among data 'collected' via cookies and similar technologies (section heading above), and the surrounding items concern advertising partners; the notice does not say eBay itself assigns the segment, and nothing says it is 'for its own use'.",
+      "corrected_claim": "Among the data eBay collects through cookies and similar technologies is the user segment you fall into, for example 'female, 20-49 years old, interested in sneakers'.",
+      "remove": false,
+      "context": "Listed under data collected through cookies and similar technologies; the notice does not say who assigns the segment.",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-12",
+      "verdict": "supported",
+      "reason": "Line 78, under section 4.4 'Personal data from other sources', lists exactly these data-provider categories.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-13",
+      "verdict": "supported",
+      "reason": "Line 79 limits this to payment services for sellers, as the claim does.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-15",
+      "verdict": "supported",
+      "reason": "Line 84 matches, including 'may'; the context reflects the next sentence about social-network privacy settings.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-16",
+      "verdict": "supported",
+      "reason": "Line 150 is listed under section 5.4 legitimate interests (line 137), while the EEA/CH/UK equivalent is consent-based (line 176).",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Users can still object to legitimate-interest processing (line 173) and manage ad preferences via AdChoice (line 261).",
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-24",
+      "verdict": "supported",
+      "reason": "Line 335 states this directly, including 'Where permitted under applicable law' and third-party models 'that we use'.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-25",
+      "verdict": "supported",
+      "reason": "Line 335's next sentence says training 'may include the personal data set out in Section 4', which includes message content (line 48) and seller ID data (line 46).",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-28",
+      "verdict": "supported",
+      "reason": "Line 189 is a recipient of section 5.5 consent-based processing (heading line 175).",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-29",
+      "verdict": "supported",
+      "reason": "Line 138 (section 5.4 legitimate interests) covers disclosure to courts, law enforcement and authorities where there is no statutory obligation and eBay assumes it is necessary to avert imminent disadvantages or report suspected illegal acts; 'harm' is a fair paraphrase.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-30",
+      "verdict": "quote_insufficient",
+      "reason": "The quote is only the list of data items; the civil-dispute/VeRO context and 'unless there is a statutory obligation' appear earlier on line 139. Claim also omits the condition that eBay must assume disclosure is necessary to avert imminent disadvantages.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Only where eBay assumes disclosure is necessary to avert imminent disadvantages, and only what it believes necessary (same line).",
+      "extra_quotes": [
+        {
+          "quote": "Protection of the legitimate interests of third parties (including participants of the VeRO program and the PROACT program) in connection with civil law disputes, including the investigation of such disputes, unless there is a statutory obligation to this effect",
+          "line": 139
+        }
+      ]
+    },
+    {
+      "id": "ebay_previous-37",
+      "verdict": "supported",
+      "reason": "Line 314 states this; the context correctly limits it to public-blockchain features requiring separate agreement; line 232 adds blockchain data cannot be erased.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "ebay_previous-54",
+      "verdict": "supported",
+      "reason": "Line 181 is under section 5.5 consent (line 175) and limited to sellers, as the claim says.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    }
+  ]
+}

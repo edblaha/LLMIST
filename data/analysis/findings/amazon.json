@@ -20,7 +20,15 @@
       "line": 130,
       "context": "Listed as an example of what you might supply; the notice does not say which services ask for it.",
       "surprise": 2,
-      "surprise_why": "Most shoppers would not expect a retail privacy notice to list Social Security numbers among the data it may hold."
+      "surprise_why": "Most shoppers would not expect a retail privacy notice to list Social Security numbers among the data it may hold.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 130 is a list item; the lead-in on line 118 shows these are things \"you might supply\" to Amazon.",
+      "extra_quotes": [
+        {
+          "quote": "As a result of those actions, you might supply us with such information as:",
+          "line": 118
+        }
+      ]
     },
     {
       "id": "amazon-03",
@@ -39,7 +47,15 @@
       "line": 144,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Few people realise that even mouse-overs and scrolling are recorded."
+      "surprise_why": "Few people realise that even mouse-overs and scrolling are recorded.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 144 is a list item; line 135 shows the list is information Amazon collects and analyzes automatically.",
+      "extra_quotes": [
+        {
+          "quote": "Examples of the information we collect and analyze include:",
+          "line": 135
+        }
+      ]
     },
     {
       "id": "amazon-05",
@@ -49,7 +65,9 @@
       "line": 23,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Being tracked by cameras and computer vision while shopping in person is not something most shoppers expect."
+      "surprise_why": "Being tracked by cameras and computer vision while shopping in person is not something most shoppers expect.",
+      "review_verdict": "supported",
+      "review_reason": "Line 23 states this with \"may\", which the claim keeps."
     },
     {
       "id": "amazon-06",
@@ -59,7 +77,9 @@
       "line": 23,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not realise Amazon can collect data while they are on non-Amazon websites."
+      "surprise_why": "Users may not realise Amazon can collect data while they are on non-Amazon websites.",
+      "review_verdict": "supported",
+      "review_reason": "Line 23 states this directly."
     },
     {
       "id": "amazon-07",
@@ -69,7 +89,9 @@
       "line": 36,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Shoppers may not expect a store to score them for credit risk."
+      "surprise_why": "Shoppers may not expect a store to score them for credit risk.",
+      "review_verdict": "supported",
+      "review_reason": "Line 36 states this with \"may\", matching the claim."
     },
     {
       "id": "amazon-08",
@@ -86,9 +108,17 @@
       "claim": "Amazon may receive credit history information about you from credit bureaus, used for fraud prevention and to offer credit or financial services.",
       "quote": "credit history information from credit bureaus, which we use to help prevent and detect fraud and to offer certain credit or financial services to some customers",
       "line": 156,
-      "context": "",
+      "context": "Credit or financial services are offered only \"to some customers\".",
       "surprise": 2,
-      "surprise_why": "Most shoppers do not expect a store to obtain their credit history from credit bureaus."
+      "surprise_why": "Most shoppers do not expect a store to obtain their credit history from credit bureaus.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 156 is a list item; line 149 shows these are examples of information Amazon receives from other sources.",
+      "extra_quotes": [
+        {
+          "quote": "Examples of information we receive from other sources include:",
+          "line": 149
+        }
+      ]
     },
     {
       "id": "amazon-10",
@@ -123,9 +153,11 @@
       "claim": "Amazon may give ad companies an advertising ID and an estimate of the value of ads shown to you, and some of those companies also use this to show you other advertisers' ads.",
       "quote": "we may share an advertising identifier and an estimate of the value of the ads they show you on our behalf so they can serve you with more effective Amazon ads. Some ad companies also use this information to serve you relevant ads from other advertisers.",
       "line": 60,
-      "context": "",
+      "context": "Amazon says it does not share your name or directly identifying information, or specific shopping actions like purchases or searches, with these ad companies (line 60).",
       "surprise": 2,
-      "surprise_why": "Users would not expect data Amazon gives ad companies to be reused for ads from unrelated advertisers."
+      "surprise_why": "Users would not expect data Amazon gives ad companies to be reused for ads from unrelated advertisers.",
+      "review_verdict": "supported",
+      "review_reason": "Line 60 states this directly."
     },
     {
       "id": "amazon-14",
@@ -162,7 +194,9 @@
       "line": 30,
       "context": "The notice does not say which data is used and points to a separate Generative AI Development Disclosure.",
       "surprise": 2,
-      "surprise_why": "Many shoppers do not expect their shopping and service data to be used to build generative AI."
+      "surprise_why": "Many shoppers do not expect their shopping and service data to be used to build generative AI.",
+      "review_verdict": "supported",
+      "review_reason": "Line 30 states this, under the \"Provide, troubleshoot, and improve Amazon Services\" purpose."
     },
     {
       "id": "amazon-18",
@@ -226,7 +260,9 @@
       "line": 68,
       "context": "The notice gives no retention periods anywhere.",
       "surprise": 2,
-      "surprise_why": "People expect an edit to replace old data, not to keep a copy of it."
+      "surprise_why": "People expect an edit to replace old data, not to keep a copy of it.",
+      "review_verdict": "supported",
+      "review_reason": "Line 68 states this; a grep confirms the notice has no retention periods (no \"retain\"/\"retention\")."
     },
     {
       "id": "amazon-25",
@@ -297,9 +333,11 @@
       "claim": "The only way the notice gives to browse without linking history to your account is to sign out and block cookies.",
       "quote": "If you want to browse our websites without linking the browsing history to your account, you may do so by signing out of your account and blocking cookies on your browser.",
       "line": 72,
-      "context": "",
+      "context": "Line 71 says blocking cookies prevents using the Shopping Cart, Checkout and sign-in.",
       "surprise": 2,
-      "surprise_why": "Blocking cookies breaks the cart and checkout, so this option is barely usable for shoppers."
+      "surprise_why": "Blocking cookies breaks the cart and checkout, so this option is barely usable for shoppers.",
+      "review_verdict": "supported",
+      "review_reason": "Line 72 is the only browsing-history-unlinking method given; line 73 only lets you edit browsing history and manage recommendations."
     },
     {
       "id": "amazon-33",
@@ -318,7 +356,19 @@
       "line": 141,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People may not realise that location data in uploaded photos is collected."
+      "surprise_why": "People may not realise that location data in uploaded photos is collected.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 141 is a list item; the collection verb is in the lead-in on line 135, and line 138 lists device location in general, not only when using an app. Grep finds no \"precise\", \"GPS\" or \"approximate\".",
+      "extra_quotes": [
+        {
+          "quote": "Examples of the information we collect and analyze include:",
+          "line": 135
+        },
+        {
+          "quote": "the location of your device or computer",
+          "line": 138
+        }
+      ]
     },
     {
       "id": "amazon-35",
@@ -337,7 +387,19 @@
       "line": 146,
       "context": "The notice does not use the word biometric or say whether faces are analysed.",
       "surprise": 2,
-      "surprise_why": "Shoppers in non-Amazon stores may not know Amazon can collect images of them."
+      "surprise_why": "Shoppers in non-Amazon stores may not know Amazon can collect images of them.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 146 is a list item; line 135 shows it is automatically collected information, and line 23 adds that physical stores may use cameras and computer vision.",
+      "extra_quotes": [
+        {
+          "quote": "Examples of the information we collect and analyze include:",
+          "line": 135
+        },
+        {
+          "quote": "Our physical stores may use cameras, computer vision, sensors, and other technology to gather information about your activity in the store",
+          "line": 23
+        }
+      ]
     },
     {
       "id": "amazon-37",

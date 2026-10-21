@@ -9,9 +9,11 @@
       "claim": "TikTok may collect videos and other content you create or import before you post them, even if you never save or publish them.",
       "quote": "We may collect user content through pre-uploading at the time of creation, import, or upload, regardless of whether you choose to save or publish that user content",
       "line": 13,
-      "context": "",
+      "context": "Examples given are recommending audio, effects, captions and other personalized recommendations.",
       "surprise": 3,
-      "surprise_why": "Most people assume a draft they abandon never leaves their phone."
+      "surprise_why": "Most people assume a draft they abandon never leaves their phone.",
+      "review_verdict": "supported",
+      "review_reason": "Line 13 says TikTok \"may collect user content through pre-uploading ... regardless of whether you choose to save or publish\"; modality kept."
     },
     {
       "id": "tiktok-02",
@@ -21,7 +23,9 @@
       "line": 16,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users rarely think of their clipboard, which may hold passwords or private text, as something an app collects."
+      "surprise_why": "Users rarely think of their clipboard, which may hold passwords or private text, as something an app collects.",
+      "review_verdict": "supported",
+      "review_reason": "Line 16 limits clipboard collection to when \"you choose to use certain functions\", which the claim keeps."
     },
     {
       "id": "tiktok-03",
@@ -49,7 +53,15 @@
       "line": 29,
       "context": "",
       "surprise": 3,
-      "surprise_why": "Recording how you type is a behavioural fingerprint most users would never expect a video app to collect."
+      "surprise_why": "Recording how you type is a behavioural fingerprint most users would never expect a video app to collect.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote begins mid-list (line 29) with \"keystroke patterns or rhythms\" and has no verb; that TikTok collects these comes from the lead-in on line 27.",
+      "extra_quotes": [
+        {
+          "quote": "We automatically collect certain information from you when you use the Services, including:",
+          "line": 27
+        }
+      ]
     },
     {
       "id": "tiktok-06",
@@ -59,7 +71,9 @@
       "line": 28,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may think a website opened from a link is separate from TikTok, but their activity there can be collected."
+      "surprise_why": "Users may think a website opened from a link is separate from TikTok, but their activity there can be collected.",
+      "review_verdict": "supported",
+      "review_reason": "Line 28 states this directly as part of automatically collected usage information."
     },
     {
       "id": "tiktok-07",
@@ -78,7 +92,9 @@
       "line": 53,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People may not realise TikTok guesses personal traits like gender and age rather than only using what they tell it."
+      "surprise_why": "People may not realise TikTok guesses personal traits like gender and age rather than only using what they tell it.",
+      "review_verdict": "supported",
+      "review_reason": "Line 53 is a self-contained purpose in the \"How We Use Your Information\" list introduced on line 45."
     },
     {
       "id": "tiktok-09",
@@ -86,9 +102,17 @@
       "claim": "TikTok may analyse what appears and is said in your videos for purposes including demographic classification and content and ad recommendations.",
       "quote": "We may collect this information to enable special video effects, for content moderation, for demographic classification, for content and ad recommendations, and for other non-personally-identifying operations.",
       "line": 31,
-      "context": "",
+      "context": "The list of purposes ends with \"other non-personally-identifying operations\".",
       "surprise": 2,
-      "surprise_why": "Users may not expect the contents of their videos, including faces and bodies, to be analysed to classify them demographically."
+      "surprise_why": "Users may not expect the contents of their videos, including faces and bodies, to be analysed to classify them demographically.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote (line 31) refers to \"this information\" without saying what it is; the earlier sentence on the same line defines it as features of your videos, images and audio (objects, faces and body parts, spoken words).",
+      "extra_quotes": [
+        {
+          "quote": "Content characteristics and features, including about the videos, images and audio recordings that are part of your user content, for example, by identifying objects and scenery; the existence and location of a face and other body parts; and the text of words spoken in your user content.",
+          "line": 31
+        }
+      ]
     },
     {
       "id": "tiktok-10",
@@ -107,7 +131,9 @@
       "line": 38,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Many users do not know TikTok receives data about their activity on other websites and apps."
+      "surprise_why": "Many users do not know TikTok receives data about their activity on other websites and apps.",
+      "review_verdict": "supported",
+      "review_reason": "Line 38 states this directly under \"Information From Other Sources\"."
     },
     {
       "id": "tiktok-12",
@@ -117,7 +143,9 @@
       "line": 38,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People visiting an unrelated shopping site would not expect TikTok to be collecting data there."
+      "surprise_why": "People visiting an unrelated shopping site would not expect TikTok to be collecting data there.",
+      "review_verdict": "supported",
+      "review_reason": "Line 38 says some advertisers and partners \"enable us to collect similar information directly from their websites or apps\" via TikTok Advertiser Tools such as the Pixel."
     },
     {
       "id": "tiktok-13",
@@ -140,12 +168,15 @@
     {
       "id": "tiktok-15",
       "topic": "use_ads",
-      "claim": "Partners give TikTok advertising IDs, hashed email addresses and phone numbers, and cookie IDs, which TikTok uses to measure ads and better target ads to you.",
+      "claim": "Partners give TikTok advertising IDs, hashed email addresses and phone numbers, and cookie IDs, which TikTok uses to measure ads and, depending on your ads settings, to deliver ads to you on TikTok and elsewhere online through TikTok Ad Network.",
       "quote": "These partners also provide information such as mobile identifiers for advertising, hashed email addresses and phone numbers, and cookie identifiers, which we use to help measure the effectiveness of ads we serve and to better deliver ads to you on our websites and apps",
       "line": 38,
-      "context": "",
+      "context": "Use for ad delivery depends on your ads settings.",
       "surprise": 2,
-      "surprise_why": "Users may not realise their email or phone number, even hashed, is used to match them for ads."
+      "surprise_why": "Users may not realise their email or phone number, even hashed, is used to match them for ads.",
+      "review_verdict": "overstated",
+      "review_reason": "The sentence on line 38 continues past the quote: ads are delivered \"on our websites and apps, or through TikTok Ad Network elsewhere online, depending on your ads settings\". The claim drops that settings qualifier and states the targeting unconditionally.",
+      "claim_original": "Partners give TikTok advertising IDs, hashed email addresses and phone numbers, and cookie IDs, which TikTok uses to measure ads and better target ads to you."
     },
     {
       "id": "tiktok-16",
@@ -180,9 +211,17 @@
       "claim": "To improve and develop its services and conduct research, TikTok monitors your activity across devices and scans and reviews your content, messages, and AI interactions.",
       "quote": "monitoring your activity and usage across the devices you use to access the Services; and scanning, analyzing, and reviewing user content, messages, AI interactions, and associated metadata.",
       "line": 47,
-      "context": "",
+      "context": "The same purpose covers training machine learning models and algorithms.",
       "surprise": 2,
-      "surprise_why": "People generally assume their private messages are not scanned for product development and research."
+      "surprise_why": "People generally assume their private messages are not scanned for product development and research.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is the tail of the list on line 47 and does not show the purpose; the purpose (\"review, support, improve, and develop the Services, and train ... machine learning models\") is at the start of the same line.",
+      "extra_quotes": [
+        {
+          "quote": "To review, support, improve, and develop the Services, and train, test, and improve technology, such as machine learning models and algorithms, including by analyzing how people are using the Services",
+          "line": 47
+        }
+      ]
     },
     {
       "id": "tiktok-20",
@@ -192,7 +231,9 @@
       "line": 47,
       "context": "The same purpose explicitly includes scanning and reviewing user content, messages, AI interactions, and metadata.",
       "surprise": 2,
-      "surprise_why": "Users may not expect their videos, messages, and AI chats to feed into training TikTok's models."
+      "surprise_why": "Users may not expect their videos, messages, and AI chats to feed into training TikTok's models.",
+      "review_verdict": "supported",
+      "review_reason": "Line 47 states this purpose directly; the context correctly adds the scanning of content, messages and AI interactions from the same line."
     },
     {
       "id": "tiktok-21",
@@ -209,9 +250,21 @@
       "claim": "TikTok's US joint venture shares information with TT Commerce & Global Services LLC and its affiliates to provide a global, interoperable experience and for other permitted business purposes.",
       "quote": "TT Commerce & Global Services LLC and its affiliates (“TT Commerce & Global Services”), to facilitate a global and interoperable experience, and for other permitted business purposes.",
       "line": 69,
-      "context": "The policy says only specific categories are shared, consistent with law including Executive Order 14352.",
+      "context": "The policy says only specific categories are shared, consistent with law including Executive Order 14352. The policy says only specific categories of information are shared, consistent with law including Executive Order 14352.",
       "surprise": 2,
-      "surprise_why": "US users may assume the US joint venture keeps their data separate from TikTok's global companies."
+      "surprise_why": "US users may assume the US joint venture keeps their data separate from TikTok's global companies.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is a list item (line 69) with no verb; that TikTok shares information with these entities comes from line 68 (\"We share Information We Collect with service providers and business partners\"), and \"US joint venture\" comes from line 3.",
+      "extra_quotes": [
+        {
+          "quote": "We share Information We Collect with service providers and business partners as necessary to help us perform business operations and for business purposes",
+          "line": 68
+        },
+        {
+          "quote": "The Services are operated by TikTok USDS Joint Venture LLC (“TikTok USDS Joint Venture”, “we” or “us”).",
+          "line": 3
+        }
+      ]
     },
     {
       "id": "tiktok-23",
@@ -237,9 +290,11 @@
       "claim": "TikTok says it does not sell your personal information or share it for cross-context behavioural advertising 'where restricted by applicable law', which limits the promise to places where the law restricts it.",
       "quote": "while we do not sell your personal information or share your personal information with third parties for purposes of cross-context behavioral advertising where restricted by applicable law",
       "line": 65,
-      "context": "",
+      "context": "Grammatically the qualifier may apply only to the cross-context advertising part, but either way the commitment is tied to applicable law.",
       "surprise": 2,
-      "surprise_why": "The qualifier means the promise may not hold everywhere, and the policy does not define 'sell' or 'share' further."
+      "surprise_why": "The qualifier means the promise may not hold everywhere, and the policy does not define 'sell' or 'share' further.",
+      "review_verdict": "supported",
+      "review_reason": "Line 65 attaches \"where restricted by applicable law\" to the no-sell and no-cross-context-sharing commitment, and the file has no further definition of \"sell\"."
     },
     {
       "id": "tiktok-26",
@@ -258,7 +313,9 @@
       "line": 106,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Keeping data for TikTok's own product development, with no time limit stated, goes beyond what users would expect."
+      "surprise_why": "Keeping data for TikTok's own product development, with no time limit stated, goes beyond what users would expect.",
+      "review_verdict": "supported",
+      "review_reason": "Line 106 lists legitimate business interest (improving and developing the Services) and legal obligations and claims as retention grounds; line 107 gives criteria but no fixed periods."
     },
     {
       "id": "tiktok-28",
@@ -367,7 +424,9 @@
       "line": 31,
       "context": "",
       "surprise": 3,
-      "surprise_why": "Most users would be alarmed that a video app may collect faceprints and voiceprints, with consent only where legally required."
+      "surprise_why": "Most users would be alarmed that a video app may collect faceprints and voiceprints, with consent only where legally required.",
+      "review_verdict": "supported",
+      "review_reason": "Line 31 says TikTok \"may collect\" biometric identifiers such as faceprints and voiceprints from user content and will seek permissions \"where required by law\"."
     },
     {
       "id": "tiktok-40",
@@ -377,7 +436,9 @@
       "line": 31,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People may not realise their videos are automatically analysed for faces, bodies, and speech."
+      "surprise_why": "People may not realise their videos are automatically analysed for faces, bodies, and speech.",
+      "review_verdict": "supported",
+      "review_reason": "Line 31 lists these content characteristics as automatically collected information (lead-in on line 27), with objects, scenery, face and body-part locations and spoken words as examples."
     },
     {
       "id": "tiktok-41",

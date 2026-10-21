@@ -1,0 +1,177 @@
+{
+  "key": "strava",
+  "file": "data/text/strava.txt",
+  "reviewed": 14,
+  "reviews": [
+    {
+      "id": "strava-02",
+      "verdict": "supported",
+      "reason": "Line 14 says that if you share contacts 'we will regularly access and store it'; the claim keeps the opt-in condition.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-14",
+      "verdict": "quote_insufficient",
+      "reason": "Line 229 is only the purpose label in the EEA/UK table (section from line 123); the targeted-ads activity and the activity and location data listed for this purpose are on lines 233-239.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": [
+        {
+          "quote": "Display targeted advertising to you",
+          "line": 233
+        },
+        {
+          "quote": "Activity Data",
+          "line": 238
+        },
+        {
+          "quote": "Location Information",
+          "line": 239
+        }
+      ]
+    },
+    {
+      "id": "strava-18",
+      "verdict": "supported",
+      "reason": "Line 54 says this directly, naming models run by Strava or its service providers.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Strava says it uses aggregated, de-identified information where possible and offers choices about contributing to AI development (line 54).",
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-19",
+      "verdict": "supported",
+      "reason": "Line 43 says this directly, with the 'depending on your privacy controls and sharing permissions' condition kept in the claim.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-21",
+      "verdict": "supported",
+      "reason": "Line 75 says this directly, including search engine results.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-22",
+      "verdict": "supported",
+      "reason": "Line 87 says this directly, with Strava Metro and partners as examples.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-24",
+      "verdict": "supported",
+      "reason": "Line 95 says this directly, including private litigants and disclosures outside your country.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-26",
+      "verdict": "quote_insufficient",
+      "reason": "The quote concedes possible 'selling'/'sharing' but does not name the categories; identifiers, commercial information and network activity are the list items on lines 374-376.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": [
+        {
+          "quote": "Identifiers;",
+          "line": 374
+        },
+        {
+          "quote": "Commercial information; and",
+          "line": 375
+        },
+        {
+          "quote": "Internet or similar network activity.",
+          "line": 376
+        }
+      ]
+    },
+    {
+      "id": "strava-27",
+      "verdict": "quote_insufficient",
+      "reason": "Line 378 is a bare list item; that these are parties Strava 'may have shared' data with for cross-context behavioral advertising comes from the lead-in on line 377.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": [
+        {
+          "quote": "We may have shared each of the categories of personal information listed above with the following categories of third parties for the purpose of cross-context behavioral advertising or analytics:",
+          "line": 377
+        }
+      ]
+    },
+    {
+      "id": "strava-30",
+      "verdict": "supported",
+      "reason": "Line 107 says this directly, after the account-deletion text on line 106.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-33",
+      "verdict": "supported",
+      "reason": "Line 108 says this directly, with heart rate as the example.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-42",
+      "verdict": "supported",
+      "reason": "Line 76 says this, starting with 'Subject to your privacy controls', which the claim keeps as 'depending on your settings'.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-43",
+      "verdict": "supported",
+      "reason": "Line 45 says Strava may use your activities to generate its Global Heatmap, Points of Interest and Start Points.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": null,
+      "extra_quotes": []
+    },
+    {
+      "id": "strava-47",
+      "verdict": "quote_insufficient",
+      "reason": "Line 336 is only the category label; that the table covers disclosures in the last twelve months is on line 317, and the disclosure marks are on lines 337-339.",
+      "corrected_claim": null,
+      "remove": false,
+      "context": "Sensitive information is not marked as going to advertising/marketing partners, and line 382 says it is used or disclosed only with consent to provide the Services or as permitted by law.",
+      "extra_quotes": [
+        {
+          "quote": "describes the categories of information we have disclosed to third parties for business purposes in the last twelve months, and the categories of those third parties.",
+          "line": 317
+        },
+        {
+          "quote": "Other Strava users and the public, depending on your settings: X",
+          "line": 337
+        },
+        {
+          "quote": "Service providers: X",
+          "line": 338
+        }
+      ]
+    }
+  ]
+}

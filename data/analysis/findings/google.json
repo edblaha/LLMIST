@@ -27,9 +27,11 @@
       "claim": "Android devices with Google apps regularly contact Google's servers on their own, sending information like device type, carrier, crash reports and which apps you've installed.",
       "quote": "If you’re using an Android device with Google apps , your device periodically contacts Google servers to provide information about your device and connection to our services. This information includes things like your device type and carrier name , crash reports, which apps you've installed",
       "line": 28,
-      "context": "Depending on device settings, it can also include other information about how you use the device.",
+      "context": "Depending on device settings, it can also include other information about how you use the device. Applies to Android devices with Google apps; other usage information is included depending on device settings.",
       "surprise": 2,
-      "surprise_why": "Many users don't realize their phone reports to Google periodically, including the list of installed apps, without any action on their part."
+      "surprise_why": "Many users don't realize their phone reports to Google periodically, including the list of installed apps, without any action on their part.",
+      "review_verdict": "supported",
+      "review_reason": "Line 28 says an Android device with Google apps \"periodically contacts Google servers\" and lists device type, carrier, crash reports and installed apps."
     },
     {
       "id": "google-04",
@@ -48,7 +50,9 @@
       "line": 474,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Few people expect their mouse movements around ads to be measured."
+      "surprise_why": "Few people expect their mouse movements around ads to be measured.",
+      "review_verdict": "supported",
+      "review_reason": "Line 474 (definition of \"Views and interactions with content and ads\") says Google \"may also measure\" mouse movement over an ad and interaction with the page; modality kept as \"may\"."
     },
     {
       "id": "google-06",
@@ -67,7 +71,9 @@
       "line": 15,
       "context": "The example given is Gmail suggesting the addresses you contact most often.",
       "surprise": 2,
-      "surprise_why": "Users may not expect Google to work out who the most important people in their lives are."
+      "surprise_why": "Users may not expect Google to work out who the most important people in their lives are.",
+      "review_verdict": "supported",
+      "review_reason": "Line 15 lists these as examples of what Google figures out from collected information; line 457 defines \"people who matter most\" via Gmail address suggestions, matching the context."
     },
     {
       "id": "google-08",
@@ -77,7 +83,9 @@
       "line": 333,
       "context": "",
       "surprise": 3,
-      "surprise_why": "Many people believe Incognito mode hides their browsing from Google, which this contradicts."
+      "surprise_why": "Many people believe Incognito mode hides their browsing from Google, which this contradicts.",
+      "review_verdict": "supported",
+      "review_reason": "Line 333 (definition of \"activity on third-party sites and apps\") states sharing happens \"regardless of which browser or browser mode you use\", with Incognito as the example."
     },
     {
       "id": "google-09",
@@ -87,7 +95,9 @@
       "line": 477,
       "context": "Google says over 2 million non-Google sites and apps partner with it to show ads.",
       "surprise": 2,
-      "surprise_why": "Most people don't realize their visits to unrelated sites can be linked to their Google identity."
+      "surprise_why": "Most people don't realize their visits to unrelated sites can be linked to their Google identity.",
+      "review_verdict": "supported",
+      "review_reason": "Line 477 keeps both \"may\" qualifiers and the settings dependency; line 384 supports the 2 million partner figure in the context."
     },
     {
       "id": "google-10",
@@ -106,7 +116,9 @@
       "line": 340,
       "context": "Google says it gives advertisers only aggregated reports that don't reveal individuals.",
       "surprise": 2,
-      "surprise_why": "Shoppers would not expect their store loyalty-card data to be sent to Google."
+      "surprise_why": "Shoppers would not expect their store loyalty-card data to be sent to Google.",
+      "review_verdict": "supported",
+      "review_reason": "Line 340 (\"advertising and research services on their behalf\") says merchants \"may upload data from their loyalty-card programs\" for these two purposes; the aggregated-report limit is given in the context."
     },
     {
       "id": "google-12",
@@ -143,7 +155,9 @@
       "line": 400,
       "context": "Depends on your settings.",
       "surprise": 2,
-      "surprise_why": "People typically add a phone number for security and would not expect it to be used for ads."
+      "surprise_why": "People typically add a phone number for security and would not expect it to be used for ads.",
+      "review_verdict": "supported",
+      "review_reason": "Line 400 says an added phone number \"can be used\" to make ads more relevant, \"depending on your settings\", which the context reflects."
     },
     {
       "id": "google-16",
@@ -171,7 +185,9 @@
       "line": 421,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users expect signing out to stop personalization."
+      "surprise_why": "Users expect signing out to stop personalization.",
+      "review_verdict": "supported",
+      "review_reason": "Line 421 says you \"may also get customized search results even when you're signed out\" and gives the two opt-outs named in the claim."
     },
     {
       "id": "google-19",
@@ -190,7 +206,9 @@
       "line": 78,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Cross-site linking of activity through analytics tools is not something most users know about."
+      "surprise_why": "Cross-site linking of activity through analytics tools is not something most users know about.",
+      "review_verdict": "supported",
+      "review_reason": "Line 78 says these services \"may link\" activity from one site or app with others that use Google services; the modality is kept."
     },
     {
       "id": "google-21",
@@ -200,7 +218,9 @@
       "line": 410,
       "context": "Stated in the \"publicly accessible sources\" definition; the policy does not separately say whether your private content trains AI models (Gemini Apps has its own notice).",
       "surprise": 2,
-      "surprise_why": "This could include things you or others posted publicly about you, used for AI training without asking you."
+      "surprise_why": "This could include things you or others posted publicly about you, used for AI training without asking you.",
+      "review_verdict": "supported",
+      "review_reason": "Line 410 (definition of \"publicly accessible sources\") says Google \"may collect\" public information to train AI models and build Translate, Gemini Apps and Cloud AI; the context accurately notes where it is stated."
     },
     {
       "id": "google-22",
@@ -208,9 +228,11 @@
       "claim": "Google uses outside service providers who analyze and listen to samples of saved user audio to help improve its audio recognition technology.",
       "quote": "We also use service providers to help review YouTube video content for public safety and analyze and listen to samples of saved user audio to help improve Google’s audio recognition technologies.",
       "line": 177,
-      "context": "",
+      "context": "Covers samples of saved audio, not all audio.",
       "surprise": 3,
-      "surprise_why": "Most people would be shocked that outside contractors may listen to their saved voice recordings."
+      "surprise_why": "Most people would be shocked that outside contractors may listen to their saved voice recordings.",
+      "review_verdict": "supported",
+      "review_reason": "Line 177, under \"For external processing\", says Google uses service providers to \"analyze and listen to samples of saved user audio\" to improve audio recognition."
     },
     {
       "id": "google-23",
@@ -227,9 +249,17 @@
       "claim": "If your school or employer provides your Google account, its administrators (and resellers) have access to it and can read and keep data like your email.",
       "quote": "your domain administrator and resellers who manage your account will have access to your Google Account.",
       "line": 168,
-      "context": "",
+      "context": "The policy says administrators \"may be able to\" do these things.",
       "surprise": 2,
-      "surprise_why": "Students and employees may not realize administrators can access and retain their email and other account data."
+      "surprise_why": "Students and employees may not realize administrators can access and retain their email and other account data.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote (line 168) only says administrators \"will have access\"; the ability to read and keep email comes from the list item on line 169, which is framed as \"may be able to\".",
+      "extra_quotes": [
+        {
+          "quote": "Access and retain information stored in your account, like your email",
+          "line": 169
+        }
+      ]
     },
     {
       "id": "google-25",
@@ -239,7 +269,9 @@
       "line": 185,
       "context": "Examples include measurement companies working with YouTube creators and advertisers.",
       "surprise": 2,
-      "surprise_why": "This lets other companies track you on Google's own properties, which users would not expect."
+      "surprise_why": "This lets other companies track you on Google's own properties, which users would not expect.",
+      "review_verdict": "supported",
+      "review_reason": "Line 185 says Google allows specific partners to collect information from your browser or device using their own cookies; line 451 gives the YouTube measurement example used in the context."
     },
     {
       "id": "google-26",
@@ -249,7 +281,9 @@
       "line": 159,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People would be surprised their review or comment could appear in an ad with their name and photo."
+      "surprise_why": "People would be surprised their review or comment could appear in an ad with their name and photo.",
+      "review_verdict": "supported",
+      "review_reason": "Line 159 says name and photo appear next to activity like YouTube comments and Play reviews, and \"may\" be shown in ads depending on Shared endorsements."
     },
     {
       "id": "google-27",
@@ -259,7 +293,9 @@
       "line": 74,
       "context": "",
       "surprise": 2,
-      "surprise_why": "The promise covers only directly identifying data like name or email, while partners may still collect browser data via their own cookies."
+      "surprise_why": "The promise covers only directly identifying data like name or email, while partners may still collect browser data via their own cookies.",
+      "review_verdict": "supported",
+      "review_reason": "A search of the file finds no \"sell\"/\"sold\" statement about personal data, and line 74 states the advertiser limit as quoted, with a \"tap to call\" exception."
     },
     {
       "id": "google-28",
@@ -330,9 +366,17 @@
       "claim": "On school or work accounts, administrators can restrict your ability to delete or edit your information or change your privacy settings.",
       "quote": "Restrict your ability to delete or edit your information or your privacy settings",
       "line": 174,
-      "context": "",
+      "context": "The policy says administrators \"may be able to\" do this.",
       "surprise": 2,
-      "surprise_why": "Users of managed accounts may lose the deletion and privacy controls the policy otherwise promises."
+      "surprise_why": "Users of managed accounts may lose the deletion and privacy controls the policy otherwise promises.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote is only a list item (line 174); that it is administrators of school or work accounts who may do this comes from the lead-in on line 168 under \"With domain administrators\".",
+      "extra_quotes": [
+        {
+          "quote": "If you’re a student or work for an organization that uses Google services, your domain administrator and resellers who manage your account will have access to your Google Account. They may be able to:",
+          "line": 168
+        }
+      ]
     },
     {
       "id": "google-36",
@@ -364,12 +408,29 @@
     {
       "id": "google-39",
       "topic": "optout_steps",
-      "claim": "The policy points to at least 6 separate places to limit ad use: My Ad Center (signed in), signed-out Ad Settings per browser/device, the Web & App Activity subsetting, browser cookie settings, your device's Advertising ID setting, and Shared endorsements; it links to them rather than giving step-by-step instructions.",
+      "claim": "Besides My Ad Center, the policy points to several other separate controls that affect ads, including signed-out Ad Settings, browser cookie settings, your device's Advertising ID setting, and Shared endorsements, and it links to them rather than giving step-by-step instructions.",
       "quote": "You can control what information we use to show you ads by visiting your ad settings in My Ad Center",
       "line": 71,
-      "context": "",
+      "context": "Signed-out Ad Settings apply to each browser or device separately (line 135).",
       "surprise": 2,
-      "surprise_why": "Fully limiting ad tracking needs several separate controls, some repeated on every browser and device."
+      "surprise_why": "Fully limiting ad tracking needs several separate controls, some repeated on every browser and device.",
+      "review_verdict": "overstated",
+      "review_reason": "The quote (line 71) shows only My Ad Center. The \"Web & App Activity subsetting\" (line 103) is described as controlling whether off-Google activity is saved and \"used to improve Google services\", not ad use, so it should not be counted as an ad control.",
+      "claim_original": "The policy points to at least 6 separate places to limit ad use: My Ad Center (signed in), signed-out Ad Settings per browser/device, the Web & App Activity subsetting, browser cookie settings, your device's Advertising ID setting, and Shared endorsements; it links to them rather than giving step-by-step instructions.",
+      "extra_quotes": [
+        {
+          "quote": "Ad Settings: Manage your preferences about the ads shown to you on Google and on sites and apps that partner with Google to show ads.",
+          "line": 138
+        },
+        {
+          "quote": "you can configure your browser to indicate when Google has set a cookie in your browser. You can also configure your browser to block all cookies from a specific domain or all domains.",
+          "line": 152
+        },
+        {
+          "quote": "a unique identifier such as the Advertising ID is used to provide relevant advertising on Android devices, and can be managed in your device’s settings",
+          "line": 322
+        }
+      ]
     },
     {
       "id": "google-40",
@@ -413,9 +474,11 @@
       "claim": "If you use Google Location services, your device sends Google its location, sensor data like the accelerometer, and nearby cell towers and Wi-Fi access points.",
       "quote": "your device sends information to Google about its location, sensors (like accelerometer), and nearby cell towers and Wi-Fi access points (like MAC address and signal strength).",
       "line": 366,
-      "context": "You enable Google Location services in your device settings.",
+      "context": "You enable Google Location services in your device settings. Applies only if you enable Google Location services in device settings.",
       "surprise": 2,
-      "surprise_why": "Users may not realize nearby Wi-Fi networks and phone sensors are sent to Google to pinpoint them."
+      "surprise_why": "Users may not realize nearby Wi-Fi networks and phone sensors are sent to Google to pinpoint them.",
+      "review_verdict": "supported",
+      "review_reason": "Line 366 (\"Information about things near your device\") says that if you use Google Location services your device sends location, sensor and nearby cell tower and Wi-Fi data."
     },
     {
       "id": "google-45",
@@ -425,7 +488,9 @@
       "line": 427,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Speed and direction tracking from motion sensors goes beyond what most people think of as location data."
+      "surprise_why": "Speed and direction tracking from motion sensors goes beyond what most people think of as location data.",
+      "review_verdict": "supported",
+      "review_reason": "Line 427 (definition of \"Sensor data from your device\") says sensors \"can be used\" to understand location and movement, with speed and direction as examples; \"may use\" keeps the hedged modality."
     },
     {
       "id": "google-46",
@@ -435,7 +500,9 @@
       "line": 403,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People save home and work addresses for convenience, not expecting them to be used for advertising."
+      "surprise_why": "People save home and work addresses for convenience, not expecting them to be used for advertising.",
+      "review_verdict": "supported",
+      "review_reason": "Line 403 says saved home or work addresses \"can be used\" for directions, nearby results \"and for ads\"; line 404 adds that you can edit or delete them."
     },
     {
       "id": "google-47",
@@ -454,7 +521,9 @@
       "line": 378,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Recording audio from before you said the wake word would surprise many users."
+      "surprise_why": "Recording audio from before you said the wake word would surprise many users.",
+      "review_verdict": "supported",
+      "review_reason": "Line 378 says Google records voice and audio plus a few seconds before an activation command; a search of the file finds no mention of biometric, face, fingerprint or voiceprint data."
     },
     {
       "id": "google-49",

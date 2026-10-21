@@ -1,0 +1,116 @@
+{
+  "note": "Hand-scored by Claude from data/analysis/findings/*.json using the rubric below. Each score cites finding ids; build_scores.py pulls the exact quotes from those findings. Criteria and weights were suggested by Claude and adopted as working assumptions (the user chose the title and did not change them).",
+  "not_stated_rule": "A criterion the policy says nothing about scores 1 and is flagged 'not stated'. A clear statement that the company does NOT do something scores 0. Where a policy addresses part of a criterion but is silent on another part (e.g. ads stated, AI training not stated), the score is based on what is stated and the silent part is listed in 'not_stated_parts'.",
+  "criteria": [
+    {"key": "collects", "name": "Collects data you never gave it", "weight": 30,
+     "rubric": {"0": "Essentially only what you provide; says it builds no profile", "1": "Automatic device/usage data; any partner or location data is limited or opt-in; no inferred profile", "2": "Builds inferences about you OR receives data about you from other companies", "3": "Inferences AND data from other companies AND precise location or biometrics"}},
+    {"key": "uses", "name": "Uses it for ads or AI training", "weight": 25,
+     "rubric": {"0": "Neither personalized ads nor AI training", "1": "Only contextual (non-personal) ads", "2": "Personalized ads OR AI training on user data", "3": "Personalized ads AND AI training on user data"}},
+    {"key": "shares", "name": "Shares or sells it", "weight": 20,
+     "rubric": {"0": "Only with service providers / for legal demands", "1": "Also limited partners under privacy restrictions", "2": "Identifiers or personal data go to advertising partners or affiliates", "3": "Admits a 'sale'/'sharing' under state law, licenses user content, or lets third parties use it for their own purposes"}},
+    {"key": "optout", "name": "Hard to opt out", "weight": 15,
+     "rubric": {"0": "Nothing to opt out of, or one clear setting", "1": "A few clear steps", "2": "4+ separate places, or opt-outs only linked, not explained", "3": "As 2, AND a major use (on-platform ads or AI training) with no opt-out described"}},
+    {"key": "keeps", "name": "Keeps it a long time", "weight": 10,
+     "rubric": {"0": "Specific short limits", "1": "Specific limits for the main data", "2": "'As long as needed' / for the life of the account, no fixed limit", "3": "Your content stays after you delete your account, or the account can't be deleted"}}
+  ],
+  "scores": {
+    "amazon": {
+      "collects": {"score": 3, "evidence": ["amazon-08", "amazon-09", "amazon-36"], "why": "Works out your preferences, gets credit history from credit bureaus, and may record images or video of you in stores."},
+      "uses": {"score": 3, "evidence": ["amazon-12", "amazon-17"], "why": "Interest-based ads, and data used to develop generative AI."},
+      "shares": {"score": 2, "evidence": ["amazon-13", "amazon-23"], "why": "Gives ad companies an advertising ID; acknowledges cross-context behavioral advertising, while saying it is not in the business of selling data."},
+      "optout": {"score": 3, "evidence": ["amazon-30"], "why": "About 4 separate opt-outs, none explained step by step; no AI-training opt-out described.", "not_stated_parts": ["AI-training opt-out"]},
+      "keeps": {"score": 2, "evidence": ["amazon-24"], "why": "No retention periods given; keeps copies of old versions when you update your information."}
+    },
+    "duckduckgo": {
+      "collects": {"score": 0, "evidence": ["duckduckgo-06", "duckduckgo-25"], "why": "Says it cannot build a history of your searches; uses only a random nearby location, never your precise one."},
+      "uses": {"score": 1, "evidence": ["duckduckgo-08"], "why": "Ads based on the search, not on you.", "not_stated_parts": ["AI training"]},
+      "shares": {"score": 1, "evidence": ["duckduckgo-12", "duckduckgo-09"], "why": "Only anonymous technical details to providers; ad clicks pass through Microsoft's ad network under Microsoft's commitments."},
+      "optout": {"score": 0, "evidence": ["duckduckgo-22"], "why": "No ad opt-out needed because ads are not based on you."},
+      "keeps": {"score": 1, "evidence": ["duckduckgo-19", "duckduckgo-18"], "why": "No identifiers saved with searches; personal info you send is deleted when no longer needed."}
+    },
+    "ebay_previous": {
+      "collects": {"score": 3, "evidence": ["ebay_previous-09", "ebay_previous-12", "ebay_previous-50"], "why": "Collects the ad segment you fall into (e.g. gender, age bracket, interests), receives data from outside data providers, and collects precise phone location with permission (plus seller biometrics)."},
+      "uses": {"score": 3, "evidence": ["ebay_previous-16", "ebay_previous-24"], "why": "Personalized ads on and off eBay, and personal data used to train its own and third-party AI models."},
+      "shares": {"score": 2, "evidence": ["ebay_previous-28"], "why": "With consent, passes data to ad partners such as Google, Meta, Microsoft, Pinterest and TikTok; US 'sale' disclosures are on a separate page.", "not_stated_parts": ["US 'sale'/'sharing' definitions (separate page)"]},
+      "optout": {"score": 2, "evidence": ["ebay_previous-46", "ebay_previous-44"], "why": "About 7 separate places; a right to object to AI training exists but no setting is described."},
+      "keeps": {"score": 2, "evidence": ["ebay_previous-34", "ebay_previous-35"], "why": "Keeps data longer when legally permitted; 6 to 10 years in Europe for some records."}
+    },
+    "espn": {
+      "collects": {"score": 2, "evidence": ["espn-07", "espn-30"], "why": "Adds data from unnamed 'trusted sources'; may collect precise location, including via beacons at its properties.", "not_stated_parts": ["inferences"]},
+      "uses": {"score": 2, "evidence": ["espn-09"], "why": "Shares identifiers or hashed email with third parties to show you ads elsewhere.", "not_stated_parts": ["AI training"]},
+      "shares": {"score": 2, "evidence": ["espn-14", "espn-18"], "why": "Other Disney companies may use your data for their own purposes; offers a 'sale or sharing' opt-out without saying outright whether it does either."},
+      "optout": {"score": 2, "evidence": ["espn-26"], "why": "About six separate places, including a separate Nielsen opt-out per streaming service."},
+      "keeps": {"score": 2, "evidence": ["espn-20"], "why": "As long as needed, or longer if the law permits."}
+    },
+    "github": {
+      "collects": {"score": 2, "evidence": ["github-06", "github-09"], "why": "Infers your preferences and characteristics; receives data from vendors, resellers and partners. Location is regional only."},
+      "uses": {"score": 3, "evidence": ["github-10", "github-16"], "why": "Interest-based advertising via third-party cookies, and personal data used to train AI models."},
+      "shares": {"score": 3, "evidence": ["github-23", "github-17"], "why": "Says it 'shared' identifiers, internet activity and inferences with ad networks as defined by law; may share with Microsoft for advertising and AI training."},
+      "optout": {"score": 3, "evidence": ["github-32"], "why": "About nine separate actions; no AI-training opt-out described.", "not_stated_parts": ["AI-training opt-out"]},
+      "keeps": {"score": 2, "evidence": ["github-25"], "why": "As long as the account is active and as needed."}
+    },
+    "google": {
+      "collects": {"score": 3, "evidence": ["google-06", "google-08", "google-44"], "why": "Infers your interests; sites using Google ads/analytics send data even in Incognito; location services send sensor, Wi-Fi and cell-tower data."},
+      "uses": {"score": 3, "evidence": ["google-13", "google-22"], "why": "Ads across services and other sites; saved user audio samples reviewed to improve audio recognition."},
+      "shares": {"score": 2, "evidence": ["google-25", "google-28"], "why": "Lets partners collect data directly from your browser for ads; shares non-personally-identifiable data with advertisers. Never says whether it 'sells'."},
+      "optout": {"score": 3, "evidence": ["google-39"], "why": "About 5 separate ad controls (My Ad Center, signed-out Ad Settings, browser cookies, device Advertising ID, Shared endorsements); no AI-training opt-out described.", "not_stated_parts": ["AI-training opt-out"]},
+      "keeps": {"score": 2, "evidence": ["google-29", "google-31"], "why": "Kept until you delete it; some kept longer for business or legal purposes with no stated limit."}
+    },
+    "linkedin": {
+      "collects": {"score": 3, "evidence": ["linkedin-07", "linkedin-09", "linkedin-47"], "why": "Infers pay bracket, age and gender for ads; gets your details from other people's contact uploads; precise GPS location with opt-in."},
+      "uses": {"score": 3, "evidence": ["linkedin-13", "linkedin-23"], "why": "Targets ads on and off LinkedIn; may use your data to train AI models."},
+      "shares": {"score": 3, "evidence": ["linkedin-25", "linkedin-24"], "why": "Paying customers can export your profile details unless you opt out; may share data with Microsoft to develop its advertising."},
+      "optout": {"score": 3, "evidence": ["linkedin-43", "linkedin-41"], "why": "About 5 places, mostly bare links; no specific AI-training opt-out."},
+      "keeps": {"score": 2, "evidence": ["linkedin-31", "linkedin-34"], "why": "Kept while the account is open; shared messages and posts stay visible after you close it."}
+    },
+    "meta": {
+      "collects": {"score": 3, "evidence": ["meta-10", "meta-12", "meta-57"], "why": "Infers your interests; partners report your activity elsewhere even without an account; device signals include GPS, Bluetooth and Wi-Fi."},
+      "uses": {"score": 3, "evidence": ["meta-16", "meta-26"], "why": "Ads based on activity on and off Meta; AI development 'for Meta Products and for third parties'."},
+      "shares": {"score": 2, "evidence": ["meta-31", "meta-34"], "why": "Shares device and other identifiers with marketing vendors; says it never sells your information."},
+      "optout": {"score": 3, "evidence": ["meta-48", "meta-50", "meta-49"], "why": "About six separate ad opt-outs; no setting to stop ads based on activity on Meta itself; no AI-training opt-out described."},
+      "keeps": {"score": 2, "evidence": ["meta-37"], "why": "As long as it needs, decided case by case, with no fixed limit."}
+    },
+    "reddit": {
+      "collects": {"score": 2, "evidence": ["reddit-07", "reddit-09", "reddit-40"], "why": "Guesses your age range and gender; receives demographic and interest data from advertisers. Says it does not track precise location."},
+      "uses": {"score": 2, "evidence": ["reddit-12"], "why": "Personalized ads on and off Reddit.", "not_stated_parts": ["AI training"]},
+      "shares": {"score": 3, "evidence": ["reddit-18", "reddit-23"], "why": "Charges third parties licensing fees for access to large amounts of Reddit content; does not deny 'sharing' except for users under 16."},
+      "optout": {"score": 2, "evidence": ["reddit-36"], "why": "About 8 separate opt-out actions."},
+      "keeps": {"score": 3, "evidence": ["reddit-27", "reddit-25"], "why": "Deleting your account does not delete your posts, comments and messages; no set limit for other data."}
+    },
+    "strava": {
+      "collects": {"score": 3, "evidence": ["strava-06", "strava-08", "strava-41"], "why": "Calculates fitness scores and predictions; receives heart rate, sleep and similar data from connected devices; core features need precise location."},
+      "uses": {"score": 3, "evidence": ["strava-12", "strava-18"], "why": "Uses cookies and trackers to target its own ads; trains AI and machine-learning models on your information."},
+      "shares": {"score": 3, "evidence": ["strava-26", "strava-21"], "why": "Admits it may have 'shared' identifiers and online activity for cross-context ads; adult profiles are public by default."},
+      "optout": {"score": 2, "evidence": ["strava-37", "strava-36"], "why": "3 ways to stop ad sharing, but AI and cookie choices are only linked, not explained."},
+      "keeps": {"score": 2, "evidence": ["strava-28", "strava-30"], "why": "Kept until you delete it; public segments and routes stay after you delete your account."}
+    },
+    "tiktok": {
+      "collects": {"score": 3, "evidence": ["tiktok-08", "tiktok-11", "tiktok-39"], "why": "Infers age, gender and interests; partners report what you do outside TikTok; may collect faceprints and voiceprints."},
+      "uses": {"score": 3, "evidence": ["tiktok-15", "tiktok-20"], "why": "Uses partner IDs to target ads; trains machine-learning models on what it collects."},
+      "shares": {"score": 2, "evidence": ["tiktok-21", "tiktok-25"], "why": "Ad, marketing and analytics partners receive several kinds of your data; the no-sale promise applies only 'where restricted by applicable law'."},
+      "optout": {"score": 3, "evidence": ["tiktok-33"], "why": "Five separate actions; no opt-out from machine-learning training described.", "not_stated_parts": ["AI-training opt-out"]},
+      "keeps": {"score": 2, "evidence": ["tiktok-26"], "why": "As long as necessary, with no fixed limits."}
+    },
+    "weather": {
+      "collects": {"score": 3, "evidence": ["weather-08", "weather-11", "weather-50"], "why": "Draws conclusions about you, buys extra details from Data Providers, and may use precise GPS location to build audience segments."},
+      "uses": {"score": 3, "evidence": ["weather-16", "weather-24"], "why": "Targets ads on and off its services; uses data to improve and train its AI."},
+      "shares": {"score": 3, "evidence": ["weather-29", "weather-30"], "why": "Lets ad vendors use your data for their own purposes, and says it sold or shared data in the past year."},
+      "optout": {"score": 3, "evidence": ["weather-40", "weather-45"], "why": "Opted in to sale/sharing by default; at least 10 separate opt-out actions."},
+      "keeps": {"score": 2, "evidence": ["weather-32", "weather-33"], "why": "As long as it considers necessary; de-identified data kept forever."}
+    },
+    "wikipedia": {
+      "collects": {"score": 1, "evidence": ["wikipedia-10", "wikipedia-32"], "why": "May receive unspecified information from partners; uses GPS only with consent. No profile of you described."},
+      "uses": {"score": 0, "evidence": ["wikipedia-12", "wikipedia-11"], "why": "Says it does not share personal information for marketing or use your email to advertise.", "not_stated_parts": ["AI training"]},
+      "shares": {"score": 1, "evidence": ["wikipedia-22", "wikipedia-19"], "why": "Does not sell or rent data; volunteer admins can see limited non-public data."},
+      "optout": {"score": 1, "evidence": ["wikipedia-28"], "why": "Four simple device/browser actions; no ads to opt out of."},
+      "keeps": {"score": 2, "evidence": ["wikipedia-23", "wikipedia-24"], "why": "Most personal data deleted or de-identified after 90 days, but you cannot fully delete your account."}
+    },
+    "x": {
+      "collects": {"score": 3, "evidence": ["x-09", "x-10", "x-44"], "why": "May infer who you are even when signed out; ad partners send IDs and interest data; may collect biometrics with consent."},
+      "uses": {"score": 3, "evidence": ["x-14", "x-20"], "why": "Shows ads on and off X; may train its AI models on your information."},
+      "shares": {"score": 3, "evidence": ["x-21", "x-22"], "why": "Some third parties may use shared data for their own purposes, including AI training, unless you opt out; licenses public content at scale."},
+      "optout": {"score": 3, "evidence": ["x-40", "x-39"], "why": "Only one specific control named; no opt-out from X's own AI training."},
+      "keeps": {"score": 2, "evidence": ["x-29"], "why": "Posts kept as long as you have the account."}
+    }
+  }
+}

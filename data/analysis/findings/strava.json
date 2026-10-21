@@ -20,7 +20,9 @@
       "line": 14,
       "context": "Sharing contacts is optional.",
       "surprise": 2,
-      "surprise_why": "Most people assume a contact upload is a one-time match, not ongoing repeated access to their address book."
+      "surprise_why": "Most people assume a contact upload is a one-time match, not ongoing repeated access to their address book.",
+      "review_verdict": "supported",
+      "review_reason": "Line 14 says that if you share contacts 'we will regularly access and store it'; the claim keeps the opt-in condition."
     },
     {
       "id": "strava-03",
@@ -129,7 +131,23 @@
       "line": 229,
       "context": "The data listed for this purpose (lines 235-242) includes Activity Data, Location Information and Content You Share.",
       "surprise": 2,
-      "surprise_why": "Users may not expect their workouts and location to be among the data used for sponsored content and targeted advertising."
+      "surprise_why": "Users may not expect their workouts and location to be among the data used for sponsored content and targeted advertising.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 229 is only the purpose label in the EEA/UK table (section from line 123); the targeted-ads activity and the activity and location data listed for this purpose are on lines 233-239.",
+      "extra_quotes": [
+        {
+          "quote": "Display targeted advertising to you",
+          "line": 233
+        },
+        {
+          "quote": "Activity Data",
+          "line": 238
+        },
+        {
+          "quote": "Location Information",
+          "line": 239
+        }
+      ]
     },
     {
       "id": "strava-15",
@@ -164,9 +182,11 @@
       "claim": "Strava uses your information to create, train and test AI and machine-learning models, including models run by its service providers.",
       "quote": "We use information to enhance the quality, reliability, and/or accuracy of our AI Features by creating, developing, training, testing, improving, and maintaining AI and ML models run by Strava or our service providers.",
       "line": 54,
-      "context": "",
+      "context": "Strava says it uses aggregated, de-identified information where possible and offers choices about contributing to AI development (line 54).",
       "surprise": 2,
-      "surprise_why": "Users may not expect their fitness and location data to train AI models, some run by outside companies."
+      "surprise_why": "Users may not expect their fitness and location data to train AI models, some run by outside companies.",
+      "review_verdict": "supported",
+      "review_reason": "Line 54 says this directly, naming models run by Strava or its service providers."
     },
     {
       "id": "strava-19",
@@ -176,7 +196,9 @@
       "line": 43,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Health and location data are sensitive, and users may not realize they can feed AI features."
+      "surprise_why": "Health and location data are sensitive, and users may not realize they can feed AI features.",
+      "review_verdict": "supported",
+      "review_reason": "Line 43 says this directly, with the 'depending on your privacy controls and sharing permissions' condition kept in the claim."
     },
     {
       "id": "strava-20",
@@ -195,7 +217,9 @@
       "line": 75,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Many users don't realize their workouts and routes are public and searchable unless they change settings."
+      "surprise_why": "Many users don't realize their workouts and routes are public and searchable unless they change settings.",
+      "review_verdict": "supported",
+      "review_reason": "Line 75 says this directly, including search engine results."
     },
     {
       "id": "strava-22",
@@ -205,7 +229,9 @@
       "line": 87,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not know Strava licenses data derived from their activities to businesses and cities."
+      "surprise_why": "Users may not know Strava licenses data derived from their activities to businesses and cities.",
+      "review_verdict": "supported",
+      "review_reason": "Line 87 says this directly, with Strava Metro and partners as examples."
     },
     {
       "id": "strava-23",
@@ -224,7 +250,9 @@
       "line": 95,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Sharing with private litigants (not just police) and across borders is broader than most users expect."
+      "surprise_why": "Sharing with private litigants (not just police) and across borders is broader than most users expect.",
+      "review_verdict": "supported",
+      "review_reason": "Line 95 says this directly, including private litigants and disclosures outside your country."
     },
     {
       "id": "strava-25",
@@ -243,7 +271,23 @@
       "line": 373,
       "context": "The categories are listed on lines 374-376.",
       "surprise": 2,
-      "surprise_why": "It sits right after 'we do not sell' and quietly concedes legal 'sales' or 'sharing' may have happened."
+      "surprise_why": "It sits right after 'we do not sell' and quietly concedes legal 'sales' or 'sharing' may have happened.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "The quote concedes possible 'selling'/'sharing' but does not name the categories; identifiers, commercial information and network activity are the list items on lines 374-376.",
+      "extra_quotes": [
+        {
+          "quote": "Identifiers;",
+          "line": 374
+        },
+        {
+          "quote": "Commercial information; and",
+          "line": 375
+        },
+        {
+          "quote": "Internet or similar network activity.",
+          "line": 376
+        }
+      ]
     },
     {
       "id": "strava-27",
@@ -253,7 +297,15 @@
       "line": 378,
       "context": "Listed under the heading on line 377 about sharing for cross-context behavioral advertising or analytics.",
       "surprise": 2,
-      "surprise_why": "Users may not expect their Strava data to flow to Meta for advertising."
+      "surprise_why": "Users may not expect their Strava data to flow to Meta for advertising.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 378 is a bare list item; that these are parties Strava 'may have shared' data with for cross-context behavioral advertising comes from the lead-in on line 377.",
+      "extra_quotes": [
+        {
+          "quote": "We may have shared each of the categories of personal information listed above with the following categories of third parties for the purpose of cross-context behavioral advertising or analytics:",
+          "line": 377
+        }
+      ]
     },
     {
       "id": "strava-28",
@@ -281,7 +333,9 @@
       "line": 107,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users expect account deletion to remove everything they created."
+      "surprise_why": "Users expect account deletion to remove everything they created.",
+      "review_verdict": "supported",
+      "review_reason": "Line 107 says this directly, after the account-deletion text on line 106."
     },
     {
       "id": "strava-31",
@@ -309,7 +363,9 @@
       "line": 108,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users would expect withdrawing consent to remove data such as heart rate from their activities."
+      "surprise_why": "Users would expect withdrawing consent to remove data such as heart rate from their activities.",
+      "review_verdict": "supported",
+      "review_reason": "Line 108 says this directly, with heart rate as the example."
     },
     {
       "id": "strava-34",
@@ -391,7 +447,9 @@
       "line": 76,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Public precise routes can reveal where a person lives or regularly exercises."
+      "surprise_why": "Public precise routes can reveal where a person lives or regularly exercises.",
+      "review_verdict": "supported",
+      "review_reason": "Line 76 says this, starting with 'Subject to your privacy controls', which the claim keeps as 'depending on your settings'."
     },
     {
       "id": "strava-43",
@@ -401,7 +459,9 @@
       "line": 45,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not realize their individual routes feed a public map of where people exercise."
+      "surprise_why": "Users may not realize their individual routes feed a public map of where people exercise.",
+      "review_verdict": "supported",
+      "review_reason": "Line 45 says Strava may use your activities to generate its Global Heatmap, Points of Interest and Start Points."
     },
     {
       "id": "strava-44",
@@ -436,9 +496,25 @@
       "claim": "Strava's US-state table lists sensitive information, such as precise location, health information and message contents, as a category it disclosed in the past year.",
       "quote": "Category of Personal Information: Sensitive personal information, such as precise geolocation, health information, and the content of your messages",
       "line": 336,
-      "context": "The rows that follow mark it as disclosed to other users/the public depending on settings, service providers, and other parties (affiliates, parties you direct, government).",
+      "context": "The rows that follow mark it as disclosed to other users/the public depending on settings, service providers, and other parties (affiliates, parties you direct, government). Sensitive information is not marked as going to advertising/marketing partners, and line 382 says it is used or disclosed only with consent to provide the Services or as permitted by law.",
       "surprise": 2,
-      "surprise_why": "Users may not expect health data and message contents to appear among disclosed categories."
+      "surprise_why": "Users may not expect health data and message contents to appear among disclosed categories.",
+      "review_verdict": "quote_insufficient",
+      "review_reason": "Line 336 is only the category label; that the table covers disclosures in the last twelve months is on line 317, and the disclosure marks are on lines 337-339.",
+      "extra_quotes": [
+        {
+          "quote": "describes the categories of information we have disclosed to third parties for business purposes in the last twelve months, and the categories of those third parties.",
+          "line": 317
+        },
+        {
+          "quote": "Other Strava users and the public, depending on your settings: X",
+          "line": 337
+        },
+        {
+          "quote": "Service providers: X",
+          "line": 338
+        }
+      ]
     },
     {
       "id": "strava-48",

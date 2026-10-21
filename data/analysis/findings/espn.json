@@ -18,9 +18,11 @@
       "claim": "Disney collects messages you send one-to-one or in small groups through its chat and messaging features, where the law allows.",
       "quote": "Information sent either one-to-one or within a limited group using our message, chat, post, or similar functionality, where we are permitted by applicable law to collect this information",
       "line": 15,
-      "context": "",
+      "context": "This is the Disney-wide privacy policy, not an ESPN-specific one.",
       "surprise": 2,
-      "surprise_why": "Users may assume private chats are not collected by the company."
+      "surprise_why": "Users may assume private chats are not collected by the company.",
+      "review_verdict": "supported",
+      "review_reason": "Line 15 says this directly in the list of collected information, with the 'where permitted by applicable law' condition kept in the claim."
     },
     {
       "id": "espn-03",
@@ -84,7 +86,9 @@
       "line": 47,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may not expect their email, even hashed, to be shared with others for ad targeting."
+      "surprise_why": "Users may not expect their email, even hashed, to be shared with others for ad targeting.",
+      "review_verdict": "supported",
+      "review_reason": "Line 47 says this directly."
     },
     {
       "id": "espn-10",
@@ -121,7 +125,9 @@
       "line": 77,
       "context": "",
       "surprise": 2,
-      "surprise_why": "People who never signed up with Nielsen may not expect to be part of its measurement research unless they act."
+      "surprise_why": "People who never signed up with Nielsen may not expect to be part of its measurement research unless they act.",
+      "review_verdict": "supported",
+      "review_reason": "Line 77 lists limiting Nielsen digital measurement research 'where applicable (for non-Panelists)' as a choice, and line 78 points to Nielsen's Digital Measurement site."
     },
     {
       "id": "espn-14",
@@ -131,7 +137,9 @@
       "line": 30,
       "context": "",
       "surprise": 2,
-      "surprise_why": "ESPN users may not expect their data to be available across the whole Disney group, such as parks, Disney+, and Hulu."
+      "surprise_why": "ESPN users may not expect their data to be available across the whole Disney group, such as parks, Disney+, and Hulu.",
+      "review_verdict": "supported",
+      "review_reason": "Line 30 says this directly, including use 'on their own behalf (as data controllers)' unless the law forbids it."
     },
     {
       "id": "espn-15",
@@ -213,7 +221,9 @@
       "line": 5,
       "context": "",
       "surprise": 2,
-      "surprise_why": "Users may assume their platform-level privacy settings also limit the apps they use on that platform."
+      "surprise_why": "Users may assume their platform-level privacy settings also limit the apps they use on that platform.",
+      "review_verdict": "supported",
+      "review_reason": "Line 5 says this directly."
     },
     {
       "id": "espn-24",
@@ -275,9 +285,11 @@
       "claim": "Disney may collect your precise or approximate location from your device, including through beacons at its physical properties, or from your IP address.",
       "quote": "Location information, including precise or approximate location information provided by a mobile or other device interacting with one of our sites, applications, or physical properties (including through beacon technologies), or associated with your IP address or other online or device identifier, where we are permitted by law to process this information",
       "line": 17,
-      "context": "",
+      "context": "Only where Disney is permitted by law to process it (line 17).",
       "surprise": 2,
-      "surprise_why": "Visitors may not expect beacons at parks or stores to track their precise location."
+      "surprise_why": "Visitors may not expect beacons at parks or stores to track their precise location.",
+      "review_verdict": "supported",
+      "review_reason": "Line 17 says this directly, including beacons at physical properties and IP-based location."
     },
     {
       "id": "espn-31",

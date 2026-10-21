@@ -1,0 +1,79 @@
+{
+ "key": "wikipedia",
+ "file": "data/text/wikipedia.txt",
+ "reviewed": 8,
+ "reviews": [
+  {
+   "id": "wikipedia-02",
+   "verdict": "supported",
+   "reason": "Line 71 says each contribution creates a permanent public record of content added, removed or altered, and the page history shows when and your username or temporary account username.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "wikipedia-08",
+   "verdict": "supported",
+   "reason": "Line 74 says data you make public or aggregated data Wikimedia publishes 'can be used by anyone' to infer country, political affiliation and gender.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "wikipedia-16",
+   "verdict": "supported",
+   "reason": "Line 210 says Wikimedia gives some volunteer developers limited access to systems containing Personal Information, only as reasonably necessary.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "wikipedia-17",
+   "verdict": "supported",
+   "reason": "Line 212 says Wikimedia cannot guarantee developers and researchers will abide by its agreement nor that it will regularly screen or audit their projects.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  },
+  {
+   "id": "wikipedia-19",
+   "verdict": "supported",
+   "reason": "Line 197 says user-selected administrative rights 'may include access to limited amounts of otherwise nonpublic information about recent contributions and activity by other users'.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The same paragraph says these volunteers are supposed to follow Wikimedia's nonpublic-data access policy and that the Foundation does not know their legal names.",
+   "extra_quotes": []
+  },
+  {
+   "id": "wikipedia-21",
+   "verdict": "supported",
+   "reason": "Line 62 says volunteers may place such tools without the Foundation's knowledge and the Policy does not cover how third parties handle the resulting information.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "The policy says you can remove such a tool yourself or report it to the Foundation for investigation (line 62).",
+   "extra_quotes": []
+  },
+  {
+   "id": "wikipedia-24",
+   "verdict": "supported",
+   "reason": "Line 85 says accounts cannot be removed entirely, though you can usually hide user-page information.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": "Line 85 adds that in some circumstances the communities can help remove additional information related to your account.",
+   "extra_quotes": []
+  },
+  {
+   "id": "wikipedia-33",
+   "verdict": "supported",
+   "reason": "Line 95 contrasts consent-based GPS with photo/video metadata (place and time taken) that mobile defaults typically include in uploads; the policy notes it is then made public unless you change device settings.",
+   "corrected_claim": null,
+   "remove": false,
+   "context": null,
+   "extra_quotes": []
+  }
+ ]
+}
