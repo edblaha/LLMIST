@@ -1,0 +1,600 @@
+{
+  "platform": "Meta",
+  "key": "meta",
+  "file": "data/text/meta.txt",
+  "findings": [
+    {
+      "id": "meta-01",
+      "topic": "collect_provided",
+      "claim": "Meta collects what you do on its products, including what you click or like, your posts and photos, your chats with Meta AI features, and messages you send.",
+      "quote": "What you do on our Products. This includes what you click on or like, your posts and photos, your chats with our features that are part of AI at Meta , and messages you send.",
+      "line": 61,
+      "surprise": 1
+    },
+    {
+      "id": "meta-02",
+      "topic": "collect_provided",
+      "claim": "Meta says it collects the messages you send and receive, including their content, subject to applicable law.",
+      "quote": "Messages you send and receive, including their content, subject to applicable law.",
+      "line": 72,
+      "context": "The same line notes that some products offer end-to-end encrypted messages.",
+      "surprise": 2,
+      "surprise_why": "Many people assume their private messages are not collected by the platform itself."
+    },
+    {
+      "id": "meta-03",
+      "topic": "collect_provided",
+      "claim": "Meta collects purchases you make through its checkout features, including credit card information.",
+      "quote": "Purchases or other transactions you make, such as through Meta checkout experiences, including credit card information.",
+      "line": 78,
+      "surprise": 1
+    },
+    {
+      "id": "meta-04",
+      "topic": "collect_provided",
+      "claim": "If you choose to upload or sync your address book, Meta collects your contacts' names, email addresses or phone numbers.",
+      "quote": "We also collect your contacts’ or connections’ information, such as their name and email address or phone number, if you choose to upload or import it from a device",
+      "line": 93,
+      "surprise": 1
+    },
+    {
+      "id": "meta-05",
+      "topic": "collect_automatic",
+      "claim": "Meta collects what you are doing on your device, such as whether its app is in the foreground or whether your mouse is moving.",
+      "quote": "What you’re doing on your device, like whether our app is in the foreground or if your mouse is moving (which can help tell humans from bots)",
+      "line": 107,
+      "surprise": 2,
+      "surprise_why": "Few users expect mouse movement and app foreground state to be logged."
+    },
+    {
+      "id": "meta-06",
+      "topic": "collect_automatic",
+      "claim": "Meta collects information about other devices that are near you or on the same network.",
+      "quote": "Information about other devices that are nearby or on your network",
+      "line": 279,
+      "surprise": 2,
+      "surprise_why": "Users would not expect a social app to collect data about other people's devices around them."
+    },
+    {
+      "id": "meta-07",
+      "topic": "collect_automatic",
+      "claim": "When you open links in Meta's in-app browser, Meta collects which websites you visit and your activity on them.",
+      "quote": "Information about websites that you visit or interact with, and your activity on them, when you use our in-app browser.",
+      "line": 77,
+      "surprise": 2,
+      "surprise_why": "Most people do not realise the browser inside the app records their activity on outside websites."
+    },
+    {
+      "id": "meta-08",
+      "topic": "collect_automatic",
+      "claim": "Meta uses cookies, data stored in your browser or device, device identifiers, Social Plugins and the Meta Pixel.",
+      "quote": "We use cookies and similar technologies, including data that we store on your web browser or device, identifiers associated with your device and other software, Social Plugins and the Meta Pixel.",
+      "line": 289,
+      "surprise": 1
+    },
+    {
+      "id": "meta-09",
+      "topic": "collect_inferred",
+      "claim": "Meta infers things about you from other people's activity; for example it might suggest you as a friend to someone because you both appear in a contact list a third person uploaded.",
+      "quote": "We might suggest a friend to you through Facebook's People You May Know or Instagram’s Discover People if you both appear on a list of contacts or connections that someone uploads.",
+      "line": 100,
+      "surprise": 2,
+      "surprise_why": "You can be linked to people because of an address book you never saw or agreed to share."
+    },
+    {
+      "id": "meta-10",
+      "topic": "collect_inferred",
+      "claim": "Meta uses things it infers about you, like topics it thinks you may be interested in, to decide which ads to show.",
+      "quote": "Things we infer about you, like topics we think you may be interested in",
+      "line": 370,
+      "surprise": 1
+    },
+    {
+      "id": "meta-11",
+      "topic": "collect_inferred",
+      "claim": "Meta tries to predict your ad interests from the information it has about you, including your Ad preferences choices.",
+      "quote": "We try to predict your ad interests based on the information we have, including any choices you've made in Ad preferences.",
+      "line": 1588,
+      "surprise": 1
+    },
+    {
+      "id": "meta-12",
+      "topic": "collect_third_party",
+      "claim": "Meta receives information from partners about your activity on other sites and apps whether or not you are logged in or even have an account.",
+      "quote": "We receive this information whether or not you’re logged in or have an account on our Products.",
+      "line": 130,
+      "surprise": 3,
+      "surprise_why": "People who are logged out or have no account generally assume Meta has no data on them."
+    },
+    {
+      "id": "meta-13",
+      "topic": "collect_third_party",
+      "claim": "Partners and other third parties send Meta information about how you use their products and services, including in person, not just online.",
+      "quote": "How you use our partners’ and other third parties’ products and services, online or in person",
+      "line": 128,
+      "context": "Listed among examples that also include off-Meta purchases, apps you use and games you play.",
+      "surprise": 2,
+      "surprise_why": "Users rarely expect offline, in-store activity to reach a social media company."
+    },
+    {
+      "id": "meta-14",
+      "topic": "collect_third_party",
+      "claim": "Meta gets information about you from marketing and advertising vendors and data providers.",
+      "quote": "Marketing and advertising vendors and data providers, who have the rights to provide us with your information",
+      "line": 315,
+      "surprise": 2,
+      "surprise_why": "Receiving data from data providers (data brokers) is not widely known."
+    },
+    {
+      "id": "meta-15",
+      "topic": "collect_third_party",
+      "claim": "Even if you do not use Meta products or have no account, your information might still be collected, for example from contacts that account holders upload.",
+      "quote": "If you don’t use Meta Products, or use them without an account, your information might still be collected.",
+      "line": 94,
+      "surprise": 2,
+      "surprise_why": "Non-users do not expect to have data held by a service they never joined."
+    },
+    {
+      "id": "meta-16",
+      "topic": "use_ads",
+      "claim": "To choose ads, Meta uses your activity both on and off its products, including information from cookies, according to your settings.",
+      "quote": "Your activity on and off our Products, including information we receive through cookies and similar technologies, according to your settings",
+      "line": 367,
+      "surprise": 1
+    },
+    {
+      "id": "meta-17",
+      "topic": "use_ads",
+      "claim": "Your friends' and followers' activity and interests can be used to decide which ads you see.",
+      "quote": "Information about your friends, followers or other connections, including their activity or interests",
+      "line": 371,
+      "surprise": 2,
+      "surprise_why": "People do not expect their friends' behaviour to shape the ads shown to them."
+    },
+    {
+      "id": "meta-18",
+      "topic": "use_ads",
+      "claim": "Payment and transaction details from purchases made through Meta are also used to personalize your experience and for advertising.",
+      "quote": "We collect and store this information to facilitate your purchase, receipt of payments and other financial transactions, to personalize your experience on our Products, for advertising",
+      "line": 226,
+      "surprise": 2,
+      "surprise_why": "People expect payment data to be used only to complete the purchase."
+    },
+    {
+      "id": "meta-19",
+      "topic": "use_ads",
+      "claim": "When you use other apps that show Meta Audience Network ads, Meta processes what it knows about you to recognise you as a Meta user and tailor those ads.",
+      "quote": "our systems automatically process the information we have collected and stored about you and others to identify you as a Meta Product user and tailor the ads you see.",
+      "line": 1440,
+      "surprise": 1
+    },
+    {
+      "id": "meta-20",
+      "topic": "use_personalization",
+      "claim": "Meta AI may use things you told it earlier and posts you have liked on Instagram to personalize its answers.",
+      "quote": "To make the restaurant suggestion even more relevant, Meta AI also uses additional information including that Anna recently told Meta AI she loves Italian food, and that she has lately been liking Instagram posts featuring modern fine dining.",
+      "line": 393,
+      "surprise": 2,
+      "surprise_why": "Users may not expect an AI chat to draw on their past chats and Instagram likes."
+    },
+    {
+      "id": "meta-21",
+      "topic": "use_personalization",
+      "claim": "Meta automatically processes information about you and others to understand your interests and personalize your experience across all Meta Company Products.",
+      "quote": "Our systems automatically process information we've collected and stored associated with you and others to assess and understand your interests and your preferences and provide you personalized experiences on and across the Meta Company Products",
+      "line": 1164,
+      "surprise": 1
+    },
+    {
+      "id": "meta-22",
+      "topic": "use_personalization",
+      "claim": "If your accounts are in the same Accounts Center, what you do on Instagram can shape suggestions on Facebook.",
+      "quote": "For example, if you follow your favorite team on Instagram, we can more easily suggest that you follow that team’s Page on Facebook.",
+      "line": 545,
+      "surprise": 1
+    },
+    {
+      "id": "meta-23",
+      "topic": "use_research",
+      "claim": "Meta analyzes where groups of people go during crises to help relief organizations.",
+      "quote": "We analyze information about where groups of people go during crises. This helps relief organizations get aid to the right places.",
+      "line": 463,
+      "surprise": 2,
+      "surprise_why": "Users may not know their movement data can feed population-level research."
+    },
+    {
+      "id": "meta-24",
+      "topic": "use_research",
+      "claim": "Meta uses your information for surveys and research to improve its products and brands.",
+      "quote": "Conduct surveys and other research on what we can do better for Meta Products and brands",
+      "line": 384,
+      "surprise": 0
+    },
+    {
+      "id": "meta-25",
+      "topic": "use_research",
+      "claim": "Meta may pick you for research invitations based on how you use its products.",
+      "quote": "We ask you to participate in research based on things like how you use our Products",
+      "line": 449,
+      "surprise": 0
+    },
+    {
+      "id": "meta-26",
+      "topic": "use_ai_training",
+      "claim": "Meta lists developing and improving its AI \"for Meta Products and for third parties\" as a purpose for processing your information.",
+      "quote": "Develop and improve AI at Meta for Meta Products and for third parties.",
+      "line": 1247,
+      "context": "From the \"Why and how we process your information\" table; the categories listed are public content, AI interactions and partner/third-party data.",
+      "surprise": 3,
+      "surprise_why": "Most users would not expect their data to help build AI that serves other companies."
+    },
+    {
+      "id": "meta-27",
+      "topic": "use_ai_training",
+      "claim": "Public posts, comments or audio that you or others create may be used to develop and improve Meta AI.",
+      "quote": "Public content you or others create or share, like posts, comments or audio on Meta Products",
+      "line": 1250,
+      "surprise": 2,
+      "surprise_why": "Many people do not expect their public posts to become AI training material."
+    },
+    {
+      "id": "meta-28",
+      "topic": "use_ai_training",
+      "claim": "Your chats with Meta AI, including content and messages exchanged with it, may be used to develop and improve Meta AI.",
+      "quote": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features.",
+      "line": 1251,
+      "surprise": 2,
+      "surprise_why": "People may treat AI chats as private conversations rather than training input."
+    },
+    {
+      "id": "meta-29",
+      "topic": "use_ai_training",
+      "claim": "Your videos can help train Meta products to recognise objects and activities, and train tools that create images and videos.",
+      "quote": "For example, your videos can help train our products to recognize objects, like trees, or activities, like when a dog chases a ball. They can also help train tools that let people and businesses create content, like images and videos.",
+      "line": 929,
+      "surprise": 2,
+      "surprise_why": "Users rarely expect their personal videos to train image and video generation tools."
+    },
+    {
+      "id": "meta-30",
+      "topic": "share_third_parties",
+      "claim": "Meta says it does not give advertisers information that by itself identifies or contacts you, like your name or email, unless you give permission.",
+      "quote": "But we don't share information with these advertisers and their vendors that by itself can be used to contact or identify you, such as your name or email address, unless you give us permission.",
+      "line": 753,
+      "context": "The same line says Meta confirms to advertisers which ads you viewed led you to take an action.",
+      "surprise": 1
+    },
+    {
+      "id": "meta-31",
+      "topic": "share_third_parties",
+      "claim": "Meta shares your device identifier or other identifiers with marketing vendors to serve you its ads.",
+      "quote": "For example, we share your device identifier or other identifiers with marketing vendors to help us serve you ads most relevant to your interests.",
+      "line": 791,
+      "context": "The policy says these vendors may be tracking and categorizing your online and mobile app activity.",
+      "surprise": 2,
+      "surprise_why": "This sits alongside \"we never sell\" claims and many users would not expect identifiers to go to outside ad vendors."
+    },
+    {
+      "id": "meta-32",
+      "topic": "share_third_parties",
+      "claim": "When Meta AI features use an external web browser for you, information about your request is shared with that browser, which may pass it on to other third parties.",
+      "quote": "When you use these features, information related to your request will be shared with the browser. The browser may further share your information with other third parties.",
+      "line": 828,
+      "surprise": 2,
+      "surprise_why": "Users would not expect an AI request to flow on to unnamed parties beyond Meta."
+    },
+    {
+      "id": "meta-33",
+      "topic": "share_third_parties",
+      "claim": "Meta may respond to legal requests even when it is not legally required to.",
+      "quote": "We respond to legal requests where we’re required by law to do so, and at times where we're not compelled by law, but a response:",
+      "line": 1095,
+      "context": "Voluntary responses are limited to cases that may affect users in that jurisdiction and are consistent with international standards.",
+      "surprise": 2,
+      "surprise_why": "People assume data is only handed over when the law compels it."
+    },
+    {
+      "id": "meta-34",
+      "topic": "sell_share_definition",
+      "claim": "Meta states that it does not sell any of your information to anyone and never will.",
+      "quote": "We don't sell any of your information to anyone, and we never will.",
+      "line": 740,
+      "context": "This policy does not define \"sell\" or discuss \"sharing\" for targeted ads; it points US residents to a separate United States Regional Privacy Notice.",
+      "surprise": 2,
+      "surprise_why": "The word \"sell\" is not defined in this policy, even though it describes sharing identifiers and ad data with vendors and advertisers."
+    },
+    {
+      "id": "meta-35",
+      "topic": "sell_share_definition",
+      "claim": "If Meta sells or transfers part of its business, your information may go to the new owner.",
+      "quote": "And if we sell or transfer all or part of our business to someone else, in some cases we’ll give the new owner your information as part of that transaction, but only as the law allows.",
+      "line": 834,
+      "surprise": 1
+    },
+    {
+      "id": "meta-36",
+      "topic": "sell_share_definition",
+      "claim": "Details on US state-law rights and definitions are in a separate US Regional Privacy Notice, not in this policy.",
+      "quote": "Read the United States Regional Privacy Notice for more details about how we handle Personal Information and how to exercise your rights.",
+      "line": 41,
+      "surprise": 0
+    },
+    {
+      "id": "meta-37",
+      "topic": "retention",
+      "claim": "Meta keeps information as long as it needs it and decides case by case, with no fixed time limit.",
+      "quote": "We keep information as long as we need it to provide our Products, comply with legal obligations or protect our or other’s interests. We decide how long we need information on a case-by-case basis.",
+      "line": 979,
+      "surprise": 1
+    },
+    {
+      "id": "meta-38",
+      "topic": "retention",
+      "claim": "After you ask to delete your account or content, deletion may take up to 90 days, plus up to another 90 days to clear backups.",
+      "quote": "If you request that we delete your account or content, it may take up to 90 days to delete your information after we begin the account deletion process or receive a content deletion request. After the information is deleted, it may take us up to another 90 days to remove it from backups and disaster recovery.",
+      "line": 970,
+      "surprise": 2,
+      "surprise_why": "Users expect deletion to be quick, not up to about six months."
+    },
+    {
+      "id": "meta-39",
+      "topic": "retention",
+      "claim": "Meta may keep your information even after you ask to delete your account or content, for legal, safety or self-protection reasons.",
+      "quote": "In some cases, we may preserve your information based on the above reasons even after you request deletion of your account or some of your content.",
+      "line": 1011,
+      "surprise": 2,
+      "surprise_why": "People expect a deletion request to remove their data."
+    },
+    {
+      "id": "meta-40",
+      "topic": "retention",
+      "claim": "If Meta disables an account for rule-breaking, it keeps information about that user to stop them opening a new account.",
+      "quote": "if we disable an account for violating our terms or policies, we preserve information about that user to prevent them from opening a new account.",
+      "line": 1031,
+      "surprise": 1
+    },
+    {
+      "id": "meta-41",
+      "topic": "user_controls",
+      "claim": "You can view and download the information Meta has about you.",
+      "quote": "You have rights to view and download the information we have about you",
+      "line": 937,
+      "surprise": 0
+    },
+    {
+      "id": "meta-42",
+      "topic": "user_controls",
+      "claim": "Deleting your Facebook or Instagram account deletes your information and posts, unless Meta needs to keep it.",
+      "quote": "If you delete your account on Facebook or Instagram , we delete your information, including the things you’ve posted, such as your photos and status updates, unless we need to keep it",
+      "line": 967,
+      "surprise": 0
+    },
+    {
+      "id": "meta-43",
+      "topic": "user_controls",
+      "claim": "You can see the interests Meta has assigned to you in Ad preferences and remove them.",
+      "quote": "You can see the “interests” assigned to you in your Ad preferences and remove them if you want.",
+      "line": 844,
+      "surprise": 1
+    },
+    {
+      "id": "meta-44",
+      "topic": "user_controls",
+      "claim": "To use your privacy rights, the policy sends you to Help Centers, Facebook and Instagram settings, and your device settings.",
+      "quote": "To exercise your rights, visit our Help Centers, your settings for Facebook and Instagram and your device-based settings.",
+      "line": 941,
+      "surprise": 0
+    },
+    {
+      "id": "meta-45",
+      "topic": "optout_ads",
+      "claim": "To stop ads based on your activity on other websites and apps, you can turn that setting off in Ad preferences.",
+      "quote": "Or if she doesn’t want us to show her any ads based on her activity on other websites and apps, she can make sure that this setting is turned off in her Ad preferences .",
+      "line": 505,
+      "surprise": 1
+    },
+    {
+      "id": "meta-46",
+      "topic": "optout_ads",
+      "claim": "The policy's explicit \"opt out\" covers Meta advertising its own products on other ad platforms using your Meta activity.",
+      "quote": "If we use your activity on our Products to tailor these ads, you can opt out of this type of use.",
+      "line": 879,
+      "context": "This applies to Meta's own ads shown off its products, not to ads from other advertisers on Facebook or Instagram.",
+      "surprise": 1
+    },
+    {
+      "id": "meta-47",
+      "topic": "optout_ads",
+      "claim": "Ad blockers and cookie-restricting tools can interfere with the industry opt-out for people without an account.",
+      "quote": "Certain ad blockers and tools to restrict cookies can interfere with your ability to opt out.",
+      "line": 883,
+      "surprise": 2,
+      "surprise_why": "Privacy tools that users install can stop their opt-out from working."
+    },
+    {
+      "id": "meta-48",
+      "topic": "optout_ads",
+      "claim": "Personalized ads are presented as part of the service; the policy describes no setting to stop ads based on your activity on Meta itself.",
+      "quote": "We use information we collect to provide a personalized experience to you, including ads",
+      "line": 351,
+      "context": "The described ad controls cover off-Meta activity, advertisers, interests and Meta's own off-platform ads.",
+      "surprise": 2,
+      "surprise_why": "Users may assume they can switch off ad personalization entirely."
+    },
+    {
+      "id": "meta-49",
+      "topic": "optout_ai",
+      "claim": "The only AI choice the policy mentions is that using voice interactions to improve the Assistant depends on your settings; it describes no way to opt out of public posts or Meta AI chats being used to develop AI.",
+      "quote": "Collecting Ren’s voice interactions lets us provide and, depending on Ren’s settings, improve the Assistant feature.",
+      "line": 187,
+      "surprise": 2,
+      "surprise_why": "Users would expect a clear opt-out from AI training, and the policy gives none."
+    },
+    {
+      "id": "meta-50",
+      "topic": "optout_steps",
+      "claim": "The policy describes about six separate ad opt-out actions: (1) hide a specific advertiser in the Advertisers setting, (2) turn off ads based on other websites and apps in Ad preferences, (3) remove assigned interests in Ad preferences/ad topics, (4) opt out in Ad preferences of Meta's own ads off its products, (5) for non-account holders, the DAA (or DAAC in Canada) opt-out in each web browser, and (6) mobile device settings; no AI-training opt-out steps are given.",
+      "quote": "If she doesn't want to see ads from this shoe store again, she can hide them in her Advertisers setting . Or if she doesn’t want us to show her any ads based on her activity on other websites and apps, she can make sure that this setting is turned off in her Ad preferences .",
+      "line": 505,
+      "surprise": 2,
+      "surprise_why": "Opting out is spread across several settings pages and per-browser tools rather than one switch."
+    },
+    {
+      "id": "meta-51",
+      "topic": "optout_steps",
+      "claim": "Step: review and remove the interests assigned to you in Ad preferences.",
+      "quote": "You can see the “interests” assigned to you in your Ad preferences and remove them if you want.",
+      "line": 844,
+      "surprise": 1
+    },
+    {
+      "id": "meta-52",
+      "topic": "optout_steps",
+      "claim": "Step for people without an account: use the Digital Advertising Alliance opt-out on your web browser (or the Canadian version in Canada).",
+      "quote": "You can use the Digital Advertising Alliance industry opt-out platform on your web browser. If you live in Canada, you can use the Digital Advertising Alliance of Canada industry opt-out platform.",
+      "line": 883,
+      "context": "Applies to Meta's own ads off its products; works per browser and can be blocked by ad blockers or cookie tools.",
+      "surprise": 1
+    },
+    {
+      "id": "meta-53",
+      "topic": "optout_steps",
+      "claim": "Step: check your mobile device settings; the policy says manufacturers provide different ways to opt out but gives no details.",
+      "quote": "Check your mobile device settings. Device manufacturers provide different ways to opt out.",
+      "line": 884,
+      "surprise": 1
+    },
+    {
+      "id": "meta-54",
+      "topic": "sensitive_location",
+      "claim": "Meta collects some location information even when Location Services is off, including estimating your general location from your IP address.",
+      "quote": "Some location-related information , even if Location Services is turned off in your device settings. This includes using IP addresses to estimate your general location.",
+      "line": 112,
+      "surprise": 2,
+      "surprise_why": "Turning off location is widely believed to stop location tracking."
+    },
+    {
+      "id": "meta-55",
+      "topic": "sensitive_location",
+      "claim": "Meta can use your IP address to estimate your specific location if it decides that is needed for safety and security.",
+      "quote": "We can use IP addresses to estimate your specific location if it’s necessary to protect the safety and security of you or others.",
+      "line": 398,
+      "surprise": 2,
+      "surprise_why": "People do not expect IP addresses to be used for specific location when location is off."
+    },
+    {
+      "id": "meta-56",
+      "topic": "sensitive_location",
+      "claim": "Meta uses location information including where you live, places you like to go, and the businesses and people you are near.",
+      "quote": "We use location-related information, such as your current location, where you live, the places you like to go and the businesses and people you're near",
+      "line": 401,
+      "surprise": 2,
+      "surprise_why": "Knowing which people you are physically near goes beyond what most users expect."
+    },
+    {
+      "id": "meta-57",
+      "topic": "sensitive_location",
+      "claim": "Device signals Meta collects include GPS, Bluetooth, nearby Wi-Fi access points, beacons and cell towers.",
+      "quote": "Device signals include GPS, Bluetooth signals, nearby Wi-Fi access points, beacons and cell towers.",
+      "line": 261,
+      "surprise": 1
+    },
+    {
+      "id": "meta-58",
+      "topic": "sensitive_biometric",
+      "claim": "Camera filters and effects process parts of your face or body, and Meta says this information is not used to identify you.",
+      "quote": "Some of these features process parts of faces or bodies within the camera frame, photo or video. Then they can do things like fit a mask correctly over the eyes, nose and mouth. The information we use for this process is used to create the feature. It’s not used to identify you.",
+      "line": 184,
+      "surprise": 1
+    },
+    {
+      "id": "meta-59",
+      "topic": "sensitive_biometric",
+      "claim": "You can choose to verify your account or identity using facial recognition technology.",
+      "quote": "Learn more about how you can choose to verify your account or identity through facial recognition technology.",
+      "line": 421,
+      "surprise": 1
+    },
+    {
+      "id": "meta-60",
+      "topic": "sensitive_biometric",
+      "claim": "Meta uses face analysis to help protect people from impersonation and identity misuse.",
+      "quote": "Learn more about face analysis and how we use it to help protect you and others from impersonation and identity misuse.",
+      "line": 423,
+      "context": "Listed under investigating suspicious activity; details are in a linked page, not this policy.",
+      "surprise": 2,
+      "surprise_why": "Users may not know Meta applies face analysis as part of investigating suspicious activity."
+    },
+    {
+      "id": "meta-61",
+      "topic": "sensitive_biometric",
+      "claim": "When you use voice commands, such as on smart glasses, Meta collects the voice interaction including any background sound.",
+      "quote": "We collect this voice interaction, which includes any background sound that occurs when Ren says the command.",
+      "line": 187,
+      "surprise": 2,
+      "surprise_why": "Background sound can capture other people and private surroundings."
+    },
+    {
+      "id": "meta-62",
+      "topic": "sensitive_health",
+      "claim": "You may choose to give Meta sensitive information such as health, religion, sexual orientation, political views or ethnicity.",
+      "quote": "You might choose to provide information about your religious views, your sexual orientation, political views, health, racial or ethnic origin, philosophical beliefs or trade union membership.",
+      "line": 85,
+      "surprise": 0
+    },
+    {
+      "id": "meta-63",
+      "topic": "sensitive_health",
+      "claim": "Sensitive information you choose to provide may be used to personalize and improve products, but Meta says not to show you ads.",
+      "quote": "We use information with special protections you choose to provide for these purposes, but not to show you ads.",
+      "line": 360,
+      "surprise": 1
+    },
+    {
+      "id": "meta-64",
+      "topic": "sensitive_health",
+      "claim": "Sensitive information you provide may be used for analytics and processed by automated systems and sometimes by human reviewers.",
+      "quote": "Processing information subject to special protections under applicable laws that you provide so we can share it with those you choose, to provide, personalize and improve our Products and to undertake analytics. We’ll collect, store, publish and apply automated, or sometimes manual (human), processing for these purposes.",
+      "line": 1340,
+      "surprise": 2,
+      "surprise_why": "People expect sensitive data such as health or sexual orientation to be handled more narrowly than general analytics."
+    },
+    {
+      "id": "meta-65",
+      "topic": "sensitive_health",
+      "claim": "Meta's algorithms look for signs that someone might need help, and a human reviewer can then review their post.",
+      "quote": "When our algorithms detect that someone might need help , a reviewer can review their post and offer support if needed.",
+      "line": 489,
+      "surprise": 2,
+      "surprise_why": "Automated scanning of posts for signs of distress, followed by human review, is not widely known."
+    },
+    {
+      "id": "meta-66",
+      "topic": "sensitive_children",
+      "claim": "If you interact with a supervised (teen) account, that teen's parent or guardian can see some of your activity and information.",
+      "quote": "When you interact with a supervised user, their parent or guardian can see some of your activity and information. This can include information like your username, profile picture and if the supervised user blocked you.",
+      "line": 593,
+      "surprise": 2,
+      "surprise_why": "People chatting with a teen account would not expect a parent to see their username, photo or whether they were blocked."
+    },
+    {
+      "id": "meta-67",
+      "topic": "sensitive_children",
+      "claim": "Teens can choose supervisors such as parents to get tools and insights about the teen account.",
+      "quote": "Supervision provides supervisors chosen by a teen, like parents and guardians, with tools and insights to help support a teen account.",
+      "line": 694,
+      "surprise": 0
+    },
+    {
+      "id": "meta-68",
+      "topic": "sensitive_children",
+      "claim": "Meta requires your age to create an account, but this policy does not state a minimum age or any special rules for ads to minors.",
+      "quote": "if you don’t provide your email address, phone number or age, we won’t be able to create an account for you",
+      "line": 333,
+      "context": "No minimum age, child-data, or teen-advertising rules appear in this policy text.",
+      "surprise": 1
+    }
+  ],
+  "not_stated": [],
+  "notes": "Meta Platforms, Inc. Privacy Policy (effective July 23, 2026) covering Facebook, Instagram, Messenger, AI at Meta and Meta Quest with a Meta account; many explainer sections and the closing \"Why and how we process your information\" tables repeat earlier text. US-specific rights and \"sale/sharing\" definitions are in a separate United States Regional Privacy Notice and cookies in a separate Cookies Policy, neither included here. No minimum age or AI-training opt-out is stated."
+}
