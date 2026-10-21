@@ -1,0 +1,2 @@
+platform,url,retrieval_date,policy_last_updated,method,status
+Meta,https://www.facebook.com/privacy/policy/,2026-10-21,,"curl GET, browser User-Agent",failed: HTTP 400 error page ("Sorry, something went wrong"); awaiting decision on workaround
