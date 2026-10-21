@@ -1,0 +1,72 @@
+[
+  {
+    "change": "AI training is reframed: the old notice said eBay uses users' personal data (potentially any category it collects) to train its own and third-party AI models; the new one says it relies 'primarily' on public data and uses user data such as items you list, sell, view or buy only 'in some cases' where eBay judges it necessary and proportionate. The new text no longer mentions training third-party models.",
+    "old_quote": "Where permitted under applicable law, we use personal data collected from our users to train, test, validate, and align our own AI models as well as third-party AI models and systems that we use for the purposes outlined in this User Privacy Notice.",
+    "old_line": 335,
+    "new_quote": "we rely primarily on publicly available data. Some public datasets may incidentally include personal data, and in some cases we may also use certain user personal data, such as information about your use of our Services, including the items you list, sell, view, or buy, where we determine it is necessary and proportionate for a specific use",
+    "new_line": 254
+  },
+  {
+    "change": "The right to object to AI training narrows: the old notice stated it as a right for users generally; the new one mentions it only 'for certain users' and moves the details to a separate 'Artificial Intelligence at eBay' page.",
+    "old_quote": "Your rights also include the right to object to our processing of your personal data for AI development and training purposes.",
+    "old_line": 339,
+    "new_quote": "To learn more about specific training use cases and our processing of your personal data for generative AI training purposes, including the right to object to such processing for certain users, visit our Artificial Intelligence at eBay page.",
+    "new_line": 255
+  },
+  {
+    "change": "New statement that in some jurisdictions the data used for AI training is not considered personal data at all, which could place it outside privacy rights there.",
+    "old_quote": null,
+    "old_line": null,
+    "new_quote": "In some jurisdictions, the data used for training as described in this section is not considered personal data",
+    "new_line": 254
+  },
+  {
+    "change": "Dropped promise: the old notice said eBay would tell you when an AI system interacts directly with you; the new AI section has no such commitment and instead explains that AI features (e.g. the support chatbot) analyze your input and transactions.",
+    "old_quote": "If we use any AI system that interacts directly with you, we will let you know.",
+    "old_line": 332,
+    "new_quote": "For example, if you use a customer support chatbot regarding an issue with a transaction, an AI tool analyzes your input and the relevant transaction to provide you with a relevant response.",
+    "new_line": 251
+  },
+  {
+    "change": "Dropped promise: registered users were told they would be notified of material changes via My Messages and/or email; the new notice only says changes take effect by posting a revised notice with its effective date.",
+    "old_quote": "As a registered user, you will be notified of any material changes to this User Privacy Notice via My Messages in My eBay and/or by email.",
+    "old_line": 10,
+    "new_quote": "We may change this User Privacy Notice at any time by posting the revised User Privacy Notice on this website and indicating its effective date.",
+    "new_line": 12
+  },
+  {
+    "change": "Biometric processing expands from sellers only (identity/KYC checks) to identity verification options generally, now including verifying users' age.",
+    "old_quote": "For sellers, processing of your biometric data to identify you and further prevent fraud and reduce other risks on our platform, and in connection with Know Your Customer and similar compliance requirements.",
+    "old_line": 181,
+    "new_quote": "Provision of identity verification options involving processing of your biometric data to identify you or verify your age, and further prevent fraud and reduce other risks on our platform.",
+    "new_line": 160
+  },
+  {
+    "change": "Location: the new notice explicitly lists advertising and measurement (where legally permitted) among the uses of location data, including precise location given with permission, and adds that your region may be inferred from account or device information.",
+    "old_quote": "Location data, including your general location data (e.g. IP address) and, with your permission, the precise location data of your mobile device.",
+    "old_line": 60,
+    "new_quote": "We use this data for the purposes described in Section 3, such as providing location-based services, radius search and locally relevant content, supporting transactions, fraud prevention and security, and advertising or measurement where permitted by applicable law.",
+    "new_line": 37
+  },
+  {
+    "change": "New data type: eBay Live livestreams. Livestreams may be recorded and replayed, including your comments, and some information may be visible to other users or the public.",
+    "old_quote": null,
+    "old_line": null,
+    "new_quote": "Livestreams may be recorded and made available for replay, which may include comments or other content you choose to share during the livestream.",
+    "new_line": 28
+  },
+  {
+    "change": "Content screening widens: the old notice described automatic filtering of messages; the new one covers messages plus listings, images, videos, livestreams, comments, reactions, transcripts and captions, with automated systems and human review. It also says eBay may limit what it discloses about these systems (line 280).",
+    "old_quote": "All messages are automatically filtered according to certain criteria. If necessary, conspicuous messages are checked manually by our customer service.",
+    "old_line": 290,
+    "new_quote": "This may also apply to messages, listings, images, videos, livestreams, comments, reactions, transcripts, captions, reports, and other user-generated content shared through our Services.",
+    "new_line": 279
+  },
+  {
+    "change": "Automated decisions with significant effects may now be made where 'otherwise permitted' by law, not only where 'required' by law (plus consent or contract necessity).",
+    "old_quote": "We will not make any automated decisions about you that would significantly affect you unless such a decision is necessary for entering into, or the performance of, a contract with you, we have obtained your consent, or we are required by applicable law to use such technology.",
+    "old_line": 202,
+    "new_quote": "We will not make any automated decisions about you that have a legal or similar significant effect on you unless such a decision is necessary for entering into, or the performance of, a contract with you, we have obtained your consent, or we are required or otherwise permitted by applicable law to use such technology.",
+    "new_line": 181
+  }
+]

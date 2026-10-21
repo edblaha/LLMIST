@@ -1,0 +1,496 @@
+{
+  "platform": "LinkedIn",
+  "key": "linkedin",
+  "file": "data/text/linkedin.txt",
+  "findings": [
+    {
+      "id": "linkedin-01",
+      "topic": "collect_provided",
+      "claim": "To sign up you must give your name, email and/or mobile number, general location, and a password.",
+      "quote": "To create an account you need to provide data including your name, email address and/or mobile number, general location (e.g., city), and a password.",
+      "line": 45,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-02",
+      "topic": "collect_provided",
+      "claim": "LinkedIn collects what you enter in forms, which can include demographic data or your salary.",
+      "quote": "We collect personal data from you when you provide, post or upload it to our Services, such as when you fill out a form, (e.g., with demographic data or salary)",
+      "line": 53,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-03",
+      "topic": "collect_provided",
+      "claim": "If you sync your calendar, LinkedIn collects your meeting information and uses it to suggest connections for you and for others.",
+      "quote": "If you sync your calendars with our Services, we will collect your calendar meeting information to keep growing your network by suggesting connections for you and others",
+      "line": 54,
+      "context": "Only if you choose to sync your calendar.",
+      "surprise": 2,
+      "surprise_why": "People may not expect their meeting details to be used to suggest connections to other people."
+    },
+    {
+      "id": "linkedin-04",
+      "topic": "collect_automatic",
+      "claim": "LinkedIn receives the address of the site you came from and the site you go to next, and the time of your visit, including through its plugins and cookies on other sites.",
+      "quote": "When you visit or leave our Services (including some plugins and our cookies or similar technology on the sites of others), we receive the URL of both the site you came from and the one you go to and the time of your visit.",
+      "line": 84,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users rarely realise LinkedIn learns which site they go to after leaving it."
+    },
+    {
+      "id": "linkedin-05",
+      "topic": "collect_automatic",
+      "claim": "Outside the EU, EEA, and Switzerland, LinkedIn (or others such as Microsoft) may collect information about your device even where you have not used LinkedIn.",
+      "quote": "If you are outside the Designated Countries, we also collect (or rely on others, including Microsoft, who collect) information about your device where you have not engaged with our Services (e.g., ad ID, IP address, operating system and browser information)",
+      "line": 80,
+      "context": "Does not apply in the EU, EEA, or Switzerland; the stated purpose is ads for Members.",
+      "surprise": 3,
+      "surprise_why": "Most people would be shocked that LinkedIn collects device data from places where they never interacted with LinkedIn."
+    },
+    {
+      "id": "linkedin-06",
+      "topic": "collect_automatic",
+      "claim": "LinkedIn may record who you message and when.",
+      "quote": "This may include information that indicates who you are communicating with and when.",
+      "line": 88,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-07",
+      "topic": "collect_inferred",
+      "claim": "LinkedIn infers your pay bracket from your job title, your age from graduation dates, your gender from your first name or pronouns, and your interests from your feed activity, for ads.",
+      "quote": "using job titles from a profile to infer industry, seniority, and compensation bracket; using graduation dates to infer age or using first names or pronoun usage to infer gender; using your feed activity to infer your interests",
+      "line": 146,
+      "context": "",
+      "surprise": 3,
+      "surprise_why": "Most users would not expect LinkedIn to guess their salary range, age, and gender to target ads."
+    },
+    {
+      "id": "linkedin-08",
+      "topic": "collect_inferred",
+      "claim": "LinkedIn calculates a \"social selling index\" score partly from your personal account activity, and Sales Navigator users are asked to share it with their employer.",
+      "quote": "users of Sales Navigator will be asked to share their “social selling index”, a score calculated in part based on their personal account activity.",
+      "line": 213,
+      "context": "Only for enterprise Sales Navigator users, who are asked for permission.",
+      "surprise": 2,
+      "surprise_why": "Users may not know LinkedIn scores their personal activity in a way an employer can see."
+    },
+    {
+      "id": "linkedin-09",
+      "topic": "collect_third_party",
+      "claim": "LinkedIn receives your contact details and other data when other people sync their calendars, upload their contacts, or scan your business card.",
+      "quote": "We receive personal data (including contact information) about you when others import or sync their calendar with our Services, associate their contacts with Member profiles, scan and upload business cards",
+      "line": 65,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "You never agreed to this; other people's uploads give LinkedIn your data."
+    },
+    {
+      "id": "linkedin-10",
+      "topic": "collect_third_party",
+      "claim": "If you or someone else syncs an email account, LinkedIn collects email header information it can link to Member profiles.",
+      "quote": "If you or others opt-in to sync email accounts with our Services, we will also collect “email header” information that we can associate with Member profiles.",
+      "line": 65,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Someone else's choice to sync their email can reveal your email activity with them to LinkedIn."
+    },
+    {
+      "id": "linkedin-11",
+      "topic": "collect_third_party",
+      "claim": "LinkedIn receives data about you from employers, prospective employers, and applicant tracking systems, including job application data.",
+      "quote": "We receive personal data (e.g., your job title and work email address) about you when you use the services of our customers and partners, such as employers or prospective employers and applicant tracking systems providing us job application data.",
+      "line": 69,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Applying for a job outside LinkedIn may still send your application data to LinkedIn."
+    },
+    {
+      "id": "linkedin-12",
+      "topic": "collect_third_party",
+      "claim": "LinkedIn may receive information from Microsoft about how you use Microsoft sites and services.",
+      "quote": "we may receive information from Microsoft about your engagement with their sites and services.",
+      "line": 72,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their use of Microsoft products to feed into their LinkedIn data."
+    },
+    {
+      "id": "linkedin-13",
+      "topic": "use_ads",
+      "claim": "LinkedIn targets ads to members, visitors, and others both on and off LinkedIn, directly or through partners.",
+      "quote": "We target (and measure the performance of) ads to Members, Visitors and others both on and off our Services directly or through a variety of partners",
+      "line": 141,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-14",
+      "topic": "use_ads",
+      "claim": "If you like a company, LinkedIn may show your name and photo alongside that company's ads.",
+      "quote": "For example, when you like a company we may include your name and photo when their sponsored content is shown.",
+      "line": 148,
+      "context": "Subject to your settings.",
+      "surprise": 2,
+      "surprise_why": "Many users would not expect to appear in ads shown to others."
+    },
+    {
+      "id": "linkedin-15",
+      "topic": "use_ads",
+      "claim": "When you view or click an ad, the advertiser gets a signal and may use cookies to work out that it was you.",
+      "quote": "if you view or click on an ad on or off our Services, the ad provider will get a signal that someone visited the page that displayed the ad, and they may, through the use of mechanisms such as cookies, determine it is you.",
+      "line": 154,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users assume ad views are anonymous to advertisers."
+    },
+    {
+      "id": "linkedin-16",
+      "topic": "use_personalization",
+      "claim": "LinkedIn uses what you provide, your activity, and its inferences about you to personalize your feed and recommendations.",
+      "quote": "We use the data we have about you (e.g., data you provide, data we collect from your engagement with our Services and inferences we make from the data we have about you), to personalize our Services for you",
+      "line": 122,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-17",
+      "topic": "use_personalization",
+      "claim": "If your settings allow, LinkedIn scans your messages to power tools that draft replies, summarize messages, and schedule meetings.",
+      "quote": "If your settings allow, we scan messages to provide “bots” or similar tools that facilitate tasks such as scheduling meetings, drafting responses, summarizing messages or recommending next steps.",
+      "line": 128,
+      "context": "Depends on your settings.",
+      "surprise": 2,
+      "surprise_why": "Many users assume their private messages are not scanned."
+    },
+    {
+      "id": "linkedin-18",
+      "topic": "use_personalization",
+      "claim": "LinkedIn may combine data across its services, for example using your LinkedIn Learning history to personalize your feed and job suggestions.",
+      "quote": "we may personalize your feed or job recommendations based on your learning history.",
+      "line": 227,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-19",
+      "topic": "use_research",
+      "claim": "LinkedIn uses your personal data to research social, economic, and workplace trends.",
+      "quote": "We use the personal data available to us to research social, economic and workplace trends, such as jobs availability and skills needed for these jobs and policies that help bridge the gap in various industries and geographic areas.",
+      "line": 167,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-20",
+      "topic": "use_research",
+      "claim": "LinkedIn sometimes works with outside third parties on this research.",
+      "quote": "In some cases, we work with trusted third parties to perform this research, under controls that are designed to protect your privacy.",
+      "line": 167,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-21",
+      "topic": "use_research",
+      "claim": "LinkedIn may give public data to researchers to assess the safety and legal compliance of its services.",
+      "quote": "We may also make public data available to researchers to enable assessment of the safety and legal compliance of our Services.",
+      "line": 167,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-22",
+      "topic": "use_research",
+      "claim": "LinkedIn uses data for research and development, including to drive membership growth and engagement.",
+      "quote": "We use data, including public feedback, to conduct research and development for our Services in order to provide you and others with a better, more intuitive and personalized experience, drive membership growth and engagement on our Services",
+      "line": 164,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-23",
+      "topic": "use_ai_training",
+      "claim": "LinkedIn may use your personal data to develop and train AI models.",
+      "quote": "We may use your personal data to improve, develop, and provide products and Services, develop and train artificial intelligence (AI) models",
+      "line": 109,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Many members do not expect their profile and activity to be used to train AI."
+    },
+    {
+      "id": "linkedin-24",
+      "topic": "share_third_parties",
+      "claim": "LinkedIn may share your public posts with Microsoft and other affiliates to develop their services, and your personal data to develop their advertising.",
+      "quote": "we may also share with our Affiliates, including Microsoft, your (1) publicly-shared content (such as your public LinkedIn posts) to provide or develop their services and (2) personal data to improve, provide or develop their advertising services.",
+      "line": 227,
+      "context": "Subject to the European Regional Privacy Notice for EU/EEA/UK users; the policy does not say what Microsoft services are meant.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their LinkedIn posts to be used to build Microsoft's products."
+    },
+    {
+      "id": "linkedin-25",
+      "topic": "share_third_parties",
+      "claim": "Paying customers can export your name, headline, company, title, and general location from your profile for sales leads or recruiting unless you opt out.",
+      "quote": "Customers can export limited information from your profile, such as name, headline, current company, current title, and general location (e.g., Dublin), such as to manage sales leads or talent, unless you opt-out.",
+      "line": 132,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not realise their profile is exported into sales and recruiting tools by default."
+    },
+    {
+      "id": "linkedin-26",
+      "topic": "share_third_parties",
+      "claim": "Your profile is fully visible to all LinkedIn members and customers.",
+      "quote": "Your profile is fully visible to all Members and customers of our Services.",
+      "line": 198,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-27",
+      "topic": "share_third_parties",
+      "claim": "LinkedIn may challenge government or legal demands for your data, but does not promise to challenge every one.",
+      "quote": "We may dispute such demands when we believe, in our discretion, that the requests are overbroad, vague or lack proper authority, but we do not promise to challenge every demand.",
+      "line": 235,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-28",
+      "topic": "share_third_parties",
+      "claim": "LinkedIn may send your queries to Microsoft's Bing, for example in a chat experience.",
+      "quote": "we may refer a query to Bing in some instances, such as where you'd benefit from a more up to date response in a chat experience.",
+      "line": 227,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-29",
+      "topic": "sell_share_definition",
+      "claim": "LinkedIn says it doesn't share your personal data with outside advertisers or ad networks, except hashed IDs or device identifiers, data you permit, or data already visible on LinkedIn.",
+      "quote": "We do not share your personal data with any non-Affiliated third-party advertisers or ad networks except for: (i) hashed IDs or device identifiers (to the extent they are personal data in some countries); (ii) with your separate permission",
+      "line": 154,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "The exception for hashed IDs and device identifiers lets advertisers match you, which undercuts the promise."
+    },
+    {
+      "id": "linkedin-30",
+      "topic": "sell_share_definition",
+      "claim": "LinkedIn says it does not currently share your data with others for their direct marketing without permission.",
+      "quote": "We currently do not share personal data with third parties for their direct marketing purposes without your permission.",
+      "line": 282,
+      "context": "The word \"currently\" leaves room for change.",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-31",
+      "topic": "sell_share_definition",
+      "claim": "This policy does not define \"sell\" or \"share\"; California law disclosures are in a separate document.",
+      "quote": "For California residents, additional disclosures required by California law may be found in our California Privacy Disclosure.",
+      "line": 27,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-32",
+      "topic": "retention",
+      "claim": "LinkedIn generally keeps your data, including what others provided and what it inferred about you, for as long as your account is open.",
+      "quote": "We generally retain your personal data as long as you keep your account open or as needed to provide you Services. This includes data you or others provided to us and data generated or inferred from your use of our Services.",
+      "line": 245,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-33",
+      "topic": "retention",
+      "claim": "LinkedIn generally deletes closed accounts within 30 days, with exceptions.",
+      "quote": "We generally delete closed account information within 30 days of account closure, except as noted below.",
+      "line": 260,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-34",
+      "topic": "retention",
+      "claim": "LinkedIn may keep your data after you close your account for legal, regulatory, dispute, security, or fraud reasons.",
+      "quote": "We retain your personal data even after you have closed your account if reasonably necessary to comply with our legal obligations (including law enforcement requests), meet regulatory requirements, resolve disputes, maintain security, prevent fraud and abuse",
+      "line": 261,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-35",
+      "topic": "retention",
+      "claim": "Messages and posts you shared with others stay visible after you close your account or delete them from your profile.",
+      "quote": "Information you have shared with others (e.g., through InMail, updates or group posts) will remain visible after you close your account or delete the information from your own profile or mailbox",
+      "line": 262,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users expect closing an account to remove what they posted."
+    },
+    {
+      "id": "linkedin-36",
+      "topic": "user_controls",
+      "claim": "You can ask LinkedIn to delete all or some of your personal data.",
+      "quote": "You can ask us to erase or delete all or some of your personal data (e.g., if it is no longer necessary to provide Services to you).",
+      "line": 251,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-37",
+      "topic": "user_controls",
+      "claim": "You can ask for a copy of your data, and for data you provided in a machine-readable form.",
+      "quote": "You can ask us for a copy of your personal data and can ask for a copy of personal data you provided in machine readable form.",
+      "line": 254,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-38",
+      "topic": "user_controls",
+      "claim": "You can ask LinkedIn to stop or limit using some or all of your data, for example if it is inaccurate.",
+      "quote": "You can ask us to stop using all or some of your personal data (e.g., if we have no legal right to keep using it) or to limit our use of it (e.g., if your personal data is inaccurate or unlawfully held).",
+      "line": 253,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-39",
+      "topic": "user_controls",
+      "claim": "You cannot opt out of service messages such as security and legal notices.",
+      "quote": "Please be aware that you cannot opt out of receiving service messages from us, including security and legal notices.",
+      "line": 136,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-40",
+      "topic": "optout_ads",
+      "claim": "You can opt out of LinkedIn using cookie data from other websites for ad targeting.",
+      "quote": "You can opt out from our use of data from cookies and similar technologies that track your behavior on the sites of others for ad targeting and other ad-related purposes.",
+      "line": 80,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-41",
+      "topic": "optout_ads",
+      "claim": "Ad settings cover only certain categories of data, not all ad targeting.",
+      "quote": "You have choices regarding our uses of certain categories of data to show you more relevant ads.",
+      "line": 151,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-42",
+      "topic": "optout_ai",
+      "claim": "The policy gives no specific way to opt out of AI training; it only says how your data is used depends on your settings.",
+      "quote": "How we use your personal data will depend on which Services you use, how you use those Services and the choices you make in your settings.",
+      "line": 109,
+      "context": "The next sentence says LinkedIn may use personal data to develop and train AI models.",
+      "surprise": 2,
+      "surprise_why": "A user who wants to stop AI training gets no direct instructions in the policy."
+    },
+    {
+      "id": "linkedin-43",
+      "topic": "optout_ai",
+      "claim": "You can withdraw consent or object to processing based on LinkedIn's legitimate interests, but the policy doesn't say whether this covers AI training.",
+      "quote": "Where we rely on your consent to process personal data, you have the right to withdraw or decline your consent at any time and where we rely on legitimate interests, you have the right to object.",
+      "line": 277,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-44",
+      "topic": "optout_steps",
+      "claim": "The policy names about 5 separate opt-out places but mostly just links to them (\"here\"): (1) the cookie-based ad tracking opt-out, with separate controls for Visitors; (2) ad-choice settings for Members and Visitors; (3) opting out of profile exports by premium customers; (4) communication preferences; and (5) survey invitations.",
+      "quote": "Member settings can be found here. For Visitors, the setting is here.",
+      "line": 151,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-45",
+      "topic": "optout_steps",
+      "claim": "Paying customers' export of your profile is on by default, and the policy says you can opt out but not how.",
+      "quote": "such as to manage sales leads or talent, unless you opt-out.",
+      "line": 132,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users must find an unnamed setting to stop their profile being exported."
+    },
+    {
+      "id": "linkedin-46",
+      "topic": "optout_steps",
+      "claim": "You can change communication preferences, but the policy does not say where.",
+      "quote": "You may change your communication preferences at any time.",
+      "line": 136,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-47",
+      "topic": "optout_steps",
+      "claim": "Survey invitations have their own opt-out.",
+      "quote": "You are not obligated to respond to polls or surveys, and you have choices about the information you provide. You may opt-out of survey invitations.",
+      "line": 170,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-48",
+      "topic": "sensitive_location",
+      "claim": "Your phone sends LinkedIn location data based on your phone settings, and LinkedIn says it will ask you to opt in before using GPS for your precise location.",
+      "quote": "If you use our Services from a mobile device, that device will send us data about your location based on your phone settings. We will ask you to opt-in before we use GPS or other tools to identify your precise location.",
+      "line": 84,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-49",
+      "topic": "sensitive_location",
+      "claim": "If you opt in, LinkedIn can use your precise location or nearness to others, for example to tell your connections you are at an event.",
+      "quote": "You can also opt-in to allow us to use your precise location or proximity to others for certain tasks (e.g. to suggest other nearby Members for you to connect with, calculate the commute to a new job, or notify your connections that you are at a professional event).",
+      "line": 117,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "linkedin-50",
+      "topic": "sensitive_health",
+      "claim": "Whether to put sensitive information on your profile and make it public is up to you.",
+      "quote": "It’s your choice whether to include sensitive information on your profile and to make that sensitive information public. Please do not post or add personal data to your profile that you would not want to be publicly available.",
+      "line": 49,
+      "context": "The policy does not mention health data specifically.",
+      "surprise": 0
+    },
+    {
+      "id": "linkedin-51",
+      "topic": "sensitive_health",
+      "claim": "LinkedIn says it does not share your job hunting or personal messages with your employer unless you choose to.",
+      "quote": "We understand that certain activities such as job hunting and personal messages are sensitive, and so we do not share those with your employer unless you choose to share it",
+      "line": 213,
+      "context": "",
+      "surprise": 1
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "sensitive_biometric",
+      "searched": "biometric, face, facial, fingerprint, voice, voiceprint, iris, selfie, photo, verification (identity verification is mentioned but not its method)"
+    },
+    {
+      "topic": "sensitive_children",
+      "searched": "child, children, minor, teen, young, under 13/16/18, minimum age, years of age, parent, guardian, student, age"
+    }
+  ],
+  "notes": "LinkedIn Privacy Policy effective November 3, 2025; LinkedIn Corporation is the controller outside the EU/EEA/Switzerland, and EU/EEA/Swiss/UK users have a separate European Regional Privacy Notice. Lines starting '> ' are summary boxes; all quotes come from the main text. Many controls are given only as 'here' links and California definitions sit in a separate disclosure; there is no minimum age."
+}

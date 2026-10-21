@@ -1,0 +1,545 @@
+{
+  "platform": "Weather.com",
+  "key": "weather",
+  "file": "data/text/weather.txt",
+  "findings": [
+    {
+      "id": "weather-01",
+      "topic": "collect_provided",
+      "claim": "When you create an account, The Weather Company collects your first name, email address and password.",
+      "quote": "When you create an account, we collect Personal Data, including your first name, email address, and password, to get you started.",
+      "line": 48,
+      "context": "Gender, display name, photo and interests are optional.",
+      "surprise": 0
+    },
+    {
+      "id": "weather-02",
+      "topic": "collect_provided",
+      "claim": "If you buy an ad-free subscription directly, it asks for your billing address and payment information.",
+      "quote": "When you sign up with us directly, we ask for your billing address and payment information.",
+      "line": 50,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-03",
+      "topic": "collect_provided",
+      "claim": "When you contact the company, it may collect your feedback, audio recordings or voicemails, and text messages.",
+      "quote": "Data collected when you communicate with us, such as feedback/inquiries, audio recordings/voicemails, and text messages.",
+      "line": 268,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-04",
+      "topic": "collect_automatic",
+      "claim": "The device information it collects can include your IP address, your device's MAC address, cookies, and features managed on your device such as your calendar.",
+      "quote": "such as IP address, media access control (MAC) address, and browser cookies and other tracking technology, including features managed on those devices, such as your calendar.",
+      "line": 269,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Few people expect a weather service to list their calendar among collected device data."
+    },
+    {
+      "id": "weather-05",
+      "topic": "collect_automatic",
+      "claim": "Besides cookies, the company and its partners may use ETags to recognize when your browser has visited a page before.",
+      "quote": "Labels that websites use to identify when your web browser has accessed a page before, which help websites track if you've visited a page previously and what information you've already shared.",
+      "line": 130,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "ETags are a little-known tracking method that clearing cookies may not remove."
+    },
+    {
+      "id": "weather-06",
+      "topic": "collect_automatic",
+      "claim": "Its cookies and trackers can follow you across different websites, including for targeted advertising.",
+      "quote": "help us understand your interactions with our Services and track you across different websites for various purposes, such as cross-contextual behavioral advertising (CCBA), commonly referred to as “targeted advertising.”",
+      "line": 135,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-07",
+      "topic": "collect_automatic",
+      "claim": "Its marketing and newsletter emails may contain trackers that record when you open them.",
+      "quote": "cookies and trackers may be used within our marketing and newsletter emails to track your interactions with our Services and when emails are opened.",
+      "line": 136,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-08",
+      "topic": "collect_inferred",
+      "claim": "The company may draw conclusions about you, such as demographic details, from how you use its services or from data bought from Data Providers.",
+      "quote": "Conclusions made based on data collected directly from your interactions with the Services or from one of our Data Providers, such as demographic information.",
+      "line": 271,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-09",
+      "topic": "collect_inferred",
+      "claim": "It uses machine learning to sort users into audiences based on their needs and preferences.",
+      "quote": "Our machine learning helps us create audiences to better understand users’ needs and preferences;",
+      "line": 119,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-10",
+      "topic": "collect_inferred",
+      "claim": "It combines your identifiers and other information to understand your interests and preferences.",
+      "quote": "All of this information comes together so we have a better understanding of you as a weather enthusiast, along with your interests and preferences, so we can personalize your experience.",
+      "line": 28,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-11",
+      "topic": "collect_third_party",
+      "claim": "The company works with Data Providers to add more details to the data it holds about you.",
+      "quote": "We partner with Data Providers to enrich our data with details, including but not limited to:",
+      "line": 184,
+      "context": "The listed details (lines 185-188) include consumer finance behavior, interests and purchases, household demographics, hashed email address and home address, used per line 189 for personalization and targeted ads.",
+      "surprise": 3,
+      "surprise_why": "Few people expect a weather app to add their financial behavior, purchases and home address from outside data companies."
+    },
+    {
+      "id": "weather-12",
+      "topic": "collect_third_party",
+      "claim": "The company and its ad vendors may combine data about you from outside sources and use identity graphs to link your different identifiers, including hashed email.",
+      "quote": "Merging information from various sources to better understand your interests. This includes ingesting data about you from external sources and using identity graphs to match various identifiers (including hashed email addresses, defined below).",
+      "line": 149,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Linking identifiers across sources builds a profile that goes far beyond weather use."
+    },
+    {
+      "id": "weather-13",
+      "topic": "collect_third_party",
+      "claim": "If you use The Weather Channel through an AI platform such as ChatGPT, that platform may send the company extra data, including a user ID.",
+      "quote": "Additional data may be provided to us by the AI platform, including the userID they create.",
+      "line": 98,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-14",
+      "topic": "use_ads",
+      "claim": "It learns about your interests from what you do on its sites and on other websites you visit.",
+      "quote": "We learn about your interests from your activity on our websites, as well as from other websites you use.",
+      "line": 142,
+      "context": "Through Targeted Advertising cookies and trackers.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect a weather site to track their activity on other websites."
+    },
+    {
+      "id": "weather-15",
+      "topic": "use_ads",
+      "claim": "The articles and videos you look at and how you interact with them are used for targeted advertising and personalization.",
+      "quote": "We also collect information about the content you view and how you interact with it to improve our editorial offerings, for targeted advertising, and to provide you with a more personalized experience.",
+      "line": 42,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-16",
+      "topic": "use_ads",
+      "claim": "The company uses your data to target ads to you both on its own services and on other apps and websites.",
+      "quote": "To deliver targeted marketing messaging and ads on the Services and on third-party apps and websites.",
+      "line": 261,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-17",
+      "topic": "use_ads",
+      "claim": "The in-car app has no ads and does not use your data for advertising.",
+      "quote": "The Weather Channel in-vehicle app does not contain advertisements, and your Personal Data is not used for advertising purposes.",
+      "line": 85,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-18",
+      "topic": "use_personalization",
+      "claim": "It uses generative AI to personalize your experience and the messages it sends you.",
+      "quote": "We use generative AI to personalize your experience and communications;",
+      "line": 118,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-19",
+      "topic": "use_personalization",
+      "claim": "It uses your device data, identifiers, inferences, usage and location to recommend content and features.",
+      "quote": "To offer you a personalized experience while using our Services, including recommending content and features.",
+      "line": 263,
+      "context": "The data categories are listed in the same table row.",
+      "surprise": 0
+    },
+    {
+      "id": "weather-20",
+      "topic": "use_research",
+      "claim": "It records how you use features, your survey answers and how long you spend in different parts of its services.",
+      "quote": "This includes your responses to questions, feature usage patterns, and time spent on different sections of our Services. We use analytics tools to understand these interactions, which help us make our Services better for you. If you participate in our surveys, we collect additional information you choose to provide.",
+      "line": 66,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-21",
+      "topic": "use_research",
+      "claim": "Analytics vendors help it build audience insights, which it says stay at an aggregate level.",
+      "quote": "Aggregate user data to better understand preferences and needs; the insights generated remain at an aggregate level.",
+      "line": 170,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-22",
+      "topic": "use_research",
+      "claim": "If you connect a personal weather station or air quality sensor, the company may use its readings in its services.",
+      "quote": "By connecting your weather device to your account, you consent to our use of your local atmospheric data in our Services",
+      "line": 79,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-23",
+      "topic": "use_ai_training",
+      "claim": "The company uses your data to improve the performance and accuracy of its AI.",
+      "quote": "We use your data to improve the performance and accuracy of the AI we use",
+      "line": 120,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-24",
+      "topic": "use_ai_training",
+      "claim": "For EU/UK users, it relies on its own 'legitimate interest', not your consent, to improve its AI features, including training its AI models.",
+      "quote": "Legitimate Interest - to improve the AI features, including training our AI models",
+      "line": 580,
+      "context": "GDPR legal-basis table; the data used for AI features includes device information, identifiers, usage and location (line 262).",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their data to train AI models without being asked for consent."
+    },
+    {
+      "id": "weather-25",
+      "topic": "share_third_parties",
+      "claim": "Every category of data it collects is shared with its affiliated companies.",
+      "quote": "All data categories will be shared with our affiliates and are subject to section",
+      "line": 266,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-26",
+      "topic": "share_third_parties",
+      "claim": "In the past year it disclosed protected characteristics such as gender, gender identity and age to its advertising, analytics and technology vendors.",
+      "quote": "Protected classifications under California law, including gender, gender identity, and age;",
+      "line": 442,
+      "context": "Listed under the CCPA disclosure on line 440.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect gender identity and age to go to ad vendors from a weather service."
+    },
+    {
+      "id": "weather-27",
+      "topic": "share_third_parties",
+      "claim": "Which vendors receive your data is listed on a separate Data Vendors page, not in the policy itself.",
+      "quote": "You can visit our Data Vendors page to review the vendors we share data with and view their privacy policy and opt-out mechanisms where applicable.",
+      "line": 160,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-28",
+      "topic": "share_third_parties",
+      "claim": "The company, its affiliates or vendors may share your data without your express permission in some cases, such as legal orders, safety risks or a business sale.",
+      "quote": "There are some scenarios where we, our affiliates, or our vendors may share your data without your express permission:",
+      "line": 231,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-29",
+      "topic": "sell_share_definition",
+      "claim": "The company lets advertising vendors use your information for their own purposes too, including targeted ads, which counts as a 'sale' or 'sharing' under California law.",
+      "quote": "We allow Advertising Vendors to use your Personal Information for certain purposes in addition to providing and improving advertising services for our Services, including cross-context behavioral or targeted advertising (described in section “Data Collection Technologies and Consumer Choice”), which is considered a “sale” or “sharing” under the CCPA.",
+      "line": 463,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Most users don't think of using a weather app as having their data 'sold'."
+    },
+    {
+      "id": "weather-30",
+      "topic": "sell_share_definition",
+      "claim": "It says it sold or shared categories of your personal information to advertising vendors in the past twelve months.",
+      "quote": "In the past twelve months, to deliver personalized advertising and measure the effectiveness of advertisements, we have sold or shared the following categories of Personal Information, as defined by the CCPA, to our Advertising Vendors:",
+      "line": 464,
+      "context": "The list (lines 465-470) includes online identifiers/IP, usage and commercial information, geolocation, precise geolocation and inferences.",
+      "surprise": 2,
+      "surprise_why": "It confirms actual sales/sharing, including precise location, not just a possibility."
+    },
+    {
+      "id": "weather-31",
+      "topic": "sell_share_definition",
+      "claim": "The company notes that some state laws treat sharing data for anything of value as a 'sale', even if no money changes hands.",
+      "quote": "Certain state data privacy laws define the terms “sell” and “sale” broadly to include the sharing of Personal Data for valuable consideration, even if money is not exchanged.",
+      "line": 363,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-32",
+      "topic": "retention",
+      "claim": "It keeps your data as long as it considers necessary to provide and improve its services, with no fixed limit.",
+      "quote": "We'll hold onto your Personal Data for as long as necessary to provide you with our Services and to improve them.",
+      "line": 203,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-33",
+      "topic": "retention",
+      "claim": "Old data may be de-identified and kept forever to help improve its services.",
+      "quote": "Outdated data that no longer requires personal identification may be de-identified and kept indefinitely in a way that no longer identifies you, but helps us as we continue to improve our Services.",
+      "line": 203,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-34",
+      "topic": "retention",
+      "claim": "Some data, such as billing records, support inquiries, log files and data kept for legal reasons, is not deleted when you ask for deletion.",
+      "quote": "as permitted by law or to provide our Services, there is some data we do not delete as part of the request. This includes data we use to:",
+      "line": 214,
+      "context": "The kept categories are listed on lines 215-218.",
+      "surprise": 1
+    },
+    {
+      "id": "weather-35",
+      "topic": "retention",
+      "claim": "In Korea, it says it will not keep personal information more than three years after your last interaction, unless the law requires.",
+      "quote": "We will not store your Personal Information for more than three (3) years from the date of your last interaction with the Services, unless required by applicable law.",
+      "line": 602,
+      "context": "This limit appears only in the Korea disclosures; no similar limit is given for other users.",
+      "surprise": 1
+    },
+    {
+      "id": "weather-36",
+      "topic": "user_controls",
+      "claim": "If you keep using the services after deleting your data, the company starts collecting your data again, including for personalization.",
+      "quote": "If you continue to use our Services after data deletion, we will resume collecting Personal Data for the various business purposes identified in this Privacy Policy, including personalization.",
+      "line": 213,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may think a deletion request stops future collection."
+    },
+    {
+      "id": "weather-37",
+      "topic": "user_controls",
+      "claim": "Unless you are logged in, you must ask for deletion separately on every browser or device you use.",
+      "quote": "Please note that you must make the request from each browser or device where you access the Services, unless you are logged in to your account at the time of the request.",
+      "line": 493,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "One deletion request is not enough for users without an account."
+    },
+    {
+      "id": "weather-38",
+      "topic": "user_controls",
+      "claim": "Requesting data deletion while signed in also deletes your account and any ad-free subscription you bought directly.",
+      "quote": "Your account, and any ad-free subscriptions associated with your account that you purchased with us directly, will be deleted as part of the process when you request data deletion while signed into your account.",
+      "line": 219,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect a privacy request to cancel a paid subscription."
+    },
+    {
+      "id": "weather-39",
+      "topic": "user_controls",
+      "claim": "To access, download, correct or delete your data in the mobile apps, you go to 'Data Rights' in each app's menu.",
+      "quote": "The Weather Channel, Weather Underground, Storm Radar, and/or SnowCast mobile apps, navigate to “Data Rights” in the app menu",
+      "line": 210,
+      "context": "Websites and the in-car app have separate routes (links or email).",
+      "surprise": 0
+    },
+    {
+      "id": "weather-40",
+      "topic": "optout_ads",
+      "claim": "You are opted in to the sale or sharing of your personal information by default.",
+      "quote": "You will be opted in by default to the sale or sharing of Personal Information.",
+      "line": 506,
+      "context": "California (CCPA) section.",
+      "surprise": 2,
+      "surprise_why": "Users must act to stop the sale or sharing of their data."
+    },
+    {
+      "id": "weather-41",
+      "topic": "optout_ads",
+      "claim": "Without an account (or when signed out), you have to opt out separately on each browser and device.",
+      "quote": "If you do not have an account or are using the Services without signing into your account, you will need to opt out on each browser and/or device you use to access the Services.",
+      "line": 506,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-42",
+      "topic": "optout_ads",
+      "claim": "Paying for an ad-free subscription automatically opts you out of targeted ads and data sales while you use it.",
+      "quote": "Users with active ad-free subscriptions are automatically opted out of targeted advertising and the sale of Personal Data while using the subscription on the applicable Service(s).",
+      "line": 372,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-43",
+      "topic": "optout_ads",
+      "claim": "Opting out does not stop ads; they may just be less targeted.",
+      "quote": "Opting out doesn't mean you'll stop seeing ads – they just might not be as relevant to you.",
+      "line": 163,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-44",
+      "topic": "optout_ai",
+      "claim": "When you use The Weather Channel inside an AI platform like ChatGPT, training preferences are set in that platform and are not covered by this policy.",
+      "quote": "Please note that this Privacy Policy does not apply to data collection or sharing, training preferences, and anything you can set within the platform controls (for example, by OpenAI and ChatGPT).",
+      "line": 99,
+      "context": "The policy describes no way to opt out of The Weather Company's own use of your data to improve or train its AI.",
+      "surprise": 1
+    },
+    {
+      "id": "weather-45",
+      "topic": "optout_steps",
+      "claim": "The policy lists at least 10 separate opt-out actions: browser settings, device ad-ID settings, industry tools (DAA/DAAC/EDAA), in-service opt-outs, GPC, each vendor's own opt-out, footer links, separate weather.com and wunderground.com Privacy Settings pages, each app's privacy menu, and contacting support.",
+      "quote": "You have choices over how your Personal Data is used for advertising:",
+      "line": 154,
+      "context": "The first six are listed on lines 155-160; the rest are in the U.S. and California sections (lines 367-371, 508-515).",
+      "surprise": 2,
+      "surprise_why": "Opting out fully takes many separate steps across sites, apps, browsers and devices."
+    },
+    {
+      "id": "weather-46",
+      "topic": "optout_steps",
+      "claim": "In the mobile apps you must opt out in 'Privacy Settings' or 'Your Privacy Rights' within each app separately.",
+      "quote": "You can navigate to \"Privacy Settings\" or “Your Privacy Rights” (this will differ depending on the app and your location) in the app menu to manage your opt-out for each mobile app and your current location.",
+      "line": 514,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-47",
+      "topic": "optout_steps",
+      "claim": "Opt-out settings in one browser or ad network may not carry over to others, so you may still see its ads.",
+      "quote": "If you change your settings on individual web browsers or ad networks, these settings will not necessarily carry over to other browsers or ad networks, and you may still see our ads.",
+      "line": 162,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-48",
+      "topic": "optout_steps",
+      "claim": "Limiting use of sensitive data like precise location is a separate opt-out, available by link only if you are in California and signed in.",
+      "quote": "You can access the \"Limit the Use of My Sensitive Personal Information\" link in the footer of weather.com if you are located in California and are signed in to your account when you access the site.",
+      "line": 521,
+      "context": "Others must use the app menu (California) or contact support.",
+      "surprise": 1
+    },
+    {
+      "id": "weather-49",
+      "topic": "optout_steps",
+      "claim": "The Weather Channel Shop has its own separate privacy choices, so opting out on the weather products does not cover it.",
+      "quote": "Personal Data processed by TWC Shop is separate from data processed by our consumer weather products, and your TWC Shop account and privacy choices for TWC Shop are also separate for your shopping experience.",
+      "line": 373,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-50",
+      "topic": "sensitive_location",
+      "claim": "The company may use your precise GPS location, or give it to specific data vendors, to build audience segments based on your preferences and characteristics.",
+      "quote": "we may also use or disclose to specific data vendors your precise geolocation data, which is considered sensitive Personal Information under the CCPA, to create audience segments based on your preferences and characteristics.",
+      "line": 472,
+      "context": "CCPA section; applies to products other than those excluded on line 528.",
+      "surprise": 3,
+      "surprise_why": "Turning exact GPS location into marketing audience segments would shock most weather-app users."
+    },
+    {
+      "id": "weather-51",
+      "topic": "sensitive_location",
+      "claim": "The company and its vendors may use your approximate or precise location to show you relevant ads.",
+      "quote": "We and our vendors may use your location data (approximate or precise) to deliver relevant advertisements and for various other purposes as we outline in the Data Categories table. You can adjust your location settings anytime through your device.",
+      "line": 200,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users expect location to be used for forecasts, not for ads by vendors."
+    },
+    {
+      "id": "weather-52",
+      "topic": "sensitive_location",
+      "claim": "You are opted in by default to use of your sensitive personal information, such as precise location.",
+      "quote": "To the extent that sensitive Personal Information is processed, you will be opted in by default to the use of your sensitive Personal Information. You can choose to opt out and limit the use of your sensitive Personal Information at any time in the following ways.",
+      "line": 519,
+      "context": "California (CCPA) section.",
+      "surprise": 2,
+      "surprise_why": "Sensitive data use is on unless you take action."
+    },
+    {
+      "id": "weather-53",
+      "topic": "sensitive_location",
+      "claim": "Weather Underground, Storm Radar, SnowCast and the in-car app do not use precise location to build audience segments.",
+      "quote": "The Weather Underground services, Storm Radar mobile app, SnowCast mobile app, and The Weather Channel in-vehicle app do not process precise geolocation data to create audience segments based on your preferences and characteristics",
+      "line": 528,
+      "context": "By implication, The Weather Channel website and app are the ones that may.",
+      "surprise": 1
+    },
+    {
+      "id": "weather-54",
+      "topic": "sensitive_health",
+      "claim": "The company may label you as interested in health topics, such as allergies, based on articles you read, while saying it doesn't know your actual health conditions.",
+      "quote": "Although we may identify you as interested in health-related topics, we have no actual knowledge about your health or medical conditions – or the health or medical conditions of any of our consumer users. For example, we may identify you as having an interest in allergies based upon an article you read",
+      "line": 405,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect reading a health article to tag them with a health interest."
+    },
+    {
+      "id": "weather-55",
+      "topic": "sensitive_health",
+      "claim": "It may use or disclose to certain vendors types of data that U.S. state laws treat as sensitive.",
+      "quote": "we may use or disclose to certain vendors categories of Personal Data that applicable U.S. state data privacy laws consider sensitive.",
+      "line": 404,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "weather-56",
+      "topic": "sensitive_children",
+      "claim": "The company says it does not knowingly collect data from anyone under 18.",
+      "quote": "We do not knowingly collect Personal Data from children under age 18.",
+      "line": 225,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "weather-57",
+      "topic": "sensitive_children",
+      "claim": "It says it does not knowingly sell or share data from children under 18.",
+      "quote": "we do not knowingly sell or share Personal Information from children under 18 years of age.",
+      "line": 473,
+      "context": "",
+      "surprise": 0
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "sensitive_biometric",
+      "searched": "biometric, face, facial, fingerprint, voice, voiceprint, retina, iris, geometry (only 'audio recordings/voicemails' in communication information appears)"
+    }
+  ],
+  "notes": "Covers The Weather Channel, Weather Underground, Storm Radar and SnowCast (US English master text, effective April 30, 2026) with US-state, CCPA, GDPR, LGPD and Korea sections; TWC Shop (Shopify) and the TV network are handled separately. Many key lists (Data Provider enrichment, CCPA sold/shared categories) are one item per line, so some quotes are headings and the context names the listed items. Vendor names and per-product data-rights pages are linked out (Data Vendors page) and not in the text."
+}

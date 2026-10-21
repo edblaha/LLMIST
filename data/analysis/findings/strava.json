@@ -1,0 +1,478 @@
+{
+  "platform": "Strava",
+  "key": "strava",
+  "file": "data/text/strava.txt",
+  "findings": [
+    {
+      "id": "strava-01",
+      "topic": "collect_provided",
+      "claim": "Strava collects your name, email, phone number, date of birth, gender, username and password when you create an account.",
+      "quote": "We collect account information such as your name, email address, phone number, date of birth, gender, username, and password.",
+      "line": 12,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-02",
+      "topic": "collect_provided",
+      "claim": "If you share your phone or social-media contacts, Strava will keep accessing and storing them on a regular basis, not just once.",
+      "quote": "If you share this information, we will regularly access and store it to help you connect with Strava users you may know.",
+      "line": 14,
+      "context": "Sharing contacts is optional.",
+      "surprise": 2,
+      "surprise_why": "Most people assume a contact upload is a one-time match, not ongoing repeated access to their address book."
+    },
+    {
+      "id": "strava-03",
+      "topic": "collect_automatic",
+      "claim": "Strava collects technical details about your browser, computer or phone, including device and network information and log files.",
+      "quote": "We collect technical information from the browser, computer, or mobile device used to access the Services. This includes device and network information, log files, and analytics information.",
+      "line": 23,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-04",
+      "topic": "collect_automatic",
+      "claim": "Strava uses cookies, tracking pixels, SDKs, Google Analytics and other third-party trackers, including to show and measure ads.",
+      "quote": "We collect, use, and disclose information through the use of cookies, tracking pixels, SDKs, Google Analytics, and other third-party tracking technologies for security and authentication, to understand and improve your experience, perform analytics, inform and serve relevant ads",
+      "line": 99,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-05",
+      "topic": "collect_automatic",
+      "claim": "Strava records what you do in the app, such as clubs and challenges you join, kudos, and whose activities you look at.",
+      "quote": "We collect information from your use of the Services, such as club or challenge participation, kudos, participation in partner events, and actions you take such as logging in or viewing others’ activities.",
+      "line": 21,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-06",
+      "topic": "collect_inferred",
+      "claim": "Strava calculates new information about you from your data, such as a Fitness Score, Relative Effort and predictions of your performance.",
+      "quote": "We generate metrics from your information to help you analyze your performance, such as Relative Effort, Fitness Score, Fitness & Freshness, and Performance Predictions.",
+      "line": 22,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-07",
+      "topic": "collect_inferred",
+      "claim": "Strava's US-state table lists inferences about you (such as Relative Effort) as a category it disclosed in the past year.",
+      "quote": "Category of Personal Information: Inferences drawn from any of the above-listed categories of information, such as Relative Effort",
+      "line": 367,
+      "context": "The table rows that follow mark these inferences as disclosed to other users/the public depending on settings, service providers, and other parties.",
+      "surprise": 1
+    },
+    {
+      "id": "strava-08",
+      "topic": "collect_third_party",
+      "claim": "If you connect devices or apps like Garmin, Peloton or Apple Health, Strava may receive data such as steps, sleep, heart rate, HRV or VO2max.",
+      "quote": "We collect information (including Activity Data) from devices and apps you choose to connect to Strava, such as your Garmin device, Peloton account, or Apple Health app. This could include, for example, step count, sleep information, heart rate, HRV, or VO2max.",
+      "line": 28,
+      "context": "Only for devices and apps you choose to connect.",
+      "surprise": 1
+    },
+    {
+      "id": "strava-09",
+      "topic": "collect_third_party",
+      "claim": "Strava may collect information about you from other users, for example when they give you kudos or comment on your activities.",
+      "quote": "We may collect information about you from other Strava users, such as when they give you kudos or comment on your activities.",
+      "line": 31,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-10",
+      "topic": "collect_third_party",
+      "claim": "Strava may receive information about you from its affiliated and subsidiary companies.",
+      "quote": "We may collect information about you from our corporate family of companies, including our affiliates and subsidiaries",
+      "line": 32,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-11",
+      "topic": "collect_third_party",
+      "claim": "If you sign in with Google or Apple, you have to use that company's privacy settings to control what Strava receives.",
+      "quote": "To control the information we receive from Third-Party Accounts, you must use the privacy controls in your Third-Party Account.",
+      "line": 29,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-12",
+      "topic": "use_ads",
+      "claim": "Strava advertises itself through other companies and may use cookies and trackers to target ads to you.",
+      "quote": "We advertise our Services through third parties, and may use cookies and other tracking technologies to support targeted advertising and serve relevant ads",
+      "line": 59,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-13",
+      "topic": "use_ads",
+      "claim": "Strava uses your information to show you challenges, segments and other content paid for by brands or event partners.",
+      "quote": "We use information to display challenges, segments, and other content sponsored by third parties like brands or event partners.",
+      "line": 57,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-14",
+      "topic": "use_ads",
+      "claim": "Strava's EU legal-basis table lists sponsored content, marketing and advertising as a purpose for which it processes data.",
+      "quote": "To provide you with sponsored content, marketing, and advertising.",
+      "line": 229,
+      "context": "The data listed for this purpose (lines 235-242) includes Activity Data, Location Information and Content You Share.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their workouts and location to be among the data used for sponsored content and targeted advertising."
+    },
+    {
+      "id": "strava-15",
+      "topic": "use_personalization",
+      "claim": "Strava uses your information to personalize the app, such as suggesting routes, segments, challenges, clubs and people to follow.",
+      "quote": "We use information to personalize your experience. For example, we may suggest segments, routes, challenges, clubs on Strava, users to follow, or new features.",
+      "line": 41,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-16",
+      "topic": "use_research",
+      "claim": "Strava uses your information for research and to develop and improve its services.",
+      "quote": "We use information to conduct research, and to analyze, develop, troubleshoot, increase functionality, and otherwise improve the Services.",
+      "line": 53,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-17",
+      "topic": "use_research",
+      "claim": "Strava may use your information for research aimed at public safety, health or wellbeing.",
+      "quote": "We may process information for research aimed at improving public safety, health, or wellbeing.",
+      "line": 66,
+      "context": "The EU table says this can include Activity Data and Location Information.",
+      "surprise": 1
+    },
+    {
+      "id": "strava-18",
+      "topic": "use_ai_training",
+      "claim": "Strava uses your information to create, train and test AI and machine-learning models, including models run by its service providers.",
+      "quote": "We use information to enhance the quality, reliability, and/or accuracy of our AI Features by creating, developing, training, testing, improving, and maintaining AI and ML models run by Strava or our service providers.",
+      "line": 54,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their fitness and location data to train AI models, some run by outside companies."
+    },
+    {
+      "id": "strava-19",
+      "topic": "use_ai_training",
+      "claim": "Depending on your settings, Strava may use your health and location data for its AI features.",
+      "quote": "Depending on your privacy controls and sharing permissions, we also may use personal information such as health and Location Information for AI Features",
+      "line": 43,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Health and location data are sensitive, and users may not realize they can feed AI features."
+    },
+    {
+      "id": "strava-20",
+      "topic": "use_ai_training",
+      "claim": "Strava says it uses aggregated, de-identified data for AI only 'where possible', so identifiable data can be used otherwise.",
+      "quote": "We use aggregated, de-identified information for AI Features where possible for their purpose.",
+      "line": 54,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-21",
+      "topic": "share_third_parties",
+      "claim": "If you are an adult, your profile and activities are public to everyone by default, including in search engine results.",
+      "quote": "If you are 18 years or older, certain information, including your profile and your activities, is set by default to be viewable by “Everyone.” “Everyone” includes Strava users and the public, including search engine results.",
+      "line": 75,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Many users don't realize their workouts and routes are public and searchable unless they change settings."
+    },
+    {
+      "id": "strava-22",
+      "topic": "share_third_parties",
+      "claim": "Strava may license or share de-identified or aggregated data with other companies, for example via Strava Metro or to help partners understand users.",
+      "quote": "We may also license or share deidentified or aggregated information with third parties for purposes such as to improve walking, running or riding in cities via Strava Metro or to help our partners understand more about users",
+      "line": 87,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not know Strava licenses data derived from their activities to businesses and cities."
+    },
+    {
+      "id": "strava-23",
+      "topic": "share_third_parties",
+      "claim": "Strava may share information with marketing partners and advertising networks to promote its services.",
+      "quote": "We may also disclose information to marketing partners or third-party advertising networks to promote our services (with your consent, where required).",
+      "line": 86,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-24",
+      "topic": "share_third_parties",
+      "claim": "Strava may share your information with police, government agencies or private parties in lawsuits, in or outside your country, when it decides the law requires it.",
+      "quote": "We may preserve and share your information with third parties, including law enforcement, public or governmental agencies, or private litigants, within or outside your country of residence, if we determine that the law compels or reasonably requires such disclosure.",
+      "line": 95,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Sharing with private litigants (not just police) and across borders is broader than most users expect."
+    },
+    {
+      "id": "strava-25",
+      "topic": "sell_share_definition",
+      "claim": "Strava says it does not sell personal information for money.",
+      "quote": "We do not sell personal information for monetary value.",
+      "line": 373,
+      "context": "This is narrower than not selling at all; the next sentence says some ad sharing may count as 'selling' or 'sharing' under state law.",
+      "surprise": 1
+    },
+    {
+      "id": "strava-26",
+      "topic": "sell_share_definition",
+      "claim": "Strava admits that it may have shared identifiers, commercial information and online activity for advertising in the past year in ways some state laws call 'selling' or 'sharing'.",
+      "quote": "To the extent that certain US State Privacy Laws consider some sharing of personal information for advertising purposes to be “selling” or “sharing” of personal information, Strava may have shared the following categories of personal information with third parties in the preceding 12 months:",
+      "line": 373,
+      "context": "The categories are listed on lines 374-376.",
+      "surprise": 2,
+      "surprise_why": "It sits right after 'we do not sell' and quietly concedes legal 'sales' or 'sharing' may have happened."
+    },
+    {
+      "id": "strava-27",
+      "topic": "sell_share_definition",
+      "claim": "One kind of company Strava may have shared this data with for cross-context ads is advertising publishers such as Meta.",
+      "quote": "Advertising publishers that place advertisements on our behalf, such as Meta",
+      "line": 378,
+      "context": "Listed under the heading on line 377 about sharing for cross-context behavioral advertising or analytics.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their Strava data to flow to Meta for advertising."
+    },
+    {
+      "id": "strava-28",
+      "topic": "retention",
+      "claim": "Strava generally keeps your account information until you delete it or it no longer needs it; no fixed time limit is given.",
+      "quote": "We generally keep information associated with your account until you delete it or we no longer need the information to provide the Services.",
+      "line": 121,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-29",
+      "topic": "retention",
+      "claim": "After you delete your account, it can take up to 45 days for Strava to remove your personal information and system logs.",
+      "quote": "Following deletion of your account, it may take up to 45 days to delete your personal information and system logs from our systems.",
+      "line": 106,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-30",
+      "topic": "retention",
+      "claim": "Even after you delete your account, public segments and routes stay available and search engines may keep showing your profile for a while.",
+      "quote": "Public segments and routes will also remain available. Search engine results may also display your public profile until the search engine refreshes its cache.",
+      "line": 107,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users expect account deletion to remove everything they created."
+    },
+    {
+      "id": "strava-31",
+      "topic": "user_controls",
+      "claim": "You can download your data, including your activity files, by following instructions Strava links to.",
+      "quote": "To download your data, including your activity files, follow the instructions here.",
+      "line": 104,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-32",
+      "topic": "user_controls",
+      "claim": "You can delete photos, videos and individual activities, hide activities, or delete your account.",
+      "quote": "You can restrict or delete much of your information through your account, such as deleting content like photos or videos you have posted, removing individual activities from view, deleting individual activities, or deleting your account.",
+      "line": 106,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-33",
+      "topic": "user_controls",
+      "claim": "If you withdraw consent, past activities will still show data like heart rate that was collected under your earlier consent.",
+      "quote": "For example, activities will still display information (such as heart rate) based on the consent provided at that time.",
+      "line": 108,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users would expect withdrawing consent to remove data such as heart rate from their activities."
+    },
+    {
+      "id": "strava-34",
+      "topic": "optout_ads",
+      "claim": "Residents of certain US states can opt out of Strava sharing their personal information for targeted advertising.",
+      "quote": "You have the right to opt out of sharing your personal information for targeted advertising.",
+      "line": 381,
+      "context": "Listed under the notice for certain US states.",
+      "surprise": 0
+    },
+    {
+      "id": "strava-35",
+      "topic": "optout_ads",
+      "claim": "Strava does not respond to browser Do Not Track signals.",
+      "quote": "Note that Do Not Track (DNT) is a privacy preference you can set in browsers, but we do not currently process DNT signals.",
+      "line": 381,
+      "context": "Strava does honor the Global Privacy Control signal.",
+      "surprise": 1
+    },
+    {
+      "id": "strava-36",
+      "topic": "optout_ai",
+      "claim": "The policy mentions choices about whether your data contributes to Strava's AI development but only links to them without explaining them.",
+      "quote": "Learn more about your choices to contribute to Strava’s development of AI Features.",
+      "line": 54,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-37",
+      "topic": "optout_steps",
+      "claim": "The policy describes 3 ways to stop ad sharing (a website link, a separate in-app setting, or a GPC browser signal), and only points elsewhere for cookie and AI choices.",
+      "quote": "You can opt out of us sharing your personal information for third-party targeted advertising through the “Do Not Share My Personal Information” link on our website or the “Personal Information Sharing” setting in the app.",
+      "line": 86,
+      "context": "Web and app are separate places; the policy does not say whether an opt-out in one applies to the other.",
+      "surprise": 1
+    },
+    {
+      "id": "strava-38",
+      "topic": "optout_steps",
+      "claim": "A third opt-out route is turning on a browser privacy signal such as Global Privacy Control.",
+      "quote": "broadcast an Opt-Out Preference Signal, such as the Global Privacy Control.",
+      "line": 381,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-39",
+      "topic": "optout_steps",
+      "claim": "For cookie choices the policy only sends you to a separate Cookie Policy.",
+      "quote": "Learn more about how we use cookies and manage your preferences by visiting our Cookie Policy.",
+      "line": 99,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-40",
+      "topic": "optout_steps",
+      "claim": "EEA/UK users can object to direct marketing by turning off email newsletters.",
+      "quote": "You can also object to processing of your information for direct marketing by turning off email newsletters at any time here.",
+      "line": 126,
+      "context": "Listed in the EEA/UK/Switzerland/Brazil notice.",
+      "surprise": 0
+    },
+    {
+      "id": "strava-41",
+      "topic": "sensitive_location",
+      "claim": "Strava collects or infers your location when you sign up and use the app, and its core features need your precise location.",
+      "quote": "We collect or infer location information when you sign up for and use the Services.",
+      "line": 20,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-42",
+      "topic": "sensitive_location",
+      "claim": "Depending on your settings, others including people without accounts may see your precise location, such as where you run or ride.",
+      "quote": "information and content you share (including precise location, such as where you run or ride), users you follow and who follow you, clubs you belong to on Strava, your Activity Data, the devices you use, your online status, and kudos and comments you give and receive may be viewable on Strava or to non-registered users.",
+      "line": 76,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Public precise routes can reveal where a person lives or regularly exercises."
+    },
+    {
+      "id": "strava-43",
+      "topic": "sensitive_location",
+      "claim": "Strava may use your activities to build its public Global Heatmap and features like Points of Interest and Start Points.",
+      "quote": "We may also use your activities to generate our Global Heatmap and other community-powered features such as Points of Interest and Start Points. We may also share aggregated or deidentified information, such as usage or demographics.",
+      "line": 45,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not realize their individual routes feed a public map of where people exercise."
+    },
+    {
+      "id": "strava-44",
+      "topic": "sensitive_location",
+      "claim": "Strava uses your live location, which you can choose to share with others, for example with Strava Beacon.",
+      "quote": "We also use your live location data, which you may choose to share with other users, such as when using Strava Beacon.",
+      "line": 40,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "strava-45",
+      "topic": "sensitive_health",
+      "claim": "Your activity data can include health data such as heart rate if you choose to provide it.",
+      "quote": "Activity Data can also include health data, such as heart rate, if you choose to provide it.",
+      "line": 19,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-46",
+      "topic": "sensitive_health",
+      "claim": "Strava promises not to sell health data from connected devices or use it for ads, and not to disclose it without your prior consent.",
+      "quote": "If we collect health information from these integrations (such as heart rate), we will not sell or use it for advertising or other similar purposes; we do not disclose it to third parties without your prior consent",
+      "line": 28,
+      "context": "This promise is worded for health data from connected devices and apps; US users are also pointed to a separate Consumer Health Data Policy.",
+      "surprise": 0
+    },
+    {
+      "id": "strava-47",
+      "topic": "sensitive_health",
+      "claim": "Strava's US-state table lists sensitive information, such as precise location, health information and message contents, as a category it disclosed in the past year.",
+      "quote": "Category of Personal Information: Sensitive personal information, such as precise geolocation, health information, and the content of your messages",
+      "line": 336,
+      "context": "The rows that follow mark it as disclosed to other users/the public depending on settings, service providers, and other parties (affiliates, parties you direct, government).",
+      "surprise": 2,
+      "surprise_why": "Users may not expect health data and message contents to appear among disclosed categories."
+    },
+    {
+      "id": "strava-48",
+      "topic": "sensitive_children",
+      "claim": "Strava is not meant for children under 13 and says it does not knowingly collect their data.",
+      "quote": "Our services are not intended for, nor directed to, children under 13 years of age, and we do not knowingly collect personal information from anybody under 13 years of age.",
+      "line": 112,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-49",
+      "topic": "sensitive_children",
+      "claim": "Strava uses your age to check you are old enough and to give younger users an age-appropriate experience, including in messaging.",
+      "quote": "we use your age to help confirm that an athlete is old enough to use Strava, and to help provide an age-appropriate experience, including with our messaging feature.",
+      "line": 63,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "strava-50",
+      "topic": "sensitive_children",
+      "claim": "Strava says it does not 'sell' or 'share' data of users it knows are under 16.",
+      "quote": "And we do not “sell” or “share” the personal information of users we know are under 16 years old.",
+      "line": 373,
+      "context": "The promise covers known under-16s only, not 16- and 17-year-olds.",
+      "surprise": 1
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "sensitive_biometric",
+      "searched": "biometric, face, facial, fingerprint, voice, voiceprint, retina, iris, geometry"
+    }
+  ],
+  "notes": "Global policy effective January 1, 2026, with an EEA/UK/Brazil legal-basis table and a US-state notice; it points US users to a separate Consumer Health Data Policy and a separate Cookie Policy that were not analysed. Several key details (data used for ads, categories disclosed or 'sold/shared') sit in one-item-per-line tables, so some quotes are row headings and the context field names the listed items. Strava's adult profiles and activities are public ('Everyone') by default."
+}

@@ -1,0 +1,530 @@
+{
+  "platform": "eBay",
+  "key": "ebay",
+  "file": "data/text/ebay.txt",
+  "findings": [
+    {
+      "id": "ebay-01",
+      "topic": "collect_provided",
+      "claim": "If you sell on eBay, eBay collects extra identity data such as government ID numbers (e.g. Social Security number), date of birth, ID documents and selfie photos.",
+      "quote": "If you use our Services as a seller, additional identification data, such as, government-issued ID (e.g. social security number), date of birth, tax identification numbers (such as VAT identification number), business registration numbers, identification documents and information contained on IDs, selfie photos",
+      "line": 22,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-02",
+      "topic": "collect_provided",
+      "claim": "In some cases eBay collects your age, gender, country of birth, nationality, employment status, family status, and interests and preferences.",
+      "quote": "In some cases: age, gender, country of birth, nationality, country of residence, employment status, family status, interests and preferences.",
+      "line": 27,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-03",
+      "topic": "collect_provided",
+      "claim": "If you take part in eBay Live, livestreams may be recorded and made available for replay, including comments or other content you share during the stream.",
+      "quote": "Livestreams may be recorded and made available for replay, which may include comments or other content you choose to share during the livestream.",
+      "line": 28,
+      "context": "The same passage says some information in these features may be visible to other users or the public, depending on the feature and your settings.",
+      "surprise": 2,
+      "surprise_why": "People commenting in a live shopping stream may not expect their comments to be recorded and replayed later."
+    },
+    {
+      "id": "ebay-04",
+      "topic": "collect_provided",
+      "claim": "Every message you send through eBay's messaging tools goes to eBay first and is only then forwarded to the other user.",
+      "quote": "All messages sent via our messaging tools (including chat messages and emails sent to eBay alias email addresses) are first received by us and then forwarded to the recipient.",
+      "line": 279,
+      "context": "eBay uses automated systems and, where appropriate, human review on these messages (same line).",
+      "surprise": 2,
+      "surprise_why": "Many users assume member-to-member messages go straight to the other person rather than being received and screened by eBay."
+    },
+    {
+      "id": "ebay-05",
+      "topic": "collect_automatic",
+      "claim": "As part of fraud and risk checks, eBay may use a 'port enumeration' technology to identify sessions that are run through remote desktop tools.",
+      "quote": "through the use of captchas, a port enumeration technology to identify user sessions using remote desktop tools",
+      "line": 119,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Few shoppers would expect a marketplace website to probe their device's network ports."
+    },
+    {
+      "id": "ebay-06",
+      "topic": "collect_automatic",
+      "claim": "Through cookies and similar tools eBay collects your device model, operating system, browser type and settings, device IDs, advertising ID and cookie IDs.",
+      "quote": "Model or device type, operating system and version, browser type and settings, device ID or individual device identifier, advertisement ID, individual device token, and cookie-related data (e.g. cookie ID).",
+      "line": 46,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-07",
+      "topic": "collect_automatic",
+      "claim": "eBay collects the camera-settings metadata embedded in photos you upload for your listings.",
+      "quote": "Certain metadata recording the settings of your camera included in images of items you upload for sale.",
+      "line": 38,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-08",
+      "topic": "collect_automatic",
+      "claim": "eBay tracks which pages you visit, how often and how long, what you click, and what you do in its ads and emails.",
+      "quote": "Data about the pages you visit, the access time, frequency and duration of visits, the links on which you click and other actions you take as part of your use of our Services and in advertising and email content.",
+      "line": 43,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-09",
+      "topic": "collect_inferred",
+      "claim": "eBay places you into user segments such as gender, age bracket and interests (its example: 'female, 20-49 years old, interested in sneakers').",
+      "quote": "The user segment or category into which you as a user fall, for example: female, 20-49 years old, interested in sneakers.",
+      "line": 45,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not realize eBay sorts them into demographic and interest categories for its own use."
+    },
+    {
+      "id": "ebay-10",
+      "topic": "collect_inferred",
+      "claim": "eBay may work out your general region from your IP address or from your account or device information.",
+      "quote": "including your general location data (e.g. IP address, or region inferred from account or device information)",
+      "line": 37,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-11",
+      "topic": "collect_inferred",
+      "claim": "eBay uses technology that makes automated decisions about users or profiles them.",
+      "quote": "We use technologies that perform automated decision making or profiling functions.",
+      "line": 181,
+      "context": "Decisions with legal or similarly significant effects are made only if needed for a contract, with consent, or where required or otherwise permitted by law.",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-12",
+      "topic": "collect_third_party",
+      "claim": "eBay receives data about you from outside data providers, including identity-verification, demographic, interest-based and online-advertising data.",
+      "quote": "Data from data providers (e.g. \"Know Your Customer\"/identity verification, demographic, interest-based and online advertising related data).",
+      "line": 55,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Most shoppers do not expect eBay to obtain demographic and interest profiles about them from outside data companies."
+    },
+    {
+      "id": "ebay-13",
+      "topic": "collect_third_party",
+      "claim": "For sellers using eBay's payment services, eBay collects information about any previous criminal convictions from government or other sources.",
+      "quote": "With regard to our payment services for sellers: data from government or other sources concerning any previous convictions of the respective seller.",
+      "line": 56,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Sellers are unlikely to expect a marketplace to gather information about their criminal record."
+    },
+    {
+      "id": "ebay-14",
+      "topic": "collect_third_party",
+      "claim": "eBay combines the data it collects from you with data from these outside sources (public sources, credit agencies, data providers).",
+      "quote": "We combine or connect the personal data we collect from you with data from these other sources.",
+      "line": 57,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-15",
+      "topic": "collect_third_party",
+      "claim": "If you link your eBay account to a social network, that network may automatically give eBay data it holds about you, such as content you viewed and ads you saw or clicked.",
+      "quote": "These social networks may automatically provide us with access to certain personal data they have stored about you (e.g. content you have viewed or enjoyed, information about the advertisements you have been shown or clicked on, etc.).",
+      "line": 61,
+      "context": "You can limit this through each social network's privacy settings.",
+      "surprise": 2,
+      "surprise_why": "Users linking an account for convenience may not expect their social-network ad history to flow to eBay."
+    },
+    {
+      "id": "ebay-16",
+      "topic": "use_ads",
+      "claim": "If you live outside the EEA, Switzerland and the UK, eBay may use your data for personalized ads and content, measurement and analytics both on and off eBay's sites, without asking for consent first.",
+      "quote": "For users outside the European Economic Area (EEA), Switzerland and the United Kingdom: Advertising and content personalization, measurement and analytics, on and off our sites, as explained on our AdChoice page.",
+      "line": 129,
+      "context": "Listed under eBay's 'legitimate interests' (section 3.4); for EEA, Swiss and UK users the same use needs consent (line 155).",
+      "surprise": 2,
+      "surprise_why": "Users outside Europe may not realize ad tracking on and off eBay is switched on by default rather than by their choice."
+    },
+    {
+      "id": "ebay-17",
+      "topic": "use_ads",
+      "claim": "eBay collects data on ads shown to you via its advertising partners: which ads, how often, when and where, and whether you clicked or bought something.",
+      "quote": "Data about your activities and interactions with our advertising partners including data about the advertisements you were shown, how often they were shown, when and where they were shown, and whether you took any action, such as clicking on an advertisement or making a purchase.",
+      "line": 44,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-18",
+      "topic": "use_personalization",
+      "claim": "eBay customizes the pages you see to show items and services you may like based on what you do.",
+      "quote": "Customization of page content to display the items and services you may like based on the actions you take.",
+      "line": 130,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-19",
+      "topic": "use_personalization",
+      "claim": "eBay may analyze how you use other eBay-group companies' services, matching data such as cookie IDs, to improve its content and advertising.",
+      "quote": "improve our products, services, content, and advertising by analyzing your use of the services of eBay Affiliates, in particular through the matching of certain data (e.g. cookie IDs)",
+      "line": 171,
+      "context": "Consent is sought only 'where legally required'.",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-20",
+      "topic": "use_research",
+      "claim": "eBay analyzes site-usage data and reports of crashed pages to fix problems and for product development.",
+      "quote": "Analysis and improvement of the Services from eBay Affiliates, e.g. by reviewing site usage data or information from users about blocked or crashed pages in order to identify and solve problems and to provide you with an improved user experience, including as part of product development.",
+      "line": 125,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-21",
+      "topic": "use_research",
+      "claim": "eBay analyzes customer-service phone calls that it recorded with your consent.",
+      "quote": "Analysis of telephone conversations with our customer service that we recorded with your consent.",
+      "line": 126,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-22",
+      "topic": "use_ai_training",
+      "claim": "eBay may use some of your personal data, such as the items you list, sell, view or buy, to train AI models when eBay itself decides this is necessary and proportionate.",
+      "quote": "in some cases we may also use certain user personal data, such as information about your use of our Services, including the items you list, sell, view, or buy, where we determine it is necessary and proportionate for a specific use",
+      "line": 254,
+      "context": "eBay says it de-identifies data or applies other privacy-preserving techniques before training (same line).",
+      "surprise": 2,
+      "surprise_why": "Users may not expect their buying and browsing history to train AI models, with eBay deciding for itself when that is justified."
+    },
+    {
+      "id": "ebay-23",
+      "topic": "use_ai_training",
+      "claim": "eBay says it relies mainly on publicly available data to train and improve its generative AI models.",
+      "quote": "When training, testing, and improving generative AI models, we rely primarily on publicly available data.",
+      "line": 254,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-24",
+      "topic": "use_ai_training",
+      "claim": "eBay states that in some jurisdictions the data it uses for AI training is not considered personal data at all.",
+      "quote": "In some jurisdictions, the data used for training as described in this section is not considered personal data",
+      "line": 254,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "This implies privacy-law protections may not reach AI training data in those places, which few users would expect."
+    },
+    {
+      "id": "ebay-25",
+      "topic": "use_ai_training",
+      "claim": "When you use an AI feature such as the support chatbot, an AI tool analyzes what you type and the related transaction; eBay says this is generally different from training models.",
+      "quote": "For example, if you use a customer support chatbot regarding an issue with a transaction, an AI tool analyzes your input and the relevant transaction to provide you with a relevant response.",
+      "line": 251,
+      "context": "eBay's AI features may run on its own models, third-party AI models, or both (line 248).",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-26",
+      "topic": "share_third_parties",
+      "claim": "With your consent, eBay may pass your data to advertising partners such as Google, Meta, Microsoft, Pinterest and TikTok.",
+      "quote": "Third-party advertising partners such as Google, Meta, Microsoft, Pinterest, and TikTok, as listed on our Advertising and related preferences page",
+      "line": 168,
+      "context": "Listed as recipients for consent-based processing (section 3.5).",
+      "surprise": 2,
+      "surprise_why": "Users may not realize their eBay data can flow to Meta, Google and TikTok for advertising."
+    },
+    {
+      "id": "ebay-27",
+      "topic": "share_third_parties",
+      "claim": "Even without a legal obligation, eBay may disclose your data to police, courts or authorities if it thinks this is needed to avert harm or report a suspected illegal act.",
+      "quote": "unless there is a statutory obligation to this effect, and we may legitimately assume that the disclosure of the data is necessary to avert imminent disadvantages or to report a suspicion of an illegal act",
+      "line": 117,
+      "context": "Data may include name, city, zip code, phone, email, past usernames, IP address, fraud complaints and bidding and listing history.",
+      "surprise": 2,
+      "surprise_why": "Users may assume eBay hands data to authorities only when legally compelled."
+    },
+    {
+      "id": "ebay-28",
+      "topic": "share_third_parties",
+      "claim": "In civil disputes such as intellectual-property complaints, eBay may give a seller's name, address, phone number and email to third parties like rights owners, even without a legal obligation.",
+      "quote": "such as the seller's name, address, city, zip code, country, telephone number, email address and company name to the third party",
+      "line": 118,
+      "context": "The third party is bound by a non-disclosure agreement.",
+      "surprise": 2,
+      "surprise_why": "Sellers may not expect their address and phone number to be handed to brand owners in a private dispute."
+    },
+    {
+      "id": "ebay-29",
+      "topic": "share_third_parties",
+      "claim": "eBay may publish and promote your listings and related content on other eBay companies' and partner third-party websites and apps.",
+      "quote": "Publication and promotion of your listings and related content on the websites or in the applications, services and tools of eBay Affiliates or cooperating third-party operators of websites, applications, services and tools.",
+      "line": 79,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-30",
+      "topic": "sell_share_definition",
+      "claim": "This notice never says whether eBay 'sells' or 'shares' personal data in the US state-law sense; those disclosures are on a separate State Privacy Disclosures page.",
+      "quote": "For additional regional disclosures for residents of certain U.S. states, including California, please review our State Privacy Disclosures page.",
+      "line": 336,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-31",
+      "topic": "sell_share_definition",
+      "claim": "eBay says it shares your information with third parties for its listed purposes, which include personalized advertising, without defining what 'share' means.",
+      "quote": "to provide you with personalized advertising and marketing communications, and to detect, prevent, mitigate and investigate fraudulent or illegal activity. We also share your information with third parties, including service providers acting on our behalf, for these purposes.",
+      "line": 65,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-32",
+      "topic": "retention",
+      "claim": "eBay may keep your data longer than needed for its purposes when it is legally obliged or permitted to, for example for tax, auditing or fraud prevention.",
+      "quote": "unless we are legally obliged or permitted to keep your personal data longer (e.g. for legal compliance, tax, accounting or auditing purposes, or to detect and prevent fraudulent or illegal activity on eBay)",
+      "line": 195,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-33",
+      "topic": "retention",
+      "claim": "In Europe, eBay generally keeps data for 6 to 10 years (e.g. contracts and business letters).",
+      "quote": "In Europe, the retention periods are generally between 6 and 10 years (e.g. for contracts, notifications and business letters).",
+      "line": 195,
+      "context": "No figures are given for other regions; specific periods are in internal regional retention guidelines (line 198).",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-34",
+      "topic": "retention",
+      "claim": "When data is no longer needed, eBay says it will delete it or make it anonymous instead.",
+      "quote": "we will delete your personal data in accordance with our data retention and deletion policy or take steps to properly render the data anonymous",
+      "line": 195,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-35",
+      "topic": "retention",
+      "claim": "Details of transactions put on a public blockchain (e.g. eBay Authenticity Certificate tokens) are permanent and cannot be deleted by anyone.",
+      "quote": "details of blockchain-based transactions are immutable and cannot be deleted by any one person or group.",
+      "line": 304,
+      "context": "Applies only to features that use a public blockchain, with your separate agreement.",
+      "surprise": 2,
+      "surprise_why": "Users may not realize some eBay features place data on a public ledger that can never be erased."
+    },
+    {
+      "id": "ebay-36",
+      "topic": "user_controls",
+      "claim": "You have rights to access, correct, delete, restrict and download (port) your personal data, subject to limits under national law.",
+      "quote": "Subject to possible restrictions under national law, as a data subject, you have the right to access, rectification, erasure, restriction of processing and data portability with regard to your personal data.",
+      "line": 204,
+      "context": "Rights are framed in European terms; US state rights are on a separate page.",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-37",
+      "topic": "user_controls",
+      "claim": "You exercise these rights through eBay's Privacy Contact page.",
+      "quote": "You can exercise your rights as a data subject via our Privacy Contact page.",
+      "line": 222,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-38",
+      "topic": "user_controls",
+      "claim": "eBay may charge a fee (up to its actual costs) or refuse if it considers your requests excessive or repetitive.",
+      "quote": "Where requests are manifestly unfounded or excessive, in particular because of their repetitive character, we may charge an appropriate fee (at most our actual costs)",
+      "line": 223,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-39",
+      "topic": "user_controls",
+      "claim": "eBay may limit how much it tells you about its detection, moderation and enforcement systems.",
+      "quote": "To protect our users, our Services, and our legitimate business interests, we may limit the level of detail we provide about our detection, moderation, and enforcement systems",
+      "line": 280,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-40",
+      "topic": "optout_ads",
+      "claim": "You manage ad preferences on the 'AdChoice - eBay Advertising Preferences' page (all users) or 'Advertising and related preferences' (EEA, Switzerland, UK).",
+      "quote": "or go directly to Advertising and related preferences (users in the EEA, Switzerland and the United Kingdom) or AdChoice - eBay Advertising Preferences (all users) to manage your preferences.",
+      "line": 240,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-41",
+      "topic": "optout_ads",
+      "claim": "Opting out of ad cookies does not stop ads; it only means they will not be personalized using cookies.",
+      "quote": "this does not mean that we will not show you advertisements. It simply means that these advertisements will not be personalized for you using cookies or similar technologies.",
+      "line": 242,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-42",
+      "topic": "optout_ai",
+      "claim": "The notice says only 'certain users' have a right to object to their data being used for generative AI training, and sends you to a separate 'Artificial Intelligence at eBay' page; no setting is described.",
+      "quote": "To learn more about specific training use cases and our processing of your personal data for generative AI training purposes, including the right to object to such processing for certain users, visit our Artificial Intelligence at eBay page.",
+      "line": 255,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may expect an AI-training opt-out for everyone, but the notice limits it to unnamed 'certain users'."
+    },
+    {
+      "id": "ebay-43",
+      "topic": "optout_ai",
+      "claim": "Where eBay relies on its 'legitimate interests' (which it cites for AI training in the EEA, Switzerland and UK), you can object based on your particular situation.",
+      "quote": "If your personal data is processed on the basis of our legitimate interests, you have the right to object to the processing of your personal data on grounds relating to your particular situation.",
+      "line": 219,
+      "context": "eBay names legitimate interest as the basis for AI training only where training involves personal data under applicable law (line 254).",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-44",
+      "topic": "optout_steps",
+      "claim": "The notice describes about 8 separate places to limit data use: (1) the AdChoice / Advertising and related preferences page, (2) each browser or device's cookie settings, (3) My eBay > Communication Preferences, (4) the unsubscribe link in each marketing email, (5) the Privacy Contact page for rights requests and objections, (6) the 'Artificial Intelligence at eBay' page for AI-training objections, (7) your phone's location settings, and (8) each linked social network's privacy settings.",
+      "quote": "you can do so at any time through your account in My eBay under \"Communication Preferences\".",
+      "line": 226,
+      "context": "Steps 1, 5, 6 and 7 are quoted under optout_ads (line 240), user_controls (line 222), optout_ai (line 255) and sensitive_location (line 37).",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-45",
+      "topic": "optout_steps",
+      "claim": "To block cookies you must change settings in your browser or device yourself, separately on each one.",
+      "quote": "You are also free to disable the use of cookies and similar technologies if this is supported by your device. You can manage your cookie settings in your browser or device settings.",
+      "line": 241,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-46",
+      "topic": "optout_steps",
+      "claim": "You can unsubscribe from marketing emails via the footer link, but it may take a few days to take effect.",
+      "quote": "you can also unsubscribe by clicking on the link in the footer of the email you received. For technical reasons, the implementation may take a few days.",
+      "line": 226,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-47",
+      "topic": "optout_steps",
+      "claim": "To limit what linked social networks give eBay, you have to change the privacy settings of each social network.",
+      "quote": "You can determine the personal data that we can access through the privacy settings of each social network.",
+      "line": 61,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-48",
+      "topic": "sensitive_location",
+      "claim": "eBay may use your location data, including precise phone location if you allow it, for advertising and ad measurement where the law permits, as well as local search and fraud prevention.",
+      "quote": "We use this data for the purposes described in Section 3, such as providing location-based services, radius search and locally relevant content, supporting transactions, fraud prevention and security, and advertising or measurement where permitted by applicable law.",
+      "line": 37,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users who allow precise location for nearby search may not expect it to be used for advertising too."
+    },
+    {
+      "id": "ebay-49",
+      "topic": "sensitive_location",
+      "claim": "eBay collects location data from your IP address and, if you give permission, precise location from your mobile device.",
+      "quote": "Location and geolocation data, including IP address and, with your permission, the precise location data from your mobile device.",
+      "line": 48,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-50",
+      "topic": "sensitive_location",
+      "claim": "eBay records the time and location of your transactions.",
+      "quote": "such as transaction amounts, time and location of transactions and form of payment or payout method",
+      "line": 34,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-51",
+      "topic": "sensitive_location",
+      "claim": "To stop precise location collection, the notice points you to your mobile device's settings.",
+      "quote": "Most mobile devices allow you to manage or disable precise location services device settings.",
+      "line": 37,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "ebay-52",
+      "topic": "sensitive_biometric",
+      "claim": "With your consent, eBay may process your biometric data to identify you or verify your age, and to prevent fraud.",
+      "quote": "Provision of identity verification options involving processing of your biometric data to identify you or verify your age, and further prevent fraud and reduce other risks on our platform.",
+      "line": 160,
+      "context": "Listed under consent-based processing (section 3.5); the notice does not say what kind of biometric data.",
+      "surprise": 2,
+      "surprise_why": "Users may not expect a shopping site to process biometric data, including for age checks."
+    },
+    {
+      "id": "ebay-53",
+      "topic": "sensitive_biometric",
+      "claim": "Sellers may be asked to provide selfie photos along with ID documents.",
+      "quote": "identification documents and information contained on IDs, selfie photos, and other information (such as bank account number)",
+      "line": 22,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-54",
+      "topic": "sensitive_children",
+      "claim": "eBay says its services are not meant for children and it does not knowingly collect their data, but the notice gives no specific minimum age.",
+      "quote": "Our services are not intended for use by children. We do not knowingly collect personal data from users who are considered children under applicable laws.",
+      "line": 287,
+      "context": "Children are barred from using the Services under the User Agreement; 'children' is defined by applicable law.",
+      "surprise": 1
+    },
+    {
+      "id": "ebay-55",
+      "topic": "sensitive_children",
+      "claim": "eBay may use biometric data to verify a user's age.",
+      "quote": "identity verification options involving processing of your biometric data to identify you or verify your age",
+      "line": 160,
+      "context": "Only with consent (section 3.5).",
+      "surprise": 1
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "sensitive_health",
+      "searched": "health, medical, fitness, reproductive, sensitive, sensitive personal information, special categories, genetic, disability, religion, ethnic, racial, sexual"
+    },
+    {
+      "topic": "sell_share_definition",
+      "searched": "sell, sale, sold, selling, do not sell, share/sharing definition, cross-context behavioral advertising, CCPA, California (the notice uses 'share' only in its ordinary sense and never defines 'sell' or 'share'; US state-law definitions are deferred to a separate State Privacy Disclosures page not included in this file)"
+    }
+  ],
+  "notes": "Global eBay User Privacy Notice effective November 26, 2026, written mainly in EU/GDPR terms (legal bases, data-subject rights); US state-law (e.g. California 'sale'/'sharing') and other regional disclosures sit on separate pages not included in this file. Section 9 'eBay and AI' is rewritten versus the previous notice: training now 'primarily' on public data with user data used 'in some cases', and the right to object is limited to 'certain users'. New in this version: eBay Live livestream data, biometric age verification, and wider automated content moderation."
+}

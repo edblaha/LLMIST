@@ -1,0 +1,377 @@
+{
+  "platform": "Amazon",
+  "key": "amazon",
+  "file": "data/text/amazon.txt",
+  "findings": [
+    {
+      "id": "amazon-01",
+      "topic": "collect_provided",
+      "claim": "Amazon keeps any information you give it while using any Amazon service.",
+      "quote": "We receive and store any information you provide in relation to Amazon Services.",
+      "line": 22,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-02",
+      "topic": "collect_provided",
+      "claim": "Information you may supply to Amazon can include identity documents such as your Social Security and driver's license numbers.",
+      "quote": "information and documents regarding identity, including Social Security and driver's license numbers",
+      "line": 130,
+      "context": "Listed as an example of what you might supply; the notice does not say which services ask for it.",
+      "surprise": 2,
+      "surprise_why": "Most shoppers would not expect a retail privacy notice to list Social Security numbers among the data it may hold."
+    },
+    {
+      "id": "amazon-03",
+      "topic": "collect_provided",
+      "claim": "Amazon may collect email addresses of your friends and other people that you give it.",
+      "quote": "email addresses of your friends and other people",
+      "line": 125,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-04",
+      "topic": "collect_automatic",
+      "claim": "Amazon collects your full clickstream on its sites, including what you view and search, how long you stay on pages, and your scrolling, clicks, and mouse-overs.",
+      "quote": "the full Uniform Resource Locator (URL) clickstream to, through, and from our websites, including date and time; products and content you viewed or searched for; page response times, download errors, length of visits to certain pages, and page interaction information (such as scrolling, clicks, and mouse-overs)",
+      "line": 144,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Few people realise that even mouse-overs and scrolling are recorded."
+    },
+    {
+      "id": "amazon-05",
+      "topic": "collect_automatic",
+      "claim": "Amazon's physical stores may use cameras, computer vision, and sensors to record what you do in the store, such as which products you interact with.",
+      "quote": "Our physical stores may use cameras, computer vision, sensors, and other technology to gather information about your activity in the store, such as the products and services you interact with.",
+      "line": 23,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Being tracked by cameras and computer vision while shopping in person is not something most shoppers expect."
+    },
+    {
+      "id": "amazon-06",
+      "topic": "collect_automatic",
+      "claim": "Amazon gets some information from your browser or device not only on Amazon but also when you load Amazon-served content on other websites.",
+      "quote": "we obtain certain types of information when your web browser or device accesses Amazon Services and other content served by or on behalf of Amazon on other websites.",
+      "line": 23,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users may not realise Amazon can collect data while they are on non-Amazon websites."
+    },
+    {
+      "id": "amazon-07",
+      "topic": "collect_inferred",
+      "claim": "Amazon may use scoring methods to assess credit risk.",
+      "quote": "We may also use scoring methods to assess and manage credit risks.",
+      "line": 36,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Shoppers may not expect a store to score them for credit risk."
+    },
+    {
+      "id": "amazon-08",
+      "topic": "collect_inferred",
+      "claim": "Amazon uses your personal information to work out your preferences and what might interest you.",
+      "quote": "We use your personal information to recommend features, products, and services that might be of interest to you, identify your preferences",
+      "line": 31,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-09",
+      "topic": "collect_third_party",
+      "claim": "Amazon may receive credit history information about you from credit bureaus, used for fraud prevention and to offer credit or financial services.",
+      "quote": "credit history information from credit bureaus, which we use to help prevent and detect fraud and to offer certain credit or financial services to some customers",
+      "line": 156,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Most shoppers do not expect a store to obtain their credit history from credit bureaus."
+    },
+    {
+      "id": "amazon-10",
+      "topic": "collect_third_party",
+      "claim": "Amazon receives information about how you interact with Amazon ads on other companies' websites and apps.",
+      "quote": "information about how you interact with ads served by Amazon on third-party websites and apps",
+      "line": 153,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-11",
+      "topic": "collect_third_party",
+      "claim": "Amazon may receive your account, purchase, and page-view information from some merchants it runs co-branded businesses with.",
+      "quote": "account information, purchase or redemption information, and page-view information from some merchants with which we operate co-branded businesses",
+      "line": 151,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-12",
+      "topic": "use_ads",
+      "claim": "Amazon uses your personal information to show you interest-based ads, while saying it does not use information that personally identifies you to do so.",
+      "quote": "We use your personal information to display interest-based ads for features, products, and services that might be of interest to you. We do not use information that personally identifies you to display interest-based ads.",
+      "line": 35,
+      "context": "The notice does not explain how both statements fit together; details are in a separate Interest-Based Ads notice.",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-13",
+      "topic": "use_ads",
+      "claim": "Amazon may give ad companies an advertising ID and an estimate of the value of ads shown to you, and some of those companies also use this to show you other advertisers' ads.",
+      "quote": "we may share an advertising identifier and an estimate of the value of the ads they show you on our behalf so they can serve you with more effective Amazon ads. Some ad companies also use this information to serve you relevant ads from other advertisers.",
+      "line": 60,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Users would not expect data Amazon gives ad companies to be reused for ads from unrelated advertisers."
+    },
+    {
+      "id": "amazon-14",
+      "topic": "use_personalization",
+      "claim": "Amazon uses your personal information to recommend products and personalize your experience.",
+      "quote": "We use your personal information to recommend features, products, and services that might be of interest to you, identify your preferences, and personalize your experience with Amazon Services.",
+      "line": 31,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-15",
+      "topic": "use_research",
+      "claim": "Amazon uses your personal information to develop and improve its products and services, not only to run them.",
+      "quote": "We use your personal information to operate, provide, develop, and improve the products and services that we offer our customers.",
+      "line": 28,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-16",
+      "topic": "use_research",
+      "claim": "Amazon sometimes combines your purchase and content history with other customers' data to build features like Top Sellers.",
+      "quote": "purchase and content use history, which we sometimes aggregate with similar information from other customers to create features like Top Sellers",
+      "line": 143,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-17",
+      "topic": "use_ai_training",
+      "claim": "Amazon says it uses data to develop or deploy its generative AI models and services.",
+      "quote": "In so doing, we use machine learning and artificial intelligence to support and enhance the customer experience across our products and services. This includes using data to develop or deploy our generative AI models and services.",
+      "line": 30,
+      "context": "The notice does not say which data is used and points to a separate Generative AI Development Disclosure.",
+      "surprise": 2,
+      "surprise_why": "Many shoppers do not expect their shopping and service data to be used to build generative AI."
+    },
+    {
+      "id": "amazon-18",
+      "topic": "share_third_parties",
+      "claim": "When a third party is involved in your purchase (for example a marketplace seller or co-branded card), Amazon shares the related personal information with it.",
+      "quote": "You can tell when a third party is involved in your transactions, and we share customers' personal information related to those transactions with that third party.",
+      "line": 43,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-19",
+      "topic": "share_third_parties",
+      "claim": "Service providers that work for Amazon get the personal information they need, and Amazon says they may not use it for other purposes.",
+      "quote": "These third-party service providers have access to personal information needed to perform their functions, but may not use it for other purposes.",
+      "line": 44,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-20",
+      "topic": "share_third_parties",
+      "claim": "Amazon releases account and other personal information when it believes doing so is appropriate to comply with the law or enforce its agreements.",
+      "quote": "We release account and other personal information when we believe release is appropriate to comply with the law; enforce or apply our Conditions of Use and other agreements",
+      "line": 46,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-21",
+      "topic": "share_third_parties",
+      "claim": "If Amazon is acquired, customer information would be transferred to the buyer.",
+      "quote": "in the unlikely event that Amazon.com, Inc. or substantially all of its assets are acquired, customer information will of course be one of the transferred assets.",
+      "line": 45,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-22",
+      "topic": "sell_share_definition",
+      "claim": "Amazon says it is \"not in the business of selling\" customer personal information, but this notice does not define \"sell\" or \"share\".",
+      "quote": "Information about our customers is an important part of our business, and we are not in the business of selling our customers' personal information to others.",
+      "line": 42,
+      "context": "Legal definitions under US state laws are left to a separate State-Specific Privacy Disclosures page.",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-23",
+      "topic": "sell_share_definition",
+      "claim": "The notice acknowledges cross-context behavioral advertising and points to a separate page for opting out of it.",
+      "quote": "You can learn more about how to opt-out of personalized advertising (such as cross-context behavioral advertising) by visiting Your Ads Privacy Choices.",
+      "line": 60,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-24",
+      "topic": "retention",
+      "claim": "When you update your information, Amazon usually keeps a copy of the old version.",
+      "quote": "When you update information, we usually keep a copy of the prior version for our records.",
+      "line": 68,
+      "context": "The notice gives no retention periods anywhere.",
+      "surprise": 2,
+      "surprise_why": "People expect an edit to replace old data, not to keep a copy of it."
+    },
+    {
+      "id": "amazon-25",
+      "topic": "user_controls",
+      "claim": "You can see your name, address, payment options, profile, Prime membership, household settings, and purchase history in Your Account.",
+      "quote": "You can access your information, including your name, address, payment options, profile information, Prime membership, household settings, and purchase history",
+      "line": 63,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-26",
+      "topic": "user_controls",
+      "claim": "Amazon frames access and deletion requests as rights you may have only where the law requires, made through its Data Privacy Queries page.",
+      "quote": "to the extent required by applicable law, you may have the right to request access to or delete your personal information. If you wish to do any of these things, you may go to Data Privacy Queries.",
+      "line": 77,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-27",
+      "topic": "user_controls",
+      "claim": "You can stop items from shaping your recommendations, but only by unchecking a toggle for each item.",
+      "quote": "you can remove recommendations you don’t want to see by unchecking the “Use this item for recommendations” toggle on the right side of the page for each item",
+      "line": 73,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-28",
+      "topic": "optout_ads",
+      "claim": "You can change personalized ad settings on the Your Ads Privacy Choices page.",
+      "quote": "You may adjust your personalized advertising preferences by visiting Your Ads Privacy Choices.",
+      "line": 70,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-29",
+      "topic": "optout_ads",
+      "claim": "If you block Amazon's cookies, you cannot use the shopping cart, check out, or sign in.",
+      "quote": "if you block or otherwise reject our cookies, you will not be able to add items to your Shopping Cart, proceed to Checkout, or use any Services that require you to Sign in.",
+      "line": 71,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-30",
+      "topic": "optout_steps",
+      "claim": "The notice names about 4 separate opt-out actions, none described step by step: (1) the Your Ads Privacy Choices page, (2) each browser's or device's cookie settings via its Help feature, (3) signing out and blocking cookies to stop linking browsing to your account, and (4) settings on individual Amazon websites, devices, and apps.",
+      "quote": "You may adjust your personalized advertising preferences by visiting Your Ads Privacy Choices.",
+      "line": 70,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-31",
+      "topic": "optout_steps",
+      "claim": "For cookies, the notice sends you to the Help feature of each browser or device rather than explaining the steps.",
+      "quote": "The Help feature on most browsers and devices will tell you how to prevent your browser or device from accepting new cookies or other identifiers",
+      "line": 71,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-32",
+      "topic": "optout_steps",
+      "claim": "The only way the notice gives to browse without linking history to your account is to sign out and block cookies.",
+      "quote": "If you want to browse our websites without linking the browsing history to your account, you may do so by signing out of your account and blocking cookies on your browser.",
+      "line": 72,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "Blocking cookies breaks the cart and checkout, so this option is barely usable for shoppers."
+    },
+    {
+      "id": "amazon-33",
+      "topic": "optout_steps",
+      "claim": "Other opt-outs are spread across individual Amazon websites, devices, and apps, such as Manage Your Content and Devices.",
+      "quote": "You will also be able to opt out of certain other types of data usage by updating your settings on the applicable Amazon website (for example, Manage Your Content and Devices), device, or application.",
+      "line": 74,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-34",
+      "topic": "sensitive_location",
+      "claim": "Amazon may collect the location of your device when you use its apps and the location data of images you upload; the notice does not say whether this is precise or approximate.",
+      "quote": "location of your device running an application, information about uploaded images and files such as the file name, dates, times and location of your images",
+      "line": 141,
+      "context": "",
+      "surprise": 2,
+      "surprise_why": "People may not realise that location data in uploaded photos is collected."
+    },
+    {
+      "id": "amazon-35",
+      "topic": "sensitive_location",
+      "claim": "To limit location access, the notice points you to your device's own permission settings.",
+      "quote": "Most non-Amazon devices also provide users with the ability to change device permissions (for example, disable/access location services, contacts).",
+      "line": 74,
+      "context": "",
+      "surprise": 0
+    },
+    {
+      "id": "amazon-36",
+      "topic": "sensitive_biometric",
+      "claim": "Amazon may collect images or videos of you when you shop in its stores or in other stores that use Amazon services.",
+      "quote": "images or videos when you shop in our stores, or stores using Amazon Services.",
+      "line": 146,
+      "context": "The notice does not use the word biometric or say whether faces are analysed.",
+      "surprise": 2,
+      "surprise_why": "Shoppers in non-Amazon stores may not know Amazon can collect images of them."
+    },
+    {
+      "id": "amazon-37",
+      "topic": "sensitive_biometric",
+      "claim": "Amazon uses your voice input, images, and videos from its voice and camera services, including Alexa, to respond to you and to improve its services.",
+      "quote": "When you use our voice, image and camera services, we use your voice input, images, videos, and other personal information to respond to your requests, provide the requested service to you, and improve our services.",
+      "line": 32,
+      "context": "The notice does not say whether voiceprints or face data are created.",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-38",
+      "topic": "sensitive_health",
+      "claim": "How Amazon handles health data is described only in a separate Consumer Health Data Privacy Disclosure, not in this notice.",
+      "quote": "Please read our Additional State-Specific Privacy Disclosures and Consumer Health Data Privacy Disclosure for additional information about the processing of your personal data",
+      "line": 4,
+      "context": "",
+      "surprise": 1
+    },
+    {
+      "id": "amazon-39",
+      "topic": "sensitive_children",
+      "claim": "People under 18 may use Amazon only with a parent or guardian involved, and Amazon says it does not knowingly collect data from children under 13 without parental consent.",
+      "quote": "If you are under 18, you may use Amazon Services only with the involvement of a parent or guardian. We do not knowingly collect personal information from children under the age of 13 without the consent of the child's parent or guardian.",
+      "line": 80,
+      "context": "",
+      "surprise": 0
+    }
+  ],
+  "not_stated": [
+    {
+      "topic": "optout_ai",
+      "searched": "AI, artificial intelligence, machine learning, generative, model, train, opt out, Generative AI Development Disclosure"
+    }
+  ],
+  "notes": "Amazon.com (US) Privacy Notice, last updated June 30, 2026. Many details are deferred to separate pages (Interest-Based Ads notice, Cookies Notice, Generative AI Development Disclosure, State-Specific Privacy Disclosures, Consumer Health Data Privacy Disclosure). The notice gives no retention periods and no AI opt-out."
+}
