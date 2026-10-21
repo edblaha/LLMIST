@@ -13,6 +13,7 @@ _Where each dataset or document came from (URL or path, date retrieved, version)
 - **2026-10-21** — No sources logged yet. `claude-system-prompt-drift.html`
   predates this log; its sources have not been recorded here.
 - **2026-10-21** — Started privacy-policy collection (15 platforms). Meta: target URL https://www.facebook.com/privacy/policy/ — not yet retrieved.
+- **2026-10-21** — Meta: saved https://opensource.fb.com/legal/privacy/ (HTTP 200, 10.7 KB) → data/raw/meta.html, data/text/meta.txt. Stated "Effective April 25, 2023". Scope is Meta open-source websites only, not the main Facebook/Instagram privacy policy.
 
 ## Collection problems and workarounds
 
@@ -20,12 +21,15 @@ _What broke while gathering data and how it was handled._
 
 - **2026-10-21** — None yet.
 - **2026-10-21** — Meta: plain curl GET (Chrome User-Agent) returned HTTP 400 and an 856-byte Facebook "Sorry, something went wrong" error page, not the policy. Likely bot/JS gating. Error page moved out of data/raw/ (not a policy). No workaround tried yet; paused for user decision.
+- **2026-10-21** — Meta workaround: user supplied an alternate URL, https://opensource.fb.com/legal/privacy/, which downloaded with plain curl.
+- **2026-10-21** — Collection paused by user at X (step 2 of 15). Remaining 13 platforms not started.
 
 ## Permissions I approved or denied
 
 _Tool, command, or access requests and the decision made on each._
 
 - **2026-10-21** — No permission prompts this step.
+- **2026-10-21** — X: user rejected the tool call that would clean the downloaded X page (https://x.com/en/privacy, HTTP 200, title "X Privacy Policy") and said "stop". X copy stays in scratchpad only; nothing for X saved to data/ or sources.csv. Collection paused after Meta.
 
 ## Analysis decisions
 
@@ -34,6 +38,7 @@ _Choices about scope, cleaning, methods, and interpretation, with the reason._
 - **2026-10-21** — Decided to keep a running analysis log and to require it
   be updated after every step (rule added to `CLAUDE.md`).
 - **2026-10-21** — Collection setup: originals go in data/raw/, cleaned text (BeautifulSoup: drop script/style/nav/header/footer, keep headings, paragraphs, list items) in data/text/, metadata in data/sources.csv (platform, url, retrieval_date, policy_last_updated, method, status). Platforms done one at a time; on any failure, stop and report before a workaround.
+- **2026-10-21** — User chose https://opensource.fb.com/legal/privacy/ as the Meta source. Claude flagged that it covers only Meta open-source websites; recorded the scope in sources.csv status. Not yet decided whether it should be replaced by the main Meta Products policy for comparison.
 
 ## Prompts I used
 
@@ -45,6 +50,7 @@ _Prompts given to Claude, verbatim or closely paraphrased._
   add a rule to CLAUDE.md: after every step, update analysis-log.md with what
   you did, what failed, and what I decided. Never delete earlier entries."
 - **2026-10-21** — "Collect the current privacy policies of these platforms: [Meta, X, Strava, Google, OpenAI, Reddit, TikTok, Wikipedia, Weather.com, ESPN, DuckDuckGo, GitHub, Amazon, EBay, LinkedIn]. For each one, find the official policy page, save the original in data/raw/ (HTML or PDF), save cleaned plain text in data/text/, and record in data/sources.csv: platform, URL, retrieval date, the policy's stated last-updated date, how you got it, and status. Work through them one at a time and tell me when a download fails and why, before trying a workaround."
+- **2026-10-21** — User reply to the Meta failure: "https://opensource.fb.com/legal/privacy/"
 
 ## Verification checks
 
@@ -53,3 +59,4 @@ _How results were checked (spot checks, recounts, cross-source comparisons) and 
 - **2026-10-21** — Confirmed `analysis-log.md` and `CLAUDE.md` were created
   and committed. No data checks yet.
 - **2026-10-21** — Meta: inspected the response body; confirmed it was an error page (title "Error"), so it was not saved as the policy.
+- **2026-10-21** — Meta: confirmed HTTP 200, page is a privacy policy (2,868 words cleaned), "Effective April 25, 2023" on line 1; read the opening scope paragraph and confirmed it applies only to the open-source websites.

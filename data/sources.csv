@@ -1,2 +1,2 @@
 platform,url,retrieval_date,policy_last_updated,method,status
-Meta,https://www.facebook.com/privacy/policy/,2026-10-21,,"curl GET, browser User-Agent",failed: HTTP 400 error page ("Sorry, something went wrong"); awaiting decision on workaround
+Meta,https://opensource.fb.com/legal/privacy/,2026-10-21,"2023-04-25 (""Effective April 25, 2023"")","curl GET, browser User-Agent; URL supplied by user after facebook.com/privacy/policy/ returned HTTP 400","ok; SCOPE NOTE: Meta open-source websites policy only, not the Facebook/Instagram/Meta Products privacy policy"
