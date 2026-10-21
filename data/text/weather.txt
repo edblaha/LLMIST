@@ -1,0 +1,615 @@
+# Privacy Policy
+Last Updated: April 16, 2026
+Thank you for using our Services. This Privacy Policy is effective as of April 30, 2026.
+You are currently viewing the Privacy Policy for the country and language site that you visited. To view our Privacy Policy in other languages, go to our Privacy Policy Directory. In an effort to help all our users understand our approach to privacy, we have translated our Privacy Policy (located here in US English) into many languages. Please refer to the US English Privacy Policy if any translation conflict exists.
+To learn more about your data rights, see section “Data Rights.”
+For further disclosures to users in South Korea, see section “Additional Disclosures for Korea.”
+To learn more about how we provide our weather information to other companies that present that information to their users, see our Weather Services Provider Privacy Explainer.
+The previous version of this Privacy Policy is available here.
+
+## Welcome
+The Weather Company® is here to help you plan each day, from knowing when to toss a sweater in your bag to when your plane might experience turbulence en route. We know that your Personal Data (defined in section “Personal Data”) is important to you. It’s important to us too! We believe in ethical and transparent use of Personal Data.
+We have designed this Privacy Policy focused on how you interact with our Services (defined in section “We Are The Weather Company”) and common questions you may have. Our Privacy Policy applies differently depending on how you use our Services and where you’re located. Check section “Global Disclosures” for region-specific information (for example, California, European Union/European Economic Area/United Kingdom, and South Korea), and if you're here for business rather than our consumer weather products, head to section “Data Collection Outside Our Consumer Weather Products.”
+Our goal is to be clear and transparent. If you have any questions about this Privacy Policy, please ask us (see section “Support & Feedback (How to Contact Us)”).
+
+## We Are The Weather Company
+We are The Weather Company, LLC, including our subsidiaries and affiliates (“we,” “us,” and “our”) and the online services that bring weather information to you. These collective services (“Services”) include:
+- The Weather Channel® (weather.com website, mobile apps, in-vehicle app, app for Apple TV, and skill for Amazon Alexa);
+- Weather Underground® (wunderground.com website and mobile apps);
+- Storm Radar™ (mobile app);
+- SnowCast™ (mobile app); and
+- Any other websites and services that reference or link to this Privacy Policy.
+The Services do not include websites, apps, or other services that reference, link to, or are subject to another privacy policy. In particular, this Privacy Policy does not apply to The Weather Channel TV App, The Weather Channel Television Network, and any related websites or other online properties provided by Weather Group Television, LLC or any other Allen Media Group affiliated entities.
+This Privacy Policy outlines how we collect, use, process, and share Personal Data as a data controller. Please also read our Terms of Use, which set out the terms governing the Services.
+
+## Personal Data
+To understand what we do with Personal Data, it is important to start with how we define it:
+> Personal Data (sometimes referred to as Personal Information) is information that identifies, relates to, describes, is capable of being associated with, or could reasonably link - directly or indirectly - to an individual.
+So, what does this really mean? Personal Data is more than your name and email address - it includes other “identifiers” connected to you. All of this information comes together so we have a better understanding of you as a weather enthusiast, along with your interests and preferences, so we can personalize your experience.
+
+## How You Interact With Our Consumer Weather Products
+The numbered sections below are intended to help you more easily understand how we process Personal Data when you interact with and connect with us about our consumer weather products.
+
+### 1. On the Web
+Whether you check the weather the night before or when you wake up, we are here to help you plan your day. When you check our forecast on the web (on your computer or mobile browser), we collect Personal Data, including your Internet Protocol (IP) address, device information, identifiers, preferences, and your location information. We do this to provide you with the weather outside and weather-related news, well-being insights, content, and to advertise to you.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.” For definitions of our data categories and details around the purposes they’re used for, see section “Data Categories.”
+
+### 2. On Our Mobile Apps
+Weather happens wherever you go. Having access to the daily and future forecasts, information on your weather interests, weather-related well-being tips, and many other great mobile app features can help you plan your day. When you explore our mobile apps, we collect Personal Data, including device information, identifiers, interests, and location information, including precise location (aligned with your consent) and location(s) you select.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.” For definitions of our data categories and details around the purposes they’re used for, see section “Data Categories.”
+
+### 3. Viewing and Engaging with Our News & Stories
+Weather is constantly impacting our world, which is why we offer editorial content about severe weather, climate, and other weather-connected, well-being and lifestyle topics. When you read our articles, watch our videos, or engage with other editorial content, we collect Personal Data, including your IP address, device information, and location information, to deliver relevant content for your area. We also collect information about the content you view and how you interact with it to improve our editorial offerings, for targeted advertising, and to provide you with a more personalized experience. This information helps us understand what topics interest you most so we can deliver more of what you value. When you want to add your voice to a story through commenting, your display name is also captured and displayed.
+Don’t forget: Display names and comments are public, so make sure to exclude identifiable information and see the Community Guidelines and our Terms of Use. If you submit content to us (through email, text or audio message, or by responding to online content), your content is governed by our Terms of Use.
+If you see advertising related to content you are viewing, know that these ads are generally displayed to anyone who views the content (often referred to as “contextual advertising”).
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.” For definitions of our data categories and details around the purposes they’re used for, see section “Data Categories.”
+
+### 4. Creating an Account and Using an Ad-Free Subscription
+You really love planning your day with us and have decided to create an account for a more personalized experience (Welcome!). When you create an account, we collect Personal Data, including your first name, email address, and password, to get you started. For even more personalization, you can also optionally provide other information, including your gender, display name, photo, and select a number of interests to tailor your experience. You can always adjust these selections in your account settings.
+As available, we permit you to create (or sign in to) an account using your existing third-party platform account (for example, through Google or Apple).
+If you don’t want ads and want our most advanced features, you can sign up for our ad-free subscription offerings – with us directly or through the app store. When you sign up with us directly, we ask for your billing address and payment information.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.” For definitions of our data categories and details around the purposes they’re used for, see section “Data Categories.”
+
+### 5. Keeping Up With Inclement Weather and More - Notices & Alerts
+If inclement weather is approaching, timing is everything when it comes to safety information. Weather alerts based on your current location are just one of many types of notifications available to you. When you enable location-based alerts, we use Personal Data, including your GPS location data or saved locations, to provide you with real-time notifications about weather conditions that may affect you. These storm warnings and weather alerts are designed to help you prepare for whatever nature has in store.
+Beyond alerting of storm clouds on the horizon, with your consent, we also send you notifications about:
+  - Product updates to improve your weather-tracking experience;
+  - Breaking news stories related to weather events and climate; and
+  - Special offers we think you might find useful.
+You can adjust your notification preferences anytime by:
+  - Turning off specific notification types in your settings within the Services;
+  - Adjusting location and notification permissions in your device settings; or
+  - Deleting the application.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.” For definitions of our data categories and details around the purposes they’re used for, see section “Data Categories.”
+
+### 6. Interacting with the Services
+We're always working to improve your experience with our Services. When you interact with product features, respond to surveys, or participate in user testing, we collect Personal Data, including information about your preferences, opinions, and how you use our Services. This includes your responses to questions, feature usage patterns, and time spent on different sections of our Services. We use analytics tools to understand these interactions, which help us make our Services better for you. If you participate in our surveys, we collect additional information you choose to provide.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.” For definitions of our data categories and details around the purposes they’re used for, see section “Data Categories.”
+
+### 7. Our Email Marketing and Newsletters
+If you are subscribed to our consumer email marketing or newsletter communications, you can unsubscribe by:
+    1. Clicking “Unsubscribe" in the footer of the emails you receive from us;
+    2. Updating preferences in your account settings; or
+    3. Requesting data deletion (see section "Your Data Rights" for instructions).
+It may take a few days for your opt-out preferences to take effect. We're committed to following industry guidelines and providing you with a personalized experience aligned with your choices.
+If you submit content to us (through email, text or audio message, or by responding to online content), your content is governed by our Terms of Use.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.”
+
+### 8. Connecting a PWS or Air Quality Sensor
+By connecting your Personal Weather Station (PWS) or air quality sensor to Weather Underground, you become part of a community of weather enthusiasts. By connecting your weather device to your account, you consent to our use of your local atmospheric data in our Services — turning your backyard into part of our global forecast system. Because, when it comes to accurate weather reporting, every raindrop counts!
+For information on your account, see section “Creating an Account and Using an Ad-Free Subscription.”
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.”
+
+### 9. Weather on the Road - In-Vehicle Infotainment App
+Weather conditions can change as you drive, making it essential to stay informed while on the road. The Weather Channel in-vehicle infotainment app delivers real-time forecasts, weather alerts, and route-specific conditions directly to your vehicle's dashboard. When you use our in-vehicle app, we collect Personal Data, including vehicle information, device identifiers, your precise location, and selected destinations. We use this information to provide you with relevant weather forecasts and safety alerts along your route.
+The Weather Channel in-vehicle app does not contain advertisements, and your Personal Data is not used for advertising purposes.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.”
+Please note that this Privacy Policy does not apply to data collection by your vehicle manufacturer or provider.
+
+### 10. Weather on Your Apple TV - App for Apple TV
+As you explore the world's weather from your couch, The Weather Channel app for Apple TV provides video coverage of weather stories from across the globe and, depending on your location, forecast videos for your city. When you use our app for Apple TV, we collect data that could be considered Personal Data (including IP address and your device’s country and language settings), but this data is not linked or connected to an identifiable person. We use this information for network connection purposes and to show you relevant weather-related content.
+Please note that this Privacy Policy does not apply to data collection by Apple (Apple and Apple TV are trademarks of Apple Inc.).
+
+### 11. Weather on Your Amazon Alexa Device - Skill for Amazon Alexa
+Accessing hands-free weather information is a breeze with The Weather Channel skill for Amazon Alexa. When you use our skill, we collect data that could be considered Personal Data, including device country and postal code, but this data is not linked or connected to an identifiable person.
+Please note that this Privacy Policy does not apply to data collection by Amazon (Amazon, Alexa, and all related marks are trademarks of Amazon.com, Inc. or its affiliates).
+
+### 12. Weather Tools in AI
+When you experience The Weather Channel app via an artificial intelligence (AI) platform, we collect Personal Data, including your IP address, device information, and location information, to deliver relevant responses to your weather inquiries and personalize your experience. Additional data may be provided to us by the AI platform, including the userID they create.
+Please note that this Privacy Policy does not apply to data collection or sharing, training preferences, and anything you can set within the platform controls (for example, by OpenAI and ChatGPT).
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.” Additional information can be found in section “Our Use of AI.”
+
+### 13. Contests
+We sometimes host contests for a chance to win prizes. When you enter a contest, we collect Personal Data, including your name and contact information. When entering a contest, you agree to the contest terms, including but not limited to our use of your information to determine winners, distribute prizes, and promote the contest. In some locations and cases, winners' names and contest entries are published as part of announcing results.
+For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.”
+
+### 14. Customer Support Communications
+When you communicate with us to share feedback or get support, we collect Personal Data, including name, email address, phone number, and other information collected to provide support.
+This data is used to provide support and resolve your inquiries.
+If you are looking to contact us, see section “Support & Feedback (How to Contact Us).” For more information on our data collection, use, and sharing practices while using our Services, see sections “Data Collection Technologies and Consumer Choice” and “Global Disclosures.”
+
+## Our Use of AI
+For decades, we’ve been at the forefront of weather technology, including use of AI, to provide the most accurate forecasts possible and to improve your experience with our Services. Our approach to AI is guided by strong ethical principles, including:
+- Thoughtful and Responsible: We review our uses of AI, including identifying and evaluating potential impacts.
+- Transparency and Explainability: We aim to make the workings of our AI systems understandable and explainable.
+- Human Oversight: We seek to maintain appropriate levels of human oversight and control over AI-driven processes and decision-making.
+- Privacy and Data Protection: We prioritize the protection of Personal Data and implementation of AI systems that account for relevant privacy requirements. We value and respect the confidentiality and security of personal and sensitive data.
+When it comes to AI, here are some of the ways we’re using your data:
+- We use generative AI to personalize your experience and communications;
+- Our machine learning helps us create audiences to better understand users’ needs and preferences;
+- We use your data to improve the performance and accuracy of the AI we use; and
+- We create audience insights at an aggregate level.
+We regularly review our AI practices to ensure they remain fair and transparent.
+
+## Data Collection Technologies and Consumer Choice
+We strive to provide you with a personalized experience. Here's how we tailor our Services to you:
+
+#### Data Collection Technologies
+In addition to the data you provide directly to us (as outlined in the above sections), we and our partners use various technologies to track usage and personalize your experience. These include:
+- Cookies: Small text files stored on your device to remember preferences and track usage across different websites.
+- ETags: Labels that websites use to identify when your web browser has accessed a page before, which help websites track if you've visited a page previously and what information you've already shared.
+- JavaScript: Programming language that websites use to collect information about how you interact with them, which allows websites to track your clicks, scrolls, and other actions.
+- Local storage: Browser or device storage, saves user preferences and other data for a smoother experience.
+- SDKs: Toolkits that apps and software use to collect data about how you use them. They provide developers with pre-made code and tools to gather information about your activity.
+- Web beacons: Tiny graphic images used to understand how you interact with content.
+These tools (which we’ll refer to, collectively, as “cookies and trackers”) help us understand your interactions with our Services and track you across different websites for various purposes, such as cross-contextual behavioral advertising (CCBA), commonly referred to as “targeted advertising.”
+Please note that cookies and trackers may be used within our marketing and newsletter emails to track your interactions with our Services and when emails are opened.
+
+#### Your Cookie and Tracker Choices
+Depending on your location, you may have control over non-essential tracking technologies used on our websites through the Services (for example, in the EU/EEA/UK). You can also visit your browser’s settings to see what you can control from there. We categorize our cookies and trackers as follows:
+- Essential Technology cookies/trackers allow access to information stored in your browser needed to perform necessary functions - including securing the connection to our websites, inferring approximate location data of your internet connection to provide you weather forecasts for your general area, and optimizing site performance.
+- Functional Technology cookies/trackers allow permission for our websites to remember choices you make and collect information about how you use the Services in order to improve our weather offerings and business. They enable us to provide you with the most accurate forecasts while also measuring performance, and improving our weather and forecast products and our Services. Additionally, they allow for social media platforms to collect data needed to display editorial articles and videos on our Services.
+- Targeted Advertising cookies/trackers allow our advertising partners to deliver ads and content personalized to your interests, resulting in a more relevant browsing experience. We learn about your interests from your activity on our websites, as well as from other websites you use.
+- Geographically Relevant Advertising cookies/trackers enable the use and sharing of location information embedded within your IP address for advertising purposes. This enables our advertising vendors to show you ads related to your current location, creating a more relevant browsing experience.
+See section “General Data Protection Regulation (GDPR) Notice” for information about data processing purposes and legal basis.
+
+#### Advertising Vendors
+We work with Advertising Vendors and our advertisers (including their vendors) to serve relevant ads and optimize our Services. We and our Advertising Vendors may use the following techniques:
+- Advertising identifiers: Collecting information about usage of the mobile apps through advertising identifiers to support or deliver personalized advertising. An advertising identifier is a randomly-generated alphanumeric code associated with your device. Advertising identifiers provide advertisers a way to identify your device without using a permanent device identifier, such as serial number. On a website, cookie IDs can be used in this same manner.
+- Combining data: Merging information from various sources to better understand your interests. This includes ingesting data about you from external sources and using identity graphs to match various identifiers (including hashed email addresses, defined below).
+- Cross-device tracking: Tracking your activity across your other websites or devices to provide a consistent experience.
+- Hashed email addresses: Converting email addresses into an irreversible string of characters (hashes) that allow for ad targeting and measurement across platforms without exposing your actual email address.
+
+#### Your Advertising Choices
+You have choices over how your Personal Data is used for advertising:
+1. Browser settings: We encourage you to visit the help or settings area of your browser to manage cookies and local storage.
+2. Device settings: You can control advertising identifiers on mobile devices through device/operating system settings.
+3. Industry opt-outs: Use tools provided by the Digital Advertising Alliance (DAA), Digital Advertising Alliance of Canada (DAAC), and European Interactive Digital Advertising Alliance (EDAA) to opt out of personalized ads from multiple vendors.
+4. Opt-outs: Depending on your location, you may have opt-outs available through the Services.
+5. Opt-out signals: We will honor GPC (Global Privacy Control) signals in the U.S. when received from your browser. To learn more about Global Privacy Control, you can visit https://globalprivacycontrol.org. As Do Not Track is not a universally-recognized browser signal, we do not recognize this on our consumer weather products.
+6. Vendors: You can visit our Data Vendors page to review the vendors we share data with and view their privacy policy and opt-out mechanisms where applicable. In some countries, you may also be asked to review and make choices about Vendor activity prior to accessing our Services.
+Some things to remember:
+- If you change your settings on individual web browsers or ad networks, these settings will not necessarily carry over to other browsers or ad networks, and you may still see our ads.
+- Opting out doesn't mean you'll stop seeing ads – they just might not be as relevant to you. Some ads are displayed based on the content you view. This is often referred to as “contextual advertising.” As these ads are not targeted to you individually, your opt-out choice will not apply to them.
+
+#### Analytics Vendors
+We collaborate with Analytics Vendors to understand how you interact with our Services and to improve your experience. These partners help us track:
+- Usage patterns and trends: Collecting and analyzing data about how you use our Services, similar to tracking weather patterns to identify seasonal trends.
+- Performance measurement: Monitoring how our Services function across different devices and networks.
+- Feature effectiveness: Evaluating which features are most valuable to users, helping us prioritize improvements.
+- Audience insights: Aggregate user data to better understand preferences and needs; the insights generated remain at an aggregate level.
+- Surveys and user testing: Collecting direct feedback and observations through optional participation in questionnaires and feature evaluations to guide product improvements.
+- Conversion tracking: Measuring actions taken after viewing content or advertisements to determine effectiveness.
+
+#### Technology Vendors
+We partner with Technology Vendors to help deliver and maintain our Services. These specialized partners assist us with:
+- Data storage and management;
+- Customer service support;
+- Audience research and product development;
+- Content receipt, creation, delivery, and functionality; and
+- Mapping services for location-based features.
+These vendors receive the data necessary to perform their specific functions. The vendors commit to follow data protection standards when processing Personal Data. This collaboration allows us to provide and maintain the quality of our Services across all our features.
+
+#### Data Providers
+We partner with Data Providers to enrich our data with details, including but not limited to:
+- Consumer finance behavior, interests, and purchases
+- Demographics about you and your household
+- Hashed email address
+- Home address
+We use this data to better understand you, personalize our Services, and provide targeted advertising.
+
+#### Third-Party Services and Links
+We may provide you with partner promotions/services or include connections to other websites, apps, or platforms.
+- Partner Promotions/Services: When we offer you third-party promotions or services, you are free to choose whether we share your information with these partners. It’s important to remember that partner data practices follow their own privacy policies.
+- External Connections: Our Services may link to other websites/apps, contain framed content, or interact with third-party platforms (like mobile operating systems or device manufacturers). These connections operate under their own privacy policies.
+- Social Sharing Features: Where available, social sharing features allow you to share our content from our Services, on social media platforms. Use of our social sharing features may allow a third party to collect and/or use information about you. If you use social sharing features, information you post or make accessible may be publicly displayed by the third-party service.
+We recommend reviewing third-party privacy policies before engaging with their services, as we cannot control how they collect, use, or protect your information once you venture beyond our Services.
+
+#### Location Data
+We collect different types of location data depending on your device settings. When you access our Services, we may detect your approximate location (e.g., your city or zipcode) through your IP address to provide local weather, news, content, and offers. For more precise forecasts, we may use your specific GPS location (precise location), but only if you first give us consent. You can also add and save a location directly (including address, zip/postal code, or city) when you use our Services. If you'd rather not share your precise location, you can always opt out of this sharing, though you will still receive content based on your last searched location (we call this your "contextual location").
+We and our vendors may use your location data (approximate or precise) to deliver relevant advertisements and for various other purposes as we outline in the Data Categories table. You can adjust your location settings anytime through your device.
+
+## Data Retention and Storage Location
+We'll hold onto your Personal Data for as long as necessary to provide you with our Services and to improve them. However, legal obligations may require us to extend that timeframe. Outdated data that no longer requires personal identification may be de-identified and kept indefinitely in a way that no longer identifies you, but helps us as we continue to improve our Services.
+Our Services are supported by servers and people located both inside and outside of the United States. Subject to applicable law, by using our Services and providing information to us, you consent to the transfer to and processing of information in the United States and other jurisdictions. If you're based in the European Union (EU)/European Economic Area (EEA), the United Kingdom (UK), or another region outside the United States, your data may be processed in the United States or other jurisdictions where the data protection and privacy laws may not offer the same level of protection as those in the country where you reside. Where necessary under applicable law, we may employ appropriate cross-border transfer methods governing Personal Data.
+
+## Your Data Rights
+We are thrilled that you check the weather forecast using our Services and understand if you want more details on what we collect, or if you want to delete your information (although we really do hope you stay!). For information on rights to access, obtain a portable copy of, correct, or delete/erase data related to your use of the Services, please refer to the Data Rights section available for each product:
+- weather.com, click here
+- wunderground.com, click here
+- The Weather Channel, Weather Underground, Storm Radar, and/or SnowCast mobile apps, navigate to “Data Rights” in the app menu
+- The Weather Channel in-vehicle app, please email twc-auto-support@weather.com
+Please note that we may take steps to verify your identity to enable us to respond to your request.
+Your data rights are subject to all application limitations, exemptions, and exceptions as are provided under applicable law. If you continue to use our Services after data deletion, we will resume collecting Personal Data for the various business purposes identified in this Privacy Policy, including personalization.
+It’s important to note that, as permitted by law or to provide our Services, there is some data we do not delete as part of the request. This includes data we use to:
+- Complete transactions requiring data such as billing information or transaction histories;
+- Respond to customer support inquiries;
+- Detect and prevent security incidents and identify and repair errors that impair functionality of our Services (e.g., log files, error diagnostics); and
+- Comply with legal obligations.
+Your account, and any ad-free subscriptions associated with your account that you purchased with us directly, will be deleted as part of the process when you request data deletion while signed into your account. This means you won’t be able to sign in unless you create a new account, and you won’t be able to access an associated subscription purchased with us directly. For more information, see our Terms of Use.
+There may be additional rights in your location; see section “Global Disclosures” for more details.
+If you have questions or compliance concerns about our processing of data related to your use of the Services, you can contact us through the methods detailed in section “Support & Feedback (How to Contact Us).” If you have continued concerns, you can also reach out to your relevant data protection authority.
+Please refer to section “Data Collection Outside Our Consumer Weather Products” for information about how to exercise your data rights for data not related to our consumer weather products.
+
+## Our Commitment to Not Track Minors
+We do not knowingly collect Personal Data from children under age 18. If you become aware that we have collected Personal Data from a specific child, please notify us promptly through the methods detailed in section “Support & Feedback (How to Contact Us).” If we become aware that a child under age 18 has provided us with Personal Data without parental consent, we will take steps to remove their Personal Data.
+
+## Protecting Your Data
+We take our data stewardship seriously. We have put in place physical, electronic, and managerial procedures intended to help protect your data. For example, where appropriate, we use methodologies such as encryption when transmitting your data. However, like all digitally-connected internet-based things, the security of your information is not guaranteed, and the sharing and transmission to us is at your own risk.
+
+## Other Data Sharing
+There are some scenarios where we, our affiliates, or our vendors may share your data without your express permission:
+- Pursuant to judicial or other government subpoenas, warrants, or orders, or otherwise to comply with law;
+- Where we believe an individual's rights, property, or safety or security is at risk;
+- If we find that your actions violate our Terms of Use or any of our other legal rights;
+- Where otherwise required or permitted by applicable law (which may include a lawful access request by U.S. or foreign courts, governments, or law enforcement agencies); or
+- If we buy, merge, reorganize, or sell any business or assets, Personal Data and non-Personal Data will likely be disclosed or transferred as part of the transaction.
+
+## Changes to This Privacy Policy
+As our business changes and the legal environment evolves, we change this Privacy Policy periodically. If we decide to change this Privacy Policy, we will post those changes here prior to the time they take effect. If we make material changes to the way we use Personal Data, we may notify you through the Services.
+
+## Support & Feedback (How to Contact Us)
+We like to hear your feedback about how we’re doing (especially when you tell us about something you love) or questions about the Services or this Privacy Policy.
+For privacy-related inquiries regarding our consumer weather products and services, please contact Customer Support through our consumer support site here and select “Privacy” when the form asks what you need help with or are inquiring about, or if you are a user of The Weather Channel in-vehicle app, at twc-auto-support@weather.com.
+Additionally, you can contact us at:
+Attn: Privacy Office
+The Weather Company, LLC
+1001 Summit Boulevard NE
+Brookhaven, GA 30319
+USA
+For privacy-related inquiries regarding data collection outside of our consumer products and services, please see section “Data Collection Outside Our Consumer Weather Products” subsection “Other Privacy Inquiries.”
+
+## Data Categories
+We collect and use information - some of which may be considered Personal Data - in order to operate the Services and to enhance your experience with our consumer weather products, as described below and in this Privacy Policy. We collect this data directly from you, from your device, or from our Data Providers as discussed in this Policy.
+| How We Use Personal Data | What Does This Mean? | Categories of Data Processed | Type of Vendor Data is Shared With* (see our Data Vendors page for more information) |
+| Provide core weather features | To provide you with precise weather forecasts and weather-related news. | Device informationIdentifiersLocation informationPreferences | Technology |
+| Analyze and measure how you use the Services | To analyze and measure how you use our Services to improve or optimize the performance of the Services. | Device informationIdentifiersInformation related to your use of and interactions with the ServicesLocation informationPreferencesPrivacy choices | AnalyticsTechnology |
+| Create and manage user accounts and subscriptions | To support account and subscription functionality. | Device informationIdentifiersPayment informationPreferences | AnalyticsTechnology |
+| Provide alerts, notifications, and messages | To offer you the ability to receive push notifications or in-product messages. | Device informationIdentifiersLocation informationPreferences | Technology |
+| Honor your consent and provide other data rights | To recognize and honor your choices with respect to the use of your data and how you prefer to use the Services. We may request additional information to enable us to verify your identity and respond to your data rights request. | Device informationIdentifiersLocation informationPrivacy choices | AdvertisingAnalyticsTechnology |
+| Communicate with you | Responding to your inquiries and feedback, and communicating with you. | Communication informationDevice informationIdentifiersLocation information | Technology |
+| For marketing and advertising | To deliver targeted marketing messaging and ads on the Services and on third-party apps and websites. To measure the performance and effectiveness of ads, marketing messaging, and other content that you see or interact with. | Device informationIdentifiersInferences drawn about you or from the use of the ServicesInformation related to your use of and interactions with the ServicesLocation informationPreferencesPrivacy choices | AdvertisingAnalyticsTechnology |
+| Provide and improve our AI features | To offer and improve our AI features. | Device informationIdentifiersInformation related to your use of and interactions with the ServicesLocation information | Technology |
+| Personalize the Services | To offer you a personalized experience while using our Services, including recommending content and features. | Device informationIdentifiersInferences drawn about you or from the use of the ServicesInformation related to your use of and interactions with the ServicesLocation informationPreferences | AnalyticsTechnology |
+| Contests | To offer contests and send prizes to winners. | IdentifiersInferences drawn about you or from the use of the Services | Technology |
+| IT operations | The maintenance and management (including security management) of apps, networks, systems, or infrastructure. | Device informationIdentifiersInternet or other electronic network activity informationLocation information | Technology |
+*All data categories will be shared with our affiliates and are subject to section “Other Data Sharing.”
+For additional clarity, we’ve included some definitions to help you better understand the above chart:
+- Communication information – Data collected when you communicate with us, such as feedback/inquiries, audio recordings/voicemails, and text messages.
+- Device information – Data collected about your computer, phone, tablet, browser, and other electronic devices, such as IP address, media access control (MAC) address, and browser cookies and other tracking technology, including features managed on those devices, such as your calendar. This data is usually collected from the electronic device, but in some cases, we request this data from you.
+- Identifiers – A unique set of numbers, letters, symbols, and/or other information used to represent a device, browser, or an individual, including information provided during account or profile creation, newsletter subscription, through customer support communications, or other methods, such as your name, email address, home address, phone number, or photo. Please note this data sometimes comes directly from our Data Providers.
+- Inferences drawn about you or from the use of the Services – Conclusions made based on data collected directly from your interactions with the Services or from one of our Data Providers, such as demographic information.
+- Information related to your use of and interactions with the Services – Data collected directly from your actions while using the Services.
+- Location information – We may collect and use data about the geographical position of your device, browser, and locations of interest. This could include GPS location (precise location), approximate location derived from GPS location or IP address (such as city, state, zip code), and your saved locations selected on the Services.
+- Payment information – Data collected in order to complete purchases of subscriptions, for example, credit card information and billing address.
+- Preferences – Data collected to determine desired functionality of the Services, such as choosing between Celsius and Fahrenheit. This also includes any general interests you provide to us through the Services. Please note this data sometimes comes directly from our Data Providers.
+- Privacy choices – Data collected in relation to consent and opt-out selections available to you.
+You may choose not to provide us with optional information as you use our Services. By doing so, however, you may not be able to receive our full range of Services.
+
+## Data Collection Outside Our Consumer Weather Products
+We don't just provide weather forecasts for consumer users. We offer a range of additional services that require different types of data collection. Here's a view of how we gather and use information outside/separate from our consumer weather products and services:
+
+##### Visitors to Our Corporate Website (weathercompany.com) and Enterprise Solutions Websites (including data.weather.com)
+We use cookies and trackers to analyze traffic on our corporate and enterprise websites to better understand your browsing patterns. You can easily manage your preferences using the "Cookie Preferences" button in the site's footer, where you can also view data sharing with vendors.
+
+##### Business Contact Information (BCI) for Inquiries and Marketing Communications
+When you reach out to us with an inquiry through our corporate website (weathercompany.com), our enterprise websites (including data.weather.com and developer.weather.com), or otherwise authorize us to communicate with you/your business (e.g., at an event or conference), we collect your BCI. We also collect and use your BCI for marketing our business products to you. You can opt out of these business marketing communications anytime by clicking "Unsubscribe" in the footer of our marketing emails.
+
+##### Job Applicants
+We collect data such as employment history, education history, and name when you apply for employment at The Weather Company, LLC.
+
+##### Partnering with Other Businesses
+We provide data, aviation, media, and advertising products and services to other businesses. When we do, we will use customer-managed Personal Data as specified in our business agreements. To explore your data rights with any of these businesses, please work directly with them.
+
+##### Interacting with us on Social Media
+When you engage with The Weather Company or our brands on platforms like Facebook, Instagram, LinkedIn, or other social channels, your comments, likes, and shares are typically visible to other users according to each platform's own privacy settings and practices. Think of it as standing in a public square during a weather event rather than sheltering in your private home. So, be cautious about what you post and remember the following:
+  - Your posts, comments, and interactions on our social media pages follow the visibility rules of those platforms (and the settings you’ve selected on them).
+  - The information you share becomes part of the social media climate and may be visible to other users.
+  - Each social media platform has its own privacy policy and data collection practices that we don't control (you should read their notices too).
+  - While we maintain our social media presence with care, we can't control who sees your interactions or how the platform uses that data.
+  - If you enter our contests through social media platforms, we collect and use your data as described in section “Contests" above to administer the contest and distribute prizes.
+  - We occasionally use feedback or comments for improving our Services or responding to your questions - we love hearing from you and appreciate the feedback.
+  - To access your data rights regarding your interactions on these platforms, please work directly with them.
+
+##### Visitors to The Weather Channel Shop™ (shop.weather.com)
+We operate this shopping website, including all related information, content, features, tools, products, and services, in order to provide you, the customer, with a curated shopping experience (the "TWC Shop Services"). The Weather Channel Shop (TWC Shop) is powered by Shopify, which enables us to provide the TWC Shop Services to you. In addition to our Terms of Use, the TWC Shop Purchase Terms apply.
+The Weather Channel Shop is currently intended for U.S.-based visitors. Your shopping experience data is not associated with your use of our consumer weather products (websites/mobile apps), including account data (your TWC Shop account is separate from your account for our consumer weather products). Your privacy choices (cookie consent and data sharing opt-out choices on our consumer weather products) are also separate for the The Weather Channel Shop experience.
+
+###### Personal Data We Process for TWC Shop and How We Use and Share
+We may collect Personal Data directly from you, automatically through the TWC Shop Services, and from our vendors.
+We may process the following categories of Personal Data, depending on how you interact with the TWC Shop Services, where you live, and as permitted or required by applicable law:
+| How We Use Personal Data for TWC Shop Services | What Does This Mean? | Categories of Data Processed | Vendors the Data is Shared With (see our Data Vendors page for more information) |
+| Provide the core shopping features | To operate and optimize the website, including functionality around your shopping cart, orders, and providing support. | Communication informationDevice informationIdentifiers | Shopify |
+| Create and manage TWC Shop account | To create your TWC Shop account and manage account-related inquiries. | Communication informationDevice informationIdentifiersPayment informationTransaction information | Shopify |
+| Order fulfillment | To fulfill your orders and manage order-related requests, such as returns. | Communication informationIdentifiersTransaction information | Shopify Printful |
+| Analyze and measure how you use the TWC Shop Services | To analyze and measure how you use the TWC Shop Services to improve the Services and/or optimize the performance. | Device informationIdentifiersPrivacy choicesUsage information | Shopify |
+| Personalize the TWC Shop Services | To provide you with a personalized shopping experience. | Device InformationIdentifiersInferencesTransaction informationUsage information | Shopify |
+| For marketing and advertising | To deliver targeted marketing messaging and ads on third-party apps and websites. | Device informationIdentifiersInferencesPrivacy choicesTransaction informationUsage information | Shopify |
+| Honor your consent and provide other data rights | To recognize and honor your choices with respect to the use of your data and how you prefer to use the TWC Shop Services. We may request additional information to enable us to verify your identity and respond to your data rights request. | Device informationIdentifiersPrivacy choices | Shopify |
+For additional clarity, we’ve included some definitions to help you better understand the above chart:
+      - Communication information – Data collected when you communicate with us, for example, when sending a customer support inquiry.
+      - Device information – Data collected about your computer, browser, and other electronic devices, or network connection, such as IP address or media access control (MAC) address, browser cookies, and other tracking technology.
+      - Identifiers – A unique set of numbers, letters, symbols, and/or other information used to represent a device, browser, or an individual, including information provided during TWC Shop account creation, through customer support communications, or other methods. “Identifiers” broadly include your contact details and TWC Shop account information, such as your name, email address, billing address, shipping address, phone number, TWC Shop account username, security questions, and preferences.
+      - Inferences drawn about you or from the use of the TWC Shop Services – Conclusions made based on data collected directly from your interactions with the TWC Shop Services.
+      - Information related to your use of and interactions with the Services (Usage information) – Data collected directly from your actions while using the TWC Shop Services.
+      - Payment information – Data collected in order to complete purchases, including credit card, debit card, and financial account numbers, payment card information, financial account information, transaction details, form of payment, payment confirmation, and other payment details.
+      - Privacy choices – Data collected in relation to consent and opt-out selections available to you.
+      - Transaction information - Information about your TWC Shop transactions, including the items you view, put in your cart, add to your wishlist, or purchase, return, exchange, or cancel, and your past transactions.
+Please refer to the section “Other Data Sharing” for additional information. If we find that your actions have violated the TWC Shop Purchase Terms, your data may also be shared without your consent.
+
+###### Relationship with Shopify
+The TWC Shop Services are hosted by Shopify, which collects and processes Personal Data about your access to and use of the TWC Shop Services in order to provide and improve the TWC Shop Services for you. Information you submit to the TWC Shop Services will be transmitted to and shared with Shopify, as well as third parties that may be located in countries other than where you reside.
+In these circumstances, Shopify is responsible for processing your Personal Data, including for responding to your requests involving your Personal Data. To learn more about how Shopify uses your Personal Data and any rights you may have, you can visit the Shopify Consumer Privacy Policy. Depending on where you live, you may exercise certain rights with respect to your Personal Data through the Shopify Privacy Portal.
+
+###### Data Rights - TWC Shop Services
+Depending on where you live, you may have additional rights regarding your Personal Data. These rights may apply only in certain circumstances, and in certain cases, we may decline your request as permitted by law. We may need to verify your identity before we can process your requests, as permitted or required under applicable law.
+Please refer to the TWC Shop FAQs for more information about the right to access/know, obtain a portable copy of, correct, or delete/erase data related to your use of the TWC Shop Services.
+TWC Shop Right to Opt Out of Sale or Sharing for Targeted Advertising: Depending on where you reside, you may have a right to opt out of the "sale" or "sharing" of your Personal Data or to opt out of the processing of your Personal Data for purposes considered to be "targeted advertising." You can exercise your rights to opt out of those uses for the TWC Shop Services here.
+Please note that if you visit the TWC Shop website with the Global Privacy Control (GPC) opt-out preference signal enabled, depending on where you are located, this is automatically treated as a request to opt out for the device and browser that you use to visit the TWC Shop website. If we are able to associate the device sending the signal to a TWC Shop account, we will apply the opt-out request to the TWC Shop account as well. The TWC Shop website does not recognize other "Do Not Track" signals that may be sent from your web browser or device.
+Please contact us at twcstore@weather.com if you have any questions about these rights.
+
+#### Data Rights
+If you would like to exercise your data rights for the touchpoints mentioned in this section (which are outside/separate from our consumer weather products), please email us at TWCoDSR@weather.com.
+If you are a visitor to The Weather Channel Shop (shop.weather.com), please see subsection “Visitors to The Weather Channel Shop™ (shop.weather.com)” above.
+
+#### Other Privacy Inquiries
+For other privacy-related inquiries for the touchpoints mentioned in this section (which are outside/separate from our consumer weather products), please contact us at TWCoPrivacy@weather.com. If your inquiry is regarding The Weather Channel Shop, please contact us at twcstore@weather.com.
+Additionally, you can contact us at:
+Attn: Privacy Office
+The Weather Company, LLC
+1001 Summit Boulevard NE
+Brookhaven, GA 30319
+USA
+
+## Global Disclosures
+There may be some additional global disclosures that apply to our processing of Personal Data and your privacy rights. Where applicable and necessary, we have outlined those in the numbered sections below.
+
+### 1. U.S. State Data Privacy Laws Notice
+If you are a U.S. resident, we additionally process your Personal Data in accordance with applicable U.S. state data privacy laws. California residents, please see section “California Consumer Privacy Act (CCPA) Notice.”
+Please note that state laws vary, and additional states are actively passing consumer data privacy laws. We will update our disclosures, processes, and this notice as applicable laws and rules are finalized.
+As described in the “Data Categories” section, we collect and use certain information, some of which may be considered Personal Data, in order to operate the Services. Depending on the laws applicable to our processing of Personal Data, you may have the ability to exercise the rights listed below. Please see below for a summary of our privacy practices in the U.S.
+
+#### Opt Out
+Certain state data privacy laws define the terms “sell” and “sale” broadly to include the sharing of Personal Data for valuable consideration, even if money is not exchanged. We allow Advertising Vendors to use your Personal Data for certain purposes other than providing and improving advertising services for our Services (described in section “Data Categories”), and such may be considered a “sale” under certain state data privacy laws.
+Certain state data privacy laws define targeted advertising as displaying advertisements to a specific audience based on preferences or interests.
+See below for links that can be used to exercise your right to opt out on our Services:
+Web
+  - Click here to be taken directly to the Privacy Settings page to manage your opt-out for your current location on weather.com.
+  - Click here to be taken directly to the Privacy Settings page to manage your opt-out for your current location on wunderground.com.
+  - Additionally, we recognize and honor Global Privacy Control (“GPC”) on the sites when you are located in the U.S. When GPC is enabled on a supported browser, we will treat it as an opt-out preference signal. The GPC signal will apply to your browser and will take precedence over any previously provided consent choice on our Services. If you have an account and are signed in, the GPC enabled signal will be associated to your account as an “opted-out” selection and apply to all browsers and/or devices you use to access our Services while you are signed in to your account.
+Mobile Apps
+  - Navigate to “Privacy Settings” or “Your Privacy Rights” (this will differ depending on the app and your location) in the app menu to manage your opt-out for each mobile app and your current location.
+Users with active ad-free subscriptions are automatically opted out of targeted advertising and the sale of Personal Data while using the subscription on the applicable Service(s).
+Please refer to section “Data Collection Outside Our Consumer Weather Products” subsection “Visitors to The Weather Channel Shop™ (shop.weather.com)” for information on how to opt out of sale/share/targeted advertising related to your shopping experience data. Personal Data processed by TWC Shop is separate from data processed by our consumer weather products, and your TWC Shop account and privacy choices for TWC Shop are also separate for your shopping experience.
+
+#### Other Data Rights
+Section “Your Data Rights” describes data rights we offer and how to exercise these rights. This includes the right to access your data, obtain a portable copy of your data, correct inaccurate data, or delete data related to your stored preferences and your use of the Services. We may require information to authenticate your identity.
+The following additional rights may apply to you based on your state/location:
+
+###### Correct Inaccuracies in Your Personal Data
+For instructions on how to correct certain inaccurate data on our consumer products, follow the instructions in section “Your Data Rights.”
+Alternatively, you may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” for further instructions or if you would like to make additional corrections to inaccurate data.
+
+###### Confirm Whether Your Personal Data is Being Processed
+If you’ve used our Services or interacted with us in any way described in this Privacy Policy, you may request confirmation as to whether we are processing your Personal Data.
+
+###### Obtain a List of Third Parties Your Personal Data Was Disclosed To
+You may request a list of third parties to whom we’ve disclosed your Personal Data, or if we do not keep a specific list, a list of third parties to whom we generally disclose Personal Data. See our Data Vendors page for more information.
+
+###### Withdraw Consent
+Where the processing of your Personal Data is based on consent, you may withdraw this consent at any time by adjusting your settings or deleting your data or account.
+
+###### Appeal a Case with Regard to Your Request
+In the case where we declined to take action on your data rights request or have rejected your request, you may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” within 45 days after we notify you of a rejected request, to initiate an appeal of this decision. Once we receive your appeal, we will notify you in writing within 45 days (or such other time required under applicable law, if sooner) of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decision.
+If your appeal is denied, here is a list of U.S. state attorneys general to contact.
+
+###### Non-Discrimination
+If you choose to exercise any of these rights, we will not deny goods or services to you or provide different quality of services, unless that difference is reasonably related to the value provided by your data.
+
+###### Authorized Agent
+If your state’s privacy law provides the right to designate an authorized agent, you can designate an authorized agent to submit an opt-out request on your behalf. Users and authorized agents may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” for further instructions. To protect your information, please note that we may take steps to verify your identity and will also ask for signed permission from you authorizing the authorized agent to submit a request on your behalf.
+If you have questions about your data rights, you may contact us through the methods detailed in section “Support & Feedback (How to Contact Us).”
+
+#### Sensitive Personal Data
+As described in sections “Data Collection Technologies and Consumer Choice” and “Data Categories,” we may use or disclose to certain vendors categories of Personal Data that applicable U.S. state data privacy laws consider sensitive.
+Although we may identify you as interested in health-related topics, we have no actual knowledge about your health or medical conditions – or the health or medical conditions of any of our consumer users. For example, we may identify you as having an interest in allergies based upon an article you read, but not that you have an allergy to ragweed.
+Some data vendors may control the collection of Personal Data on our Services. Our Data Vendors page provides more details.
+See subsection “Other Data Rights” above for more information on how to withdraw consent.
+
+#### Profiling
+Please note that we do not process Personal Data for purposes of profiling or automated decision-making in furtherance of decisions that produce legal or similarly significant effects concerning the consumer.
+
+#### De-Identified Data
+We possess de-identified data. De-identified data cannot reasonably be used to infer information about, or otherwise be linked to, an identified or identifiable consumer, or a device linked to such a person. We commit to maintain and use any de-identified data without attempting to re-identify de-identified data.
+
+### 2. California Consumer Privacy Act (CCPA) Notice
+The California Consumer Privacy Act of 2018 ("CCPA") as amended by the California Privacy Rights Act of 2020 ("CPRA"), hereafter referred to as CCPA, provides users residing in California with certain rights regarding their Personal Information (as defined under the CCPA), including the right to access, delete, and/or correct your Personal Information, as described in section “Your Data Rights,” and/or opt out of “sale” or “sharing” of Personal Information, as described below in this section. This section provides an overview of the information required by the CCPA and how to exercise your CCPA rights if you are a California resident. If you are using any of our apps, please ensure you keep both your device operating system (“OS”) and the app up to date in order to enable the privacy controls described in this Privacy Policy.
+
+#### Disclosures About the Use of Your Personal Information
+As described in section “Data Collection Technologies and Consumer Choice,” we collect and use certain information, some of which may be considered Personal Information, in order to operate the Services and to maximize your experience.
+The list below includes the categories of Personal Information that we have collected in the past twelve months from you, collected or derived from your use of the Services, or received from our Data Providers, Analytics Vendors, and Advertising Vendors:
+  - Identifiers such as a name or email address;
+  - Protected classifications under California law, including gender, gender identity, and age;
+  - Personal Information described in Cal. Civ. Code Section 1798.80(e), such as credit card information (only if you have an account and/or purchased a subscription offering);
+  - Credit card number in combination with any required credentials (only if you purchased a subscription offering);
+  - Commercial information relating to your use of the Services;
+  - Internet or other electronic network activity information relating to your use of the Services;
+  - Geolocation data;
+  - Precise geolocation data; and
+  - Inferences drawn from the use of the Services.
+We collect Personal Information in order to:
+  - Facilitate your access to and use of the Services, including personalizing the Services, features, and content;
+  - Analyze and measure how you use the Services;
+  - Deliver personalized advertising and measure the effectiveness of advertisements;
+  - Manage Services’ operations;
+  - Help diagnose technical problems;
+  - Recognize you or your device;
+  - Provide location-based services (see section “Data Collection Technologies and Consumer Choice” subsection “Location Data” for further details); and
+  - Provide alerts and notifications.
+Section “Data Collection Technologies and Consumer Choice” describes how we share or disclose your information with vendors.
+In the past twelve months, we have disclosed the following categories of Personal Information as defined by the CCPA for our business purposes, to our Advertising Vendors, Analytics Vendors, and Technology Vendors:
+  - Identifiers such as an online identifier or IP address;
+  - Protected classifications under California law, including gender, gender identity, and age;
+  - Commercial information relating to your use of the Services;
+  - Internet or other electronic network activity information relating to your use of the Services;
+  - Geolocation data; and
+  - Precise geolocation data.
+We have disclosed the above categories of Personal Information for the following purposes:
+  - Facilitate your access to and use of the Services, including personalizing the Services, features, and content;
+  - Analyze and measure how you use the Services;
+  - Deliver personalized advertising and measure the effectiveness of advertisements;
+  - Manage Services’ operations;
+  - Help diagnose technical problems;
+  - Recognize repeat visitors;
+  - Provide location-based services (see section “Data Collection Technologies and Consumer Choice” subsection “Location Data” for further details); and
+  - Provide alerts and notifications.
+In addition, in the past twelve months, to deliver personalized content and marketing communications, we have disclosed the following categories of Personal Information to our Advertising Vendors, Analytics Vendors, and Technology Vendors:
+  - Identifiers such as first name or email address; and
+  - Inferences drawn from the use of the Services.
+If you have an account, have an ad-free subscription offering, and/or are subscribed to our email newsletter communications, in order to provide you with these services, in the past twelve months, we have disclosed the following categories of Personal Information to our Technology Vendors.
+  - Identifiers such as a name or email address;
+  - Personal Information described in Cal. Civ. Code Section 1798.80(e), such as credit card information; and
+  - Credit card number in combination with any required credentials.
+The CCPA defines the terms “sell” and “sale” broadly to include the sharing of Personal Information with third parties for something of value, even if no money is exchanged. We allow Advertising Vendors to use your Personal Information for certain purposes in addition to providing and improving advertising services for our Services, including cross-context behavioral or targeted advertising (described in section “Data Collection Technologies and Consumer Choice”), which is considered a “sale” or “sharing” under the CCPA. Users may opt out of these as described below.
+In the past twelve months, to deliver personalized advertising and measure the effectiveness of advertisements, we have sold or shared the following categories of Personal Information, as defined by the CCPA, to our Advertising Vendors:
+  - Identifiers such as an online identifier or IP address;
+  - Commercial information relating to your use of the Services;
+  - Internet or other electronic network activity information relating to your use of the Services;
+  - Geolocation data;
+  - Precise geolocation data; and
+  - Inferences.
+Information on how you can opt out of the sale to or sharing of your information with these vendors for purposes beyond the advertising services they provide us is provided below (section “California Consumer Privacy Act (CCPA) Notice” subsection “Opt Out of Sale or Sharing of Your Personal Information”).
+As described in section “Data Collection Technologies and Consumer Choice,” we may also use or disclose to specific data vendors your precise geolocation data, which is considered sensitive Personal Information under the CCPA, to create audience segments based on your preferences and characteristics. Information on how you can limit the use and disclosure of your sensitive Personal Information is provided below (section “California Consumer Privacy Act (CCPA) Notice” subsection “Limit Use of Your Sensitive Personal Information”).
+As described in section “Our Commitment to Not Track Minors,” we do not knowingly sell or share Personal Information from children under 18 years of age.
+Some data vendors may control the collection of Personal Information on our Services. Our Data Vendors page provides more details.
+See section “Data Categories” for more information.
+Note for California Employees - We share the data categories below with HR (Human Resources) vendors to administer and maintain your employment:
+  - Education Information;
+  - Identifiers;
+  - Personal Information described in Cal. Civ. Code Section 1798.80(e);
+  - Protected classifications under California law; and
+  - Professional or employment-related information.
+
+#### Data Rights
+Under the CCPA, you may have the following rights, subject to all applicable limitations and exceptions under the CCPA:
+
+###### Know Your Personal Information
+You can request information about the Personal Information collected from your use of the Services. Specifically, you can request information on: (1) the categories of Personal Information collected, disclosed, sold and/or shared; (2) the categories of sources from which the Personal Information was collected; (3) the business or commercial purpose for collecting, selling, and/or sharing Personal Information; (4) the categories of third parties with whom we disclosed, sold, and/or shared Personal Information; and (5) the specific pieces of Personal Information we have collected.
+For information about the right to know your Personal Information, follow the instructions in section “Your Data Rights.”
+Alternatively, you may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” for further instructions.
+Please note that we may take steps to verify your identity before you can make a request to know your Personal Information. For example, and as appropriate, we may leverage your device’s security settings, require you to reauthenticate with your login credentials if you have an account and are signed in, or provide us with your email address or a signed declaration with your device identifiers.
+
+###### Delete Your Personal Information
+You can request that we delete the Personal Information that we have collected from your use of the Services. Please note that you must make the request from each browser or device where you access the Services, unless you are logged in to your account at the time of the request. We will delete your information unless it is necessary for purposes permitted by the CCPA.
+To make a deletion request, follow the instructions in section “Your Data Rights.” Alternatively, you may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” for further instructions.
+When you request data deletion for your account, your account and any ad-free subscriptions associated with your account that you purchased with us directly will be deleted as part of the process. This means you won’t be able to sign in unless you create a new account, and you won’t be able to access an associated subscription purchased with us directly. For more information, see our Terms of Use.
+Please note that following a deletion request, we will resume collecting Personal Information if you continue your use of the Services, and your Personal Information will also enable us to personalize the Services you visit and the ads that are placed on the Services.
+Please note that we may take steps to verify your identity before you can make a request to delete your Personal Information and, for example, and as appropriate, may require you to reauthenticate using your login credentials if you are signed in to your account, or a signed declaration with your device identifiers.
+
+###### Correct Your Inaccurate Personal Information
+You can update certain inaccurate information related to your stored preferences and your use of the Services.
+For instructions on how to correct certain inaccurate Personal Information, follow the instructions in section “Your Data Rights.”
+If you would like to make further corrections, you can request that we correct inaccurate Personal Information that we have collected from your use of the Services. You may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” for further instructions.
+Please note that we may take steps to verify your identity before you can make a request to correct your inaccurate Personal Information and, for example, and as appropriate, may require a signed declaration with your device identifiers to correct certain data elements.
+
+###### Opt Out of Sale or Sharing of Your Personal Information
+You will be opted in by default to the sale or sharing of Personal Information. You can opt out of the sale or sharing of Personal Information at any time in the following ways. If you have an account, your opt-out selection will be associated to your account and apply to all browsers and/or devices you use to access our products while you are signed in. If you do not have an account or are using the Services without signing into your account, you will need to opt out on each browser and/or device you use to access the Services.
+Web
+    - You can access the "Do Not Sell or Share My Personal Information" link in the footer of the site if you are located in California when you access the Services.
+    - You can access the "Review Privacy and Ad Settings" link in the footer of the site if you are located in the U.S. outside of California when you access the Services.
+    - Click here to be taken directly to the Privacy Settings page to manage your opt-out for your current location on weather.com.
+    - Click here to be taken directly to the Privacy Settings page to manage your opt-out for your current location on wunderground.com.
+    - Additionally, we recognize and honor Global Privacy Control (“GPC”) on the sites when you are located in the U.S. When GPC is enabled on a supported browser, we will treat it as an opt-out preference signal. The GPC signal will apply to your browser and will take precedence over any previously provided consent choice on the sites or our Services. If you have an account and are signed in, the GPC enabled signal will be associated to your account as an “opted-out” selection and apply to all browsers and/or devices you use to access our Services while you are signed in to your account.
+Mobile Apps
+    - You can navigate to "Privacy Settings" or “Your Privacy Rights” (this will differ depending on the app and your location) in the app menu to manage your opt-out for each mobile app and your current location.
+    - You can also contact us through the methods detailed in section “Support & Feedback (How to Contact Us).”
+Users with an active ad-free subscription are automatically opted out of the sale or sharing of Personal Information while using the subscription on the applicable Service(s).
+
+###### Limit Use of Your Sensitive Personal Information
+As described in section “Data Collection Technologies and Consumer Choice,” we may also use and disclose to specific data vendors your sensitive Personal Information as identified by the CCPA. To the extent that sensitive Personal Information is processed, you will be opted in by default to the use of your sensitive Personal Information. You can choose to opt out and limit the use of your sensitive Personal Information at any time in the following ways.
+Web
+    - You can access the "Limit the Use of My Sensitive Personal Information" link in the footer of weather.com if you are located in California and are signed in to your account when you access the site.
+    - Click here to be taken directly to the Privacy Settings page to manage your opt-out on weather.com, if you are located in California and are signed in to your account when you access the site.
+    - You may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” if you are not located in California when you access the Services.
+Mobile Apps
+    - You can navigate to “Privacy Settings” or “Your Privacy Rights” (this will differ depending on the app and your location) in the app menu to opt out (limit the use of your sensitive Personal Information), if you are located in California when you access the Services.
+    - You can also contact us through the methods detailed in section “Support & Feedback (How to Contact Us),” including if you are not located in California when you access the Services.
+If you have an account, your opt-out selection will be associated to your account and honored across our Services while you are signed in, where applicable. If you do not have an account or are using the Services without signing into your account, you will need to opt out on each device you use to access the Services.
+The Weather Underground services, Storm Radar mobile app, SnowCast mobile app, and The Weather Channel in-vehicle app do not process precise geolocation data to create audience segments based on your preferences and characteristics; therefore, the right to limit the use of sensitive Personal Information is not offered for these services.
+
+###### Non-Discrimination
+If you choose to exercise any of these rights, we will not deny goods or services to you or provide different quality of services, unless that difference is reasonably related to the value provided by your data.
+
+###### Authorized Agent
+You can designate an authorized agent to make a request under the CCPA on your behalf. Authorized agents may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” for further instructions. To protect your information, please note that we may take steps to verify your identity, and we will also ask for signed permission authorizing the agent to submit a request.
+
+#### Data Rights Metrics
+The California Consumer Privacy Act Regulations (“Regulations”) require certain disclosures around the number of requests related to the right to know Personal Information, the right to delete Personal Information, the right to limit use of sensitive Personal Information, and the right to opt out of the sale or sharing of Personal Information. See here for metrics of requests from users located in California.
+
+#### California Shine the Light
+California’s Shine the Light law permits California residents to request certain details about how their “Personal Information” (as defined in Cal. Civ. Code Section 1798.83) is shared with external parties for their direct marketing purposes. We do not consider our data processing activities to fall into the category of sharing Personal Information with external parties for their own direct marketing purposes. However, to the extent Shine the Light applies to our data processing activities, you can opt out of any such disclosures by utilizing the opt-out options in section “Opt Out of Sale or Sharing of Your Personal Information” above.
+You may contact us through the methods detailed in section “Support & Feedback (How to Contact Us)” for questions or concerns about this Privacy Policy and our practices regarding the collection, use, disclosure, sale, sharing, and retention of Personal Information.
+Our U.S. Privacy Policy was last updated April 16, 2026.
+
+### 3. General Data Protection Regulation (GDPR) Notice
+Please note that for the purposes of the GDPR and the UK GDPR, the data controller is The Weather Company, LLC, which may be contacted at the email or mailing addresses listed in section "Support & Feedback (How to Contact Us)."
+If you live in the European Economic Area (EEA), you can alternatively contact our European GDPR representative, Mason Hayes and Curran Professional Services Limited at WeatherCompanyGDPR@mhc.ie, or:
+MHC GDPR Representative
+Mason Hayes and Curran Professional Services Limited
+South Bank House
+Barrow Street
+Dublin 4
+Ireland
+If you live in the United Kingdom, you can alternatively contact our UK GDPR representative at:
+Chadwick Business Centre
+2nd floor, Eleven Brindley Place
+2 Brunswick Square
+Birmingham
+B1 2LP
+The Weather Company Data Protection Officer for both GDPR and UK GDPR may be contacted at privacy@weather.com. Please be aware that where GDPR or UK GDPR applies, you have the right to lodge a complaint with the competent data protection authority. The name and contact details of the Data Protection Authorities in the European Economic Area (EEA) can be found here. To lodge a UK GDPR complaint, contact the Information Commissioner's Office here.
+
+#### International Transfer
+Information that we collect (including through cookies) will be processed and stored in the United States and other countries that may not have adequacy. The appropriate cross-border transfer method governing Personal Data included in such transfers is the EU Standard Contractual Clauses agreement pursuant to European Commission Implementing Decision (EU) 2021/914.
+
+#### Data Rights
+In addition to your data rights described in section “Your Data Rights,” under GDPR/UK GDPR, you have the right to restrict or object to the processing of your Personal Data. Where the processing of your Personal Data is based on consent, you have the right to withdraw this consent at any time by adjusting your settings or deleting your data and/or account. This does not affect the lawfulness of the processing based on consent before your withdrawal. To submit a request to restrict or object to the processing of your Personal Data, please contact us through the methods detailed in section “Support & Feedback (How to Contact Us).”
+Note for German Language Pages - On some of our German language pages, your editorial content and advertising are managed by our partner BurdaForward. Please visit BurdaForward’s privacy policy for details on their data practices.
+The Weather Company is a participant in the IAB Europe Transparency & Consent Framework, including compliance with its Transparency and Consent Policies and Specifications. The Weather Company, LLC’s identification number within the framework is ID: 5ec515cab8e05c6bd70f42a3.
+
+#### Processing Basis
+Our processing of your Personal Data in order to provide you with the Services will typically be based on one of the following processing bases: (i) because you have provided us with your specific, informed, freely-given, and unambiguous consent, (ii) because we need to process it in order to provide you with the Services or a particular feature of the Services; that is, because we cannot readily fulfil your request without performing the relevant processing, or (iii) because the processing is necessary for the purposes of the legitimate interests pursued either by us or by a third party and such legitimate interests are not overridden by your privacy and related rights as an individual.
+Refer to Section “Data Categories” for information about the categories of Personal Data processed and types of vendors the data is shared with. The Data Vendors page identifies vendor types and specific vendor information.
+| How We Use Personal Data | What Does This Mean? | Legal Basis |
+| Provide core weather features | To provide you with precise weather forecasts and weather-related news. | Contractual Necessity – to provide you with the Services identified in our Terms of Use |
+| Analyze and measure how you use the Services | To analyze and measure how you use our Services to improve or optimize the performance of the Services. | Legitimate Interests – analytics (Consent is collected from EU/EEA/UK data subjects on web products.) |
+| Create and manage user accounts and subscriptions | To support account and subscription functionality. | Contractual Necessity – to provide you with the Services identified in our Terms of Use |
+| Provide alerts and notifications | To offer you the ability to receive push notifications. | Consent |
+| Honor your consent and provide other data rights | To recognize and honor your choices with respect to the use of your data and how you prefer to use the Services. We may request additional information to enable us to verify your identity and respond to your data rights request. | Legal Obligation |
+| Communicate with you | To respond to your inquiries and feedback and communicate with you. | Contractual Necessity – to provide you with the Services identified in our Terms of Use |
+| For marketing and advertising | To deliver targeted marketing messaging and ads on the Services and on third-party apps and websites. To measure the performance and effectiveness of ads, marketing messaging, and other content that you see or interact with. | Consent (Web products only; disabled on mobile applications) |
+| Provide and improve our AI features | To offer and improve our AI features. | Contractual Necessity - to provide the AI features Legitimate Interest - to improve the AI features, including training our AI models |
+| Personalize the Services | To offer you a personalized experience while using our Services, including recommending content and features | Contractual Necessity – to provide you with the Services identified in our Terms of Use |
+| Contests | To offer contests and send prizes to winners. | Consent |
+| IT operations | To maintain and manage (including security management) apps, networks, systems, or infrastructure. | Legitimate Interests – To ensure network and information security |
+
+### 4. Lei Geral de Proteção de Dados Pessoais (LGPD) Notice
+The Lei 13.709/2018 (Lei Geral de Proteção de Dados Pessoais, “LGPD”) requires certain disclosures that are already covered in this Privacy Policy.
+In addition, please note that for the purposes of LGPD, the data controller is The Weather Company, LLC, which may be contacted at the email or mailing addresses listed in section "Support & Feedback (How to Contact Us).”
+The relevant Data Protection Officer may be contacted at privacy@weather.com.
+
+#### Data Rights
+Under LGPD, you can request to access your Personal Data, receive confirmation of the existence of processing, receive confirmation about the private and public entities with whom the controller shares the data, and obtain a portable copy of your data. These rights will be fulfilled when you choose to Request a Portable Copy of Data when signed into your account. You also have the right to object to the processing when data is processed unlawfully and to request correction of inaccurate data, anonymization of data, blocking and deletion of unnecessary, excessive data, or data processed unlawfully related to your stored preferences and your use of the Services. These rights will be fulfilled when you choose to Delete Data. See section “Your Data Rights” for instructions on how you can exercise your data rights.
+
+#### International Transfers
+If you are located where LGPD applies, information that we collect (including through cookies) will be processed and stored in locations outside of Brazil. Our Services are supported by servers and people located both inside and outside of the United States - see section “Data Retention and Storage Location” for additional information. The appropriate cross-border transfer method governing Personal Data included in such transfers is the EU Standard Contractual Clauses agreement pursuant to EC Decision 2010/87/EU.
+
+#### Processing Basis
+Our processing of your Personal Data in order to provide you with the Services will typically be based on one of the following processing bases (pursuant to Article 7 LGPD):
+  - Because you have provided us with your specific, informed, freely-given, and unambiguous consent; or
+  - Because the processing is necessary for the purposes of the legitimate interests pursued either by us or by a third party and such legitimate interests are not overridden by your privacy and related rights as an individual. Our legitimate interests include the provision of market-leading weather-related products and services, including the Services.
+
+### 5. Additional Disclosures for Korea
+  1. We will retain and use Personal Information as necessary to provide the Services, to comply with legal responsibilities, to resolve disputes, and to perform contracts, in accordance with applicable law. We will not store your Personal Information for more than three (3) years from the date of your last interaction with the Services, unless required by applicable law. We may retain information that no longer identifies you indefinitely.
+  2. Personal Information processed in connection with the submission of your feedback/support inquiries on the Services will be retained for three (3) years after the resolution of your inquiry.
+  3. Destruction
+    1. Destruction Procedures: We will identify the Personal Information to which cause of destruction has occurred and delete such information without delay.
+    2. Destruction Method: Personal Information in the form of electronic files will be destroyed using technical means that make the information unrecoverable. Personal Information recorded or stored on paper will be destroyed through shredding or incineration.
+  4. Overseas Transfer: We may share data with the following third-party service providers outside of Korea, as described below.
+  5. Data Rights Request Completion Timing: Due to verification methods and technical complexity, please allow an extension of the completion of your data rights request, which will be completed as soon as possible.
+| Company Name & Contact | Country | Purpose of Use | Items of Personal Information to be Transferred | Transfer Date and Method | Period of Retention and Use |
+| AWS (Amazon Web Services) aws-korea-privacy@amazon.com | United States | To host data | Email address, Name | Transmission through the network at the time of collection | 3 years after your last interaction with the Services or resolution of your inquiry |
+| Decagon privacy@decagon.ai | United States | To handle customer inquiries and feedback | Email address, Name | Transmission through the network at the time of collection | 24 hours |
+| Dialpad privacy@dialpad.com | United States | To handle customer inquiries and feedback | Phone number | Transmission through the network at the time of collection | 1 year after collection |
+| LoginRadius privacy@loginradius.com | Canada | Account management | Email address, Name | Transmission through the network at the time of collection | 3 years after your last interaction with the Services |
+| Mailgun (Sinch) privacy@mailgun.com | United States | Account management | Email address | Transmission through the network at the time of collection | Processed transactionally, not retained |
+| Salesforce, Inc. privacy@salesforce.com | United States | To handle customer inquiries and feedback | Email address, Name | Transmission through the network at the time of collection | 3 years after resolution of your inquiry |
