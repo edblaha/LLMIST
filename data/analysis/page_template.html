@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="What 14 popular apps and sites say, in their own privacy policies, about the data they collect, use, share and keep. Every claim is quoted and checked.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: one reading column of annotated fine print (quotes are highlighter-marked excerpts),
+   widening only for the two tables. */
+:root {
+  --paper: #f5f6f8; --surface: #ffffff; --ink: #141720; --muted: #586072; --rule: #dde1e8;
+  --mark: #ffef7a; --mark-ink: #141720; --link: #1d4dc9;
+  --s0: #e9ecf1; --s1: #fbe1cc; --s2: #f3a274; --s3: #d4462a; --s3-ink: #ffffff; --s-ink: #141720;
+  --ok: #d6efe1; --ok-ink: #135a3a;
+  --display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "Public Sans", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --fine: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --read: 42rem; --wide: 72rem;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #111319; --surface: #191c24; --ink: #e8eaf0; --muted: #a2a9b9; --rule: #2b303b;
+  --mark: rgba(255, 228, 92, 0.26); --mark-ink: #f3f0dc; --link: #93b3ff;
+  --s0: #252932; --s1: #4b3426; --s2: #91502d; --s3: #e0603a; --s3-ink: #ffffff; --s-ink: #e8eaf0;
+  --ok: #173b2a; --ok-ink: #a4e1c0; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #111319; --surface: #191c24; --ink: #e8eaf0; --muted: #a2a9b9; --rule: #2b303b;
+  --mark: rgba(255, 228, 92, 0.26); --mark-ink: #f3f0dc; --link: #93b3ff;
+  --s0: #252932; --s1: #4b3426; --s2: #91502d; --s3: #e0603a; --s3-ink: #ffffff; --s-ink: #e8eaf0;
+  --ok: #173b2a; --ok-ink: #a4e1c0; color-scheme: dark }
+
+* { box-sizing: border-box }
+html { -webkit-text-size-adjust: 100% }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1.0625rem/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: var(--link); text-underline-offset: 0.18em }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; border-radius: 3px }
+.wrap { max-width: var(--read); margin: 0 auto }
+.wide { max-width: var(--wide); margin: 0 auto }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; line-height: 1.08; margin: 0 }
+h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; font-stretch: 108%; letter-spacing: -0.01em }
+h3 { font-size: clamp(1.3rem, 3vw, 1.6rem); font-weight: 750; font-stretch: 100% }
+p { margin: 0 }
+.muted { color: var(--muted) }
+.eyebrow { font: 600 0.78rem/1.2 var(--body); letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted) }
+
+/* hero */
+.hero { padding-block: clamp(2.5rem, 8vw, 5rem) 2rem; display: grid; gap: 1.25rem }
+.hero h1 { font-size: clamp(2.3rem, 8vw, 4.6rem); font-weight: 800; font-stretch: 118%; letter-spacing: -0.02em; line-height: 0.98 }
+.hero h1 .paren { display: block; font-weight: 550; font-stretch: 85%; color: var(--muted); letter-spacing: 0 }
+.dek { font-size: 1.2rem; max-width: 36rem }
+.facts { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; font-size: 0.92rem; color: var(--muted); padding-top: 0.5rem; border-top: 1px solid var(--rule) }
+.facts b { color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums }
+
+/* headline list */
+.toc { padding-block: 0.5rem 2.5rem; display: grid; gap: 1rem }
+.toc ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0 }
+.toc li { border-top: 1px solid var(--rule) }
+.toc li:last-child { border-bottom: 1px solid var(--rule) }
+.toc a { display: block; padding: 0.7rem 0; color: var(--ink); text-decoration: none; font: 650 1.08rem/1.35 var(--display); font-stretch: 100% }
+.toc a:hover { color: var(--link) }
+
+/* findings */
+.findings { display: grid; gap: 3.5rem; padding-block: 1rem 4rem }
+.finding { display: grid; gap: 1rem; scroll-margin-top: 1rem }
+.finding header { display: grid; gap: 0.6rem }
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem }
+.chips span { font: 600 0.75rem/1 var(--body); letter-spacing: 0.04em; padding: 0.35rem 0.55rem; border: 1px solid var(--rule); border-radius: 99px; color: var(--muted); background: var(--surface) }
+.why { color: var(--muted) }
+.why strong { color: var(--ink) }
+.items { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.4rem }
+.says { font-weight: 400 }
+.who { font-weight: 700 }
+.more a { font-weight: 600 }
+
+/* the quoted fine print */
+.q { margin: 0.6rem 0 0; padding: 0.85rem 1rem 0.75rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; display: grid; gap: 0.5rem }
+.q p { font: 400 1.02rem/1.55 var(--fine) }
+.q mark { background: var(--mark); color: var(--mark-ink); padding: 0.05em 0.15em; box-decoration-break: clone; -webkit-box-decoration-break: clone }
+.q footer { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; font-size: 0.82rem; align-items: baseline }
+.q .ref { font: 0.74rem/1.3 var(--mono); color: var(--muted) }
+
+details summary { cursor: pointer; color: var(--link); font-size: 0.88rem; font-weight: 600; margin-top: 0.35rem; width: fit-content }
+
+/* section heads */
+.sec { padding-block: 3.5rem 1rem; display: grid; gap: 0.9rem; border-top: 2px solid var(--ink) }
+.sec > p { max-width: var(--read) }
+
+/* tables */
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface) }
+table { border-collapse: collapse; width: 100%; font-size: 0.95rem }
+th, td { text-align: left; vertical-align: top; padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--rule) }
+thead th { font: 650 0.8rem/1.25 var(--body); letter-spacing: 0.02em; color: var(--muted); background: var(--surface); vertical-align: bottom }
+tbody th { font-weight: 700 }
+.ai { min-width: 44rem }
+.ai td { width: 40% }
+.ai .q { margin-top: 0.5rem }
+.pill { display: inline-block; font-size: 0.85rem; font-weight: 600; line-height: 1.3; padding: 0.25rem 0.55rem; border-radius: 4px }
+.pill.yes { background: var(--s3); color: var(--s3-ink) }
+.pill.may { background: var(--s2); color: var(--s-ink) }
+.pill.no { background: var(--s1); color: var(--s-ink) }
+.pill.some { background: var(--ok); color: var(--ok-ink) }
+.pill.none { background: var(--s0); color: var(--muted) }
+.legend { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; font-size: 0.85rem; color: var(--muted); align-items: center }
+
+/* eBay box */
+.ebay { border-left: 4px solid var(--s3); padding: 0.2rem 0 0.2rem 1rem; display: grid; gap: 0.9rem }
+.ebay ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.9rem }
+.vlabel { font: 600 0.76rem/1.2 var(--body); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 0.7rem }
+
+/* ranking */
+.weights { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.6rem 1.4rem; padding: 1rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px }
+.wt { display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 0.6rem; font-size: 0.9rem; align-items: center }
+.wt span { grid-column: 1 / -1; font-weight: 600 }
+.wt input { width: 100%; accent-color: var(--s3) }
+.wt output { font: 600 0.9rem var(--body); font-variant-numeric: tabular-nums; min-width: 3ch; text-align: right }
+.wbar { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; font-size: 0.88rem; color: var(--muted) }
+.btn { font: 600 0.88rem var(--body); padding: 0.45rem 0.8rem; border-radius: 5px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); cursor: pointer }
+.btn:hover { border-color: var(--muted) }
+.rank { min-width: 52rem; font-variant-numeric: tabular-nums }
+.rank td, .rank th { vertical-align: middle }
+.rank thead th { vertical-align: bottom }
+.sort { all: unset; cursor: pointer; display: inline-grid; gap: 0.15rem; color: inherit; font: inherit }
+.sort:hover { color: var(--ink) }
+.sort::after { content: ""; font-size: 0.75rem }
+th[aria-sort="descending"] .sort::after { content: "\25BC" }
+th[aria-sort="ascending"] .sort::after { content: "\25B2" }
+th[aria-sort] { color: var(--ink) }
+.w { font-weight: 400; color: var(--muted) }
+.rk { color: var(--muted); width: 3.5rem }
+.tot { font: 750 1.15rem var(--display); font-stretch: 100% }
+.num, .sc { text-align: center }
+.pname { all: unset; cursor: pointer; font-weight: 700; color: var(--ink); border-bottom: 1px dotted var(--muted) }
+.pname:hover { color: var(--link) }
+.s { all: unset; cursor: pointer; display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 5px; font: 700 0.95rem var(--body) }
+.s0 { background: var(--s0); color: var(--s-ink) } .s1 { background: var(--s1); color: var(--s-ink) }
+.s2 { background: var(--s2); color: var(--s-ink) } .s3 { background: var(--s3); color: var(--s3-ink) }
+.s:hover { outline: 2px solid var(--ink); outline-offset: 1px }
+.tier { font-size: 0.82rem; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px; white-space: nowrap }
+.t-highest { background: var(--s3); color: var(--s3-ink) } .t-middle { background: var(--s1); color: var(--s-ink) } .t-lowest { background: var(--s0); color: var(--ink) }
+tr.detail > td { background: var(--paper); padding: 1rem }
+.detail-grid { display: grid; gap: 1.1rem; max-width: 48rem }
+.detail-grid h4 { margin: 0; font: 700 0.95rem var(--body); display: flex; gap: 0.5rem; align-items: center }
+.detail-grid .s { cursor: default; width: 1.7rem; height: 1.7rem; font-size: 0.85rem }
+.detail-grid .s:hover { outline: none }
+.ns { font-size: 0.85rem; color: var(--muted) }
+.notes { display: grid; gap: 0.7rem; max-width: var(--read) }
+.stab { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem }
+.stab div { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 1rem; display: grid; gap: 0.4rem; align-content: start }
+.stab h3 { font-size: 1.05rem }
+.rubric { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.6rem; font-size: 0.93rem }
+.rubric ol { margin: 0.2rem 0 0; padding-left: 1.6rem; color: var(--muted) }
+
+/* method */
+.method { display: grid; gap: 1rem; padding-bottom: 2rem }
+.method ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.5rem }
+.sources { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 0.4rem 1.5rem; font-size: 0.9rem }
+.sources li { display: grid; padding: 0.4rem 0; border-bottom: 1px solid var(--rule) }
+.sources span { color: var(--muted); font-size: 0.82rem }
+footer.page { padding-block: 2rem 3rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--rule) }
+
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth } }
+</style>
+</head>
+<body>
+<main>
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">Privacy policies, read for you</p>
+    <h1>What Your Apps Know About You <span class="paren">(and Didn't Tell You)</span></h1>
+    <p class="dek">We read the privacy policies of 14 apps and websites so you don't have to. Here is what they say they collect, what they do with it, who gets it, and how hard it is to say no. Every claim links to the policy's own words.</p>
+    <p class="facts"><span><b>14</b> policies</span><span>Collected <b>Oct 21, 2026</b></span><span><b>{{N_PAGE_QUOTES}}</b> quotes on this page, each checked word for word</span></p>
+  </header>
+
+  <section class="toc" aria-labelledby="h-top">
+    <h2 id="h-top">What stood out</h2>
+    <ul>{{TOC}}</ul>
+    <p class="muted">A policy says what a company <em>may</em> do with your data. It doesn't prove what the company actually does.</p>
+  </section>
+
+  <section class="findings" aria-label="Findings">
+{{HEADLINES}}
+  </section>
+</div>
+
+<div class="wide">
+  <section class="sec" id="ai-table" aria-labelledby="h-ai">
+    <h2 id="h-ai">Who says they train AI on your data, and can you opt out?</h2>
+    <p>&ldquo;Not mentioned&rdquo; means we searched the policy for words like AI, artificial intelligence, machine learning, model and train and found nothing on the subject. It doesn't mean the company doesn't do it.</p>
+    <p class="legend"><span class="pill yes">Yes</span><span class="pill may">May / partly</span><span class="pill no">No opt-out described</span><span class="pill some">Some way to say no</span><span class="pill none">Not mentioned</span></p>
+    <div class="scroll"><table class="ai">
+      <thead><tr><th scope="col">Platform</th><th scope="col">Says it uses your data to train AI?</th><th scope="col">Describes a way to opt out?</th></tr></thead>
+      <tbody>
+{{AI_ROWS}}
+      </tbody>
+    </table></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section class="sec" aria-labelledby="h-ebay">
+    <h2 id="h-ebay">Coming soon: eBay's new privacy notice</h2>
+    <div class="ebay">
+      <p>eBay's page already shows a new notice that takes effect on <strong>November 26, 2026</strong>. We ranked the notice in force today. Compared with it, the new one:</p>
+      <ul>{{EBAY}}</ul>
+    </div>
+  </section>
+</div>
+
+<div class="wide">
+  <section class="sec" id="ranking" aria-labelledby="h-rank">
+    <h2 id="h-rank">How aggressive is each policy?</h2>
+    <p>We scored each policy from 0 to 3 on five things, then combined the scores into a total from 0 (least aggressive) to 100 (most). Click a column to sort. Click a score or a platform name to see the policy's words behind it. Move the sliders if you'd weigh things differently.</p>
+    <div class="weights" role="group" aria-label="How much each criterion counts">
+      {{SLIDERS}}
+    </div>
+    <p class="wbar"><button type="button" class="btn" id="reset">Reset to our weights</button><span id="wsum" aria-live="polite"></span></p>
+    <div class="scroll"><table class="rank" id="rank">
+      <thead><tr><th scope="col">Rank</th><th scope="col"><button type="button" class="sort" data-sort="name">Platform</button></th>
+        <th scope="col" aria-sort="descending"><button type="button" class="sort" data-sort="total">Total <span class="w">0&ndash;100</span></button></th>
+        {{CRIT_HEADS}}
+        <th scope="col"><button type="button" class="sort" data-sort="tier">Tier <span class="w">any weights</span></button></th></tr></thead>
+      <tbody>
+{{RANK_ROWS}}
+      </tbody>
+    </table></div>
+    <div class="notes">
+      <p><strong>Read the scores with care.</strong> A longer, more detailed policy can score higher simply because it admits more. A short policy that says little can look better than it is. The scores rate what each policy says the company may do, not what it does.</p>
+      <p>Most of these policies score high. The clearest result is the gap between the ad-supported platforms and Wikipedia and DuckDuckGo. The order within the top group is close and depends on the weights.</p>
+    </div>
+    <div class="stab">
+      <div><h3>What holds under any weights</h3><p>In {{N_DOM}} pairs, one platform scores at least as high as the other on all five criteria, so it ranks at or above it whatever the weights. All 12 other platforms rank above both Wikipedia and DuckDuckGo this way. LinkedIn, Weather.com and X each rank above 10 others.</p></div>
+      <div><h3>1,000 random weightings</h3><p>We re-ranked the platforms with 1,000 random sets of weights. LinkedIn, Weather.com and X landed in the top third every time. ESPN, Wikipedia and DuckDuckGo landed in the bottom third every time.</p></div>
+      <div><h3>Tiers</h3><p><strong>Highest:</strong> in the top third in at least 60% of weightings. <strong>Lowest:</strong> in the bottom third in at least 60%. Tiers compare these 14 policies with each other. eBay is &ldquo;Lowest&rdquo; here, yet scores 85 out of 100.</p></div>
+    </div>
+    <details><summary>How each criterion was scored</summary>
+      <ul class="rubric">{{RUBRIC}}</ul>
+      <p class="muted" style="margin-top:.8rem">If a policy said nothing at all about a criterion, it would score 1 and be marked &ldquo;not stated&rdquo;. A clear &ldquo;we don't do this&rdquo; scores 0. Every policy addressed every criterion at least in part. Where part of a criterion was missing, such as AI training, the score uses what the policy does say, and the detail lists what's missing.</p>
+    </details>
+  </section>
+</div>
+
+<div class="wrap">
+  <section class="sec method" id="how" aria-labelledby="h-how">
+    <h2 id="h-how">How we did this</h2>
+    <ul>
+      <li><strong>Collecting.</strong> On October 21, 2026 we downloaded each platform's official privacy policy and saved the original page and a plain-text copy. Meta and Reddit blocked automated downloads, so we used copies saved from a web browser. OpenAI also blocked us, and we left it out. ESPN uses Disney's privacy policy.</li>
+      <li><strong>Reading.</strong> We pulled out {{N_FIND}} findings about what each policy says on collection, use, sharing, keeping and control, each with an exact quote and its line number in the saved text.</li>
+      <li><strong>Checking the words.</strong> A script confirms that every quote appears word for word in the saved policy. Every quote on this page passed, as did every quote in the full set of findings.</li>
+      <li><strong>Checking the meaning.</strong> A matching quote can still be misread, so we re-read {{N_REV}} findings against the surrounding paragraph. {{N_FIXED}} claims said more than the policy did and were reworded. For the three most striking findings (Meta, TikTok and Weather.com), we also went back to the original saved web page.</li>
+      <li><strong>Limits.</strong> These are the English-language versions shown to US visitors. Several policies send details to separate pages, such as state-law notices, cookie policies and AI notices, which we didn't analyze. Policies change; these are the versions from October 21, 2026.</li>
+    </ul>
+    <h3>The policies</h3>
+    <ul class="sources">{{SOURCES}}</ul>
+  </section>
+</div>
+</main>
+<div class="wrap"><footer class="page">Quotes link to each company's policy. In most browsers the link jumps to the quoted words. If the policy has changed or the page builds its text on the fly, the link opens the policy's first page instead.</footer></div>
+
+<script type="application/json" id="data">{{DATA}}</script>
+<script>
+(function () {
+  var data = JSON.parse(document.getElementById("data").textContent);
+  var crit = data.criteria;
+  var defaults = {}; crit.forEach(function (c) { defaults[c.key] = c.weight; });
+  var weights = Object.assign({}, defaults);
+  var sortKey = "total", sortDir = -1, open = {};
+  var tierOrder = { Highest: 3, Middle: 2, Lowest: 1 };
+  var tbody = document.querySelector("#rank tbody");
+
+  function total(r) {
+    var sw = 0, s = 0;
+    crit.forEach(function (c) { sw += weights[c.key]; s += weights[c.key] * r.cells[c.key].score; });
+    return sw ? s / (3 * sw) * 100 : 0;
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (ch) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]; }); }
+
+  function detailRow(r) {
+    var parts = crit.map(function (c) {
+      var cell = r.cells[c.key];
+      var ns = cell.notStated.length ? '<p class="ns">Not stated in the policy: ' + esc(cell.notStated.join(", ")) + "</p>" : "";
+      return '<div><h4><span class="s s' + cell.score + '">' + cell.score + "</span>" + esc(c.name) + "</h4><p>" + esc(cell.why) + "</p>" + ns + cell.quotes.join("") + "</div>";
+    }).join("");
+    return '<tr class="detail" data-for="' + r.key + '"><td colspan="' + (crit.length + 4) + '"><div class="detail-grid">' + parts + "</div></td></tr>";
+  }
+
+  function render() {
+    var rows = data.rows.map(function (r) { return { r: r, t: Math.round(total(r) * 10) / 10 }; });
+    var byTotal = rows.slice().sort(function (a, b) { return b.t - a.t || a.r.name.localeCompare(b.r.name); });
+    var rankOf = {}, tied = {};
+    byTotal.forEach(function (x, i) {
+      var first = byTotal.findIndex(function (y) { return y.t === x.t; });
+      rankOf[x.r.key] = first + 1;
+      tied[x.r.key] = byTotal.filter(function (y) { return y.t === x.t; }).length > 1;
+    });
+    rows.sort(function (a, b) {
+      var va, vb;
+      if (sortKey === "total") { va = a.t; vb = b.t; }
+      else if (sortKey === "name") { return sortDir * -1 * a.r.name.localeCompare(b.r.name); }
+      else if (sortKey === "tier") { va = tierOrder[a.r.tier]; vb = tierOrder[b.r.tier]; }
+      else { va = a.r.cells[sortKey].score; vb = b.r.cells[sortKey].score; }
+      return (va === vb) ? (b.t - a.t || a.r.name.localeCompare(b.r.name)) : sortDir * (va - vb);
+    });
+    tbody.innerHTML = rows.map(function (x) {
+      var r = x.r;
+      var cells = crit.map(function (c) {
+        var s = r.cells[c.key].score;
+        return '<td class="sc"><button type="button" class="s s' + s + '" data-k="' + r.key + '" aria-expanded="' + (open[r.key] ? "true" : "false") + '" aria-label="' + esc(c.name) + ": " + s + ' of 3. Show evidence">' + s + "</button></td>";
+      }).join("");
+      var row = '<tr data-k="' + r.key + '"><td class="rk">' + rankOf[r.key] + (tied[r.key] ? "=" : "") + '</td><th scope="row"><button type="button" class="pname" data-k="' + r.key + '" aria-expanded="' + (open[r.key] ? "true" : "false") + '">' + esc(r.name) + '</button></th><td class="tot">' + x.t.toFixed(1) + "</td>" + cells +
+        '<td><span class="tier t-' + r.tier.toLowerCase() + '">' + esc(r.tier) + "</span></td></tr>";
+      return row + (open[r.key] ? detailRow(r) : "");
+    }).join("");
+    document.querySelectorAll("#rank thead th").forEach(function (th) { th.removeAttribute("aria-sort"); });
+    var btn = document.querySelector('#rank .sort[data-sort="' + sortKey + '"]');
+    if (btn) btn.closest("th").setAttribute("aria-sort", sortDir < 0 ? "descending" : "ascending");
+    var sum = crit.reduce(function (a, c) { return a + weights[c.key]; }, 0);
+    document.getElementById("wsum").textContent = sum === 0 ? "All weights are zero, so every total is 0." :
+      (crit.some(function (c) { return weights[c.key] !== defaults[c.key]; }) ? "Your weights (totals rescale to 0–100 whatever they add up to)." : "Our weights.");
+  }
+
+  document.querySelector("#rank thead").addEventListener("click", function (e) {
+    var b = e.target.closest(".sort"); if (!b) return;
+    var k = b.getAttribute("data-sort");
+    if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = (k === "name") ? 1 : -1; }
+    render();
+  });
+  tbody.addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-k]"); if (!b) return;
+    var k = b.getAttribute("data-k"); open[k] = !open[k]; render();
+    var again = tbody.querySelector('button.pname[data-k="' + k + '"]'); if (again) again.focus();
+  });
+  document.querySelectorAll(".wt input").forEach(function (inp) {
+    inp.addEventListener("input", function () {
+      var k = inp.getAttribute("data-c"); weights[k] = Number(inp.value);
+      document.getElementById("o-" + k).textContent = inp.value + "%";
+      var w = document.querySelector('.w[data-w="' + k + '"]'); if (w) w.textContent = inp.value + "%";
+      render();
+    });
+  });
+  document.getElementById("reset").addEventListener("click", function () {
+    crit.forEach(function (c) {
+      weights[c.key] = defaults[c.key];
+      var inp = document.getElementById("w-" + c.key); inp.value = defaults[c.key];
+      document.getElementById("o-" + c.key).textContent = defaults[c.key] + "%";
+      var w = document.querySelector('.w[data-w="' + c.key + '"]'); if (w) w.textContent = defaults[c.key] + "%";
+    });
+    render();
+  });
+  render();
+})();
+</script>
+</body>
+</html>

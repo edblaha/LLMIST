@@ -1,0 +1,805 @@
+{
+ "note": "Every quote shown on what-your-apps-know.html",
+ "quotes": [
+  {
+   "file": "data/text/amazon.txt",
+   "line": 23,
+   "quote": "Our physical stores may use cameras, computer vision, sensors, and other technology to gather information about your activity in the store"
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 30,
+   "quote": "In so doing, we use machine learning and artificial intelligence to support and enhance the customer experience across our products and services. This includes using data to develop or deploy our generative AI models and services."
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 31,
+   "quote": "We use your personal information to recommend features, products, and services that might be of interest to you, identify your preferences"
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 35,
+   "quote": "We use your personal information to display interest-based ads for features, products, and services that might be of interest to you. We do not use information that personally identifies you to display interest-based ads."
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 60,
+   "quote": "You can learn more about how to opt-out of personalized advertising (such as cross-context behavioral advertising) by visiting Your Ads Privacy Choices."
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 60,
+   "quote": "we may share an advertising identifier and an estimate of the value of the ads they show you on our behalf so they can serve you with more effective Amazon ads. Some ad companies also use this information to serve you relevant ads from other advertisers."
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 68,
+   "quote": "When you update information, we usually keep a copy of the prior version for our records."
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 70,
+   "quote": "You may adjust your personalized advertising preferences by visiting Your Ads Privacy Choices."
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 146,
+   "quote": "images or videos when you shop in our stores, or stores using Amazon Services."
+  },
+  {
+   "file": "data/text/amazon.txt",
+   "line": 156,
+   "quote": "credit history information from credit bureaus, which we use to help prevent and detect fraud and to offer certain credit or financial services to some customers"
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 17,
+   "quote": "We also don’t save any other unique identifiers alongside your searches, chats, or visits to our website, and never log unique identifiers to disk that could be tied back to you"
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 18,
+   "quote": "For local search results in particular, we've further engineered a solution to shield your precise location from us and our content providers that sends us a random location nearish to you, which we also never log to disk."
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 18,
+   "quote": "This means that when you use our services, we have no way to create a history of your search queries, your chats, or the sites you browse."
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 19,
+   "quote": "we share anonymous information (for example, browser and device types) with our hosting and content providers, but we never share any information with them that could tie your searches, chats, or website visits to you personally"
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 24,
+   "quote": "It is a myth that search engines need to track you to make money. We make most of our money from private search ads on our search engine."
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 24,
+   "quote": "Since we don’t have that information, search ads on DuckDuckGo are based on the search results page you’re viewing, and not based on you as a person."
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 25,
+   "quote": "Ad clicks are managed by Microsoft's ad network and Microsoft has committed to not associate your ad-click behavior with a user profile and to not store or share that information other than for accounting purposes."
+  },
+  {
+   "file": "data/text/duckduckgo.txt",
+   "line": 38,
+   "quote": "We will limit its use by only keeping it for as long as necessary for the stated purpose, and we will protect it by keeping it secure and deleting it when it is no longer required, unless a longer period is required by law."
+  },
+  {
+   "file": "data/text/ebay.txt",
+   "line": 12,
+   "quote": "We may change this User Privacy Notice at any time by posting the revised User Privacy Notice on this website and indicating its effective date."
+  },
+  {
+   "file": "data/text/ebay.txt",
+   "line": 160,
+   "quote": "Provision of identity verification options involving processing of your biometric data to identify you or verify your age, and further prevent fraud and reduce other risks on our platform."
+  },
+  {
+   "file": "data/text/ebay.txt",
+   "line": 251,
+   "quote": "For example, if you use a customer support chatbot regarding an issue with a transaction, an AI tool analyzes your input and the relevant transaction to provide you with a relevant response."
+  },
+  {
+   "file": "data/text/ebay.txt",
+   "line": 254,
+   "quote": "In some jurisdictions, the data used for training as described in this section is not considered personal data"
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 10,
+   "quote": "As a registered user, you will be notified of any material changes to this User Privacy Notice via My Messages in My eBay and/or by email."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 60,
+   "quote": "Location data, including your general location data (e.g. IP address) and, with your permission, the precise location data of your mobile device."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 68,
+   "quote": "The user segment or category into which you as a user fall, for example: female, 20-49 years old, interested in sneakers."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 78,
+   "quote": "Data from data providers (e.g. \"Know Your Customer\"/identity verification, demographic, interest-based and online advertising related data)."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 150,
+   "quote": "For users outside the European Economic Area (EEA), Switzerland and the United Kingdom: Advertising and content personalization, measurement and analytics, on and off our sites, as explained in our AdChoice page."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 181,
+   "quote": "For sellers, processing of your biometric data to identify you and further prevent fraud and reduce other risks on our platform, and in connection with Know Your Customer and similar compliance requirements."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 189,
+   "quote": "Third-party advertising partners such as Google, Meta, Microsoft, Pinterest, and TikTok, as listed on our Advertising and related preferences page"
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 216,
+   "quote": "In Europe, the retention periods are generally between 6 and 10 years (e.g. for contracts, notifications and business letters)."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 216,
+   "quote": "unless we are legally obliged or permitted to keep your personal data longer (e.g. for legal compliance, tax, accounting or auditing purposes, or to detect and prevent fraudulent or illegal activity on eBay)"
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 247,
+   "quote": "you can do so at any time through your account in My eBay under \"Communication Preferences\"."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 332,
+   "quote": "If we use any AI system that interacts directly with you, we will let you know."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 335,
+   "quote": "Where permitted under applicable law, we use personal data collected from our users to train, test, validate, and align our own AI models as well as third-party AI models and systems that we use for the purposes outlined in this User Privacy Notice."
+  },
+  {
+   "file": "data/text/ebay_previous.txt",
+   "line": 339,
+   "quote": "Your rights also include the right to object to our processing of your personal data for AI development and training purposes."
+  },
+  {
+   "file": "data/text/espn.txt",
+   "line": 17,
+   "quote": "Location information, including precise or approximate location information provided by a mobile or other device interacting with one of our sites, applications, or physical properties (including through beacon technologies), or associated with your IP address or other online or device identifier, where we are permitted by law to process this information"
+  },
+  {
+   "file": "data/text/espn.txt",
+   "line": 27,
+   "quote": "We acquire information from other trusted sources to update or supplement the information you provided or we collected automatically, such as when we validate postal address information using third party services."
+  },
+  {
+   "file": "data/text/espn.txt",
+   "line": 30,
+   "quote": "Other members of The Walt Disney Family of Companies may access your information where they perform services on behalf of the data controllers (as data processors) and, unless prohibited under applicable law, for use on their own behalf (as data controllers) for the purposes described in this policy."
+  },
+  {
+   "file": "data/text/espn.txt",
+   "line": 47,
+   "quote": "When we provide you with relevant advertising on third-party sites and applications, we may share limited personal information about you, such as certain identifiers or hashed email address, with third parties."
+  },
+  {
+   "file": "data/text/espn.txt",
+   "line": 78,
+   "quote": "In addition to the choices referenced above in Managing Your Preferences Regarding Targeted Advertising, Sale or Sharing of Data, and Cookies, you may also Log into Nielsen’s Digital Measurement site"
+  },
+  {
+   "file": "data/text/espn.txt",
+   "line": 100,
+   "quote": "We will retain your personal information for the length of time needed to fulfill the purposes outlined in this privacy policy unless a longer retention period is required or permitted by law."
+  },
+  {
+   "file": "data/text/espn.txt",
+   "line": 118,
+   "quote": "request to opt out of targeted advertising and/or the sale or sharing of your personal information (as defined under applicable laws and regulations)"
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 33,
+   "quote": "We may also employ third-party Cookies to gather data for interest-based advertising. In some jurisdictions, we only use non-essential cookies after obtaining your consent."
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 43,
+   "quote": "We may receive information about you from third parties, like vendors, resellers, partners, or affiliates for the purposes outlined in this statement."
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 49,
+   "quote": "We generate new information from other data we collect to derive likely preferences or other characteristics. For instance, we infer your general geographic location based on your IP address."
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 55,
+   "quote": "We use Personal Data to develop and improve our products, services, and technologies, including artificial intelligence and machine learning technologies. This includes improving features, developing new offerings, enhancing safety and security capabilities, and training models."
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 64,
+   "quote": "Personal Data may be shared with GitHub affiliates, including Microsoft, to facilitate customer service, marketing and advertising, order fulfillment, billing, technical support, legal and compliance obligations, product development and improvement (including training and improving artificial intelligence and machine learning technologies)"
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 112,
+   "quote": "We’ll retain your Personal Data as long as your account is active and as needed to fulfill contractual obligations, comply with legal requirements, resolve disputes, and enforce agreements."
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 177,
+   "quote": "These choices are specific to the browser you are using. If you access our Services from other devices or browsers, take these actions from those systems to ensure your choices apply to the data collected when you use those systems."
+  },
+  {
+   "file": "data/text/github.txt",
+   "line": 206,
+   "quote": "As defined by applicable law, we “shared” the following categories of personal information in the last 12 months: identifiers/contact information, Internet or other electronic network activity information, and inferences drawn from the above. We shared each category to or with advertising networks, data analytics providers, and social networks."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 71,
+   "quote": "You can control what information we use to show you ads by visiting your ad settings in My Ad Center"
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 86,
+   "quote": "if you watch videos of guitar players on YouTube, you might see an ad for guitar lessons on a site that uses our ad products."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 177,
+   "quote": "We also use service providers to help review YouTube video content for public safety and analyze and listen to samples of saved user audio to help improve Google’s audio recognition technologies."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 185,
+   "quote": "We also allow specific partners to collect information from your browser or device for advertising and measurement purposes using their own cookies or similar technologies."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 185,
+   "quote": "We may share non-personally identifiable information publicly and with our partners — like publishers, advertisers, developers, or rights holders."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 211,
+   "quote": "We’ll keep this data in your Google Account until you remove it or choose to have it removed."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 214,
+   "quote": "some data we retain for longer periods of time when necessary for legitimate business or legal purposes, such as security, fraud and abuse prevention, or financial record-keeping."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 333,
+   "quote": "although Incognito mode in Chrome can help keep your browsing private from other people who use your device, third party sites and apps that integrate our services still share information with Google when you visit them."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 366,
+   "quote": "your device sends information to Google about its location, sensors (like accelerometer), and nearby cell towers and Wi-Fi access points (like MAC address and signal strength)."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 410,
+   "quote": "we may collect information that’s publicly available online or from other public sources to help train Google’s AI models and build products and features like Google Translate, Gemini Apps, and Cloud AI capabilities."
+  },
+  {
+   "file": "data/text/google.txt",
+   "line": 424,
+   "quote": "When showing you personalized ads, we use topics that we think might be of interest to you based on your activity."
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 65,
+   "quote": "We receive personal data (including contact information) about you when others import or sync their calendar with our Services, associate their contacts with Member profiles, scan and upload business cards"
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 80,
+   "quote": "If you are outside the Designated Countries, we also collect (or rely on others, including Microsoft, who collect) information about your device where you have not engaged with our Services (e.g., ad ID, IP address, operating system and browser information)"
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 84,
+   "quote": "If you use our Services from a mobile device, that device will send us data about your location based on your phone settings. We will ask you to opt-in before we use GPS or other tools to identify your precise location."
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 109,
+   "quote": "How we use your personal data will depend on which Services you use, how you use those Services and the choices you make in your settings."
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 109,
+   "quote": "We may use your personal data to improve, develop, and provide products and Services, develop and train artificial intelligence (AI) models"
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 132,
+   "quote": "Customers can export limited information from your profile, such as name, headline, current company, current title, and general location (e.g., Dublin), such as to manage sales leads or talent, unless you opt-out."
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 141,
+   "quote": "We target (and measure the performance of) ads to Members, Visitors and others both on and off our Services directly or through a variety of partners"
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 141,
+   "quote": "We target (and measure the performance of) ads to Members, Visitors and others both on and off our Services directly or through a variety of partners, using the following data, whether separately or combined:"
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 146,
+   "quote": "using job titles from a profile to infer industry, seniority, and compensation bracket; using graduation dates to infer age or using first names or pronoun usage to infer gender; using your feed activity to infer your interests"
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 151,
+   "quote": "Member settings can be found here. For Visitors, the setting is here."
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 227,
+   "quote": "we may also share with our Affiliates, including Microsoft, your (1) publicly-shared content (such as your public LinkedIn posts) to provide or develop their services and (2) personal data to improve, provide or develop their advertising services."
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 245,
+   "quote": "We generally retain your personal data as long as you keep your account open or as needed to provide you Services. This includes data you or others provided to us and data generated or inferred from your use of our Services."
+  },
+  {
+   "file": "data/text/linkedin.txt",
+   "line": 262,
+   "quote": "Information you have shared with others (e.g., through InMail, updates or group posts) will remain visible after you close your account or delete the information from your own profile or mailbox"
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 119,
+   "quote": "We collect and receive information from partners [21] , measurement vendors , marketing vendors and other third parties [22] about a variety of your information and activities on and off our Products [3] ."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 130,
+   "quote": "We receive this information whether or not you’re logged in or have an account on our Products."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 187,
+   "quote": "Collecting Ren’s voice interactions lets us provide and, depending on Ren’s settings, improve the Assistant feature."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 261,
+   "quote": "Device signals include GPS, Bluetooth signals, nearby Wi-Fi access points, beacons and cell towers."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 351,
+   "quote": "We use information we collect to provide a personalized experience to you, including ads"
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 367,
+   "quote": "Your activity on and off our Products, including information we receive through cookies and similar technologies, according to your settings"
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 370,
+   "quote": "Things we infer about you, like topics we think you may be interested in"
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 505,
+   "quote": "If she doesn't want to see ads from this shoe store again, she can hide them in her Advertisers setting . Or if she doesn’t want us to show her any ads based on her activity on other websites and apps, she can make sure that this setting is turned off in her Ad preferences ."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 740,
+   "quote": "We don't sell any of your information to anyone, and we never will."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 791,
+   "quote": "For example, we share your device identifier or other identifiers with marketing vendors to help us serve you ads most relevant to your interests."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 979,
+   "quote": "We keep information as long as we need it to provide our Products, comply with legal obligations or protect our or other’s interests. We decide how long we need information on a case-by-case basis."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 1247,
+   "quote": "Develop and improve AI at Meta for Meta Products and for third parties."
+  },
+  {
+   "file": "data/text/meta.txt",
+   "line": 1251,
+   "quote": "Interactions with our features that are part of AI at Meta and related metadata. For example, information like content and messages you or others exchange with these features."
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 9,
+   "quote": "We don’t track your precise location. You can even browse anonymously"
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 22,
+   "quote": "We also require third parties to pay licensing fees for access to larger quantities of content and information."
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 52,
+   "quote": "We infer attributes such as age range, gender, and/or preferred language(s) based on the information we have about you."
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 53,
+   "quote": "we may receive demographic or interest information about you from third parties, including advertisers (such as the fact that an advertiser is interested in showing you an ad), and combine it with data you have provided to Reddit, using a common account identifier such as a hash of an email address or a mobile-device ID."
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 75,
+   "quote": "Provide you with relevant advertising, including personalized advertising on and off Reddit;"
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 99,
+   "quote": "We store the information we collect for as long as it is necessary for the purpose(s) for which we originally collected it. We may retain certain information for legitimate business purposes and/or if we believe doing so is in accordance with, or as required by, any applicable law."
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 106,
+   "quote": "Please note, however, that the posts, comments, and messages you submitted prior to deleting your account will still be visible to others unless you first delete the specific content."
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 110,
+   "quote": "To do so, visit the Privacy section of the User Settings in your account here , if using desktop, and in your Account Settings if using the Reddit mobile app."
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 114,
+   "quote": "you may manage the use and collection of certain information by Google Analytics via the Google Analytics Opt-out Browser Add-on . You can opt out of the Audience Measurement services provided by Nielsen and Quantcast"
+  },
+  {
+   "file": "data/text/reddit.txt",
+   "line": 389,
+   "quote": "Reddit does not “sell” personal information as those terms are defined under applicable state privacy laws. Reddit does not have knowledge that it “sells” or “shares” the personal information of users under 16 years of age."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 20,
+   "quote": "We collect or infer location information when you sign up for and use the Services."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 22,
+   "quote": "We generate metrics from your information to help you analyze your performance, such as Relative Effort, Fitness Score, Fitness & Freshness, and Performance Predictions."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 28,
+   "quote": "We collect information (including Activity Data) from devices and apps you choose to connect to Strava, such as your Garmin device, Peloton account, or Apple Health app. This could include, for example, step count, sleep information, heart rate, HRV, or VO2max."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 54,
+   "quote": "Learn more about your choices to contribute to Strava’s development of AI Features."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 54,
+   "quote": "We use information to enhance the quality, reliability, and/or accuracy of our AI Features by creating, developing, training, testing, improving, and maintaining AI and ML models run by Strava or our service providers."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 59,
+   "quote": "We advertise our Services through third parties, and may use cookies and other tracking technologies to support targeted advertising and serve relevant ads"
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 75,
+   "quote": "If you are 18 years or older, certain information, including your profile and your activities, is set by default to be viewable by “Everyone.” “Everyone” includes Strava users and the public, including search engine results."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 86,
+   "quote": "You can opt out of us sharing your personal information for third-party targeted advertising through the “Do Not Share My Personal Information” link on our website or the “Personal Information Sharing” setting in the app."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 107,
+   "quote": "Public segments and routes will also remain available. Search engine results may also display your public profile until the search engine refreshes its cache."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 121,
+   "quote": "We generally keep information associated with your account until you delete it or we no longer need the information to provide the Services."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 373,
+   "quote": "To the extent that certain US State Privacy Laws consider some sharing of personal information for advertising purposes to be “selling” or “sharing” of personal information, Strava may have shared the following categories of personal information with third parties in the preceding 12 months:"
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 373,
+   "quote": "We do not sell personal information for monetary value."
+  },
+  {
+   "file": "data/text/strava.txt",
+   "line": 378,
+   "quote": "Advertising publishers that place advertisements on our behalf, such as Meta"
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 13,
+   "quote": "We may collect user content through pre-uploading at the time of creation, import, or upload, regardless of whether you choose to save or publish that user content"
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 31,
+   "quote": "We may collect biometric identifiers and biometric information as defined under US laws, such as faceprints and voiceprints, from your user content. Where required by law, we will seek any required permissions from you prior to any such collection."
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 38,
+   "quote": "Advertisers, publishers, and measurement and other partners provide us with information about you and the actions you have taken outside of our websites and apps, including the pages you visit, products or services you purchase, and apps you download."
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 38,
+   "quote": "These partners also provide information such as mobile identifiers for advertising, hashed email addresses and phone numbers, and cookie identifiers, which we use to help measure the effectiveness of ads we serve and to better deliver ads to you on our websites and apps"
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 47,
+   "quote": "To review, support, improve, and develop the Services, and train, test, and improve technology, such as machine learning models and algorithms, including by analyzing how people are using the Services"
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 53,
+   "quote": "To infer additional information about you, such as your age, gender, and interests."
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 65,
+   "quote": "while we do not sell your personal information or share your personal information with third parties for purposes of cross-context behavioral advertising where restricted by applicable law"
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 72,
+   "quote": "Advertising, marketing, and analytics partners, who may receive certain Information You Provide , Automatically Collected Information , and Information From Other Sources for the purpose of providing their services."
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 100,
+   "quote": "your choice to disable cookies is specific to the particular browser that you are using when you disable cookies, so you may need to separately disable cookies for each type of browser."
+  },
+  {
+   "file": "data/text/tiktok.txt",
+   "line": 106,
+   "quote": "We retain information for as long as necessary to provide the Services and for the other purposes set out in this Privacy Policy."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 120,
+   "quote": "We use your data to improve the performance and accuracy of the AI we use"
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 154,
+   "quote": "You have choices over how your Personal Data is used for advertising:"
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 184,
+   "quote": "We partner with Data Providers to enrich our data with details, including but not limited to:"
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 185,
+   "quote": "Consumer finance behavior, interests, and purchases"
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 188,
+   "quote": "Home address"
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 189,
+   "quote": "We use this data to better understand you, personalize our Services, and provide targeted advertising."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 199,
+   "quote": "For more precise forecasts, we may use your specific GPS location (precise location), but only if you first give us consent."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 203,
+   "quote": "Outdated data that no longer requires personal identification may be de-identified and kept indefinitely in a way that no longer identifies you, but helps us as we continue to improve our Services."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 203,
+   "quote": "We'll hold onto your Personal Data for as long as necessary to provide you with our Services and to improve them."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 261,
+   "quote": "To deliver targeted marketing messaging and ads on the Services and on third-party apps and websites."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 271,
+   "quote": "Conclusions made based on data collected directly from your interactions with the Services or from one of our Data Providers, such as demographic information."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 463,
+   "quote": "We allow Advertising Vendors to use your Personal Information for certain purposes in addition to providing and improving advertising services for our Services, including cross-context behavioral or targeted advertising (described in section “Data Collection Technologies and Consumer Choice”), which is considered a “sale” or “sharing” under the CCPA."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 464,
+   "quote": "In the past twelve months, to deliver personalized advertising and measure the effectiveness of advertisements, we have sold or shared the following categories of Personal Information, as defined by the CCPA, to our Advertising Vendors:"
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 469,
+   "quote": "Precise geolocation data; and"
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 472,
+   "quote": "we may also use or disclose to specific data vendors your precise geolocation data, which is considered sensitive Personal Information under the CCPA, to create audience segments based on your preferences and characteristics."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 506,
+   "quote": "If you do not have an account or are using the Services without signing into your account, you will need to opt out on each browser and/or device you use to access the Services."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 506,
+   "quote": "You will be opted in by default to the sale or sharing of Personal Information."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 514,
+   "quote": "You can navigate to \"Privacy Settings\" or “Your Privacy Rights” (this will differ depending on the app and your location) in the app menu to manage your opt-out for each mobile app and your current location."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 519,
+   "quote": "To the extent that sensitive Personal Information is processed, you will be opted in by default to the use of your sensitive Personal Information. You can choose to opt out and limit the use of your sensitive Personal Information at any time in the following ways."
+  },
+  {
+   "file": "data/text/weather.txt",
+   "line": 580,
+   "quote": "Legitimate Interest - to improve the AI features, including training our AI models"
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 14,
+   "quote": "We do not sell or rent your Personal Information, nor do we give it to others to sell you anything."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 33,
+   "quote": "This Policy also applies to information that we receive from our partners or other third parties."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 85,
+   "quote": "Once created, user accounts cannot be removed entirely (although you can usually hide the information on your user page if you choose to). This is because your public contributions must be associated with their author (you!)."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 92,
+   "quote": "If you consent, we can use GPS (and other technologies commonly used to determine location) to show you more relevant content."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 128,
+   "quote": "you may remove or disable some or all locally stored data through your browser settings, depending on your browser."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 147,
+   "quote": "We do not sell, rent, or use your email address to advertise third-party products or services to you."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 197,
+   "quote": "These rights may include access to limited amounts of otherwise nonpublic information about recent contributions and activity by other users."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 227,
+   "quote": "In most instances, Personal Information is deleted, aggregated or de-identified after 90 days. Non-Personal Information may be retained indefinitely as appropriate."
+  },
+  {
+   "file": "data/text/wikipedia.txt",
+   "line": 242,
+   "quote": "In particular, we do not share your Personal Information for marketing purposes."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 29,
+   "quote": "Based on your consent, we may collect and use your biometric information for safety, security, and identification purposes."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 48,
+   "quote": "When you access X and are not signed in, we may infer your identity based on the information we collect."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 50,
+   "quote": "search terms and IDs (including those not submitted as queries); ads shown to you on X; X-generated identiﬁers; and identiﬁers associated with cookies."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 55,
+   "quote": "Our ad and business partners share information with us such as browser cookie IDs, X-generated identifiers, mobile device IDs, hashed user information like email addresses, demographic or interest data, and content viewed or actions taken on a website or app."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 61,
+   "quote": "We may use the information we collect and publicly available information to help train our machine learning or artificial intelligence models for the purposes outlined in this policy."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 63,
+   "quote": "We also use this information to measure the effectiveness of ads and to help recognize your devices to serve you ads on and off of X."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 79,
+   "quote": "You can control whether X shares your personal information with these partners by using the “Data sharing with business partners” option in your Privacy and Safety settings"
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 84,
+   "quote": "Depending on your settings , or if you decide to share your data, we may share or disclose your information with third parties. If you do not opt out"
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 84,
+   "quote": "in some instances the recipients of the information may use it for their own independent purposes in addition to those stated in X’s Privacy Policy, including, for example, to train their artificial intelligence models, whether generative or otherwise."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 85,
+   "quote": "We generally make this content available in limited quantities for free and charge licensing fees for large-scale access."
+  },
+  {
+   "file": "data/text/x.txt",
+   "line": 102,
+   "quote": "We keep your usage information, such as the content you post, your interactions with other users’ content and how you interact with others on the platform for the duration of your account or until such content is removed."
+  }
+ ]
+}

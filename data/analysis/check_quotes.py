@@ -1,7 +1,8 @@
 """Check that every quote in the analysis JSON files appears word for word in its policy text.
 
 Usage: python3 data/analysis/check_quotes.py [JSON ...]
-       (default: data/analysis/findings/*.json and data/analysis/scores.json if present)
+       (default: data/analysis/findings/*.json, plus data/analysis/scores.json and
+       data/analysis/page_quotes.json if present)
 
 A quote record is any JSON object with a "quote" key. Its source file is the record's own
 "file" key, or the nearest enclosing object's "file". eBay change records use
@@ -72,9 +73,9 @@ def check(file, quote, line):
 def main(paths):
     if not paths:
         paths = sorted(glob.glob(os.path.join(ROOT, "data/analysis/findings/*.json")))
-        scores = os.path.join(ROOT, "data/analysis/scores.json")
-        if os.path.exists(scores):
-            paths.append(scores)
+        for extra in ("data/analysis/scores.json", "data/analysis/page_quotes.json"):
+            if os.path.exists(os.path.join(ROOT, extra)):
+                paths.append(os.path.join(ROOT, extra))
     counts, problems = {}, []
     for p in paths:
         with open(p, encoding="utf-8") as f:
