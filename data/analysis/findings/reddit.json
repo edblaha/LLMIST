@@ -184,7 +184,7 @@
       "id": "reddit-20",
       "topic": "share_third_parties",
       "claim": "Ad serving and measurement providers that receive cookie IDs, your IP address, or a hashed email may combine them with other data they already hold about you.",
-      "quote": "these third parties may combine that information with other information they already have about you to provide services to Reddit",
+      "quote": "(iii) third-party ad serving and measurement providers who help us and advertisers serve relevant ads and measure the performance of ads (by disclosing information such as cookie IDs, your IP address, and/or a hashed version of your email; these third parties may combine that information with other information they already have about you to provide services to Reddit",
       "line": 89,
       "context": "",
       "surprise": 2,

@@ -317,10 +317,10 @@
     {
       "id": "x-34",
       "topic": "user_controls",
-      "claim": "Deleting your account first deactivates it and queues your data for deletion; the account can be restored for up to 30 days.",
-      "quote": "your account will be deactivated and your data will be queued for deletion. When deactivated, your X account, including your display name, username, and public profile, will no longer be viewable on X.com, X for iOS, and X for Android. For up to 30 days after deactivation it is still possible to restore your X account if it was accidentally or wrongfully deactivated.",
+      "claim": "Deleting your account first deactivates it and only queues your data for deletion.",
+      "quote": "If you follow the instructions here , your account will be deactivated and your data will be queued for deletion.",
       "line": 122,
-      "context": "",
+      "context": "The account can still be restored for up to 30 days after deactivation.",
       "surprise": 1
     },
     {
@@ -383,7 +383,7 @@
       "id": "x-41",
       "topic": "optout_steps",
       "claim": "For other privacy choices the policy just links to a general settings page without listing steps.",
-      "quote": "You can manage your privacy settings and other account features here . If you change your settings it may take some time for your choices to be fully reflected throughout our systems. You may also notice changes in your X experience or limitations in your ability to access certain features depending on the settings you’ve adjusted. You may also manage additional settings when interacting with certain content and features on different parts of the platform, such as whether a Space is recorded, or whether videos you upload are downloadable by others.",
+      "quote": "You can manage your privacy settings and other account features here",
       "line": 124,
       "context": "",
       "surprise": 0
